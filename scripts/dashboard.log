@@ -1,0 +1,118 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.68.78.178:8501
+
+2026-06-09 11:08:10.666 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:10.825 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:10.841 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:11.316 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:11.356 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:11.861 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:11.907 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:11.916 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:11.924 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:11.932 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:11.939 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:13.159 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/opt/anaconda3/lib/python3.13/site-packages/statsmodels/regression/linear_model.py:1782: RuntimeWarning:
+
+invalid value encountered in scalar divide
+
+/opt/anaconda3/lib/python3.13/site-packages/statsmodels/regression/linear_model.py:1782: RuntimeWarning:
+
+divide by zero encountered in scalar divide
+
+/opt/anaconda3/lib/python3.13/site-packages/statsmodels/regression/linear_model.py:1782: RuntimeWarning:
+
+invalid value encountered in scalar divide
+
+/opt/anaconda3/lib/python3.13/site-packages/statsmodels/regression/linear_model.py:1782: RuntimeWarning:
+
+invalid value encountered in scalar divide
+
+/opt/anaconda3/lib/python3.13/site-packages/statsmodels/regression/linear_model.py:1782: RuntimeWarning:
+
+invalid value encountered in scalar divide
+
+/opt/anaconda3/lib/python3.13/site-packages/statsmodels/regression/linear_model.py:1782: RuntimeWarning:
+
+divide by zero encountered in scalar divide
+
+/opt/anaconda3/lib/python3.13/site-packages/statsmodels/regression/linear_model.py:1782: RuntimeWarning:
+
+divide by zero encountered in scalar divide
+
+/opt/anaconda3/lib/python3.13/site-packages/statsmodels/regression/linear_model.py:1782: RuntimeWarning:
+
+divide by zero encountered in scalar divide
+
+2026-06-09 11:08:13.252 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:13.278 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:13.474 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-09 11:08:13.474 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.

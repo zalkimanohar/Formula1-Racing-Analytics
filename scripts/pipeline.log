@@ -1,0 +1,91 @@
+============================================================
+        F1 ANALYTICS PIPELINE — LOCAL EXECUTION
+============================================================
+------------------------------------------------------------
+▶ Running: ../notebooks/02-bronze/01_ingest_circuits.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/02-bronze/01_ingest_circuits.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/02-bronze/02_ingest_races.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/02-bronze/02_ingest_races.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/02-bronze/03_ingest_drivers.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/02-bronze/03_ingest_drivers.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/02-bronze/04_ingest_constructors.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/02-bronze/04_ingest_constructors.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/02-bronze/05_ingest_results.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/02-bronze/05_ingest_results.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/02-bronze/06_ingest_sprints.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/02-bronze/06_ingest_sprints.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/03-silver/01_transform_circuits.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/03-silver/01_transform_circuits.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/03-silver/02_transform_races.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/03-silver/02_transform_races.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/03-silver/03_transform_drivers.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/03-silver/03_transform_drivers.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/03-silver/04_transform_constructors.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/03-silver/04_transform_constructors.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/03-silver/05_transform_results.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/03-silver/05_transform_results.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/03-silver/06_transform_sprints.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/03-silver/06_transform_sprints.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/04-gold/91_build_ref_nationality_region.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/04-gold/91_build_ref_nationality_region.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/04-gold/01_build_dim_races.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/04-gold/01_build_dim_races.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/04-gold/02_build_dim_drivers.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/04-gold/02_build_dim_drivers.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/04-gold/03_build_dim_constructors.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/04-gold/03_build_dim_constructors.ipynb
+
+------------------------------------------------------------
+▶ Running: ../notebooks/04-gold/04_build_fact_results.ipynb
+------------------------------------------------------------
+✔ Completed: ../notebooks/04-gold/04_build_fact_results.ipynb
+
+============================================================
+        ✔ PIPELINE COMPLETED SUCCESSFULLY
+============================================================
