@@ -1,4 +1,4 @@
-<img width="507" height="477" alt="Screenshot 2026-06-09 at 4 35 00 PM" src="https://github.com/user-attachments/assets/58e1b300-2187-49da-b084-1028eecc6e36" />
+
 %md
 
 # 🏎️ F1 Race Analytics — Version 2.0  
@@ -31,29 +31,7 @@ It mirrors a Databricks‑style Medallion Architecture but runs entirely on a lo
 
 ## 📁 Project Structure
 
-F1-Analytics/
-│
-├── data/
-│   ├── landing/          # Raw batch folders (YYYYMMDD_HHMMSS)
-│   ├── bronze/           # Ingested raw data
-│   ├── silver/           # Cleaned + conformed data
-│   ├── gold/             # Dim + Fact tables
-│   └── control/          # batch_control table
-│
-├── notebooks/
-│   ├── 00-common/        # Environment config + helpers
-│   ├── 01-bronze/        # Ingestion notebooks
-│   ├── 02-silver/        # Transformation notebooks
-│   ├── 03-gold/          # Dim + Fact notebooks
-│   └── 06-orchestration/ # Batch control notebooks
-│
-└── scripts/
-├── main.sh
-├── run_pipeline.sh
-├── run_orchestration.sh
-├── run_dashboard.sh
-└── logs_*/           # Auto‑generated logs
-
+<img width="507" height="477" alt="Screenshot 2026-06-09 at 4 35 00 PM" src="https://github.com/user-attachments/assets/58e1b300-2187-49da-b084-1028eecc6e36" />
 
 ---
 
