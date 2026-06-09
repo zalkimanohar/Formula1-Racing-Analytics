@@ -1,201 +1,235 @@
-# 🏎️ F1‑Analytics  
-### End‑to‑End Formula‑1 Data Engineering & Analytics Platform  
-**PySpark Pipeline | Medallion Architecture | Star Schema | Streamlit Dashboards | Incremental Loads**
+%md
 
-This repository contains a complete Formula‑1 data engineering and analytics system built using:
+# 🏎️ F1 Race Analytics — Version 2.0  
+### End‑to‑End Incremental Data Engineering Pipeline (Local Workspace Edition)
 
-- PySpark (ETL + Medallion Architecture)
-- Parquet‑based data lake (Bronze/Silver/Gold)
-- Star Schema modeling
-- Incremental batch ingestion
-- Streamlit dashboards (RQ1–RQ5 + Business Insights)
-- Automated pipeline execution via shell scripts
-
-The project transforms 75 years of FIA racing data (1950–2025) into a **business‑ready intelligence platform**.
+F1‑Race‑2.0 is a complete end‑to‑end data engineering and analytics system built using PySpark, Parquet, notebook‑driven transformations, and shell‑script orchestration.  
+It mirrors a Databricks‑style Medallion Architecture but runs entirely on a local laptop workspace.
 
 ---
 
-# 🚀 1. Project Overview
+## 🧱 Architecture Overview
 
-This project answers the central business question:
+### Medallion Layers  
+- **Bronze** → Raw ingestion  
+- **Silver** → Cleaned, standardized, conformed  
+- **Gold** → Dimensional models + Fact tables  
 
-> **How do driver performance, constructor engineering strength, circuit characteristics, and race conditions influence Formula‑1 outcomes?**
+### Orchestration  
+- Batch detection  
+- Batch creation  
+- Pipeline execution  
+- Batch completion  
+- Dashboard refresh  
 
-The system includes:
-
-- A **full ETL pipeline** (landing → bronze → silver → gold)
-- A **star schema** optimized for analytics
-- Two dashboards:
-  - `/dashboard` → RQ1–RQ5 academic dashboard  
-  - `/dashboard-1` → Business insights dashboard  
-- Automated execution via `scripts/main.sh`
-
----
-
-# 🎯 2. Key Features
-
-### ✔ End‑to‑End Data Pipeline  
-- Schema‑enforced ingestion  
-- Cleaning, standardization, deduplication  
-- Incremental batch processing  
-- Medallion architecture (Bronze/Silver/Gold)
-
-### ✔ Analytical Star Schema  
-- `dim_drivers`  
-- `dim_constructors`  
-- `dim_races`  
-- `fact_session_results`  
-- `ref_nationality_region`
-
-### ✔ Two Streamlit Dashboards  
-- **RQ1–RQ5 Analytics Dashboard**  
-- **Business Insights Dashboard** (Drivers, Constructors, Tracks, Seasons, Predictions)
-
-### ✔ Automated Execution  
-- `main.sh` → orchestrates pipeline + dashboard  
-- `run_pipeline.sh` → executes all notebooks via papermill  
-- `run_dashboard.sh` → launches Streamlit  
+### Dashboard  
+- Streamlit analytics dashboard  
+- Driver, constructor, and race insights  
 
 ---
 
-# 📂 3. Folder Structure
-- <It is in the tree.txt>
+## 📁 Project Structure
 
----
-
-# 🧠 4. Research Questions (RQ1–RQ5)
-
-### **RQ1 — Driver & Constructor Performance**
-- Dominance, consistency, improvement  
-- Driver–constructor synergy  
-
-### **RQ2 — Race Outcome Drivers**
-- Grid vs final position  
-- DNFs & reliability  
-
-### **RQ3 — Circuit & Geography Effects**
-- Circuit competitiveness  
-- Region‑wise performance patterns  
-
-### **RQ4 — Sprint ↔ Race Relationship**
-- Sprint results → Race results  
-- Sprint points → Season points  
-
-### **RQ5 — Cross‑Dataset Insights**
-- Multi‑factor interactions  
-- Circuit × Driver × Constructor patterns  
-
----
-
-# 🏗️ 5. Architecture
-
-### **CRISP‑DM Workflow**
-- Business Understanding  
-- Data Understanding  
-- Data Preparation  
-- Modeling  
-- Evaluation  
-- Deployment  
-
-### **Medallion Architecture**
-- **Bronze:** Raw structured parquet  
-- **Silver:** Cleaned, standardized  
-- **Gold:** Star schema for analytics  
-
-### **Star Schema**
-fact_session_results
+F1-Analytics/
 │
-├── dim_drivers
-├── dim_constructors
-├── dim_races
-└── ref_nationality_region
+├── data/
+│   ├── landing/          # Raw batch folders (YYYYMMDD_HHMMSS)
+│   ├── bronze/           # Ingested raw data
+│   ├── silver/           # Cleaned + conformed data
+│   ├── gold/             # Dim + Fact tables
+│   └── control/          # batch_control table
+│
+├── notebooks/
+│   ├── 00-common/        # Environment config + helpers
+│   ├── 01-bronze/        # Ingestion notebooks
+│   ├── 02-silver/        # Transformation notebooks
+│   ├── 03-gold/          # Dim + Fact notebooks
+│   └── 06-orchestration/ # Batch control notebooks
+│
+└── scripts/
+├── main.sh
+├── run_pipeline.sh
+├── run_orchestration.sh
+├── run_dashboard.sh
+└── logs_*/           # Auto‑generated logs
 
 
 ---
 
-# 🛠️ 6. Installation
+## 🔄 Incremental Batch Processing
 
-### Install required libraries
-pip install pandas numpy pyarrow fastparquet plotly streamlit pyspark python-dateutil pytz tqdm
-pip install jupyterlab notebook ipykernel
+Each batch is a folder inside:
+
+data/landing/<batch_id>/
+
+Example:
+
+data/landing/20250101_090000/
+
+
+The system automatically:
+
+1. Detects the latest batch folder  
+2. Creates a new batch entry  
+3. Runs Bronze → Silver → Gold  
+4. Marks the batch as completed  
+5. Refreshes the dashboard  
+
+---
+
+## 🧠 Orchestration Scripts
+
+### main.sh  
+Runs the entire system:
+
+- Cleans old logs  
+- Detects latest batch  
+- Runs orchestration  
+- Runs pipeline  
+- Starts dashboard  
+- Saves logs  
+
+Run:
+
+bash scripts/main.sh
 
 
 ---
 
-# ▶️ 7. Running the System
+### run_orchestration.sh  
+Handles:
 
-### **Run the entire system (pipeline + dashboard)**
-cd scripts
-sh main.sh
+- Identify Next Batch  
+- Create New Batch  
 
+---
 
-### **Run only the ETL pipeline**
-cd scripts
-sh run_pipeline.sh
+### run_pipeline.sh  
+Executes:
 
+- Bronze ingestion  
+- Silver transformation  
+- Gold modeling  
+- Batch completion  
 
-### **Run only the dashboard**
-cd scripts
-sh run_dashboard.sh
+Manual run:
+
+bash scripts/run_pipeline.sh <batch_id>
 
 
 ---
 
-# 📊 8. Gold Layer Tables
-
-### **fact_session_results**
-- Race + Sprint results  
-- Points, positions, flags  
-
-### **dim_drivers**
-- Driver attributes  
-- Nationality, DOB, experience  
-
-### **dim_constructors**
-- Constructor metadata  
-- Team nationality  
-
-### **dim_races**
-- Season, round, circuit metadata  
-
-### **ref_nationality_region**
-- Region mapping for drivers  
+### run_dashboard.sh  
+Starts the Streamlit dashboard.
 
 ---
 
-# 📌 9. Key Insights
+## 🧪 Pipeline Execution Flow
 
-- Constructor engineering strength is the strongest predictor of success  
-- Sprint performance predicts race outcomes  
-- Circuit competitiveness varies widely  
-- Driver consistency > peak performance  
-- Geography influences long‑term patterns  
+### Bronze Layer
+- Reads raw CSV/JSON files  
+- Adds batch metadata  
+- Writes raw Parquet  
 
----
+### Silver Layer
+- Cleans data  
+- Standardizes schema  
+- Fixes types  
+- Writes conformed Parquet  
 
-# ⚠️ 10. Limitations
+### Gold Layer
+Builds:
 
-- Sprint data only from 2021 onward  
-- No weather or pit‑stop data  
-- Historical data quality varies (1950–1970)  
-
----
-
-# 🔮 11. Future Enhancements
-
-- Integrate weather & pit‑stop analytics  
-- Add telemetry‑based performance metrics  
-- Build predictive ML models  
-- Deploy dashboard as a cloud service  
+- dim_races  
+- dim_constructors  
+- dim_drivers  
+- fact_session_results  
 
 ---
 
-# 🙌 12. Author
+## 📊 Dashboard
+
+A Streamlit dashboard visualizes:
+
+- Race results  
+- Constructor performance  
+- Driver statistics  
+- Season trends  
+
+Run manually:
+
+bash scripts/run_dashboard.sh
+
+
+---
+
+## 🛠️ Environment Setup
+
+### Install dependencies
+
+pip install pyspark papermill streamlit pandas
+
+
+### Configure environment paths  
+Inside:
+
+notebooks/00-common/01_environment_config.ipynb
+
+
+---
+
+## 🚀 Running the Entire System
+
+### Recommended (fully automated)
+
+bash scripts/main.sh
+
+
+### Manual batch run
+
+bash scripts/run_pipeline.sh 20250101_090000
+
+
+---
+
+## 🏷️ Versioning
+
+This release is tagged:
+
+v2.0 — F1-Race-2.0
+
+
+Includes:
+
+- Full local orchestration  
+- Auto‑detect batch  
+- Auto‑clean logs  
+- Updated Gold notebooks  
+- Updated environment config  
+- Production‑grade shell scripts  
+
+---
+
+## 🧭 Roadmap
+
+- Add Airflow/Dagster orchestration  
+- Add unit tests (pytest)  
+- Add CI/CD (GitHub Actions)  
+- Add data quality checks (Great Expectations)  
+- Add historical dashboards  
+- Add metadata lineage  
+
+---
+
+## 👨‍💻 Author
 
 **Manohar Anand Zalki**  
-MSc Applied Data Science & AI — SRH Munich  
-2026
+Munich, Germany  
+MSc Applied Data Science & AI  
 
-# Mzalki4@GitHub
-# Formula1-Racing-Analytics
-# Formula1-Racing-Analytics
+---
+
+## 🏁 License
+
+MIT License  
+Free to use, modify, and distribute.
