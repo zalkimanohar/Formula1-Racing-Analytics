@@ -1,3 +1,4 @@
+<img width="507" height="477" alt="Screenshot 2026-06-09 at 4 35 00 PM" src="https://github.com/user-attachments/assets/58e1b300-2187-49da-b084-1028eecc6e36" />
 %md
 
 # 🏎️ F1 Race Analytics — Version 2.0  
