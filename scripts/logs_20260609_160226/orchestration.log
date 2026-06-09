@@ -1,0 +1,95 @@
+==============================================
+🔍 Starting Orchestration
+==============================================
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/06-orchestration/01.Identify Next Batch.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/identify_next_batch.ipynb
+Executing:   0%|          | 0/5 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/06/09 16:02:29 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 172.16.110.54 instead (on interface en0)
+26/06/09 16:02:29 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/06/09 16:02:29 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Executing:  20%|██        | 1/5 [00:03<00:15,  3.76s/cell]Executing:  60%|██████    | 3/5 [00:05<00:02,  1.44s/cell]--- Logging error ---
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/py4j/clientserver.py", line 535, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+                          ~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/opt/anaconda3/lib/python3.13/site-packages/py4j/clientserver.py", line 566, in send_command
+    raise Py4JNetworkError(
+        "Error while sending or receiving", e, proto.ERROR_ON_RECEIVE)
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/logging/__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/ipykernel/iostream.py", line 694, in write
+    self._schedule_flush()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/ipykernel/iostream.py", line 590, in _schedule_flush
+    self.pub_thread.schedule(_schedule_in_thread)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/ipykernel/iostream.py", line 269, in schedule
+    f()
+    ~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/ipykernel/iostream.py", line 588, in _schedule_in_thread
+    self._io_loop.call_later(self.flush_interval, self._flush)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/tornado/ioloop.py", line 617, in call_later
+    return self.call_at(self.time() + delay, callback, *args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/tornado/platform/asyncio.py", line 222, in call_at
+    return self.asyncio_loop.call_later(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        max(0, when - self.time()),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._run_callback,
+        ^^^^^^^^^^^^^^^^^^^
+        functools.partial(callback, *args, **kwargs),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/asyncio/base_events.py", line 799, in call_later
+    timer = self.call_at(self.time() + delay, callback, *args,
+                         context=context)
+  File "/opt/anaconda3/lib/python3.13/asyncio/base_events.py", line 812, in call_at
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/asyncio/base_events.py", line 556, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Call stack:
+  File "/opt/anaconda3/lib/python3.13/threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+  File "/opt/anaconda3/lib/python3.13/threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "/opt/anaconda3/lib/python3.13/site-packages/py4j/clientserver.py", line 55, in run
+    java_client.garbage_collect_object(
+  File "/opt/anaconda3/lib/python3.13/site-packages/py4j/clientserver.py", line 239, in garbage_collect_object
+    super(JavaClient, self).garbage_collect_object(target_id)
+  File "/opt/anaconda3/lib/python3.13/site-packages/py4j/java_gateway.py", line 969, in garbage_collect_object
+    self.send_command(
+  File "/opt/anaconda3/lib/python3.13/site-packages/py4j/java_gateway.py", line 1059, in send_command
+    logging.exception(
+Message: 'Exception while sending command.'
+Arguments: ()
+Executing: 100%|██████████| 5/5 [00:05<00:00,  1.15s/cell]
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+AttributeError: module 'papermill' has no attribute 'read_notebook'
+⚠ No new batch found. Exiting.

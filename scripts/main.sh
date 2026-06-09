@@ -21,6 +21,19 @@ fi
 echo "✔ Previous logs removed"
 
 # -----------------------------------------
+# 0.1 Run workspace installation script
+# -----------------------------------------
+echo "🔧 Running workspace installation script..."
+
+if [ -f "$SCRIPT_DIR/install_workspace.sh" ]; then
+    bash "$SCRIPT_DIR/install_workspace.sh" > "$SCRIPT_DIR/install_workspace.log" 2>&1
+    echo "✔ Workspace installation completed"
+else
+    echo "⚠ install_workspace.sh not found in $SCRIPT_DIR"
+fi
+
+
+# -----------------------------------------
 # 1. Create timestamped log folder
 # -----------------------------------------
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
