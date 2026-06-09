@@ -1,0 +1,24 @@
+==============================================
+🔍 Starting Orchestration
+==============================================
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/06-orchestration/01.Identify Next Batch.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/identify_next_batch.ipynb
+Executing:   0%|          | 0/5 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/06/09 14:59:14 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 10.68.78.178 instead (on interface en0)
+26/06/09 14:59:14 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/06/09 14:59:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/06/09 14:59:15 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+26/06/09 14:59:15 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+26/06/09 14:59:15 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+26/06/09 14:59:15 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+26/06/09 14:59:15 WARN Utils: Service 'SparkUI' could not bind on port 4044. Attempting port 4045.
+Executing:  20%|██        | 1/5 [00:03<00:15,  3.95s/cell]Executing:  60%|██████    | 3/5 [00:05<00:03,  1.50s/cell]Executing: 100%|██████████| 5/5 [00:05<00:00,  1.17s/cell]
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+AttributeError: module 'papermill' has no attribute 'read_notebook'
+⚠ No new batch found. Exiting.

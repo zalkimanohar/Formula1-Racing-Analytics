@@ -1,0 +1,987 @@
+==============================================
+🚀 Starting Pipeline for batch_id = 2025-01
+==============================================
+▶ Running Bronze Layer...
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/01-bronze/01_ingest_circuits.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/bronze_circuits_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/01-bronze/01_ingest_circuits.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/01-bronze/02_ingest_races.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/bronze_races_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/01-bronze/02_ingest_races.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/01-bronze/03_ingest_constructors.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/bronze_constructors_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/01-bronze/03_ingest_constructors.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/01-bronze/04_ingest_drivers.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/bronze_drivers_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/01-bronze/04_ingest_drivers.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/01-bronze/05_ingest_results.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/bronze_results_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/01-bronze/05_ingest_results.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/01-bronze/06_ingest_sprints.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/bronze_sprints_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/01-bronze/06_ingest_sprints.ipynb'
+▶ Running Silver Layer...
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/02-silver/01_transform_circuits.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/silver_circuits_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/02-silver/01_transform_circuits.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/02-silver/02_transform_races.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/silver_races_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/02-silver/02_transform_races.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/02-silver/03_transform_constructors.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/silver_constructors_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/02-silver/03_transform_constructors.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/02-silver/04_transform_drivers.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/silver_drivers_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/02-silver/04_transform_drivers.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/02-silver/05_transform_results.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/silver_results_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/02-silver/05_transform_results.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/02-silver/06_transform_sprints.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/silver_sprints_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/02-silver/06_transform_sprints.ipynb'
+▶ Running Gold Layer...
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/03-gold/01_build_dim_races.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/gold_dim_races_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/03-gold/01_build_dim_races.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/03-gold/02_build_dim_constructors.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/gold_dim_constructors_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/03-gold/02_build_dim_constructors.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/03-gold/03_build_dim_drivers.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/gold_dim_drivers_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/03-gold/03_build_dim_drivers.ipynb'
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/03-gold/04_build_fact_session_results.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/gold_fact_results_2025-01.ipynb
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 199, in read
+    json.loads(path)
+    ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 89, in execute_notebook
+    nb = load_notebook_node(input_path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 499, in load_notebook_node
+    nb = nbformat.reads(papermill_io.read(notebook_path), as_version=4)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 96, in read
+    notebook_metadata = self.get_handler(path, extensions).read(path)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 203, in read
+    raise e
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/iorw.py", line 193, in read
+    with open(path, encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/manoharazalki/F1-Analytics/notebooks/03-gold/04_build_fact_session_results.ipynb'
+▶ Completing Batch...
+Input Notebook:  /Users/manoharazalki/F1-Analytics/notebooks/06-orchestration/03.Complete Batch.ipynb
+Output Notebook: /Users/manoharazalki/F1-Analytics/scripts/complete_batch_2025-01.ipynb
+Passed unknown parameter: p_batch_id
+Input notebook does not contain a cell with tag 'parameters'
+Executing:   0%|          | 0/6 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:  17%|█▋        | 1/6 [00:01<00:09,  1.91s/cell]WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/06/09 14:59:27 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 10.68.78.178 instead (on interface en0)
+26/06/09 14:59:27 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/06/09 14:59:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/06/09 14:59:28 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+26/06/09 14:59:28 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+26/06/09 14:59:28 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+26/06/09 14:59:28 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+26/06/09 14:59:28 WARN Utils: Service 'SparkUI' could not bind on port 4044. Attempting port 4045.
+Executing:  33%|███▎      | 2/6 [00:04<00:09,  2.46s/cell]Executing:  50%|█████     | 3/6 [00:05<00:05,  1.85s/cell]
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/papermill", line 7, in <module>
+    sys.exit(papermill())
+             ~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+    ~~~~~~~~~~~~~~~~^
+        input_path=input_path,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+        execution_timeout=execution_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [3]":
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[3], line 4
+      1 # -----------------------------------------
+      2 # 1. Receive batch_id
+      3 # -----------------------------------------
+----> 4 p_batch_id = next_batch   # or manually set
+      6 if not p_batch_id:
+      7     raise Exception("❌ No batch_id provided")
+
+NameError: name 'next_batch' is not defined
+
+==============================================
+🎉 Pipeline Completed for batch_id = 2025-01
+==============================================
