@@ -2,6 +2,7 @@ import os
 import sys
 from pathlib import Path
 from pyspark.sql import SparkSession
+import pyspark.sql.functions as F
 
 # ------------------------------------------------------------
 # 1. Resolve WORKSPACE + BATCH_ID
@@ -38,60 +39,142 @@ spark = (
         .config("spark.ui.showConsoleProgress", "false")
         .getOrCreate()
 )
-
 # ------------------------------------------------------------
-# 4. Define output path
+# 4. Define Silver + Gold paths
 # ------------------------------------------------------------
-gold_output = f"{DATA}/gold/ref_nationality_region/ref_nationality_region"
+silver_results_path      = Path(f"{DATA}/silver/results/results.parquet")
+silver_sprints_path      = Path(f"{DATA}/silver/sprints/sprints.parquet")
+silver_races_path        = Path(f"{DATA}/silver/races/races.parquet")
+silver_circuits_path     = Path(f"{DATA}/silver/circuits/circuits.parquet")
+silver_drivers_path      = Path(f"{DATA}/silver/drivers/drivers.parquet")
+silver_constructors_path = Path(f"{DATA}/silver/constructors/constructors.parquet")
 
+gold_output = f"{DATA}/gold/fact_session_results/fact_session_results"
 print(f"[INFO] Gold output: {gold_output}.parquet")
 
 # ------------------------------------------------------------
-# 5. Static mapping table
+# 5. Read Silver
 # ------------------------------------------------------------
-data = [
-    ("British", "Europe"),
-    ("German", "Europe"),
-    ("Spanish", "Europe"),
-    ("French", "Europe"),
-    ("Italian", "Europe"),
-    ("Dutch", "Europe"),
-    ("Finnish", "Europe"),
-    ("Danish", "Europe"),
-    ("Swiss", "Europe"),
-    ("Austrian", "Europe"),
-    ("Belgian", "Europe"),
-    ("Swedish", "Europe"),
-    ("Australian", "Oceania"),
-    ("New Zealander", "Oceania"),
-    ("American", "North America"),
-    ("Canadian", "North America"),
-    ("Mexican", "North America"),
-    ("Brazilian", "South America"),
-    ("Argentine", "South America"),
-    ("Japanese", "Asia"),
-    ("Chinese", "Asia"),
-    ("Indian", "Asia"),
-    ("Thai", "Asia"),
-    ("South African", "Africa"),
-]
+results_df      = spark.read.parquet(str(silver_results_path)).filter(F.col("batch_id") == BATCH_ID)
+races_df        = spark.read.parquet(str(silver_races_path))
+circuits_df     = spark.read.parquet(str(silver_circuits_path))
+drivers_df      = spark.read.parquet(str(silver_drivers_path))
+constructors_df = spark.read.parquet(str(silver_constructors_path))
 
-columns = ["nationality", "region"]
+if silver_sprints_path.exists():
+    sprints_df = spark.read.parquet(str(silver_sprints_path)).filter(F.col("batch_id") == BATCH_ID)
+else:
+    sprints_df = None
+    print("[WARN] No sprints.parquet found → using only race results")
 
-df = spark.createDataFrame(data, columns)
+print("[INFO] ✔ All available Silver tables read")
 
-# ------------------------------------------------------------
-# 6. Write to Gold (single parquet, merge-safe)
-# ------------------------------------------------------------
-write_to_gold(
-    df,
-    gold_output,
-    ["nationality"]
+# Prepare drivers with full driver_name
+drivers_prepared = drivers_df.withColumn(
+    "driver_name", 
+    F.concat_ws(" ", F.col("given_name"), F.col("family_name"))
 )
 
-print(f"[INFO] ✔ ref_nationality_region written to: {gold_output}.parquet")
+# ------------------------------------------------------------
+# 6. Prepare results (RACE sessions)
+# ------------------------------------------------------------
+results_clean = (
+    results_df.alias("res")
+        .join(
+            races_df.alias("ra"),
+            (F.col("res.season") == F.col("ra.year")) &
+            (F.col("res.round")  == F.col("ra.round")),
+            "left"
+        )
+        .join(
+            circuits_df.alias("ci"),
+            F.col("ra.circuit_id") == F.col("ci.circuit_id"),
+            "left"
+        )
+        .join(drivers_prepared.alias("d"), "driver_id", "left")
+        .join(constructors_df.alias("c"), "constructor_id", "left")
+        .select(
+            # Keys
+            F.col("res.season").alias("season"),
+            F.col("res.round").alias("round"),
+            F.lit("RACE").alias("session_type"),
+
+            # Race / circuit context
+            F.col("ra.race_name"),
+            F.col("ci.circuit_id"),
+            F.col("ci.circuit_name"),
+            F.col("ci.locality").alias("circuit_location"),
+            F.col("ci.country_name").alias("circuit_country"),
+
+            # Metrics
+            F.col("res.final_position"),
+            F.col("res.grid_position"),
+            F.col("res.points"),
+            F.col("res.completed_laps").alias("laps"),
+            F.col("res.race_date").alias("time"),
+
+            # Status
+            F.col("res.status").alias("status"),
+
+            # Driver
+            F.col("d.driver_id"),
+            F.col("d.driver_name"),
+            F.col("d.nationality").alias("driver_nationality"),
+
+            # Constructor
+            F.col("c.constructor_id"),
+            F.col("c.constructor_name"),
+            F.col("c.nationality").alias("constructor_nationality")
+        )
+)
 
 # ------------------------------------------------------------
-# 7. Validate
+# 7. Prepare sprint results (SPRINT sessions)
 # ------------------------------------------------------------
-spark.read.parquet(f"{gold_output}.parquet").show(20, truncate=False)
+if sprints_df is not None:
+    sprints_clean = (
+        sprints_df.alias("sp")
+            .join(
+                races_df.alias("ra"),
+                (F.col("sp.season") == F.col("ra.year")) &
+                (F.col("sp.round")  == F.col("ra.round")),
+                "left"
+            )
+            .join(
+                circuits_df.alias("ci"),
+                F.col("ra.circuit_id") == F.col("ci.circuit_id"),
+                "left"
+            )
+            .join(drivers_prepared.alias("d"), "driver_id", "left")
+            .join(constructors_df.alias("c"), "constructor_id", "left")
+            .select(
+                F.col("sp.season").alias("season"),
+                F.col("sp.round").alias("round"),
+                F.lit("SPRINT").alias("session_type"),
+
+                F.col("ra.race_name"),
+                F.col("ci.circuit_id"),
+                F.col("ci.circuit_name"),
+                F.col("ci.locality").alias("circuit_location"),
+                F.col("ci.country_name").alias("circuit_country"),
+
+                F.col("sp.final_position"),
+                F.col("sp.grid_position"),
+                F.col("sp.points"),
+                F.col("sp.completed_laps").alias("laps"),
+                F.col("sp.race_date").alias("time"),
+
+                F.col("sp.status").alias("status"),
+
+                F.col("d.driver_id"),
+                F.col("d.driver_name"),
+                F.col("d.nationality").alias("driver_nationality"),
+
+                F.col("c.constructor_id"),
+                F.col("c.constructor_name"),
+                F.col("c.nationality").alias("constructor_nationality")
+            )
+    )
+    fact_df = results_clean.unionByName(sprints_clean)
+else:
+    fact_df = results_clean

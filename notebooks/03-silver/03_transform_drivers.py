@@ -64,6 +64,7 @@ drivers_df = (
 print("[INFO] ✔ Bronze drivers read")
 drivers_df.show(5, truncate=False)
 
+"""
 # ------------------------------------------------------------
 # 6. Flatten nested name struct
 # ------------------------------------------------------------
@@ -84,6 +85,33 @@ drivers_selected_df = drivers_flat_df.select(
     "dateOfBirth",
     "nationality",
     "url",
+    "ingest_timestamp",
+    "source_file",
+    "batch_id"
+)
+"""
+# ------------------------------------------------------------
+# 6. Flatten nested name struct & extract fields safely
+# ------------------------------------------------------------
+drivers_flat_df = (
+    drivers_df
+        .withColumn("given_name", F.coalesce(F.col("name.givenName"), F.lit("Unknown")))
+        .withColumn("family_name", F.coalesce(F.col("name.familyName"), F.lit("Unknown")))
+        .withColumn("date_of_birth", F.coalesce(F.col("dateOfBirth"), F.lit(None)))
+        .withColumn("nationality_raw", F.coalesce(F.col("nationality"), F.lit("Unknown")))
+        .withColumn("driver_url", F.coalesce(F.col("url"), F.lit(None)))
+)
+
+# ------------------------------------------------------------
+# 7. Select required columns safely
+# ------------------------------------------------------------
+drivers_selected_df = drivers_flat_df.select(
+    F.col("driverId").alias("driver_id"),
+    "given_name",
+    "family_name",
+    "date_of_birth",
+    F.col("nationality_raw").alias("nationality"),
+    "driver_url",
     "ingest_timestamp",
     "source_file",
     "batch_id"

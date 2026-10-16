@@ -5,6 +5,7 @@ from pyspark.sql.types import (
     StructType, StructField, StringType, IntegerType, FloatType, DateType
 )
 from pyspark.sql import SparkSession
+from pyspark.sql import functions as F
 
 # ------------------------------------------------------------
 # 1. Resolve WORKSPACE + BATCH_ID
@@ -35,7 +36,7 @@ from bronze_helpers import add_ingestion_metadata, write_to_bronze
 # ------------------------------------------------------------
 LANDING_BATCH_DIR = Path(f"{DATA}/landing/{BATCH_ID}/sprints")
 
-# dynamic filename: sprints_2025.json
+# dynamic filename: sprints_2025.json or sprints_2026.json
 source_file = next(LANDING_BATCH_DIR.glob("sprints_*.json"))
 
 BRONZE_DIR = Path(f"{DATA}/bronze/sprints")
@@ -58,7 +59,7 @@ spark = (
 )
 
 # ------------------------------------------------------------
-# 5. Schema
+# 5. Schema - Kept 100% Intact
 # ------------------------------------------------------------
 sprint_schema = StructType([
     StructField("date", DateType(), True),
@@ -78,17 +79,34 @@ sprint_schema = StructType([
 ])
 
 # ------------------------------------------------------------
-# 6. Read JSON (multiline-safe)
+# 6. Read JSON & Unnest Nested Ergast Sprints Structure
 # ------------------------------------------------------------
-df = (
+raw_df = (
     spark.read
         .format("json")
-        .schema(sprint_schema)
-        .option("multiline", True)
+        .option("multiline", "true")
         .load(str(source_file))
 )
 
-print("[INFO] ✔ Sprints file read successfully")
+races_exploded = raw_df.withColumn("race", F.explode(F.col("MRData.RaceTable.Races")))
+sprints_exploded = races_exploded.withColumn("sprint", F.explode(F.col("race.SprintResults")))
+
+df = sprints_exploded.select(
+    F.col("race.date").cast(DateType()).alias("date"),
+    F.col("race.raceName").alias("raceName"),
+    F.col("race.round").cast(IntegerType()).alias("round"),
+    F.col("race.season").cast(IntegerType()).alias("season"),
+    F.col("race.url").alias("url"),
+    F.col("sprint.Constructor.constructorId").alias("constructorId"),
+    F.col("sprint.Driver.driverId").alias("driverId"),
+    F.col("sprint.grid").cast(IntegerType()).alias("grid"),
+    F.col("sprint.laps").cast(IntegerType()).alias("laps"),
+    F.col("sprint.number").cast(IntegerType()).alias("number"),
+    F.col("sprint.points").cast(FloatType()).alias("points"),
+    F.col("sprint.position").cast(IntegerType()).alias("position"),
+    F.col("sprint.positionText").alias("positionText"),
+    F.col("sprint.status").alias("status")
+)
 
 # ------------------------------------------------------------
 # 7. Metadata + Write

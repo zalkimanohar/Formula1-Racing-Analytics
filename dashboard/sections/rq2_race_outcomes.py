@@ -9,26 +9,31 @@ def render_rq2(data):
     # EXTRACT GOLD TABLES FROM DICT
     # ---------------------------------------------------------
     results = data["results"].copy()     # fact_session_results
-    races = data["races"].copy()         # dim_races
 
     # ---------------------------------------------------------
     # VALIDATION
     # ---------------------------------------------------------
-    if results.empty or races.empty:
-        st.error("❌ Missing required Gold tables (results or races).")
+    if results.empty:
+        st.error("❌ Missing required Gold results table.")
         return
 
-    # ---------------------------------------------------------
-    # MERGE RESULTS + RACES TO RESTORE race_name, race_date
-    # ---------------------------------------------------------
-    df = (
-        results
-        .merge(
-            races[["season", "round", "race_name", "race_date"]],
+    df = results.copy()
+
+    # Ensure race_name exists (fallback if needed)
+    if "race_name" not in df.columns and "races" in data:
+        races = data["races"].copy()
+        df = df.merge(
+            races[["season", "round", "race_name"]].drop_duplicates(subset=["season", "round"]),
             on=["season", "round"],
-            how="left"
+            how="left",
+            suffixes=("", "_races")
         )
-    )
+        if "race_name_races" in df.columns:
+            df["race_name"] = df["race_name"].fillna(df["race_name_races"])
+            df = df.drop(columns=["race_name_races"])
+
+    if "race_name" not in df.columns:
+        df["race_name"] = "Round " + df["round"].astype(str)
 
     # ---------------------------------------------------------
     # 1) GRID vs FINAL POSITION
@@ -60,12 +65,13 @@ def render_rq2(data):
         .sort_values(["season", "round"])
     )
 
+    current_season = df["season"].iloc[0] if not df.empty else 2026
     fig2 = px.line(
         race_points,
         x="round",
         y="points",
         hover_name="race_name",
-        title=f"Total Points Awarded — Season {df['season'].iloc[0]}",
+        title=f"Total Points Awarded — Season {current_season}",
         markers=True,
         color_discrete_sequence=["#ff1e00"],
     )
@@ -76,7 +82,7 @@ def render_rq2(data):
     # ---------------------------------------------------------
     st.subheader("💥 DNF Rate by Season")
 
-    df["is_dnf"] = df["status"].str.contains("DNF", case=False, na=False)
+    df["is_dnf"] = df["status"].str.contains("DNF|Retired|Accident|Collision|Engine|Gearbox", case=False, na=False)
 
     dnf_rate = (
         df.groupby("season")["is_dnf"]

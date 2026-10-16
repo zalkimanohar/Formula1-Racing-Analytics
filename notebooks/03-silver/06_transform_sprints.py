@@ -62,24 +62,23 @@ sprints_df = (
 )
 
 print("[INFO] ✔ Bronze sprints read")
-sprints_df.show(5, truncate=False)
 
 # ------------------------------------------------------------
-# 6. Select required columns
+# 6. Select & Rename columns directly from flattened Bronze data
 # ------------------------------------------------------------
 sprints_selected_df = sprints_df.select(
     "season",
     "round",
-    "constructorId",
-    "driverId",
-    "raceName",
-    "date",
-    "grid",
-    "laps",
-    "number",
+    F.col("constructorId").alias("constructor_id"),
+    F.col("driverId").alias("driver_id"),
+    F.col("raceName").alias("race_name"),
+    F.col("date").alias("race_date"),
+    F.col("grid").alias("grid_position"),
+    F.col("laps").alias("completed_laps"),
+    F.col("number").alias("car_number"),
     "points",
-    "position",
-    "positionText",
+    F.col("position").alias("final_position"),
+    F.col("positionText").alias("final_position_text"),
     "status",
     "ingest_timestamp",
     "source_file",
@@ -87,37 +86,21 @@ sprints_selected_df = sprints_df.select(
 )
 
 # ------------------------------------------------------------
-# 7. Standardize + rename columns
+# 7. Business key validation
 # ------------------------------------------------------------
-sprints_renamed_df = (
-    sprints_selected_df
-        .withColumnRenamed("constructorId", "constructor_id")
-        .withColumnRenamed("driverId", "driver_id")
-        .withColumnRenamed("raceName", "race_name")
-        .withColumnRenamed("date", "race_date")
-        .withColumnRenamed("grid", "grid_position")
-        .withColumnRenamed("laps", "completed_laps")
-        .withColumnRenamed("number", "car_number")
-        .withColumnRenamed("position", "final_position")
-        .withColumnRenamed("positionText", "final_position_text")
-)
-
-# ------------------------------------------------------------
-# 8. Business key validation
-# ------------------------------------------------------------
-sprints_valid_df = sprints_renamed_df.filter(
+sprints_valid_df = sprints_selected_df.filter(
     "season IS NOT NULL AND round IS NOT NULL AND constructor_id IS NOT NULL AND driver_id IS NOT NULL"
 )
 
 # ------------------------------------------------------------
-# 9. Remove duplicates
+# 8. Remove duplicates
 # ------------------------------------------------------------
 sprints_distinct_df = sprints_valid_df.dropDuplicates(
     ["season", "round", "constructor_id", "driver_id"]
 )
 
 # ------------------------------------------------------------
-# 10. Title Case transformations
+# 9. Title Case transformations
 # ------------------------------------------------------------
 sprints_final_df = (
     sprints_distinct_df
@@ -125,7 +108,7 @@ sprints_final_df = (
 )
 
 # ------------------------------------------------------------
-# 11. Write to Silver (batch‑aware)
+# 10. Write to Silver (batch‑aware)
 # ------------------------------------------------------------
 write_to_silver(
     sprints_final_df,
@@ -136,6 +119,6 @@ write_to_silver(
 print(f"[INFO] ✔ Sprints Silver written: {silver_output}")
 
 # ------------------------------------------------------------
-# 12. Validate
+# 11. Validate
 # ------------------------------------------------------------
 spark.read.parquet(str(silver_output)).show(5, truncate=False)

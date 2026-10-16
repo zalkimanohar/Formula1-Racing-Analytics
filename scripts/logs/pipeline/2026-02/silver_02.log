@@ -1,0 +1,31 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/10/15 16:12:16 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 172.16.108.30 instead (on interface en0)
+26/10/15 16:12:16 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/15 16:12:16 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/15 16:12:17 WARN SparkSession: Using an existing Spark session; only runtime SQL configurations will take effect.
+[INFO] WORKSPACE = /Users/manoharazalki/F1-Analytics
+[INFO] BATCH_ID  = 2026-02
+[INFO] silver_helpers WORKSPACE = /Users/manoharazalki/F1-Analytics
+[INFO] silver_helpers loaded successfully.
+[INFO] Bronze path: /Users/manoharazalki/F1-Analytics/data/bronze/races/races.parquet
+[INFO] Silver path: /Users/manoharazalki/F1-Analytics/data/silver/races/races.parquet
+[INFO] ✔ Bronze races read
++------+-----+--------------------+--------------------+----------+-----------+--------------------+--------------------+--------+
+|season|round|                 url|            raceName|      date|  circuitId|    ingest_timestamp|         source_file|batch_id|
++------+-----+--------------------+--------------------+----------+-----------+--------------------+--------------------+--------+
+|  2026|    1|https://en.wikipe...|Australian Grand ...|2026-03-08|albert_park|2026-10-15 16:11:...|/Users/manoharaza...| 2026-02|
+|  2026|    2|https://en.wikipe...|  Chinese Grand Prix|2026-03-15|   shanghai|2026-10-15 16:11:...|/Users/manoharaza...| 2026-02|
++------+-----+--------------------+--------------------+----------+-----------+--------------------+--------------------+--------+
+
+[INFO] ✔ Races Silver written: /Users/manoharazalki/F1-Analytics/data/silver/races/races.parquet
++----+-----+--------------------+----------+-----------+--------------------+--------------------+--------+--------------------+--------------------+
+|year|round|           race_name| race_date| circuit_id|    ingest_timestamp|         source_file|batch_id|   created_timestamp|   updated_timestamp|
++----+-----+--------------------+----------+-----------+--------------------+--------------------+--------+--------------------+--------------------+
+|2026|    1|Australian Grand ...|2026-03-08|albert_park|2026-10-15 16:11:...|/Users/manoharaza...| 2026-02|2026-10-15 16:12:...|2026-10-15 16:12:...|
+|2026|    2|  Chinese Grand Prix|2026-03-15|   shanghai|2026-10-15 16:11:...|/Users/manoharaza...| 2026-02|2026-10-15 16:12:...|2026-10-15 16:12:...|
++----+-----+--------------------+----------+-----------+--------------------+--------------------+--------+--------------------+--------------------+
+

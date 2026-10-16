@@ -1,6 +1,4 @@
 .
-├── create_dashboard_sections.sh
-├── create_f1_structure.sh
 ├── dashboard
 │   ├── __pycache__
 │   │   ├── theme.cpython-313.pyc
@@ -22,33 +20,32 @@
 │   │   └── rq5_cross_dataset.py
 │   ├── theme.py
 │   └── utils.py
-├── dashboard-1
-│   ├── __pycache__
-│   │   └── utils.cpython-313.pyc
-│   ├── app.py
-│   ├── create_dashboard_structure.sh
-│   ├── pages
-│   │   ├── Constructor_Dominance.py
-│   │   ├── Driver_Performance.py
-│   │   ├── Predictive_Insights.py
-│   │   ├── Season_Analytics.py
-│   │   └── Track_and_Region_Insights.py
-│   ├── pipeline.log
-│   └── utils.py
 ├── data
 │   ├── bronze
 │   │   ├── circuits
-│   │   │   └── circuits.parquet
+│   │   │   ├── circuits.parquet
+│   │   │   │   ├── _SUCCESS
+│   │   │   │   └── part-00000-e257af93-4a61-49fa-bb6f-d2ad6be95b27-c000.snappy.parquet
+│   │   │   └── data.parquet
 │   │   │       ├── _SUCCESS
-│   │   │       └── part-00000-41c600c3-8c85-4700-bdb7-e41a68224eda-c000.snappy.parquet
+│   │   │       └── batch_id=20260610_153002
+│   │   │           └── part-00000-4215018d-72d4-407a-b7d0-df5a5b686cd3.c000.snappy.parquet
 │   │   ├── constructors
-│   │   │   └── constructors.parquet
+│   │   │   ├── constructors.parquet
+│   │   │   │   ├── _SUCCESS
+│   │   │   │   └── part-00000-8f826d00-f6b2-41ee-a740-2385730f606c-c000.snappy.parquet
+│   │   │   └── data.parquet
 │   │   │       ├── _SUCCESS
-│   │   │       └── part-00000-9a930700-b24f-4876-b25d-a032033dff09-c000.snappy.parquet
+│   │   │       └── batch_id=20260610_153023
+│   │   │           └── part-00000-bb34428f-a123-4246-ad2e-a76bfa080e52.c000.snappy.parquet
 │   │   ├── drivers
+│   │   │   ├── data.parquet
+│   │   │   │   ├── _SUCCESS
+│   │   │   │   └── batch_id=20260610_153016
+│   │   │   │       └── part-00000-5178d9b3-2a4c-4cee-afd6-0d1ce74d895c.c000.snappy.parquet
 │   │   │   └── drivers.parquet
 │   │   │       ├── _SUCCESS
-│   │   │       └── part-00000-bd75f09d-3978-4e33-a181-da6a98a3ed16-c000.snappy.parquet
+│   │   │       └── part-00000-fdb6c678-1cf5-4aee-ba08-16308d1adf53-c000.snappy.parquet
 │   │   ├── landing
 │   │   │   ├── circuits.csv
 │   │   │   ├── constructors.json
@@ -146,426 +143,666 @@
 │   │   │       ├── sprints_2024.json
 │   │   │       └── sprints_2025.json
 │   │   ├── races
+│   │   │   ├── data.parquet
+│   │   │   │   ├── _SUCCESS
+│   │   │   │   └── batch_id=20260610_153010
+│   │   │   │       └── part-00000-028e9a60-335d-4e2f-8f47-9a76301f50ba.c000.snappy.parquet
 │   │   │   └── races.parquet
 │   │   │       ├── _SUCCESS
-│   │   │       └── part-00000-85c360f8-8823-452f-b947-71a5aba2816f-c000.snappy.parquet
+│   │   │       └── part-00000-12689608-e1ad-4ad6-86a7-c768bc36d7ae-c000.snappy.parquet
 │   │   ├── results
+│   │   │   ├── data.parquet
+│   │   │   │   ├── _SUCCESS
+│   │   │   │   └── batch_id=20260610_153029
+│   │   │   │       ├── part-00000-41e63cb9-79af-4ddc-9b52-a13992ae8b31.c000.snappy.parquet
+│   │   │   │       ├── part-00001-41e63cb9-79af-4ddc-9b52-a13992ae8b31.c000.snappy.parquet
+│   │   │   │       ├── part-00002-41e63cb9-79af-4ddc-9b52-a13992ae8b31.c000.snappy.parquet
+│   │   │   │       ├── part-00003-41e63cb9-79af-4ddc-9b52-a13992ae8b31.c000.snappy.parquet
+│   │   │   │       ├── part-00004-41e63cb9-79af-4ddc-9b52-a13992ae8b31.c000.snappy.parquet
+│   │   │   │       ├── part-00005-41e63cb9-79af-4ddc-9b52-a13992ae8b31.c000.snappy.parquet
+│   │   │   │       ├── part-00006-41e63cb9-79af-4ddc-9b52-a13992ae8b31.c000.snappy.parquet
+│   │   │   │       ├── part-00007-41e63cb9-79af-4ddc-9b52-a13992ae8b31.c000.snappy.parquet
+│   │   │   │       ├── part-00008-41e63cb9-79af-4ddc-9b52-a13992ae8b31.c000.snappy.parquet
+│   │   │   │       └── part-00009-41e63cb9-79af-4ddc-9b52-a13992ae8b31.c000.snappy.parquet
 │   │   │   └── results.parquet
 │   │   │       ├── _SUCCESS
-│   │   │       ├── part-00000-e6b5f2f3-0cb8-4486-b505-43eeaa7e6bfd-c000.snappy.parquet
-│   │   │       ├── part-00001-e6b5f2f3-0cb8-4486-b505-43eeaa7e6bfd-c000.snappy.parquet
-│   │   │       ├── part-00002-e6b5f2f3-0cb8-4486-b505-43eeaa7e6bfd-c000.snappy.parquet
-│   │   │       ├── part-00003-e6b5f2f3-0cb8-4486-b505-43eeaa7e6bfd-c000.snappy.parquet
-│   │   │       ├── part-00004-e6b5f2f3-0cb8-4486-b505-43eeaa7e6bfd-c000.snappy.parquet
-│   │   │       ├── part-00005-e6b5f2f3-0cb8-4486-b505-43eeaa7e6bfd-c000.snappy.parquet
-│   │   │       ├── part-00006-e6b5f2f3-0cb8-4486-b505-43eeaa7e6bfd-c000.snappy.parquet
-│   │   │       ├── part-00007-e6b5f2f3-0cb8-4486-b505-43eeaa7e6bfd-c000.snappy.parquet
-│   │   │       ├── part-00008-e6b5f2f3-0cb8-4486-b505-43eeaa7e6bfd-c000.snappy.parquet
-│   │   │       └── part-00009-e6b5f2f3-0cb8-4486-b505-43eeaa7e6bfd-c000.snappy.parquet
+│   │   │       └── part-00000-8bcf12a6-3b59-434d-b0f8-5e00256ce7b6-c000.snappy.parquet
 │   │   └── sprints
+│   │       ├── data.parquet
+│   │       │   ├── _SUCCESS
+│   │       │   └── batch_id=20260610_153036
+│   │       │       ├── part-00000-62616734-2153-491b-9522-48c02b06cdc7.c000.snappy.parquet
+│   │       │       ├── part-00001-62616734-2153-491b-9522-48c02b06cdc7.c000.snappy.parquet
+│   │       │       ├── part-00002-62616734-2153-491b-9522-48c02b06cdc7.c000.snappy.parquet
+│   │       │       └── part-00003-62616734-2153-491b-9522-48c02b06cdc7.c000.snappy.parquet
 │   │       └── sprints.parquet
 │   │           ├── _SUCCESS
-│   │           ├── part-00000-3a276f2b-42b9-4935-ab80-0ae1c0120d1e-c000.snappy.parquet
-│   │           ├── part-00001-3a276f2b-42b9-4935-ab80-0ae1c0120d1e-c000.snappy.parquet
-│   │           ├── part-00002-3a276f2b-42b9-4935-ab80-0ae1c0120d1e-c000.snappy.parquet
-│   │           ├── part-00003-3a276f2b-42b9-4935-ab80-0ae1c0120d1e-c000.snappy.parquet
-│   │           └── part-00004-3a276f2b-42b9-4935-ab80-0ae1c0120d1e-c000.snappy.parquet
+│   │           └── part-00000-d91ee163-de49-4896-8191-d8d7475a2ec4-c000.snappy.parquet
 │   ├── control
+│   │   ├── batch_control
+│   │   │   ├── 2025-01.completed
+│   │   │   └── data.parquet
+│   │   │       ├── _SUCCESS
+│   │   │       └── part-00000-f8eddbbf-779a-4d98-85f1-33cb57df6210-c000.snappy.parquet
 │   │   └── batch_events.parquet
-│   │       ├── _SUCCESS
-│   │       ├── part-00000-5cd92569-f77c-4fe4-bb52-a32db9e8d789-c000.snappy.parquet
-│   │       ├── part-00000-7137d4b1-12f6-4eec-9e47-bb64d4dd92d0-c000.snappy.parquet
-│   │       ├── part-00009-5cd92569-f77c-4fe4-bb52-a32db9e8d789-c000.snappy.parquet
-│   │       └── part-00009-7137d4b1-12f6-4eec-9e47-bb64d4dd92d0-c000.snappy.parquet
 │   ├── gold
 │   │   ├── dim_constructors
 │   │   │   └── dim_constructors.parquet
-│   │   │       ├── _SUCCESS
-│   │   │       └── part-00000-57ec551c-1053-453d-89a7-0bc4ba008c2a-c000.snappy.parquet
 │   │   ├── dim_drivers
 │   │   │   └── dim_drivers.parquet
-│   │   │       ├── _SUCCESS
-│   │   │       └── part-00000-de832800-31d0-475c-9bf3-213a015ff3e7-c000.snappy.parquet
 │   │   ├── dim_races
 │   │   │   └── dim_races.parquet
-│   │   │       ├── _SUCCESS
-│   │   │       └── part-00000-969378d4-8793-4c15-837f-27cdff13b448-c000.snappy.parquet
 │   │   ├── fact_session_results
 │   │   │   └── fact_session_results.parquet
-│   │   │       ├── _SUCCESS
-│   │   │       ├── part-00000-25b082fb-1d6b-412b-83c8-780962114723-c000.snappy.parquet
-│   │   │       ├── part-00001-25b082fb-1d6b-412b-83c8-780962114723-c000.snappy.parquet
-│   │   │       ├── part-00002-25b082fb-1d6b-412b-83c8-780962114723-c000.snappy.parquet
-│   │   │       └── part-00003-25b082fb-1d6b-412b-83c8-780962114723-c000.snappy.parquet
 │   │   └── ref_nationality_region
 │   │       └── ref_nationality_region.parquet
-│   │           ├── _SUCCESS
-│   │           ├── part-00000-069924c5-2c6c-4873-8647-cf75046ebeb3-c000.snappy.parquet
-│   │           ├── part-00001-069924c5-2c6c-4873-8647-cf75046ebeb3-c000.snappy.parquet
-│   │           ├── part-00002-069924c5-2c6c-4873-8647-cf75046ebeb3-c000.snappy.parquet
-│   │           ├── part-00003-069924c5-2c6c-4873-8647-cf75046ebeb3-c000.snappy.parquet
-│   │           ├── part-00004-069924c5-2c6c-4873-8647-cf75046ebeb3-c000.snappy.parquet
-│   │           ├── part-00005-069924c5-2c6c-4873-8647-cf75046ebeb3-c000.snappy.parquet
-│   │           ├── part-00006-069924c5-2c6c-4873-8647-cf75046ebeb3-c000.snappy.parquet
-│   │           ├── part-00007-069924c5-2c6c-4873-8647-cf75046ebeb3-c000.snappy.parquet
-│   │           ├── part-00008-069924c5-2c6c-4873-8647-cf75046ebeb3-c000.snappy.parquet
-│   │           └── part-00009-069924c5-2c6c-4873-8647-cf75046ebeb3-c000.snappy.parquet
 │   ├── incremental
-│   │   └── landing 5
-│   │       ├── 2025-02
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-03
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-04
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-05
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-06
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-07
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-08
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-09
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-10
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-11
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-12
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-13
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-14
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-15
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-16
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-17
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-18
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-19
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-20
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-21
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-22
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       ├── 2025-23
-│   │       │   ├── circuits.csv
-│   │       │   ├── constructors.json
-│   │       │   ├── drivers.json
-│   │       │   ├── races.csv
-│   │       │   ├── results
-│   │       │   │   └── results_2025.json
-│   │       │   └── sprints
-│   │       │       └── sprints_2025.json
-│   │       └── 2025-24
-│   │           ├── circuits.csv
-│   │           ├── constructors.json
-│   │           ├── drivers.json
-│   │           ├── races.csv
-│   │           ├── results
-│   │           │   └── results_2025.json
-│   │           └── sprints
-│   │               └── sprints_2025.json
-│   ├── landing
-│   │   └── 2025-01
+│   │   ├── 2025-01
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   ├── results_1950.json
+│   │   │   │   ├── results_1951.json
+│   │   │   │   ├── results_1952.json
+│   │   │   │   ├── results_1953.json
+│   │   │   │   ├── results_1954.json
+│   │   │   │   ├── results_1955.json
+│   │   │   │   ├── results_1956.json
+│   │   │   │   ├── results_1957.json
+│   │   │   │   ├── results_1958.json
+│   │   │   │   ├── results_1959.json
+│   │   │   │   ├── results_1960.json
+│   │   │   │   ├── results_1961.json
+│   │   │   │   ├── results_1962.json
+│   │   │   │   ├── results_1963.json
+│   │   │   │   ├── results_1964.json
+│   │   │   │   ├── results_1965.json
+│   │   │   │   ├── results_1966.json
+│   │   │   │   ├── results_1967.json
+│   │   │   │   ├── results_1968.json
+│   │   │   │   ├── results_1969.json
+│   │   │   │   ├── results_1970.json
+│   │   │   │   ├── results_1971.json
+│   │   │   │   ├── results_1972.json
+│   │   │   │   ├── results_1973.json
+│   │   │   │   ├── results_1974.json
+│   │   │   │   ├── results_1975.json
+│   │   │   │   ├── results_1976.json
+│   │   │   │   ├── results_1977.json
+│   │   │   │   ├── results_1978.json
+│   │   │   │   ├── results_1979.json
+│   │   │   │   ├── results_1980.json
+│   │   │   │   ├── results_1981.json
+│   │   │   │   ├── results_1982.json
+│   │   │   │   ├── results_1983.json
+│   │   │   │   ├── results_1984.json
+│   │   │   │   ├── results_1985.json
+│   │   │   │   ├── results_1986.json
+│   │   │   │   ├── results_1987.json
+│   │   │   │   ├── results_1988.json
+│   │   │   │   ├── results_1989.json
+│   │   │   │   ├── results_1990.json
+│   │   │   │   ├── results_1991.json
+│   │   │   │   ├── results_1992.json
+│   │   │   │   ├── results_1993.json
+│   │   │   │   ├── results_1994.json
+│   │   │   │   ├── results_1995.json
+│   │   │   │   ├── results_1996.json
+│   │   │   │   ├── results_1997.json
+│   │   │   │   ├── results_1998.json
+│   │   │   │   ├── results_1999.json
+│   │   │   │   ├── results_2000.json
+│   │   │   │   ├── results_2001.json
+│   │   │   │   ├── results_2002.json
+│   │   │   │   ├── results_2003.json
+│   │   │   │   ├── results_2004.json
+│   │   │   │   ├── results_2005.json
+│   │   │   │   ├── results_2006.json
+│   │   │   │   ├── results_2007.json
+│   │   │   │   ├── results_2008.json
+│   │   │   │   ├── results_2009.json
+│   │   │   │   ├── results_2010.json
+│   │   │   │   ├── results_2011.json
+│   │   │   │   ├── results_2012.json
+│   │   │   │   ├── results_2013.json
+│   │   │   │   ├── results_2014.json
+│   │   │   │   ├── results_2015.json
+│   │   │   │   ├── results_2016.json
+│   │   │   │   ├── results_2017.json
+│   │   │   │   ├── results_2018.json
+│   │   │   │   ├── results_2019.json
+│   │   │   │   ├── results_2020.json
+│   │   │   │   ├── results_2021.json
+│   │   │   │   ├── results_2022.json
+│   │   │   │   ├── results_2023.json
+│   │   │   │   ├── results_2024.json
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       ├── clean_sprints_2021.json
+│   │   │       ├── clean_sprints_2022.json
+│   │   │       ├── clean_sprints_2023.json
+│   │   │       ├── clean_sprints_2024.json
+│   │   │       ├── clean_sprints_2025.json
+│   │   │       ├── sprints_2021.json
+│   │   │       ├── sprints_2022.json
+│   │   │       ├── sprints_2023.json
+│   │   │       ├── sprints_2024.json
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-02
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-03
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-04
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-05
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-06
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-07
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-08
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-09
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-10
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-11
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-12
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-13
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-14
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-15
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-16
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-17
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-18
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-19
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-20
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-21
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-22
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-23
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2025-24
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2025.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2025.json
+│   │   ├── 2026-03
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-04
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-05
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-06
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-07
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-08
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-09
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-10
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-11
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-12
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-13
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-14
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-15
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-16
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-17
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-18
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-19
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-20
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-21
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   ├── 2026-22
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   └── 2026-23
 │   │       ├── circuits.csv
 │   │       ├── constructors.json
 │   │       ├── drivers.json
 │   │       ├── races.csv
 │   │       ├── results
-│   │       │   ├── results_1950.json
-│   │       │   ├── results_1951.json
-│   │       │   ├── results_1952.json
-│   │       │   ├── results_1953.json
-│   │       │   ├── results_1954.json
-│   │       │   ├── results_1955.json
-│   │       │   ├── results_1956.json
-│   │       │   ├── results_1957.json
-│   │       │   ├── results_1958.json
-│   │       │   ├── results_1959.json
-│   │       │   ├── results_1960.json
-│   │       │   ├── results_1961.json
-│   │       │   ├── results_1962.json
-│   │       │   ├── results_1963.json
-│   │       │   ├── results_1964.json
-│   │       │   ├── results_1965.json
-│   │       │   ├── results_1966.json
-│   │       │   ├── results_1967.json
-│   │       │   ├── results_1968.json
-│   │       │   ├── results_1969.json
-│   │       │   ├── results_1970.json
-│   │       │   ├── results_1971.json
-│   │       │   ├── results_1972.json
-│   │       │   ├── results_1973.json
-│   │       │   ├── results_1974.json
-│   │       │   ├── results_1975.json
-│   │       │   ├── results_1976.json
-│   │       │   ├── results_1977.json
-│   │       │   ├── results_1978.json
-│   │       │   ├── results_1979.json
-│   │       │   ├── results_1980.json
-│   │       │   ├── results_1981.json
-│   │       │   ├── results_1982.json
-│   │       │   ├── results_1983.json
-│   │       │   ├── results_1984.json
-│   │       │   ├── results_1985.json
-│   │       │   ├── results_1986.json
-│   │       │   ├── results_1987.json
-│   │       │   ├── results_1988.json
-│   │       │   ├── results_1989.json
-│   │       │   ├── results_1990.json
-│   │       │   ├── results_1991.json
-│   │       │   ├── results_1992.json
-│   │       │   ├── results_1993.json
-│   │       │   ├── results_1994.json
-│   │       │   ├── results_1995.json
-│   │       │   ├── results_1996.json
-│   │       │   ├── results_1997.json
-│   │       │   ├── results_1998.json
-│   │       │   ├── results_1999.json
-│   │       │   ├── results_2000.json
-│   │       │   ├── results_2001.json
-│   │       │   ├── results_2002.json
-│   │       │   ├── results_2003.json
-│   │       │   ├── results_2004.json
-│   │       │   ├── results_2005.json
-│   │       │   ├── results_2006.json
-│   │       │   ├── results_2007.json
-│   │       │   ├── results_2008.json
-│   │       │   ├── results_2009.json
-│   │       │   ├── results_2010.json
-│   │       │   ├── results_2011.json
-│   │       │   ├── results_2012.json
-│   │       │   ├── results_2013.json
-│   │       │   ├── results_2014.json
-│   │       │   ├── results_2015.json
-│   │       │   ├── results_2016.json
-│   │       │   ├── results_2017.json
-│   │       │   ├── results_2018.json
-│   │       │   ├── results_2019.json
-│   │       │   ├── results_2020.json
-│   │       │   ├── results_2021.json
-│   │       │   ├── results_2022.json
-│   │       │   ├── results_2023.json
-│   │       │   ├── results_2024.json
-│   │       │   └── results_2025.json
+│   │       │   └── results_2026.json
 │   │       └── sprints
-│   │           ├── sprints_2021.json
-│   │           ├── sprints_2022.json
-│   │           ├── sprints_2023.json
-│   │           ├── sprints_2024.json
-│   │           └── sprints_2025.json
+│   │           └── sprints_2026.json
+│   ├── landing
+│   │   ├── 2026-01
+│   │   │   ├── circuits.csv
+│   │   │   ├── constructors.json
+│   │   │   ├── drivers.json
+│   │   │   ├── races.csv
+│   │   │   ├── results
+│   │   │   │   └── results_2026.json
+│   │   │   └── sprints
+│   │   │       └── sprints_2026.json
+│   │   └── 2026-02
+│   │       ├── circuits.csv
+│   │       ├── constructors.json
+│   │       ├── drivers.json
+│   │       ├── races.csv
+│   │       ├── results
+│   │       │   └── results_2026.json
+│   │       └── sprints
+│   │           └── sprints_2026.json
 │   └── silver
 │       ├── circuits
-│       │   └── circuits_silver.parquet
+│       │   ├── circuits_silver.parquet
+│       │   │   ├── _SUCCESS
+│       │   │   └── part-00000-bd94b0e1-91a3-4578-a741-c00a8db63df6-c000.snappy.parquet
+│       │   ├── circuits.parquet
+│       │   │   ├── _SUCCESS
+│       │   │   └── part-00000-f01ea291-5dc9-45c5-9aff-78e33ed58fee-c000.snappy.parquet
+│       │   └── data.parquet
 │       │       ├── _SUCCESS
-│       │       └── part-00000-bd94b0e1-91a3-4578-a741-c00a8db63df6-c000.snappy.parquet
+│       │       └── part-00000-3990458b-dec7-430a-861c-e7fb8595314e-c000.snappy.parquet
 │       ├── constructors
-│       │   └── constructors_silver.parquet
+│       │   ├── constructors_silver.parquet
+│       │   │   ├── _SUCCESS
+│       │   │   └── part-00000-e4b69b84-0ffe-45ff-89ae-8b3bb63a81b2-c000.snappy.parquet
+│       │   ├── constructors.parquet
+│       │   │   ├── _SUCCESS
+│       │   │   └── part-00000-ec7d29f0-2a65-475e-af34-bb039e6b10fa-c000.snappy.parquet
+│       │   └── data.parquet
 │       │       ├── _SUCCESS
-│       │       └── part-00000-e4b69b84-0ffe-45ff-89ae-8b3bb63a81b2-c000.snappy.parquet
+│       │       └── part-00000-1d05b23d-176c-4602-8438-23ef5f739130-c000.snappy.parquet
 │       ├── drivers
-│       │   └── drivers_silver.parquet
+│       │   ├── data.parquet
+│       │   │   ├── _SUCCESS
+│       │   │   └── part-00000-acf101d6-1500-4149-87a2-22fdd407017d-c000.snappy.parquet
+│       │   ├── drivers_silver.parquet
+│       │   │   ├── _SUCCESS
+│       │   │   └── part-00000-f9bec31c-ee69-4190-ab84-c9cd04e21b06-c000.snappy.parquet
+│       │   └── drivers.parquet
 │       │       ├── _SUCCESS
-│       │       └── part-00000-f9bec31c-ee69-4190-ab84-c9cd04e21b06-c000.snappy.parquet
+│       │       └── part-00000-185f076b-dc95-4b95-8d37-913219458614-c000.snappy.parquet
 │       ├── races
-│       │   └── races_silver.parquet
+│       │   ├── data.parquet
+│       │   │   ├── _SUCCESS
+│       │   │   └── part-00000-38ddb8ea-74a2-441c-85da-586c9c9904bd-c000.snappy.parquet
+│       │   ├── races_silver.parquet
+│       │   │   ├── _SUCCESS
+│       │   │   └── part-00000-51a6c475-af1b-49fb-a3e0-d3b478efbbc2-c000.snappy.parquet
+│       │   └── races.parquet
 │       │       ├── _SUCCESS
-│       │       └── part-00000-51a6c475-af1b-49fb-a3e0-d3b478efbbc2-c000.snappy.parquet
+│       │       └── part-00000-859d934b-a038-4b3e-8275-5fa6a66b34e5-c000.snappy.parquet
 │       ├── results
-│       │   └── results_silver.parquet
+│       │   ├── results_silver.parquet
+│       │   │   ├── _SUCCESS
+│       │   │   ├── part-00000-89a090e4-bc45-45e0-9492-27d624dc5102-c000.snappy.parquet
+│       │   │   ├── part-00001-89a090e4-bc45-45e0-9492-27d624dc5102-c000.snappy.parquet
+│       │   │   └── part-00002-89a090e4-bc45-45e0-9492-27d624dc5102-c000.snappy.parquet
+│       │   └── results.parquet
 │       │       ├── _SUCCESS
-│       │       ├── part-00000-89a090e4-bc45-45e0-9492-27d624dc5102-c000.snappy.parquet
-│       │       ├── part-00001-89a090e4-bc45-45e0-9492-27d624dc5102-c000.snappy.parquet
-│       │       └── part-00002-89a090e4-bc45-45e0-9492-27d624dc5102-c000.snappy.parquet
+│       │       └── part-00000-34319f08-10fc-457a-8408-251ca25498b8-c000.snappy.parquet
 │       └── sprints
-│           └── sprints_silver.parquet
+│           ├── data.parquet
+│           │   ├── _SUCCESS
+│           │   └── part-00000-2b687348-f20f-4eef-8aab-00f5ba4d9903-c000.snappy.parquet
+│           ├── sprints_silver.parquet
+│           │   ├── _SUCCESS
+│           │   └── part-00000-d12c9b95-1d58-4bd1-a881-d8c0bd9d8bf1-c000.snappy.parquet
+│           └── sprints.parquet
 │               ├── _SUCCESS
-│               └── part-00000-d12c9b95-1d58-4bd1-a881-d8c0bd9d8bf1-c000.snappy.parquet
-├── eval "$(ssh-agent -s)"
-├── eval "$(ssh-agent -s)".pub
+│               └── part-00000-cb63278e-3022-4faa-a59c-4eaa33f1b817-c000.snappy.parquet
 ├── notebooks
 │   ├── 00-common
-│   │   ├── 01_environment_config.ipynb
-│   │   ├── 02_bronze_helpers.ipynb
-│   │   ├── 03_silver_helpers.ipynb
-│   │   └── 04_gold_helpers.ipynb
+│   │   ├── __pycache__
+│   │   │   ├── bronze_helpers.cpython-311.pyc
+│   │   │   ├── bronze_helpers.cpython-313.pyc
+│   │   │   ├── gold_helpers.cpython-311.pyc
+│   │   │   ├── gold_helpers.cpython-313.pyc
+│   │   │   ├── silver_helpers.cpython-311.pyc
+│   │   │   └── silver_helpers.cpython-313.pyc
+│   │   ├── 01_environment_config.py
+│   │   ├── bronze_helpers.py
+│   │   ├── gold_helpers.py
+│   │   └── silver_helpers.py
 │   ├── 01-setup
-│   │   ├── 01_setup_project_environment.ipynb
-│   │   └── 02_setup_batch_events.ipynb
+│   │   ├── 01_setup_project_environment.py
+│   │   └── 02_setup_batch_events.py
 │   ├── 02-bronze
-│   │   ├── 01_ingest_circuits.ipynb
-│   │   ├── 02_ingest_races.ipynb
-│   │   ├── 03_ingest_drivers.ipynb
-│   │   ├── 04_ingest_constructors.ipynb
-│   │   ├── 05_ingest_results.ipynb
-│   │   └── 06_ingest_sprints.ipynb
+│   │   ├── 01_ingest_circuits.py
+│   │   ├── 02_ingest_races.py
+│   │   ├── 03_ingest_drivers.py
+│   │   ├── 04_ingest_constructors.py
+│   │   ├── 05_ingest_results.py
+│   │   ├── 06_ingest_sprints.py
+│   │   ├── ingest_2026_f1_entities.py
+│   │   └── scrape_f1_website.py
 │   ├── 03-silver
-│   │   ├── 01_transform_circuits.ipynb
-│   │   ├── 02_transform_races.ipynb
-│   │   ├── 03_transform_drivers.ipynb
-│   │   ├── 04_transform_constructors.ipynb
-│   │   ├── 05_transform_results.ipynb
-│   │   └── 06_transform_sprints.ipynb
+│   │   ├── 01_transform_circuits.py
+│   │   ├── 02_transform_races.py
+│   │   ├── 03_transform_drivers.py
+│   │   ├── 04_transform_constructors.py
+│   │   ├── 05_transform_results.py
+│   │   └── 06_transform_sprints.py
 │   ├── 04-gold
-│   │   ├── 01_build_dim_races.ipynb
-│   │   ├── 02_build_dim_drivers.ipynb
-│   │   ├── 03_build_dim_constructors.ipynb
-│   │   ├── 04_build_fact_results.ipynb
-│   │   └── 91_build_ref_nationality_region.ipynb
+│   │   ├── 01_build_dim_races.py
+│   │   ├── 02_build_dim_drivers.py
+│   │   ├── 03_build_dim_constructors.py
+│   │   ├── 04_build_fact_session_results.py
+│   │   └── 91_build_ref_nationality_region.py
 │   ├── 05-analytics
 │   │   ├── 01_driver_standings.ipynb
 │   │   ├── 02_constructor_standings.ipynb
@@ -573,36 +810,40 @@
 │   │   ├── 04_sprint_vs_race.ipynb
 │   │   └── 05_strategy_efficiency.ipynb
 │   └── 06-orchestration
-│       ├── 00.Create Control Tables.ipynb
-│       ├── 01.Identify Next Batch.ipynb
-│       ├── 02.Create New Batch.ipynb
-│       └── 03.Complete Batch.ipynb
+│       ├── 00_create_control_tables.py
+│       ├── 01_identify_next_batch.py
+│       ├── 02_create_new_batch.py
+│       └── 03_complete_batch.py
 ├── README.md
 ├── scripts
-│   ├── complete_batch_2025-01.ipynb
-│   ├── identify_next_batch.ipynb
 │   ├── install_workspace.sh
 │   ├── logs
-│   │   ├── dashboard_2026-06-10_10-24-03.log
-│   │   ├── dashboard_2026-06-10_10-33-07.log
-│   │   ├── dashboard_2026-06-10_10-38-35.log
-│   │   ├── dashboard_2026-06-10_10-41-05.log
-│   │   ├── dashboard_2026-06-10_10-48-17.log
-│   │   ├── orchestration_2026-06-10_10-21-41.log
-│   │   ├── orchestration_2026-06-10_10-23-49.log
-│   │   ├── orchestration_2026-06-10_10-32-53.log
-│   │   ├── orchestration_2026-06-10_10-38-21.log
-│   │   ├── orchestration_2026-06-10_10-40-51.log
-│   │   ├── orchestration_2026-06-10_10-48-04.log
-│   │   ├── pipeline_2026-06-10_10-23-59.log
-│   │   ├── pipeline_2026-06-10_10-33-03.log
-│   │   ├── pipeline_2026-06-10_10-38-31.log
-│   │   ├── pipeline_2026-06-10_10-41-01.log
-│   │   └── pipeline_2026-06-10_10-48-13.log
+│   │   ├── dashboard_20261015_161311.log
+│   │   ├── orchestration_20261015_161139.log
+│   │   ├── pipeline
+│   │   │   └── 2026-02
+│   │   │       ├── bronze_01.log
+│   │   │       ├── bronze_02.log
+│   │   │       ├── bronze_03.log
+│   │   │       ├── bronze_04.log
+│   │   │       ├── bronze_05.log
+│   │   │       ├── bronze_06.log
+│   │   │       ├── gold_01.log
+│   │   │       ├── gold_02.log
+│   │   │       ├── gold_03.log
+│   │   │       ├── gold_04.log
+│   │   │       ├── gold_05.log
+│   │   │       ├── silver_01.log
+│   │   │       ├── silver_02.log
+│   │   │       ├── silver_03.log
+│   │   │       ├── silver_04.log
+│   │   │       ├── silver_05.log
+│   │   │       └── silver_06.log
+│   │   └── pipeline_2026-02_20261015_161142.log
 │   ├── main.sh
 │   ├── run_dashboard.sh
 │   ├── run_orchestration.sh
 │   └── run_pipeline.sh
 └── tree.txt
 
-137 directories, 469 files
+224 directories, 623 files

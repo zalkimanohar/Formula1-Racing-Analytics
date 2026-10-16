@@ -1,0 +1,28 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/10/15 16:12:33 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 172.16.108.30 instead (on interface en0)
+26/10/15 16:12:33 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/15 16:12:33 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/15 16:12:34 WARN SparkSession: Using an existing Spark session; only runtime SQL configurations will take effect.
+26/10/15 16:12:36 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[INFO] WORKSPACE = /Users/manoharazalki/F1-Analytics
+[INFO] BATCH_ID  = 2026-02
+[INFO] silver_helpers WORKSPACE = /Users/manoharazalki/F1-Analytics
+[INFO] silver_helpers loaded successfully.
+[INFO] Bronze path: /Users/manoharazalki/F1-Analytics/data/bronze/results/results.parquet
+[INFO] Silver path: /Users/manoharazalki/F1-Analytics/data/silver/results/results.parquet
+[INFO] ✔ Bronze results read
+[INFO] ✔ Results Silver written: /Users/manoharazalki/F1-Analytics/data/silver/results/results.parquet
++------+-----+--------------+---------+---------------------+----------+-------------+--------------+----------+------+--------------+-------------------+-------+--------------------------+--------------------------------------------------------------------------------+--------+--------------------------+--------------------------+
+|season|round|constructor_id|driver_id|race_name            |race_date |grid_position|completed_laps|car_number|points|final_position|final_position_text|status |ingest_timestamp          |source_file                                                                     |batch_id|created_timestamp         |updated_timestamp         |
++------+-----+--------------+---------+---------------------+----------+-------------+--------------+----------+------+--------------+-------------------+-------+--------------------------+--------------------------------------------------------------------------------+--------+--------------------------+--------------------------+
+|2026  |1    |alpine        |colapinto|Australian Grand Prix|2026-03-08|16           |56            |43        |0.0   |14            |14                 |Lapped |2026-10-15 16:12:02.892088|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/results/results_2026.json|2026-02 |2026-10-15 16:12:35.946168|2026-10-15 16:12:35.946168|
+|2026  |1    |alpine        |gasly    |Australian Grand Prix|2026-03-08|14           |57            |10        |1.0   |10            |10                 |Lapped |2026-10-15 16:12:02.892088|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/results/results_2026.json|2026-02 |2026-10-15 16:12:35.946168|2026-10-15 16:12:35.946168|
+|2026  |1    |aston_martin  |alonso   |Australian Grand Prix|2026-03-08|17           |21            |14        |0.0   |18            |R                  |Retired|2026-10-15 16:12:02.892088|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/results/results_2026.json|2026-02 |2026-10-15 16:12:35.946168|2026-10-15 16:12:35.946168|
+|2026  |1    |aston_martin  |stroll   |Australian Grand Prix|2026-03-08|22           |43            |18        |0.0   |17            |R                  |Lapped |2026-10-15 16:12:02.892088|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/results/results_2026.json|2026-02 |2026-10-15 16:12:35.946168|2026-10-15 16:12:35.946168|
+|2026  |1    |audi          |bortoleto|Australian Grand Prix|2026-03-08|10           |57            |5         |2.0   |9             |9                  |Lapped |2026-10-15 16:12:02.892088|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/results/results_2026.json|2026-02 |2026-10-15 16:12:35.946168|2026-10-15 16:12:35.946168|
++------+-----+--------------+---------+---------------------+----------+-------------+--------------+----------+------+--------------+-------------------+-------+--------------------------+--------------------------------------------------------------------------------+--------+--------------------------+--------------------------+
+only showing top 5 rows

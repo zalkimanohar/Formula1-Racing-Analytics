@@ -69,7 +69,7 @@ dim_drivers_df = (
         F.col("given_name"),
         F.col("family_name"),
         F.col("nationality"),
-        F.col("url")
+        F.col("driver_url").alias("url")  # FIXED: mapped from driver_url
     )
 )
 

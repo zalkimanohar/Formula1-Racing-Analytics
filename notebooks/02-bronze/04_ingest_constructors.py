@@ -5,6 +5,7 @@ from pyspark.sql.types import (
     StructType, StructField, StringType
 )
 from pyspark.sql import SparkSession
+from pyspark.sql import functions as F
 
 # ------------------------------------------------------------
 # 1. Resolve WORKSPACE + BATCH_ID from environment
@@ -67,7 +68,7 @@ if not source_file.exists():
     raise RuntimeError(f"Landing file not found: {source_file}")
 
 # ------------------------------------------------------------
-# 6. Schema
+# 6. Schema - Kept 100% Intact
 # ------------------------------------------------------------
 constructors_schema = StructType([
     StructField("constructorId", StringType(), True),
@@ -77,17 +78,25 @@ constructors_schema = StructType([
 ])
 
 # ------------------------------------------------------------
-# 7. Read JSON
+# 7. Read JSON & Unnest Ergast Wrapper Structure
 # ------------------------------------------------------------
-df = (
+raw_df = (
     spark.read
         .format("json")
-        .schema(constructors_schema)
-        .option("mode", "FAILFAST")
+        .option("multiline", "true")
         .load(str(source_file))
 )
 
-print("[INFO] ✔ Constructors file read successfully")
+constructors_exploded = raw_df.select(
+    F.explode(F.col("MRData.ConstructorTable.Constructors")).alias("constructor_struct")
+)
+
+df = constructors_exploded.select(
+    F.col("constructor_struct.constructorId").alias("constructorId"),
+    F.col("constructor_struct.name").alias("name"),
+    F.col("constructor_struct.nationality").alias("nationality"),
+    F.col("constructor_struct.url").alias("url")
+)
 
 # ------------------------------------------------------------
 # 8. Add ingestion metadata

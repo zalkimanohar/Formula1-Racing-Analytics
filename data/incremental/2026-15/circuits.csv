@@ -1,0 +1,25 @@
+circuitId,url,circuitName,lat,long,locality,country
+albert_park,https://en.wikipedia.org/wiki/Albert_Park_Circuit,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia
+americas,https://en.wikipedia.org/wiki/Circuit_of_the_Americas,Circuit of the Americas,30.1328,-97.6411,Austin,USA
+baku,https://en.wikipedia.org/wiki/Baku_City_Circuit,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan
+catalunya,https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Barcelona,Spain
+hungaroring,https://en.wikipedia.org/wiki/Hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary
+interlagos,https://en.wikipedia.org/wiki/Interlagos_Circuit,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil
+jeddah,https://en.wikipedia.org/wiki/Jeddah_Corniche_Circuit,Jeddah Corniche Circuit,21.6319,39.1044,Jeddah,Saudi Arabia
+losail,https://en.wikipedia.org/wiki/Lusail_International_Circuit,Lusail International Circuit,25.49,51.4542,Lusail,Qatar
+madring,https://en.wikipedia.org/wiki/Madring,Madring,40.46528,-3.61528,Madrid,Spain
+marina_bay,https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore
+miami,https://en.wikipedia.org/wiki/Miami_International_Autodrome,Miami International Autodrome,25.9581,-80.2389,Miami,USA
+monaco,https://en.wikipedia.org/wiki/Circuit_de_Monaco,Circuit de Monaco,43.7347,7.42056,Monte Carlo,Monaco
+monza,https://en.wikipedia.org/wiki/Monza_Circuit,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+red_bull_ring,https://en.wikipedia.org/wiki/Red_Bull_Ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria
+rodriguez,https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico
+sepang,https://en.wikipedia.org/wiki/Sepang_International_Circuit,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia
+shanghai,https://en.wikipedia.org/wiki/Shanghai_International_Circuit,Shanghai International Circuit,31.3389,121.22,Shanghai,China
+silverstone,https://en.wikipedia.org/wiki/Silverstone_Circuit,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+spa,https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+suzuka,https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course,Suzuka Circuit,34.8431,136.541,Suzuka,Japan
+vegas,https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix#Circuit,Las Vegas Strip Street Circuit,36.1147,-115.173,Las Vegas,USA
+villeneuve,https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada
+yas_marina,https://en.wikipedia.org/wiki/Yas_Marina_Circuit,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,UAE
+zandvoort,https://en.wikipedia.org/wiki/Circuit_Zandvoort,Circuit Park Zandvoort,52.3888,4.54092,Zandvoort,Netherlands

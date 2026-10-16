@@ -5,47 +5,26 @@ import pandas as pd
 def render_rq3(data):
     st.title("🌍 RQ3 — Circuit Geography & Regional Performance")
 
-    # GOLD tables
-    circuits = data["circuits"]          # GOLD dim_circuits
-    races = data["races"]                # GOLD dim_races
-    results = data["results"]            # GOLD fact_session_results
+    # Extract tables
+    results = data["results"].copy()      # fact_session_results (already denormalized with circuit info)
+    circuits = data["circuits"].copy()    # Silver/Gold circuits table if needed
 
     # ---------------------------------------------------------
     # VALIDATION
     # ---------------------------------------------------------
-    if circuits.empty or races.empty or results.empty:
-        st.error("❌ Missing required Gold tables. Please run the full pipeline first.")
+    if results.empty:
+        st.error("❌ Missing fact_session_results table. Please run the full pipeline first.")
         return
 
-    # ---------------------------------------------------------
-    # PREPARE RACE‑LEVEL POINTS
-    # ---------------------------------------------------------
-    race_points = (
-        results.groupby(["season", "round"], dropna=False)["points"]
-        .sum()
-        .reset_index()
-    )
+    df = results.copy()
 
-    # ---------------------------------------------------------
-    # MERGE RACES + CIRCUITS + POINTS
-    # GOLD dim_races contains: circuit_id, race_name, race_date, country
-    # GOLD dim_circuits contains: circuit_id, circuit_name, latitude, longitude, country_name
-    # ---------------------------------------------------------
-    df = (
-        races
-        .merge(circuits, on="circuit_id", how="left", suffixes=("_race", "_circuit"))
-        .merge(race_points, on=["season", "round"], how="left")
-    )
+    # Ensure circuit_id and circuit_name exist
+    if "circuit_id" not in df.columns:
+        st.error("❌ 'circuit_id' column is missing from fact table. Check Gold build script.")
+        return
 
-    # ---------------------------------------------------------
-    # COUNTRY COLUMN FIX
-    # ---------------------------------------------------------
-    if "country_name" in df.columns:
-        country_col = "country_name"
-    elif "country" in df.columns:
-        country_col = "country"
-    else:
-        country_col = None
+    # Fallback or normalize country column name
+    country_col = "circuit_country" if "circuit_country" in df.columns else ("country" if "country" in df.columns else None)
 
     # ---------------------------------------------------------
     # 1) COUNTRY‑LEVEL GEO PERFORMANCE MAP
@@ -53,12 +32,16 @@ def render_rq3(data):
     st.subheader("🗺️ Circuit Performance by Country")
 
     if country_col:
+        country_points = (
+            df.groupby(country_col, dropna=False)["points"]
+            .sum()
+            .reset_index()
+        )
         fig = px.choropleth(
-            df,
+            country_points,
             locations=country_col,
             locationmode="country names",
             color="points",
-            hover_name="race_name",
             title="Circuit Performance — Points by Host Country",
             color_continuous_scale="Viridis",
         )
@@ -72,21 +55,13 @@ def render_rq3(data):
     st.subheader("🔥 Circuit Competitiveness Index (CCI)")
 
     circuit_comp = (
-        results
-        .merge(races[["season", "round", "circuit_id"]], on=["season", "round"])
-        .groupby("circuit_id")["final_position"]
+        df.groupby(["circuit_id", "circuit_name"], dropna=False)["final_position"]
         .std()
         .reset_index()
         .rename(columns={"final_position": "competitiveness"})
     )
 
     circuit_comp["competitiveness"] = circuit_comp["competitiveness"].fillna(0)
-
-    circuit_comp = circuit_comp.merge(
-        circuits[["circuit_id", "circuit_name"]],
-        on="circuit_id",
-        how="left"
-    )
 
     fig2 = px.bar(
         circuit_comp.sort_values("competitiveness"),
@@ -105,7 +80,7 @@ def render_rq3(data):
 
     if country_col:
         region_perf = (
-            df.groupby(country_col)["points"]
+            df.groupby(country_col, dropna=False)["points"]
             .sum()
             .reset_index()
             .sort_values("points", ascending=False)
@@ -127,10 +102,7 @@ def render_rq3(data):
     st.subheader("🔗 Driver–Circuit Affinity")
 
     driver_affinity = (
-        results
-        .merge(races[["season", "round", "circuit_id"]], on=["season", "round"])
-        .merge(circuits[["circuit_id", "circuit_name"]], on="circuit_id")
-        .groupby(["driver_name", "circuit_name"], dropna=False)["points"]
+        df.groupby(["driver_name", "circuit_name"], dropna=False)["points"]
         .sum()
         .reset_index()
     )

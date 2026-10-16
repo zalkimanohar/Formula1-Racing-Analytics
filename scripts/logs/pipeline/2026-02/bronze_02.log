@@ -1,0 +1,25 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/10/15 16:11:47 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 172.16.108.30 instead (on interface en0)
+26/10/15 16:11:47 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/15 16:11:47 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[INFO] WORKSPACE = /Users/manoharazalki/F1-Analytics
+[INFO] BATCH_ID  = 2026-02
+[INFO] bronze_helpers WORKSPACE = /Users/manoharazalki/F1-Analytics
+[INFO] bronze_helpers loaded successfully.
+[INFO] Source file: /Users/manoharazalki/F1-Analytics/data/landing/2026-02/races.csv
+[INFO] Target path: /Users/manoharazalki/F1-Analytics/data/bronze/races/races.parquet
+[INFO] ✔ Races file read successfully
+[INFO] ✔ Metadata added
+[INFO] ✔ Races Bronze written to: /Users/manoharazalki/F1-Analytics/data/bronze/races/races.parquet
+[INFO] Showing sample from Bronze output:
++------+-----+--------------------+--------------------+----------+-----------+--------------------+--------------------+--------+
+|season|round|                 url|            raceName|      date|  circuitId|    ingest_timestamp|         source_file|batch_id|
++------+-----+--------------------+--------------------+----------+-----------+--------------------+--------------------+--------+
+|  2026|    1|https://en.wikipe...|Australian Grand ...|2026-03-08|albert_park|2026-10-15 16:11:...|/Users/manoharaza...| 2026-02|
+|  2026|    2|https://en.wikipe...|  Chinese Grand Prix|2026-03-15|   shanghai|2026-10-15 16:11:...|/Users/manoharaza...| 2026-02|
++------+-----+--------------------+--------------------+----------+-----------+--------------------+--------------------+--------+
+

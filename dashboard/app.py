@@ -10,9 +10,6 @@ from sections.rq3_circuit_geography import render_rq3
 from sections.rq4_sprint_race import render_rq4
 from sections.rq5_cross_dataset import render_rq5
 
-# Clear cache to avoid stale GOLD schemas
-st.cache_data.clear()
-
 # ---------------------------------------------------------
 # 1. PAGE CONFIG + THEME
 # ---------------------------------------------------------
@@ -40,6 +37,8 @@ def load_all_data():
 
 data = load_all_data()
 
+# [Rest of your app.py remains the same...]
+
 # ---------------------------------------------------------
 # 3. GLOBAL FILTERS (ONLY SEASON + SLIDERS)
 # ---------------------------------------------------------
@@ -56,10 +55,10 @@ if "season" not in races.columns:
     st.stop()
 
 # Remove 2026 from options
-season_list = sorted([s for s in races["season"].dropna().unique() if s != 2026])
+season_list = sorted([s for s in races["season"].dropna().unique() if s != 2027])
 
 # Default seasons
-default_seasons = [s for s in [2023, 2024, 2025] if s in season_list]
+default_seasons = [s for s in [2024, 2025, 2026] if s in season_list]
 
 seasons = st.sidebar.multiselect(
     "Season",

@@ -62,50 +62,37 @@ results_df = (
 )
 
 print("[INFO] ✔ Bronze results read")
-results_df.show(5, truncate=False)
 
 # ------------------------------------------------------------
-# 6. Flatten nested JSON (if present)
+# 6. Unnest Ergast JSON Wrapper Structure
 # ------------------------------------------------------------
-# Some results JSON files contain nested structures like:
-#   driver.driverId, constructor.constructorId, etc.
-# We flatten defensively.
+races_exploded = results_df.withColumn("race", F.explode(F.col("MRData.RaceTable.Races")))
+results_exploded = races_exploded.withColumn("result", F.explode(F.col("race.Results")))
 
-flattened_df = (
-    results_df
-        .withColumn("driver_id", F.col("driverId"))
-        .withColumn("constructor_id", F.col("constructorId"))
-        .withColumn("race_name", F.col("raceName"))
-        .withColumn("race_date", F.col("date"))
+flattened_df = results_exploded.select(
+    F.col("race.season").cast("int").alias("season"),
+    F.col("race.round").cast("int").alias("round"),
+    F.col("result.Constructor.constructorId").alias("constructor_id"),
+    F.col("result.Driver.driverId").alias("driver_id"),
+    F.col("race.raceName").alias("race_name"),
+    F.col("race.date").alias("race_date"),
+    F.col("result.grid").cast("int").alias("grid"),
+    F.col("result.laps").cast("int").alias("laps"),
+    F.col("result.number").cast("int").alias("number"),
+    F.col("result.points").cast("float").alias("points"),
+    F.col("result.position").cast("int").alias("position"),
+    F.col("result.positionText").alias("positionText"),
+    F.col("result.status").alias("status"),
+    F.col("ingest_timestamp"),
+    F.col("source_file"),
+    F.col("batch_id")
 )
 
 # ------------------------------------------------------------
-# 7. Select required columns
-# ------------------------------------------------------------
-results_selected_df = flattened_df.select(
-    "season",
-    "round",
-    "constructor_id",
-    "driver_id",
-    "race_name",
-    "race_date",
-    "grid",
-    "laps",
-    "number",
-    "points",
-    "position",
-    "positionText",
-    "status",
-    "ingest_timestamp",
-    "source_file",
-    "batch_id"
-)
-
-# ------------------------------------------------------------
-# 8. Standardize + rename columns
+# 7. Standardize + rename columns
 # ------------------------------------------------------------
 results_renamed_df = (
-    results_selected_df
+    flattened_df
         .withColumnRenamed("positionText", "final_position_text")
         .withColumnRenamed("position", "final_position")
         .withColumnRenamed("grid", "grid_position")
@@ -114,21 +101,21 @@ results_renamed_df = (
 )
 
 # ------------------------------------------------------------
-# 9. Business key validation
+# 8. Business key validation
 # ------------------------------------------------------------
 results_valid_df = results_renamed_df.filter(
     "season IS NOT NULL AND round IS NOT NULL AND constructor_id IS NOT NULL AND driver_id IS NOT NULL"
 )
 
 # ------------------------------------------------------------
-# 10. Remove duplicates
+# 9. Remove duplicates
 # ------------------------------------------------------------
 results_distinct_df = results_valid_df.dropDuplicates(
     ["season", "round", "constructor_id", "driver_id"]
 )
 
 # ------------------------------------------------------------
-# 11. Title Case transformations
+# 10. Title Case transformations
 # ------------------------------------------------------------
 results_final_df = (
     results_distinct_df
@@ -136,7 +123,7 @@ results_final_df = (
 )
 
 # ------------------------------------------------------------
-# 12. Write to Silver (batch‑aware)
+# 11. Write to Silver (batch‑aware)
 # ------------------------------------------------------------
 write_to_silver(
     results_final_df,
@@ -147,6 +134,6 @@ write_to_silver(
 print(f"[INFO] ✔ Results Silver written: {silver_output}")
 
 # ------------------------------------------------------------
-# 13. Validate
+# 12. Validate
 # ------------------------------------------------------------
 spark.read.parquet(str(silver_output)).show(5, truncate=False)

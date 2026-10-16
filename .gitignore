@@ -1,0 +1,52 @@
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+ENV/
+
+# ==========================================
+# Formula 1 Data Pipeline Storage (Local Data)
+# ==========================================
+# Ignore local raw, landing, bronze, silver, gold, and incremental data lakes
+#data/landing/
+#data/bronze/
+#data/silver/
+#data/gold/
+#data/incremental/
+#data/control/
+#data/*.parquet
+#data/*.csv
+#data/*.json
+
+# Allow keeping empty folder structures if needed (optional)
+# !data/**/.gitkeep
+
+# ==========================================
+# Logs & Execution Outputs
+# ==========================================
+#scripts/logs/
+#*.log
+#*.sqlite
+#*.db
+
+# ==========================================
+# IDEs & Operating Systems
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Jupyter Notebook Checkpoints
+# ==========================================
+.ipynb_checkpoints/
+**/ .ipynb_checkpoints/
