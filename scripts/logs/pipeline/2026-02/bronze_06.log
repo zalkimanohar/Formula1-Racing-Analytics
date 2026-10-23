@@ -1,11 +1,11 @@
 WARNING: Using incubator modules: jdk.incubator.vector
 Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
-26/10/15 16:12:05 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 172.16.108.30 instead (on interface en0)
-26/10/15 16:12:05 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+26/10/22 13:03:07 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 172.16.108.30 instead (on interface en0)
+26/10/22 13:03:07 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
 Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
 Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-26/10/15 16:12:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/22 13:03:07 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 [INFO] WORKSPACE = /Users/manoharazalki/F1-Analytics
 [INFO] BATCH_ID  = 2026-02
 [INFO] bronze_helpers WORKSPACE = /Users/manoharazalki/F1-Analytics
@@ -16,10 +16,10 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 +----------+------------------+-----+------+-----------------------------------------------------+-------------+---------+----+----+------+------+--------+------------+--------+--------------------------+--------------------------------------------------------------------------------+--------+
 |date      |raceName          |round|season|url                                                  |constructorId|driverId |grid|laps|number|points|position|positionText|status  |ingest_timestamp          |source_file                                                                     |batch_id|
 +----------+------------------+-----+------+-----------------------------------------------------+-------------+---------+----+----+------+------+--------+------------+--------+--------------------------+--------------------------------------------------------------------------------+--------+
-|2026-03-15|Chinese Grand Prix|2    |2026  |https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix|mercedes     |russell  |1   |19  |63    |8.0   |1       |1           |Finished|2026-10-15 16:12:08.063017|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |
-|2026-03-15|Chinese Grand Prix|2    |2026  |https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix|ferrari      |leclerc  |6   |19  |16    |7.0   |2       |2           |Finished|2026-10-15 16:12:08.063017|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |
-|2026-03-15|Chinese Grand Prix|2    |2026  |https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix|ferrari      |hamilton |4   |19  |44    |6.0   |3       |3           |Finished|2026-10-15 16:12:08.063017|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |
-|2026-03-15|Chinese Grand Prix|2    |2026  |https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix|mclaren      |norris   |3   |19  |1     |5.0   |4       |4           |Finished|2026-10-15 16:12:08.063017|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |
-|2026-03-15|Chinese Grand Prix|2    |2026  |https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix|mercedes     |antonelli|2   |19  |12    |4.0   |5       |5           |Finished|2026-10-15 16:12:08.063017|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |
+|2026-03-15|Chinese Grand Prix|2    |2026  |https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix|mercedes     |russell  |1   |19  |63    |8.0   |1       |1           |Finished|2026-10-22 13:03:09.782663|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |
+|2026-03-15|Chinese Grand Prix|2    |2026  |https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix|ferrari      |leclerc  |6   |19  |16    |7.0   |2       |2           |Finished|2026-10-22 13:03:09.782663|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |
+|2026-03-15|Chinese Grand Prix|2    |2026  |https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix|ferrari      |hamilton |4   |19  |44    |6.0   |3       |3           |Finished|2026-10-22 13:03:09.782663|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |
+|2026-03-15|Chinese Grand Prix|2    |2026  |https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix|mclaren      |norris   |3   |19  |1     |5.0   |4       |4           |Finished|2026-10-22 13:03:09.782663|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |
+|2026-03-15|Chinese Grand Prix|2    |2026  |https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix|mercedes     |antonelli|2   |19  |12    |4.0   |5       |5           |Finished|2026-10-22 13:03:09.782663|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |
 +----------+------------------+-----+------+-----------------------------------------------------+-------------+---------+----+----+------+------+--------+------------+--------+--------------------------+--------------------------------------------------------------------------------+--------+
 only showing top 5 rows

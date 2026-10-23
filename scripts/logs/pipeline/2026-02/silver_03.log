@@ -1,12 +1,12 @@
 WARNING: Using incubator modules: jdk.incubator.vector
 Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
-26/10/15 16:12:21 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 172.16.108.30 instead (on interface en0)
-26/10/15 16:12:21 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+26/10/22 13:03:22 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 172.16.108.30 instead (on interface en0)
+26/10/22 13:03:22 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
 Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
 Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-26/10/15 16:12:21 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-26/10/15 16:12:23 WARN SparkSession: Using an existing Spark session; only runtime SQL configurations will take effect.
+26/10/22 13:03:22 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/22 13:03:24 WARN SparkSession: Using an existing Spark session; only runtime SQL configurations will take effect.
 [INFO] WORKSPACE = /Users/manoharazalki/F1-Analytics
 [INFO] BATCH_ID  = 2026-02
 [INFO] silver_helpers WORKSPACE = /Users/manoharazalki/F1-Analytics
@@ -14,24 +14,24 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 [INFO] Bronze path: /Users/manoharazalki/F1-Analytics/data/bronze/drivers/drivers.parquet
 [INFO] Silver path: /Users/manoharazalki/F1-Analytics/data/silver/drivers/drivers.parquet
 [INFO] ✔ Bronze drivers read
-+---------+------------------------+-----------+-----------+---------------------------------------------------+-------------------------+-------------------------------------------------------------------+--------+
-|driverId |name                    |dateOfBirth|nationality|url                                                |ingest_timestamp         |source_file                                                        |batch_id|
-+---------+------------------------+-----------+-----------+---------------------------------------------------+-------------------------+-------------------------------------------------------------------+--------+
-|albon    |{Alexander, Albon}      |1996-03-23 |Thai       |http://en.wikipedia.org/wiki/Alexander_Albon       |2026-10-15 16:11:54.08776|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |
-|alonso   |{Fernando, Alonso}      |1981-07-29 |Spanish    |http://en.wikipedia.org/wiki/Fernando_Alonso       |2026-10-15 16:11:54.08776|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |
-|antonelli|{Andrea Kimi, Antonelli}|2006-08-25 |Italian    |https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli|2026-10-15 16:11:54.08776|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |
-|paul_aron|{Paul, Aron}            |NULL       |NULL       |NULL                                               |2026-10-15 16:11:54.08776|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |
-|bearman  |{Oliver, Bearman}       |2005-05-08 |British    |http://en.wikipedia.org/wiki/Oliver_Bearman        |2026-10-15 16:11:54.08776|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |
-+---------+------------------------+-----------+-----------+---------------------------------------------------+-------------------------+-------------------------------------------------------------------+--------+
++---------+------------------------+-----------+-----------+---------------------------------------------------+--------------------------+-------------------------------------------------------------------+--------+
+|driverId |name                    |dateOfBirth|nationality|url                                                |ingest_timestamp          |source_file                                                        |batch_id|
++---------+------------------------+-----------+-----------+---------------------------------------------------+--------------------------+-------------------------------------------------------------------+--------+
+|albon    |{Alexander, Albon}      |1996-03-23 |Thai       |http://en.wikipedia.org/wiki/Alexander_Albon       |2026-10-22 13:02:56.426896|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |
+|alonso   |{Fernando, Alonso}      |1981-07-29 |Spanish    |http://en.wikipedia.org/wiki/Fernando_Alonso       |2026-10-22 13:02:56.426896|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |
+|antonelli|{Andrea Kimi, Antonelli}|2006-08-25 |Italian    |https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli|2026-10-22 13:02:56.426896|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |
+|paul_aron|{Paul, Aron}            |NULL       |NULL       |NULL                                               |2026-10-22 13:02:56.426896|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |
+|bearman  |{Oliver, Bearman}       |2005-05-08 |British    |http://en.wikipedia.org/wiki/Oliver_Bearman        |2026-10-22 13:02:56.426896|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |
++---------+------------------------+-----------+-----------+---------------------------------------------------+--------------------------+-------------------------------------------------------------------+--------+
 only showing top 5 rows
 [INFO] ✔ Drivers Silver written: /Users/manoharazalki/F1-Analytics/data/silver/drivers/drivers.parquet
-+--------------+-----------+-----------+-------------+-----------+---------------------------------------------------+-------------------------+-------------------------------------------------------------------+--------+--------------------------+--------------------------+
-|driver_id     |given_name |family_name|date_of_birth|nationality|driver_url                                         |ingest_timestamp         |source_file                                                        |batch_id|created_timestamp         |updated_timestamp         |
-+--------------+-----------+-----------+-------------+-----------+---------------------------------------------------+-------------------------+-------------------------------------------------------------------+--------+--------------------------+--------------------------+
-|albon         |Alexander  |Albon      |1996-03-23   |Thai       |http://en.wikipedia.org/wiki/Alexander_Albon       |2026-10-15 16:11:54.08776|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |2026-10-15 16:12:25.449764|2026-10-15 16:12:25.449764|
-|alonso        |Fernando   |Alonso     |1981-07-29   |Spanish    |http://en.wikipedia.org/wiki/Fernando_Alonso       |2026-10-15 16:11:54.08776|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |2026-10-15 16:12:25.449764|2026-10-15 16:12:25.449764|
-|antonelli     |Andrea Kimi|Antonelli  |2006-08-25   |Italian    |https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli|2026-10-15 16:11:54.08776|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |2026-10-15 16:12:25.449764|2026-10-15 16:12:25.449764|
-|arvid_lindblad|Arvid      |Lindblad   |2007-08-08   |British    |https://en.wikipedia.org/wiki/Arvid_Lindblad       |2026-10-15 16:11:54.08776|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |2026-10-15 16:12:25.449764|2026-10-15 16:12:25.449764|
-|ayumu_iwasa   |Ayumu      |Iwasa      |NULL         |Unknown    |NULL                                               |2026-10-15 16:11:54.08776|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |2026-10-15 16:12:25.449764|2026-10-15 16:12:25.449764|
-+--------------+-----------+-----------+-------------+-----------+---------------------------------------------------+-------------------------+-------------------------------------------------------------------+--------+--------------------------+--------------------------+
++--------------+-----------+-----------+-------------+-----------+---------------------------------------------------+--------------------------+-------------------------------------------------------------------+--------+--------------------------+--------------------------+
+|driver_id     |given_name |family_name|date_of_birth|nationality|driver_url                                         |ingest_timestamp          |source_file                                                        |batch_id|created_timestamp         |updated_timestamp         |
++--------------+-----------+-----------+-------------+-----------+---------------------------------------------------+--------------------------+-------------------------------------------------------------------+--------+--------------------------+--------------------------+
+|albon         |Alexander  |Albon      |1996-03-23   |Thai       |http://en.wikipedia.org/wiki/Alexander_Albon       |2026-10-22 13:02:56.426896|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |2026-10-22 13:03:25.565117|2026-10-22 13:03:25.565117|
+|alonso        |Fernando   |Alonso     |1981-07-29   |Spanish    |http://en.wikipedia.org/wiki/Fernando_Alonso       |2026-10-22 13:02:56.426896|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |2026-10-22 13:03:25.565117|2026-10-22 13:03:25.565117|
+|antonelli     |Andrea Kimi|Antonelli  |2006-08-25   |Italian    |https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli|2026-10-22 13:02:56.426896|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |2026-10-22 13:03:25.565117|2026-10-22 13:03:25.565117|
+|arvid_lindblad|Arvid      |Lindblad   |2007-08-08   |British    |https://en.wikipedia.org/wiki/Arvid_Lindblad       |2026-10-22 13:02:56.426896|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |2026-10-22 13:03:25.565117|2026-10-22 13:03:25.565117|
+|ayumu_iwasa   |Ayumu      |Iwasa      |NULL         |Unknown    |NULL                                               |2026-10-22 13:02:56.426896|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/drivers.json|2026-02 |2026-10-22 13:03:25.565117|2026-10-22 13:03:25.565117|
++--------------+-----------+-----------+-------------+-----------+---------------------------------------------------+--------------------------+-------------------------------------------------------------------+--------+--------------------------+--------------------------+
 only showing top 5 rows

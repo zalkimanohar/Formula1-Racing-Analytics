@@ -1,11 +1,11 @@
 WARNING: Using incubator modules: jdk.incubator.vector
 Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
-26/10/15 16:11:51 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 172.16.108.30 instead (on interface en0)
-26/10/15 16:11:51 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+26/10/22 13:02:53 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 172.16.108.30 instead (on interface en0)
+26/10/22 13:02:53 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
 Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
 Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-26/10/15 16:11:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/22 13:02:54 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 [INFO] WORKSPACE = /Users/manoharazalki/F1-Analytics
 [INFO] BATCH_ID  = 2026-02
 [INFO] bronze_helpers WORKSPACE = /Users/manoharazalki/F1-Analytics
@@ -19,10 +19,10 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 +---------+--------------------+-----------+-----------+--------------------+--------------------+--------------------+--------+
 | driverId|                name|dateOfBirth|nationality|                 url|    ingest_timestamp|         source_file|batch_id|
 +---------+--------------------+-----------+-----------+--------------------+--------------------+--------------------+--------+
-|    albon|  {Alexander, Albon}| 1996-03-23|       Thai|http://en.wikiped...|2026-10-15 16:11:...|/Users/manoharaza...| 2026-02|
-|   alonso|  {Fernando, Alonso}| 1981-07-29|    Spanish|http://en.wikiped...|2026-10-15 16:11:...|/Users/manoharaza...| 2026-02|
-|antonelli|{Andrea Kimi, Ant...| 2006-08-25|    Italian|https://en.wikipe...|2026-10-15 16:11:...|/Users/manoharaza...| 2026-02|
-|paul_aron|        {Paul, Aron}|       NULL|       NULL|                NULL|2026-10-15 16:11:...|/Users/manoharaza...| 2026-02|
-|  bearman|   {Oliver, Bearman}| 2005-05-08|    British|http://en.wikiped...|2026-10-15 16:11:...|/Users/manoharaza...| 2026-02|
+|    albon|  {Alexander, Albon}| 1996-03-23|       Thai|http://en.wikiped...|2026-10-22 13:02:...|/Users/manoharaza...| 2026-02|
+|   alonso|  {Fernando, Alonso}| 1981-07-29|    Spanish|http://en.wikiped...|2026-10-22 13:02:...|/Users/manoharaza...| 2026-02|
+|antonelli|{Andrea Kimi, Ant...| 2006-08-25|    Italian|https://en.wikipe...|2026-10-22 13:02:...|/Users/manoharaza...| 2026-02|
+|paul_aron|        {Paul, Aron}|       NULL|       NULL|                NULL|2026-10-22 13:02:...|/Users/manoharaza...| 2026-02|
+|  bearman|   {Oliver, Bearman}| 2005-05-08|    British|http://en.wikiped...|2026-10-22 13:02:...|/Users/manoharaza...| 2026-02|
 +---------+--------------------+-----------+-----------+--------------------+--------------------+--------------------+--------+
 only showing top 5 rows

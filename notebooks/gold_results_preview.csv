@@ -1,0 +1,1001 @@
+date,raceName,round,season,url,constructorId,driverId,grid,laps,number,points,position,positionText,status,source_batch_year,processed_timestamp
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,alpine,alonso,9,32,14,0.0,19,R,Brakes,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,mercedes,bottas,3,56,77,16.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,alphatauri,gasly,5,52,10,0.0,17,17,Retired,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,alfa,giovinazzi,12,55,99,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,mercedes,hamilton,2,56,44,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,williams,latifi,17,51,6,0.0,18,18,Retired,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,ferrari,leclerc,4,56,16,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,red_bull,max_verstappen,1,56,33,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,haas,mazepin,19,0,9,0.0,20,R,Accident,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,haas,mick_schumacher,18,55,47,0.0,16,16,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,mclaren,norris,7,56,4,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,alpine,ocon,16,55,31,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,red_bull,perez,0,56,11,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,alfa,raikkonen,14,56,7,0.0,11,11,Finished,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,mclaren,ricciardo,6,56,3,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,williams,russell,15,55,63,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,ferrari,sainz,8,56,55,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,aston_martin,stroll,10,56,18,1.0,10,10,Finished,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,alphatauri,tsunoda,13,56,22,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-03-28,bahrain grand prix,1,2021,https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,aston_martin,vettel,20,55,5,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,alpine,alonso,15,63,14,1.0,10,10,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,mercedes,bottas,8,30,77,0.0,18,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,alphatauri,gasly,5,63,10,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,alfa,giovinazzi,17,62,99,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,mercedes,hamilton,1,63,44,19.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,williams,latifi,14,0,6,0.0,20,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,ferrari,leclerc,4,63,16,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,red_bull,max_verstappen,3,63,33,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,haas,mazepin,19,61,9,0.0,17,17,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,haas,mick_schumacher,18,61,47,0.0,16,16,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,mclaren,norris,7,63,4,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,alpine,ocon,9,63,31,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,red_bull,perez,2,63,11,0.0,11,11,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,alfa,raikkonen,16,63,7,0.0,13,13,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,mclaren,ricciardo,6,63,3,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,williams,russell,12,30,63,0.0,19,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,ferrari,sainz,11,63,55,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,aston_martin,stroll,10,63,18,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,alphatauri,tsunoda,20,63,22,0.0,12,12,Finished,2021,2026-10-21 12:27:06.561251
+2021-04-18,emilia romagna grand prix,2,2021,https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,aston_martin,vettel,0,61,5,0.0,15,15,Gearbox,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,alpine,alonso,13,66,14,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,mercedes,bottas,1,66,77,16.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,alphatauri,gasly,9,66,10,1.0,10,10,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,alfa,giovinazzi,12,65,99,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,mercedes,hamilton,2,66,44,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,williams,latifi,18,64,6,0.0,18,18,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,ferrari,leclerc,8,66,16,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,red_bull,max_verstappen,3,66,33,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,haas,mazepin,20,64,9,0.0,19,19,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,haas,mick_schumacher,19,64,47,0.0,17,17,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,mclaren,norris,7,66,4,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,alpine,ocon,6,66,31,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,red_bull,perez,4,66,11,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,alfa,raikkonen,15,1,7,0.0,20,R,Collision damage,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,mclaren,ricciardo,16,66,3,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,williams,russell,11,65,63,0.0,16,16,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,ferrari,sainz,5,66,55,0.0,11,11,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,aston_martin,stroll,17,65,18,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,alphatauri,tsunoda,14,65,22,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-02,portuguese grand prix,3,2021,https://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,aston_martin,vettel,10,65,5,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,alpine,alonso,10,65,14,0.0,17,17,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,mercedes,bottas,3,66,77,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,alphatauri,gasly,12,65,10,1.0,10,10,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,alfa,giovinazzi,14,65,99,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,mercedes,hamilton,1,66,44,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,williams,latifi,19,65,6,0.0,16,16,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,ferrari,leclerc,4,66,16,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,red_bull,max_verstappen,2,66,33,19.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,haas,mazepin,20,64,9,0.0,19,19,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,haas,mick_schumacher,18,64,47,0.0,18,18,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,mclaren,norris,9,65,4,4.0,8,8,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,alpine,ocon,5,65,31,2.0,9,9,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,red_bull,perez,8,66,11,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,alfa,raikkonen,17,65,7,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,mclaren,ricciardo,7,66,3,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,williams,russell,15,65,63,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,ferrari,sainz,6,66,55,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,aston_martin,stroll,11,65,18,0.0,11,11,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,alphatauri,tsunoda,16,6,22,0.0,20,R,Electrical,2021,2026-10-21 12:27:06.561251
+2021-05-09,spanish grand prix,4,2021,https://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,aston_martin,vettel,13,65,5,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,alpine,alonso,17,77,14,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,mercedes,bottas,3,29,77,0.0,19,R,Wheel nut,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,alphatauri,gasly,6,78,10,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,alfa,giovinazzi,10,77,99,1.0,10,10,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,mercedes,hamilton,7,78,44,7.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,williams,latifi,18,77,6,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,ferrari,leclerc,1,0,16,0.0,20,W,Driveshaft,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,red_bull,max_verstappen,2,78,33,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,haas,mazepin,19,75,9,0.0,17,17,+3 Laps,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,haas,mick_schumacher,20,75,47,0.0,18,18,+3 Laps,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,mclaren,norris,5,78,4,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,alpine,ocon,11,77,31,2.0,9,9,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,red_bull,perez,9,78,11,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,alfa,raikkonen,14,77,7,0.0,11,11,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,mclaren,ricciardo,12,77,3,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,williams,russell,15,77,63,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,ferrari,sainz,4,78,55,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,aston_martin,stroll,13,77,18,4.0,8,8,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,alphatauri,tsunoda,16,77,22,0.0,16,16,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-05-23,monaco grand prix,5,2021,https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,aston_martin,vettel,8,78,5,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,alpine,alonso,8,51,14,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,mercedes,bottas,10,51,77,0.0,12,12,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,alphatauri,gasly,4,51,10,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,alfa,giovinazzi,20,51,99,0.0,11,11,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,mercedes,hamilton,2,51,44,0.0,15,15,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,williams,latifi,16,51,6,0.0,16,16,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,ferrari,leclerc,1,51,16,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,red_bull,max_verstappen,3,45,33,0.0,18,R,Accident,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,haas,mazepin,18,51,9,0.0,14,14,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,haas,mick_schumacher,17,51,47,0.0,13,13,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,mclaren,norris,9,51,4,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,alpine,ocon,12,3,31,0.0,20,R,Turbo,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,red_bull,perez,6,51,11,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,alfa,raikkonen,14,51,7,1.0,10,10,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,mclaren,ricciardo,13,51,3,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,williams,russell,15,48,63,0.0,17,R,Gearbox,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,ferrari,sainz,5,51,55,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,aston_martin,stroll,19,29,18,0.0,19,R,Accident,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,alphatauri,tsunoda,7,51,22,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-06,azerbaijan grand prix,6,2021,https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,aston_martin,vettel,11,51,5,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,alpine,alonso,9,53,14,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,mercedes,bottas,3,53,77,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,alphatauri,gasly,6,53,10,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,alfa,giovinazzi,13,52,99,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,mercedes,hamilton,2,53,44,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,williams,latifi,16,52,6,0.0,18,18,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,ferrari,leclerc,7,52,16,0.0,16,16,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,red_bull,max_verstappen,1,53,33,26.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,haas,mazepin,18,52,9,0.0,20,20,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,haas,mick_schumacher,15,52,47,0.0,19,19,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,mclaren,norris,8,53,4,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,alpine,ocon,11,52,31,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,red_bull,perez,4,53,11,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,alfa,raikkonen,17,52,7,0.0,17,17,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,mclaren,ricciardo,10,53,3,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,williams,russell,14,52,63,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,ferrari,sainz,5,53,55,0.0,11,11,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,aston_martin,stroll,19,53,18,1.0,10,10,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,alphatauri,tsunoda,0,52,22,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-20,french grand prix,7,2021,https://en.wikipedia.org/wiki/2021_French_Grand_Prix,aston_martin,vettel,12,53,5,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,alpine,alonso,8,70,14,2.0,9,9,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,mercedes,bottas,5,71,77,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,alphatauri,gasly,6,1,10,0.0,20,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,alfa,giovinazzi,15,70,99,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,mercedes,hamilton,2,71,44,19.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,williams,latifi,16,68,6,0.0,17,17,+3 Laps,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,ferrari,leclerc,7,70,16,6.0,7,7,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,red_bull,max_verstappen,1,71,33,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,haas,mazepin,20,68,9,0.0,18,18,+3 Laps,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,haas,mick_schumacher,19,69,47,0.0,16,16,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,mclaren,norris,3,70,4,10.0,5,5,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,alpine,ocon,17,70,31,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,red_bull,perez,4,71,11,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,alfa,raikkonen,18,70,7,0.0,11,11,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,mclaren,ricciardo,13,70,3,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,williams,russell,10,36,63,0.0,19,R,Engine,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,ferrari,sainz,12,70,55,8.0,6,6,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,aston_martin,stroll,9,70,18,4.0,8,8,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,alphatauri,tsunoda,11,70,22,1.0,10,10,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-06-27,styrian grand prix,8,2021,https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,aston_martin,vettel,14,70,5,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,alpine,alonso,14,70,14,1.0,10,10,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,mercedes,bottas,5,71,77,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,alphatauri,gasly,6,71,10,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,alfa,giovinazzi,15,70,99,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,mercedes,hamilton,4,71,44,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,williams,latifi,18,70,6,0.0,16,16,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,ferrari,leclerc,12,71,16,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,red_bull,max_verstappen,1,71,33,26.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,haas,mazepin,20,69,9,0.0,19,19,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,haas,mick_schumacher,19,69,47,0.0,18,18,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,mclaren,norris,2,71,4,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,alpine,ocon,17,0,31,0.0,20,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,red_bull,perez,3,71,11,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,alfa,raikkonen,16,70,7,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,mclaren,ricciardo,13,71,3,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,williams,russell,8,70,63,0.0,11,11,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,ferrari,sainz,10,71,55,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,aston_martin,stroll,9,70,18,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,alphatauri,tsunoda,7,70,22,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-04,austrian grand prix,9,2021,https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,aston_martin,vettel,11,69,5,0.0,17,17,Collision,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,alpine,alonso,7,52,14,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,mercedes,bottas,3,52,77,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,alphatauri,gasly,11,52,10,0.0,11,11,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,alfa,giovinazzi,15,51,99,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,mercedes,hamilton,2,52,44,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,williams,latifi,17,51,6,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,ferrari,leclerc,4,52,16,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,red_bull,max_verstappen,1,0,33,0.0,20,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,haas,mazepin,19,51,9,0.0,17,17,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,haas,mick_schumacher,18,51,47,0.0,18,18,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,mclaren,norris,5,52,4,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,alpine,ocon,9,52,31,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,red_bull,perez,0,51,11,0.0,16,16,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,alfa,raikkonen,13,51,7,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,mclaren,ricciardo,6,52,3,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,williams,russell,12,51,63,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,ferrari,sainz,10,52,55,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,aston_martin,stroll,14,52,18,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,alphatauri,tsunoda,16,52,22,1.0,10,10,Finished,2021,2026-10-21 12:27:06.561251
+2021-07-18,british grand prix,10,2021,https://en.wikipedia.org/wiki/2021_British_Grand_Prix,aston_martin,vettel,8,40,5,0.0,19,R,Retired,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,alpine,alonso,9,70,14,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,mercedes,bottas,2,0,77,0.0,16,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,alphatauri,gasly,5,70,10,11.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,alfa,giovinazzi,0,69,99,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,mercedes,hamilton,1,70,44,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,williams,latifi,18,70,6,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,ferrari,leclerc,7,0,16,0.0,18,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,red_bull,max_verstappen,3,70,33,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,haas,mazepin,19,3,9,0.0,14,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,haas,mick_schumacher,20,69,47,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,mclaren,norris,6,2,4,0.0,15,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,alpine,ocon,8,70,31,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,red_bull,perez,4,0,11,0.0,17,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,alfa,raikkonen,13,69,7,1.0,10,10,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,mclaren,ricciardo,11,69,3,0.0,11,11,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,williams,russell,17,70,63,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,ferrari,sainz,15,70,55,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,aston_martin,stroll,12,0,18,0.0,19,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,alphatauri,tsunoda,16,70,22,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-01,hungarian grand prix,11,2021,https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,aston_martin,vettel,10,70,5,0.0,20,D,Disqualified,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,alpine,alonso,12,1,14,0.0,11,11,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,mercedes,bottas,13,1,77,0.0,12,12,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,alphatauri,gasly,6,1,10,4.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,alfa,giovinazzi,14,1,99,0.0,13,13,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,mercedes,hamilton,3,1,44,7.5,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,williams,latifi,10,1,6,1.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,ferrari,leclerc,9,1,16,2.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,red_bull,max_verstappen,1,1,33,12.5,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,haas,mazepin,18,1,9,0.0,17,17,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,haas,mick_schumacher,17,1,47,0.0,16,16,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,mclaren,norris,15,1,4,0.0,14,14,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,alpine,ocon,8,1,31,3.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,red_bull,perez,0,1,11,0.0,19,19,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,alfa,raikkonen,0,1,7,0.0,18,18,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,mclaren,ricciardo,4,1,3,6.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,williams,russell,2,1,63,9.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,ferrari,sainz,11,1,55,0.5,10,10,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,aston_martin,stroll,19,1,18,0.0,20,20,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,alphatauri,tsunoda,16,1,22,0.0,15,15,Finished,2021,2026-10-21 12:27:06.561251
+2021-08-29,belgian grand prix,12,2021,https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,aston_martin,vettel,5,1,5,5.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,alpine,alonso,9,71,14,8.0,6,6,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,mercedes,bottas,3,72,77,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,alphatauri,gasly,4,71,10,12.0,4,4,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,alfa,giovinazzi,7,70,99,0.0,14,14,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,mercedes,hamilton,2,72,44,19.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,alfa,kubica,16,70,88,0.0,15,15,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,williams,latifi,0,70,6,0.0,16,16,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,ferrari,leclerc,5,71,16,10.0,5,5,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,red_bull,max_verstappen,1,72,33,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,haas,mazepin,18,41,9,0.0,20,R,Hydraulics,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,haas,mick_schumacher,17,69,47,0.0,18,18,+3 Laps,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,mclaren,norris,13,71,4,1.0,10,10,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,alpine,ocon,8,71,31,2.0,9,9,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,red_bull,perez,0,71,11,4.0,8,8,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,mclaren,ricciardo,10,71,3,0.0,11,11,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,williams,russell,11,69,63,0.0,17,17,Gearbox,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,ferrari,sainz,6,71,55,6.0,7,7,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,aston_martin,stroll,12,70,18,0.0,12,12,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,alphatauri,tsunoda,14,48,22,0.0,19,R,Power Unit,2021,2026-10-21 12:27:06.561251
+2021-09-05,dutch grand prix,13,2021,https://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,aston_martin,vettel,15,70,5,0.0,13,13,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,alpine,alonso,10,53,14,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,mercedes,bottas,19,53,77,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,alphatauri,gasly,0,3,10,0.0,19,R,Suspension,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,alfa,giovinazzi,7,53,99,0.0,13,13,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,mercedes,hamilton,4,25,44,0.0,17,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,alfa,kubica,17,53,88,0.0,14,14,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,williams,latifi,13,53,6,0.0,11,11,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,ferrari,leclerc,5,53,16,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,red_bull,max_verstappen,1,25,33,0.0,18,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,haas,mazepin,16,41,9,0.0,16,R,Power Unit,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,haas,mick_schumacher,18,53,47,0.0,15,15,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,mclaren,norris,3,53,4,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,alpine,ocon,12,53,31,1.0,10,10,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,red_bull,perez,8,53,11,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,mclaren,ricciardo,2,53,3,26.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,williams,russell,14,53,63,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,ferrari,sainz,6,53,55,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,aston_martin,stroll,9,53,18,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,alphatauri,tsunoda,0,0,22,0.0,20,W,Brakes,2021,2026-10-21 12:27:06.561251
+2021-09-12,italian grand prix,14,2021,https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,aston_martin,vettel,11,53,5,0.0,12,12,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,alpine,alonso,6,53,14,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,mercedes,bottas,16,53,77,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,alphatauri,gasly,11,52,10,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,alfa,giovinazzi,17,52,99,0.0,16,16,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,mercedes,hamilton,4,53,44,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,williams,latifi,18,47,6,0.0,19,19,Accident,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,ferrari,leclerc,19,52,16,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,red_bull,max_verstappen,20,53,33,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,haas,mazepin,15,51,9,0.0,18,18,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,haas,mick_schumacher,14,32,47,0.0,20,R,Oil leak,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,mclaren,norris,1,53,4,7.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,alpine,ocon,9,52,31,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,red_bull,perez,8,53,11,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,alfa,raikkonen,13,53,7,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,mclaren,ricciardo,5,53,3,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,williams,russell,3,53,63,1.0,10,10,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,ferrari,sainz,2,53,55,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,aston_martin,stroll,7,53,18,0.0,11,11,Finished,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,alphatauri,tsunoda,12,52,22,0.0,17,17,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-09-26,russian grand prix,15,2021,https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,aston_martin,vettel,10,52,5,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,alpine,alonso,5,57,14,0.0,16,16,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,mercedes,bottas,1,58,77,26.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,alphatauri,gasly,4,58,10,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,alfa,giovinazzi,16,57,99,0.0,11,11,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,mercedes,hamilton,11,58,44,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,williams,latifi,15,57,6,0.0,17,17,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,ferrari,leclerc,3,58,16,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,red_bull,max_verstappen,2,58,33,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,haas,mazepin,18,56,9,0.0,20,20,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,haas,mick_schumacher,14,56,47,0.0,19,19,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,mclaren,norris,7,58,4,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,alpine,ocon,12,57,31,1.0,10,10,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,red_bull,perez,6,58,11,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,alfa,raikkonen,17,57,7,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,mclaren,ricciardo,20,57,3,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,williams,russell,13,57,63,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,ferrari,sainz,19,58,55,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,aston_martin,stroll,8,58,18,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,alphatauri,tsunoda,9,57,22,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-10,turkish grand prix,16,2021,https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,aston_martin,vettel,10,57,5,0.0,18,18,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,alpine,alonso,19,49,14,0.0,18,R,Rear wing,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,mercedes,bottas,9,56,77,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,alphatauri,gasly,8,14,10,0.0,20,R,Suspension,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,alfa,giovinazzi,12,55,99,0.0,11,11,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,mercedes,hamilton,2,56,44,19.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,williams,latifi,14,55,6,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,ferrari,leclerc,4,56,16,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,red_bull,max_verstappen,1,56,33,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,haas,mazepin,17,54,9,0.0,17,17,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,haas,mick_schumacher,16,54,47,0.0,16,16,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,mclaren,norris,7,56,4,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,alpine,ocon,11,40,31,0.0,19,R,Mechanical,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,red_bull,perez,3,56,11,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,alfa,raikkonen,15,55,7,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,mclaren,ricciardo,6,56,3,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,williams,russell,20,55,63,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,ferrari,sainz,5,56,55,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,aston_martin,stroll,13,55,18,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,alphatauri,tsunoda,10,55,22,2.0,9,9,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-10-24,united states grand prix,17,2021,https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,aston_martin,vettel,18,55,5,1.0,10,10,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,alpine,alonso,12,70,14,2.0,9,9,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,mercedes,bottas,1,69,77,0.0,15,15,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,alphatauri,gasly,5,71,10,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,alfa,giovinazzi,11,70,99,0.0,11,11,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,mercedes,hamilton,2,71,44,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,williams,latifi,13,69,6,0.0,17,17,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,ferrari,leclerc,8,71,16,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,red_bull,max_verstappen,3,71,33,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,haas,mazepin,15,68,9,0.0,18,18,+3 Laps,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,haas,mick_schumacher,14,0,47,0.0,19,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,mclaren,norris,18,70,4,1.0,10,10,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,alpine,ocon,19,70,31,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,red_bull,perez,4,71,11,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,alfa,raikkonen,10,70,7,4.0,8,8,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,mclaren,ricciardo,7,70,3,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,williams,russell,16,69,63,0.0,16,16,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,ferrari,sainz,6,70,55,8.0,6,6,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,aston_martin,stroll,20,69,18,0.0,14,14,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,alphatauri,tsunoda,17,0,22,0.0,20,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-11-07,mexico city grand prix,18,2021,https://en.wikipedia.org/wiki/2021_Mexico_City_Grand_Prix,aston_martin,vettel,9,70,5,6.0,7,7,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,alpine,alonso,12,70,14,2.0,9,9,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,mercedes,bottas,1,71,77,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,alphatauri,gasly,7,70,10,6.0,7,7,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,alfa,giovinazzi,13,70,99,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,mercedes,hamilton,10,71,44,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,williams,latifi,16,70,6,0.0,16,16,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,ferrari,leclerc,6,71,16,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,red_bull,max_verstappen,2,71,33,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,haas,mazepin,19,69,9,0.0,17,17,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,haas,mick_schumacher,18,69,47,0.0,18,18,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,mclaren,norris,5,70,4,1.0,10,10,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,alpine,ocon,8,70,31,4.0,8,8,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,red_bull,perez,4,71,11,13.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,alfa,raikkonen,0,70,7,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,mclaren,ricciardo,11,49,3,0.0,19,R,Power loss,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,williams,russell,17,70,63,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,ferrari,sainz,3,71,55,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,aston_martin,stroll,14,47,18,0.0,20,R,Collision damage,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,alphatauri,tsunoda,15,70,22,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-14,são paulo grand prix,19,2021,https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,aston_martin,vettel,9,70,5,0.0,11,11,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,alpine,alonso,3,57,14,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,mercedes,bottas,6,48,77,0.0,20,R,Damage,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,alphatauri,gasly,2,56,10,0.0,11,11,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,alfa,giovinazzi,18,56,99,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,mercedes,hamilton,1,57,44,25.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,williams,latifi,17,50,6,0.0,19,R,Puncture,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,ferrari,leclerc,13,57,16,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,red_bull,max_verstappen,7,57,33,19.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,haas,mazepin,20,55,9,0.0,18,18,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,haas,mick_schumacher,19,56,47,0.0,16,16,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,mclaren,norris,4,56,4,2.0,9,9,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,alpine,ocon,9,57,31,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,red_bull,perez,11,57,11,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,alfa,raikkonen,16,56,7,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,mclaren,ricciardo,14,56,3,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,williams,russell,15,55,63,0.0,17,17,+2 Laps,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,ferrari,sainz,5,57,55,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,aston_martin,stroll,12,57,18,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,alphatauri,tsunoda,8,56,22,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-11-21,qatar grand prix,20,2021,https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,aston_martin,vettel,10,56,5,1.0,10,10,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,alpine,alonso,13,49,14,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,mercedes,bottas,2,50,77,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,alphatauri,gasly,6,50,10,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,alfa,giovinazzi,10,50,99,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,mercedes,hamilton,1,50,44,26.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,williams,latifi,16,50,6,0.0,12,12,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,ferrari,leclerc,4,50,16,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,red_bull,max_verstappen,3,50,33,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,haas,mazepin,20,14,9,0.0,18,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,haas,mick_schumacher,19,8,47,0.0,20,R,Accident,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,mclaren,norris,7,50,4,1.0,10,10,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,alpine,ocon,9,50,31,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,red_bull,perez,5,14,11,0.0,17,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,alfa,raikkonen,12,49,7,0.0,15,15,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,mclaren,ricciardo,11,50,3,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,williams,russell,14,14,63,0.0,19,R,Collision,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,ferrari,sainz,15,50,55,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,aston_martin,stroll,18,50,18,0.0,11,11,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,alphatauri,tsunoda,8,49,22,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-12-05,saudi arabian grand prix,21,2021,https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,aston_martin,vettel,17,44,5,0.0,16,R,Collision damage,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,alpine,alonso,11,58,14,4.0,8,8,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,mercedes,bottas,6,58,77,8.0,6,6,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,alphatauri,gasly,12,58,10,10.0,5,5,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,alfa,giovinazzi,14,33,99,0.0,17,R,Gearbox,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,mercedes,hamilton,2,58,44,18.0,2,2,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,williams,latifi,16,50,6,0.0,16,R,Accident,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,ferrari,leclerc,7,58,16,1.0,10,10,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,red_bull,max_verstappen,1,58,33,26.0,1,1,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,haas,mazepin,20,0,9,0.0,20,W,Illness,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,haas,mick_schumacher,19,57,47,0.0,14,14,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,mclaren,norris,3,58,4,6.0,7,7,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,alpine,ocon,9,58,31,2.0,9,9,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,red_bull,perez,4,55,11,0.0,15,15,Engine,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,alfa,raikkonen,18,25,7,0.0,19,R,Brakes,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,mclaren,ricciardo,10,57,3,0.0,12,12,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,williams,russell,17,26,63,0.0,18,R,Gearbox,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,ferrari,sainz,5,58,55,15.0,3,3,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,aston_martin,stroll,13,57,18,0.0,13,13,+1 Lap,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,alphatauri,tsunoda,8,58,22,12.0,4,4,Finished,2021,2026-10-21 12:27:06.561251
+2021-12-12,abu dhabi grand prix,22,2021,https://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,aston_martin,vettel,15,58,5,0.0,11,11,Finished,2021,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,williams,albon,14,57,23,0.0,13,13,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,alpine,alonso,8,57,14,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,alfa,bottas,6,57,77,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,alphatauri,gasly,10,44,10,0.0,20,R,Power Unit,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,mercedes,hamilton,5,57,44,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,aston_martin,hulkenberg,17,57,27,0.0,17,17,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,haas,kevin_magnussen,7,57,20,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,williams,latifi,20,57,6,0.0,16,16,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,ferrari,leclerc,1,57,16,26.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,red_bull,max_verstappen,2,54,1,0.0,19,19,Fuel pressure,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,haas,mick_schumacher,12,57,47,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,mclaren,norris,13,57,4,0.0,15,15,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,alpine,ocon,11,57,31,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,red_bull,perez,4,56,11,0.0,18,18,Fuel pressure,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,mclaren,ricciardo,18,57,3,0.0,14,14,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,mercedes,russell,9,57,63,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,ferrari,sainz,3,57,55,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,aston_martin,stroll,19,57,18,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,alphatauri,tsunoda,16,57,22,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-20,bahrain grand prix,1,2022,https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,alfa,zhou,15,57,24,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,williams,albon,16,47,23,0.0,14,14,Collision damage,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,alpine,alonso,7,35,14,0.0,16,R,Water pump,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,alfa,bottas,8,36,77,0.0,15,R,Cooling system,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,alphatauri,gasly,9,50,10,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,mercedes,hamilton,15,50,44,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,aston_martin,hulkenberg,17,50,27,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,haas,kevin_magnussen,10,50,20,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,williams,latifi,18,14,6,0.0,18,R,Accident,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,ferrari,leclerc,2,50,16,19.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,red_bull,max_verstappen,4,50,1,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,haas,mick_schumacher,0,0,47,0.0,20,W,Withdrew,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,mclaren,norris,11,50,4,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,alpine,ocon,5,50,31,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,red_bull,perez,1,50,11,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,mclaren,ricciardo,14,35,3,0.0,17,R,Gearbox,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,mercedes,russell,6,50,63,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,ferrari,sainz,3,50,55,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,aston_martin,stroll,13,49,18,0.0,13,13,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,alphatauri,tsunoda,19,0,22,0.0,19,R,Power Unit,2022,2026-10-21 12:27:06.561251
+2022-03-27,saudi arabian grand prix,2,2022,https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,alfa,zhou,12,50,24,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,williams,albon,20,58,23,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,alpine,alonso,10,57,14,0.0,17,17,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,alfa,bottas,12,58,77,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,alphatauri,gasly,11,58,10,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,mercedes,hamilton,5,58,44,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,haas,kevin_magnussen,16,57,20,0.0,14,14,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,williams,latifi,18,57,6,0.0,16,16,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,ferrari,leclerc,1,58,16,26.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,red_bull,max_verstappen,2,38,1,0.0,18,R,Fuel leak,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,haas,mick_schumacher,15,57,47,0.0,13,13,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,mclaren,norris,4,58,4,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,alpine,ocon,8,58,31,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,red_bull,perez,3,58,11,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,mclaren,ricciardo,7,58,3,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,mercedes,russell,6,58,63,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,ferrari,sainz,9,1,55,0.0,20,R,Spun off,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,aston_martin,stroll,19,58,18,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,alphatauri,tsunoda,13,57,22,0.0,15,15,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,aston_martin,vettel,17,22,5,0.0,19,R,Accident,2022,2026-10-21 12:27:06.561251
+2022-04-10,australian grand prix,3,2022,https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,alfa,zhou,14,58,24,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,williams,albon,18,62,23,0.0,11,11,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,alpine,alonso,9,6,14,0.0,19,R,Collision damage,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,alfa,bottas,7,63,77,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,alphatauri,gasly,17,62,10,0.0,12,12,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,mercedes,hamilton,14,62,44,0.0,13,13,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,haas,kevin_magnussen,8,63,20,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,williams,latifi,19,62,6,0.0,16,16,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,ferrari,leclerc,2,63,16,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,red_bull,max_verstappen,1,63,1,26.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,haas,mick_schumacher,10,62,47,0.0,17,17,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,mclaren,norris,5,63,4,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,alpine,ocon,16,62,31,0.0,14,14,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,red_bull,perez,3,63,11,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,mclaren,ricciardo,6,62,3,0.0,18,18,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,mercedes,russell,11,63,63,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,ferrari,sainz,4,0,55,0.0,20,R,Collision,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,aston_martin,stroll,15,62,18,1.0,10,10,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,alphatauri,tsunoda,12,63,22,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,aston_martin,vettel,13,63,5,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-04-24,emilia romagna grand prix,4,2022,https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,alfa,zhou,0,62,24,0.0,15,15,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,williams,albon,18,57,23,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,alpine,alonso,11,57,14,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,alfa,bottas,5,57,77,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,alphatauri,gasly,7,45,10,0.0,18,R,Suspension,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,mercedes,hamilton,6,57,44,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,haas,kevin_magnussen,16,56,20,0.0,16,16,Front wing,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,williams,latifi,19,57,6,0.0,14,14,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,ferrari,leclerc,1,57,16,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,red_bull,max_verstappen,3,57,1,26.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,haas,mick_schumacher,15,57,47,0.0,15,15,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,mclaren,norris,8,39,4,0.0,19,R,Collision,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,alpine,ocon,20,57,31,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,red_bull,perez,4,57,11,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,mclaren,ricciardo,14,57,3,0.0,13,13,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,mercedes,russell,12,57,63,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,ferrari,sainz,2,57,55,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,aston_martin,stroll,0,57,18,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,alphatauri,tsunoda,9,57,22,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,aston_martin,vettel,0,54,5,0.0,17,17,Collision,2022,2026-10-21 12:27:06.561251
+2022-05-08,miami grand prix,5,2022,https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,alfa,zhou,17,6,24,0.0,20,R,Water leak,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,williams,albon,18,64,23,0.0,18,18,+2 Laps,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,alpine,alonso,20,65,14,2.0,9,9,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,alfa,bottas,7,66,77,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,alphatauri,gasly,14,65,10,0.0,13,13,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,mercedes,hamilton,6,66,44,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,haas,kevin_magnussen,8,64,20,0.0,17,17,+2 Laps,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,williams,latifi,19,64,6,0.0,16,16,+2 Laps,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,ferrari,leclerc,1,27,16,0.0,20,R,Turbo,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,red_bull,max_verstappen,2,66,1,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,haas,mick_schumacher,10,65,47,0.0,14,14,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,mclaren,norris,11,66,4,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,alpine,ocon,12,66,31,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,red_bull,perez,5,66,11,19.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,mclaren,ricciardo,9,65,3,0.0,12,12,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,mercedes,russell,4,66,63,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,ferrari,sainz,3,66,55,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,aston_martin,stroll,17,65,18,0.0,15,15,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,alphatauri,tsunoda,13,65,22,1.0,10,10,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,aston_martin,vettel,16,65,5,0.0,11,11,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-05-22,spanish grand prix,6,2022,https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,alfa,zhou,15,28,24,0.0,19,R,Power loss,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,williams,albon,16,48,23,0.0,18,R,Mechanical,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,alpine,alonso,7,64,14,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,alfa,bottas,12,64,77,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,alphatauri,gasly,17,64,10,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,mercedes,hamilton,8,64,44,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,haas,kevin_magnussen,13,19,20,0.0,20,R,Water pressure,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,williams,latifi,19,63,6,0.0,15,15,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,ferrari,leclerc,1,64,16,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,red_bull,max_verstappen,4,64,1,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,haas,mick_schumacher,15,24,47,0.0,19,R,Accident,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,mclaren,norris,5,64,4,9.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,alpine,ocon,10,64,31,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,red_bull,perez,3,64,11,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,mclaren,ricciardo,14,64,3,0.0,13,13,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,mercedes,russell,6,64,63,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,ferrari,sainz,2,64,55,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,aston_martin,stroll,18,64,18,0.0,14,14,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,alphatauri,tsunoda,11,63,22,0.0,17,17,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,aston_martin,vettel,9,64,5,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-05-29,monaco grand prix,7,2022,https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,alfa,zhou,20,63,24,0.0,16,16,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,williams,albon,17,50,23,0.0,12,12,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,alpine,alonso,10,51,14,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,alfa,bottas,15,50,77,0.0,11,11,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,alphatauri,gasly,6,51,10,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,mercedes,hamilton,7,51,44,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,haas,kevin_magnussen,16,31,20,0.0,17,R,Power Unit,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,williams,latifi,18,50,6,0.0,15,15,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,ferrari,leclerc,1,21,16,0.0,19,R,Power Unit,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,red_bull,max_verstappen,3,51,1,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,haas,mick_schumacher,20,50,47,0.0,14,14,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,mclaren,norris,11,51,4,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,alpine,ocon,13,51,31,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,red_bull,perez,2,51,11,19.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,mclaren,ricciardo,12,51,3,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,mercedes,russell,5,51,63,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,ferrari,sainz,4,8,55,0.0,20,R,Hydraulics,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,aston_martin,stroll,19,46,18,0.0,16,16,Vibrations,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,alphatauri,tsunoda,8,50,22,0.0,13,13,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,aston_martin,vettel,9,51,5,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-12,azerbaijan grand prix,8,2022,https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,alfa,zhou,14,23,24,0.0,18,R,Hydraulics,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,williams,albon,12,70,23,0.0,13,13,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,alpine,alonso,2,70,14,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,alfa,bottas,11,70,77,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,alphatauri,gasly,15,70,10,0.0,14,14,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,mercedes,hamilton,4,70,44,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,haas,kevin_magnussen,5,70,20,0.0,17,17,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,williams,latifi,18,70,6,0.0,16,16,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,ferrari,leclerc,19,70,16,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,red_bull,max_verstappen,1,70,1,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,haas,mick_schumacher,6,18,47,0.0,19,R,Engine,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,mclaren,norris,14,70,4,0.0,15,15,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,alpine,ocon,7,70,31,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,red_bull,perez,13,7,11,0.0,20,R,Gearbox,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,mclaren,ricciardo,9,70,3,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,mercedes,russell,8,70,63,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,ferrari,sainz,3,70,55,19.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,aston_martin,stroll,17,70,18,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,alphatauri,tsunoda,20,47,22,0.0,18,R,Accident,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,aston_martin,vettel,16,70,5,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-06-19,canadian grand prix,9,2022,https://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,alfa,zhou,10,70,24,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,williams,albon,16,0,23,0.0,20,R,Collision,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,alpine,alonso,7,52,14,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,alfa,bottas,12,20,77,0.0,17,R,Gearbox,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,alphatauri,gasly,11,26,10,0.0,16,R,Collision damage,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,mercedes,hamilton,5,52,44,16.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,haas,kevin_magnussen,17,52,20,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,williams,latifi,10,52,6,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,ferrari,leclerc,3,52,16,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,red_bull,max_verstappen,2,52,1,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,haas,mick_schumacher,19,52,47,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,mclaren,norris,6,52,4,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,alpine,ocon,15,37,31,0.0,15,R,Fuel pump,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,red_bull,perez,4,52,11,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,mclaren,ricciardo,14,52,3,0.0,13,13,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,mercedes,russell,8,0,63,0.0,18,R,Collision,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,ferrari,sainz,1,52,55,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,aston_martin,stroll,20,52,18,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,alphatauri,tsunoda,13,52,22,0.0,14,14,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,aston_martin,vettel,18,52,5,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-03,british grand prix,10,2022,https://en.wikipedia.org/wiki/2022_British_Grand_Prix,alfa,zhou,9,0,24,0.0,19,R,Collision,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,williams,albon,15,70,23,0.0,12,12,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,alpine,alonso,19,70,14,1.0,10,10,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,alfa,bottas,0,70,77,0.0,11,11,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,alphatauri,gasly,14,70,10,0.0,15,15,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,mercedes,hamilton,8,71,44,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,haas,kevin_magnussen,7,70,20,4.0,8,8,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,williams,latifi,17,48,6,0.0,19,R,Undertray,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,ferrari,leclerc,2,71,16,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,red_bull,max_verstappen,1,71,1,19.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,haas,mick_schumacher,9,70,47,8.0,6,6,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,mclaren,norris,10,70,4,6.0,7,7,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,alpine,ocon,6,71,31,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,red_bull,perez,5,24,11,0.0,20,R,Collision damage,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,mclaren,ricciardo,11,70,3,2.0,9,9,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,mercedes,russell,4,71,63,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,ferrari,sainz,3,56,55,0.0,18,R,Power Unit,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,aston_martin,stroll,12,70,18,0.0,13,13,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,alphatauri,tsunoda,16,70,22,0.0,16,16,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,aston_martin,vettel,18,70,5,0.0,17,17,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-10,austrian grand prix,11,2022,https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,alfa,zhou,13,70,24,0.0,14,14,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,williams,albon,13,53,23,0.0,13,13,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,alpine,alonso,7,53,14,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,alfa,bottas,11,53,77,0.0,14,14,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,alphatauri,gasly,14,53,10,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,mercedes,hamilton,4,53,44,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,haas,kevin_magnussen,20,37,20,0.0,18,R,Collision damage,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,williams,latifi,18,40,6,0.0,17,R,Collision damage,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,ferrari,leclerc,1,17,16,0.0,19,R,Accident,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,red_bull,max_verstappen,2,53,1,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,haas,mick_schumacher,17,53,47,0.0,15,15,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,mclaren,norris,5,53,4,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,alpine,ocon,10,53,31,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,red_bull,perez,3,53,11,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,mclaren,ricciardo,9,53,3,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,mercedes,russell,6,53,63,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,ferrari,sainz,19,53,55,11.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,aston_martin,stroll,15,53,18,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,alphatauri,tsunoda,8,17,22,0.0,20,R,Undertray,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,aston_martin,vettel,12,53,5,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-24,french grand prix,12,2022,https://en.wikipedia.org/wiki/2022_French_Grand_Prix,alfa,zhou,16,47,24,0.0,16,16,+6 Laps,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,williams,albon,17,69,23,0.0,17,17,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,alpine,alonso,6,69,14,4.0,8,8,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,alfa,bottas,8,65,77,0.0,20,20,Power Unit,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,alphatauri,gasly,0,69,10,0.0,12,12,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,mercedes,hamilton,7,70,44,19.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,haas,kevin_magnussen,13,69,20,0.0,16,16,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,williams,latifi,19,69,6,0.0,18,18,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,ferrari,leclerc,3,70,16,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,red_bull,max_verstappen,10,70,1,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,haas,mick_schumacher,15,69,47,0.0,14,14,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,mclaren,norris,4,70,4,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,alpine,ocon,5,69,31,2.0,9,9,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,red_bull,perez,11,70,11,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,mclaren,ricciardo,9,69,3,0.0,15,15,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,mercedes,russell,1,70,63,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,ferrari,sainz,2,70,55,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,aston_martin,stroll,14,69,18,0.0,11,11,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,alphatauri,tsunoda,16,68,22,0.0,19,19,+2 Laps,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,aston_martin,vettel,18,69,5,1.0,10,10,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-07-31,hungarian grand prix,13,2022,https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,alfa,zhou,12,69,24,0.0,13,13,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,williams,albon,6,44,23,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,alpine,alonso,3,44,14,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,alfa,bottas,13,1,77,0.0,19,R,Accident,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,alphatauri,gasly,0,44,10,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,mercedes,hamilton,4,0,44,0.0,20,R,Collision damage,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,haas,kevin_magnussen,12,43,20,0.0,16,16,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,williams,latifi,11,43,6,0.0,18,18,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,ferrari,leclerc,15,44,16,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,red_bull,max_verstappen,14,44,1,26.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,haas,mick_schumacher,19,43,47,0.0,17,17,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,mclaren,norris,17,44,4,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,alpine,ocon,16,44,31,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,red_bull,perez,2,44,11,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,mclaren,ricciardo,7,44,3,0.0,15,15,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,mercedes,russell,5,44,63,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,ferrari,sainz,1,44,55,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,aston_martin,stroll,9,44,18,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,alphatauri,tsunoda,0,44,22,0.0,13,13,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,aston_martin,vettel,10,44,5,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-08-28,belgian grand prix,14,2022,https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,alfa,zhou,18,44,24,0.0,14,14,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,williams,albon,15,72,23,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,alpine,alonso,13,72,14,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,alfa,bottas,16,53,77,0.0,19,R,Engine,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,alphatauri,gasly,11,72,10,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,mercedes,hamilton,4,72,44,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,haas,kevin_magnussen,18,72,20,0.0,15,15,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,williams,latifi,20,71,6,0.0,18,18,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,ferrari,leclerc,2,72,16,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,red_bull,max_verstappen,1,72,1,26.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,haas,mick_schumacher,8,72,47,0.0,13,13,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,mclaren,norris,7,72,4,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,alpine,ocon,12,72,31,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,red_bull,perez,5,72,11,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,mclaren,ricciardo,17,72,3,0.0,17,17,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,mercedes,russell,6,72,63,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,ferrari,sainz,3,72,55,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,aston_martin,stroll,10,72,18,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,alphatauri,tsunoda,9,43,22,0.0,20,R,Differential,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,aston_martin,vettel,19,72,5,0.0,14,14,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-04,dutch grand prix,15,2022,https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,alfa,zhou,14,72,24,0.0,16,16,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,alpine,alonso,6,31,14,0.0,19,R,Water pressure,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,alfa,bottas,15,52,77,0.0,13,13,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,williams,de_vries,8,53,45,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,alphatauri,gasly,5,53,10,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,mercedes,hamilton,19,53,44,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,haas,kevin_magnussen,16,52,20,0.0,16,16,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,williams,latifi,10,52,6,0.0,15,15,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,ferrari,leclerc,1,53,16,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,red_bull,max_verstappen,7,53,1,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,haas,mick_schumacher,17,53,47,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,mclaren,norris,3,53,4,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,alpine,ocon,14,53,31,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,red_bull,perez,13,53,11,9.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,mclaren,ricciardo,4,45,3,0.0,17,R,Oil leak,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,mercedes,russell,2,53,63,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,ferrari,sainz,18,53,55,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,aston_martin,stroll,12,39,18,0.0,18,R,Engine,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,alphatauri,tsunoda,20,52,22,0.0,14,14,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,aston_martin,vettel,11,10,5,0.0,20,R,Engine,2022,2026-10-21 12:27:06.561251
+2022-09-11,italian grand prix,16,2022,https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,alfa,zhou,9,53,24,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,williams,albon,18,25,23,0.0,17,R,Collision damage,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,alpine,alonso,5,20,14,0.0,18,R,Engine,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,alfa,bottas,15,59,77,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,alphatauri,gasly,7,59,10,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,mercedes,hamilton,3,59,44,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,haas,kevin_magnussen,9,59,20,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,williams,latifi,19,7,6,0.0,19,R,Collision damage,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,ferrari,leclerc,1,59,16,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,red_bull,max_verstappen,8,59,1,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,haas,mick_schumacher,12,58,47,0.0,13,13,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,mclaren,norris,6,59,4,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,alpine,ocon,17,26,31,0.0,16,R,Engine,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,red_bull,perez,2,59,11,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,mclaren,ricciardo,16,59,3,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,mercedes,russell,0,57,63,0.0,14,14,+2 Laps,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,ferrari,sainz,4,59,55,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,aston_martin,stroll,11,59,18,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,alphatauri,tsunoda,10,34,22,0.0,15,R,Accident,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,aston_martin,vettel,13,59,5,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-02,singapore grand prix,17,2022,https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix,alfa,zhou,14,6,24,0.0,20,R,Collision,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,williams,albon,16,0,23,0.0,20,R,Hydraulics,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,alpine,alonso,7,28,14,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,alfa,bottas,12,28,77,0.0,15,15,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,alphatauri,gasly,17,28,10,0.0,18,18,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,mercedes,hamilton,6,28,44,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,haas,kevin_magnussen,18,28,20,0.0,14,14,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,williams,latifi,20,28,6,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,ferrari,leclerc,2,28,16,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,red_bull,max_verstappen,1,28,1,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,haas,mick_schumacher,15,28,47,0.0,17,17,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,mclaren,norris,10,28,4,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,alpine,ocon,5,28,31,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,red_bull,perez,4,28,11,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,mclaren,ricciardo,11,28,3,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,mercedes,russell,8,28,63,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,ferrari,sainz,3,0,55,0.0,19,R,Accident,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,aston_martin,stroll,19,28,18,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,alphatauri,tsunoda,13,28,22,0.0,13,13,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,aston_martin,vettel,9,28,5,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-09,japanese grand prix,18,2022,https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix,alfa,zhou,14,28,24,0.0,16,16,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,williams,albon,8,56,23,0.0,13,13,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,alpine,alonso,14,56,14,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,alfa,bottas,7,16,77,0.0,19,R,Spun off,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,alphatauri,gasly,11,56,10,0.0,14,14,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,mercedes,hamilton,3,56,44,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,haas,kevin_magnussen,13,56,20,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,williams,latifi,17,56,6,0.0,17,17,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,ferrari,leclerc,12,56,16,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,red_bull,max_verstappen,2,56,1,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,haas,mick_schumacher,16,56,47,0.0,15,15,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,mclaren,norris,6,56,4,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,alpine,ocon,0,56,31,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,red_bull,perez,9,56,11,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,mclaren,ricciardo,15,56,3,0.0,16,16,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,mercedes,russell,4,56,63,11.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,ferrari,sainz,1,1,55,0.0,20,R,Collision damage,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,aston_martin,stroll,5,21,18,0.0,18,R,Collision,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,alphatauri,tsunoda,19,56,22,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,aston_martin,vettel,10,56,5,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-23,united states grand prix,19,2022,https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix,alfa,zhou,18,56,24,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,williams,albon,17,70,23,0.0,12,12,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,alpine,alonso,9,63,14,0.0,19,19,Engine,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,alfa,bottas,6,70,77,1.0,10,10,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,alphatauri,gasly,14,70,10,0.0,11,11,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,mercedes,hamilton,3,71,44,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,haas,kevin_magnussen,19,70,20,0.0,17,17,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,williams,latifi,18,69,6,0.0,18,18,+2 Laps,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,ferrari,leclerc,7,71,16,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,red_bull,max_verstappen,1,71,1,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,haas,mick_schumacher,15,70,47,0.0,16,16,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,mclaren,norris,8,70,4,2.0,9,9,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,alpine,ocon,10,70,31,4.0,8,8,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,red_bull,perez,4,71,11,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,mclaren,ricciardo,11,70,3,6.0,7,7,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,mercedes,russell,2,71,63,13.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,ferrari,sainz,5,71,55,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,aston_martin,stroll,20,70,18,0.0,15,15,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,alphatauri,tsunoda,13,50,22,0.0,20,R,Collision damage,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,aston_martin,vettel,16,70,5,0.0,14,14,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-10-30,mexico city grand prix,20,2022,https://en.wikipedia.org/wiki/2022_Mexico_City_Grand_Prix,alfa,zhou,12,70,24,0.0,13,13,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,williams,albon,19,71,23,0.0,15,15,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,alpine,alonso,17,71,14,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,alfa,bottas,14,71,77,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,alphatauri,gasly,10,71,10,0.0,14,14,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,mercedes,hamilton,2,71,44,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,haas,kevin_magnussen,8,0,20,0.0,19,R,Collision,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,williams,latifi,18,71,6,0.0,16,16,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,ferrari,leclerc,5,71,16,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,red_bull,max_verstappen,3,71,1,8.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,haas,mick_schumacher,12,71,47,0.0,13,13,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,mclaren,norris,6,50,4,0.0,18,R,Gearbox,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,alpine,ocon,16,71,31,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,red_bull,perez,4,71,11,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,mclaren,ricciardo,11,0,3,0.0,20,R,Collision,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,mercedes,russell,1,71,63,26.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,ferrari,sainz,7,71,55,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,aston_martin,stroll,15,71,18,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,alphatauri,tsunoda,0,70,22,0.0,17,17,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,aston_martin,vettel,9,71,5,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-13,são paulo grand prix,21,2022,https://en.wikipedia.org/wiki/2022_São_Paulo_Grand_Prix,alfa,zhou,13,71,24,0.0,12,12,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,williams,albon,19,57,23,0.0,13,13,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,alpine,alonso,10,27,14,0.0,20,R,Water leak,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,alfa,bottas,18,57,77,0.0,15,15,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,alphatauri,gasly,17,57,10,0.0,14,14,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,mercedes,hamilton,5,55,44,0.0,18,18,Hydraulics,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,haas,kevin_magnussen,16,57,20,0.0,17,17,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,williams,latifi,20,55,6,0.0,19,19,Collision damage,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,ferrari,leclerc,3,58,16,18.0,2,2,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,red_bull,max_verstappen,1,58,1,25.0,1,1,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,haas,mick_schumacher,12,57,47,0.0,16,16,+1 Lap,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,mclaren,norris,7,58,4,9.0,6,6,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,alpine,ocon,8,58,31,6.0,7,7,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,red_bull,perez,2,58,11,15.0,3,3,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,mclaren,ricciardo,13,58,3,2.0,9,9,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,mercedes,russell,6,58,63,10.0,5,5,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,ferrari,sainz,4,58,55,12.0,4,4,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,aston_martin,stroll,14,58,18,4.0,8,8,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,alphatauri,tsunoda,11,58,22,0.0,11,11,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,aston_martin,vettel,9,58,5,1.0,10,10,Finished,2022,2026-10-21 12:27:06.561251
+2022-11-20,abu dhabi grand prix,22,2022,https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix,alfa,zhou,15,57,24,0.0,12,12,+1 Lap,2022,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,williams,albon,15,57,23,1.0,10,10,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,aston_martin,alonso,5,57,14,15.0,3,3,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,alfa,bottas,12,57,77,4.0,8,8,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,alphatauri,de_vries,19,56,21,0.0,14,14,Lapped,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,alpine,gasly,20,57,10,2.0,9,9,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,mercedes,hamilton,7,57,44,10.0,5,5,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,haas,hulkenberg,10,56,27,0.0,15,15,Lapped,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,haas,kevin_magnussen,17,56,20,0.0,13,13,Lapped,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,ferrari,leclerc,3,39,16,0.0,19,R,Retired,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,red_bull,max_verstappen,1,57,1,25.0,1,1,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,mclaren,norris,11,55,4,0.0,17,17,Lapped,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,alpine,ocon,9,41,31,0.0,18,R,Retired,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,red_bull,perez,2,57,11,18.0,2,2,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,mclaren,piastri,18,13,81,0.0,20,R,Retired,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,mercedes,russell,6,57,63,6.0,7,7,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,ferrari,sainz,4,57,55,12.0,4,4,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,williams,sargeant,16,56,2,0.0,12,12,Lapped,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,aston_martin,stroll,8,57,18,8.0,6,6,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,alphatauri,tsunoda,14,57,22,0.0,11,11,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-05,bahrain grand prix,1,2023,https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix,alfa,zhou,13,56,24,0.0,16,16,Lapped,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,williams,albon,17,27,23,0.0,19,R,Retired,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,aston_martin,alonso,2,50,14,15.0,3,3,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,alfa,bottas,14,49,77,0.0,18,18,Lapped,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,alphatauri,de_vries,18,50,21,0.0,14,14,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,alpine,gasly,9,50,10,2.0,9,9,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,mercedes,hamilton,7,50,44,10.0,5,5,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,haas,hulkenberg,10,50,27,0.0,12,12,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,haas,kevin_magnussen,13,50,20,1.0,10,10,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,ferrari,leclerc,12,50,16,6.0,7,7,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,red_bull,max_verstappen,15,50,1,19.0,2,2,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,mclaren,norris,19,50,4,0.0,17,17,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,alpine,ocon,6,50,31,4.0,8,8,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,red_bull,perez,1,50,11,25.0,1,1,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,mclaren,piastri,8,50,81,0.0,15,15,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,mercedes,russell,3,50,63,12.0,4,4,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,ferrari,sainz,4,50,55,8.0,6,6,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,williams,sargeant,20,50,2,0.0,16,16,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,aston_martin,stroll,5,16,18,0.0,20,R,Retired,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,alphatauri,tsunoda,16,50,22,0.0,11,11,Finished,2023,2026-10-21 12:27:06.561251
+2023-03-19,saudi arabian grand prix,2,2023,https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix,alfa,zhou,11,50,24,0.0,13,13,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,williams,albon,8,6,23,0.0,19,R,Retired,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,aston_martin,alonso,4,58,14,15.0,3,3,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,alfa,bottas,19,58,77,0.0,11,11,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,alphatauri,de_vries,15,56,21,0.0,15,15,Retired,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,alpine,gasly,9,56,10,0.0,13,13,Retired,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,mercedes,hamilton,3,58,44,18.0,2,2,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,haas,hulkenberg,10,58,27,6.0,7,7,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,haas,kevin_magnussen,14,52,20,0.0,17,17,Retired,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,ferrari,leclerc,7,0,16,0.0,20,R,Retired,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,red_bull,max_verstappen,1,58,1,25.0,1,1,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,mclaren,norris,13,58,4,8.0,6,6,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,alpine,ocon,11,56,31,0.0,14,14,Retired,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,red_bull,perez,20,58,11,11.0,5,5,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,mclaren,piastri,16,58,81,4.0,8,8,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,mercedes,russell,2,17,63,0.0,18,R,Retired,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,ferrari,sainz,5,58,55,0.0,12,12,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,williams,sargeant,18,56,2,0.0,16,16,Retired,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,aston_martin,stroll,6,58,18,12.0,4,4,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,alphatauri,tsunoda,12,58,22,1.0,10,10,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-02,australian grand prix,3,2023,https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix,alfa,zhou,17,58,24,2.0,9,9,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,williams,albon,12,51,23,0.0,12,12,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,aston_martin,alonso,6,51,14,12.0,4,4,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,alfa,bottas,13,50,77,0.0,18,18,Lapped,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,alphatauri,de_vries,18,9,21,0.0,20,R,Retired,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,alpine,gasly,17,51,10,0.0,14,14,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,mercedes,hamilton,5,51,44,8.0,6,6,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,haas,hulkenberg,20,50,27,0.0,17,17,Lapped,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,haas,kevin_magnussen,16,51,20,0.0,13,13,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,ferrari,leclerc,1,51,16,15.0,3,3,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,red_bull,max_verstappen,2,51,1,18.0,2,2,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,mclaren,norris,7,51,4,2.0,9,9,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,alpine,ocon,19,51,31,0.0,15,15,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,red_bull,perez,3,51,11,25.0,1,1,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,mclaren,piastri,10,51,81,0.0,11,11,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,mercedes,russell,11,51,63,5.0,8,8,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,ferrari,sainz,4,51,55,10.0,5,5,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,williams,sargeant,14,51,2,0.0,16,16,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,aston_martin,stroll,9,51,18,6.0,7,7,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,alphatauri,tsunoda,8,51,22,1.0,10,10,Finished,2023,2026-10-21 12:27:06.561251
+2023-04-30,azerbaijan grand prix,4,2023,https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix,alfa,zhou,15,36,24,0.0,19,R,Retired,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,williams,albon,11,57,23,0.0,14,14,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,aston_martin,alonso,2,57,14,15.0,3,3,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,alfa,bottas,10,57,77,0.0,13,13,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,alphatauri,de_vries,15,57,21,0.0,18,18,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,alpine,gasly,5,57,10,4.0,8,8,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,mercedes,hamilton,13,57,44,8.0,6,6,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,haas,hulkenberg,12,57,27,0.0,15,15,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,haas,kevin_magnussen,4,57,20,1.0,10,10,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,ferrari,leclerc,7,57,16,6.0,7,7,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,red_bull,max_verstappen,9,57,1,26.0,1,1,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,mclaren,norris,16,57,4,0.0,17,17,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,alpine,ocon,8,57,31,2.0,9,9,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,red_bull,perez,1,57,11,18.0,2,2,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,mclaren,piastri,19,56,81,0.0,19,19,Lapped,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,mercedes,russell,6,57,63,12.0,4,4,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,ferrari,sainz,3,57,55,10.0,5,5,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,williams,sargeant,20,56,2,0.0,20,20,Lapped,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,aston_martin,stroll,18,57,18,0.0,12,12,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,alphatauri,tsunoda,17,57,22,0.0,11,11,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-07,miami grand prix,5,2023,https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix,alfa,zhou,14,57,24,0.0,16,16,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,williams,albon,13,77,23,0.0,14,14,Lapped,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,aston_martin,alonso,2,78,14,18.0,2,2,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,alfa,bottas,15,77,77,0.0,11,11,Lapped,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,alphatauri,de_vries,12,77,21,0.0,12,12,Lapped,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,alpine,gasly,7,78,10,6.0,7,7,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,mercedes,hamilton,5,78,44,13.0,4,4,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,haas,hulkenberg,18,76,27,0.0,17,17,Lapped,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,haas,kevin_magnussen,17,70,20,0.0,19,19,Retired,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,ferrari,leclerc,6,78,16,8.0,6,6,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,red_bull,max_verstappen,1,78,1,25.0,1,1,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,mclaren,norris,10,77,4,2.0,9,9,Lapped,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,alpine,ocon,3,78,31,15.0,3,3,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,red_bull,perez,20,76,11,0.0,16,16,Lapped,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,mclaren,piastri,11,77,81,1.0,10,10,Lapped,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,mercedes,russell,8,78,63,10.0,5,5,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,ferrari,sainz,4,78,55,4.0,8,8,Finished,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,williams,sargeant,16,76,2,0.0,18,18,Lapped,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,aston_martin,stroll,14,53,18,0.0,20,R,Retired,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,alphatauri,tsunoda,9,76,22,0.0,15,15,Lapped,2023,2026-10-21 12:27:06.561251
+2023-05-28,monaco grand prix,6,2023,https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix,alfa,zhou,19,77,24,0.0,13,13,Lapped,2023,2026-10-21 12:27:06.561251

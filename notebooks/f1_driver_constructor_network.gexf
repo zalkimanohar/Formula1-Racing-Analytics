@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-21">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+      <attribute id="1" title="node_type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Driver: alonso" label="Driver: alonso">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Team: alpine" label="Team: alpine">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Constructor" />
+        </attvalues>
+      </node>
+      <node id="Driver: bottas" label="Driver: bottas">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Team: mercedes" label="Team: mercedes">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Constructor" />
+        </attvalues>
+      </node>
+      <node id="Driver: gasly" label="Driver: gasly">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Team: alphatauri" label="Team: alphatauri">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Constructor" />
+        </attvalues>
+      </node>
+      <node id="Driver: giovinazzi" label="Driver: giovinazzi">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Team: alfa" label="Team: alfa">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Constructor" />
+        </attvalues>
+      </node>
+      <node id="Driver: hamilton" label="Driver: hamilton">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: latifi" label="Driver: latifi">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Team: williams" label="Team: williams">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Constructor" />
+        </attvalues>
+      </node>
+      <node id="Driver: leclerc" label="Driver: leclerc">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Team: ferrari" label="Team: ferrari">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Constructor" />
+        </attvalues>
+      </node>
+      <node id="Driver: max_verstappen" label="Driver: max_verstappen">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Team: red_bull" label="Team: red_bull">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Constructor" />
+        </attvalues>
+      </node>
+      <node id="Driver: mazepin" label="Driver: mazepin">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Team: haas" label="Team: haas">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Constructor" />
+        </attvalues>
+      </node>
+      <node id="Driver: mick_schumacher" label="Driver: mick_schumacher">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: norris" label="Driver: norris">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Team: mclaren" label="Team: mclaren">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Constructor" />
+        </attvalues>
+      </node>
+      <node id="Driver: ocon" label="Driver: ocon">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: perez" label="Driver: perez">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: raikkonen" label="Driver: raikkonen">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: ricciardo" label="Driver: ricciardo">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: russell" label="Driver: russell">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: sainz" label="Driver: sainz">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: stroll" label="Driver: stroll">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Team: aston_martin" label="Team: aston_martin">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Constructor" />
+        </attvalues>
+      </node>
+      <node id="Driver: tsunoda" label="Driver: tsunoda">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: vettel" label="Driver: vettel">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: kubica" label="Driver: kubica">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: albon" label="Driver: albon">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: hulkenberg" label="Driver: hulkenberg">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: kevin_magnussen" label="Driver: kevin_magnussen">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+      <node id="Driver: zhou" label="Driver: zhou">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Driver" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Driver: alonso" target="Team: alpine" id="0" weight="25" />
+      <edge source="Team: alpine" target="Driver: ocon" id="1" weight="25" />
+      <edge source="Driver: bottas" target="Team: mercedes" id="2" weight="22" />
+      <edge source="Driver: bottas" target="Team: alfa" id="3" weight="3" />
+      <edge source="Team: mercedes" target="Driver: hamilton" id="4" weight="25" />
+      <edge source="Team: mercedes" target="Driver: russell" id="5" weight="3" />
+      <edge source="Driver: gasly" target="Team: alphatauri" id="6" weight="25" />
+      <edge source="Team: alphatauri" target="Driver: tsunoda" id="7" weight="25" />
+      <edge source="Driver: giovinazzi" target="Team: alfa" id="8" weight="22" />
+      <edge source="Team: alfa" target="Driver: raikkonen" id="9" weight="20" />
+      <edge source="Team: alfa" target="Driver: kubica" id="10" weight="2" />
+      <edge source="Team: alfa" target="Driver: zhou" id="11" weight="3" />
+      <edge source="Driver: latifi" target="Team: williams" id="12" weight="25" />
+      <edge source="Team: williams" target="Driver: russell" id="13" weight="22" />
+      <edge source="Team: williams" target="Driver: albon" id="14" weight="3" />
+      <edge source="Driver: leclerc" target="Team: ferrari" id="15" weight="25" />
+      <edge source="Team: ferrari" target="Driver: sainz" id="16" weight="25" />
+      <edge source="Driver: max_verstappen" target="Team: red_bull" id="17" weight="25" />
+      <edge source="Team: red_bull" target="Driver: perez" id="18" weight="25" />
+      <edge source="Driver: mazepin" target="Team: haas" id="19" weight="22" />
+      <edge source="Team: haas" target="Driver: mick_schumacher" id="20" weight="25" />
+      <edge source="Team: haas" target="Driver: kevin_magnussen" id="21" weight="3" />
+      <edge source="Driver: norris" target="Team: mclaren" id="22" weight="25" />
+      <edge source="Team: mclaren" target="Driver: ricciardo" id="23" weight="25" />
+      <edge source="Driver: stroll" target="Team: aston_martin" id="24" weight="25" />
+      <edge source="Team: aston_martin" target="Driver: vettel" id="25" weight="23" />
+      <edge source="Team: aston_martin" target="Driver: hulkenberg" id="26" weight="2" />
+    </edges>
+  </graph>
+</gexf>

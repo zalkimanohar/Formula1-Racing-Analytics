@@ -1,13 +1,13 @@
 WARNING: Using incubator modules: jdk.incubator.vector
 Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
-26/10/15 16:12:39 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 172.16.108.30 instead (on interface en0)
-26/10/15 16:12:39 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+26/10/22 13:03:38 WARN Utils: Your hostname, Manohars-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 172.16.108.30 instead (on interface en0)
+26/10/22 13:03:38 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
 Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
 Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-26/10/15 16:12:39 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-26/10/15 16:12:41 WARN SparkSession: Using an existing Spark session; only runtime SQL configurations will take effect.
-26/10/15 16:12:42 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+26/10/22 13:03:38 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/22 13:03:40 WARN SparkSession: Using an existing Spark session; only runtime SQL configurations will take effect.
+26/10/22 13:03:41 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
 [INFO] WORKSPACE = /Users/manoharazalki/F1-Analytics
 [INFO] BATCH_ID  = 2026-02
 [INFO] silver_helpers WORKSPACE = /Users/manoharazalki/F1-Analytics
@@ -16,13 +16,13 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 [INFO] Silver path: /Users/manoharazalki/F1-Analytics/data/silver/sprints/sprints.parquet
 [INFO] ✔ Bronze sprints read
 [INFO] ✔ Sprints Silver written: /Users/manoharazalki/F1-Analytics/data/silver/sprints/sprints.parquet
-+------+-----+--------------+---------+------------------+----------+-------------+--------------+----------+------+--------------+-------------------+--------+--------------------------+--------------------------------------------------------------------------------+--------+--------------------------+--------------------------+
-|season|round|constructor_id|driver_id|race_name         |race_date |grid_position|completed_laps|car_number|points|final_position|final_position_text|status  |ingest_timestamp          |source_file                                                                     |batch_id|created_timestamp         |updated_timestamp         |
-+------+-----+--------------+---------+------------------+----------+-------------+--------------+----------+------+--------------+-------------------+--------+--------------------------+--------------------------------------------------------------------------------+--------+--------------------------+--------------------------+
-|2026  |2    |alpine        |colapinto|Chinese Grand Prix|2026-03-15|16           |19            |43        |0.0   |14            |14                 |Finished|2026-10-15 16:12:08.063017|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |2026-10-15 16:12:42.505915|2026-10-15 16:12:42.505915|
-|2026  |2    |alpine        |gasly    |Chinese Grand Prix|2026-03-15|7            |19            |10        |0.0   |11            |11                 |Finished|2026-10-15 16:12:08.063017|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |2026-10-15 16:12:42.505915|2026-10-15 16:12:42.505915|
-|2026  |2    |aston_martin  |alonso   |Chinese Grand Prix|2026-03-15|18           |19            |14        |0.0   |17            |17                 |Finished|2026-10-15 16:12:08.063017|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |2026-10-15 16:12:42.505915|2026-10-15 16:12:42.505915|
-|2026  |2    |aston_martin  |stroll   |Chinese Grand Prix|2026-03-15|19           |19            |18        |0.0   |18            |18                 |Finished|2026-10-15 16:12:08.063017|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |2026-10-15 16:12:42.505915|2026-10-15 16:12:42.505915|
-|2026  |2    |audi          |bortoleto|Chinese Grand Prix|2026-03-15|14           |19            |5         |0.0   |13            |13                 |Finished|2026-10-15 16:12:08.063017|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |2026-10-15 16:12:42.505915|2026-10-15 16:12:42.505915|
-+------+-----+--------------+---------+------------------+----------+-------------+--------------+----------+------+--------------+-------------------+--------+--------------------------+--------------------------------------------------------------------------------+--------+--------------------------+--------------------------+
++------+-----+--------------+---------+------------------+----------+-------------+--------------+----------+------+--------------+-------------------+--------+--------------------------+--------------------------------------------------------------------------------+--------+------------------------+------------------------+
+|season|round|constructor_id|driver_id|race_name         |race_date |grid_position|completed_laps|car_number|points|final_position|final_position_text|status  |ingest_timestamp          |source_file                                                                     |batch_id|created_timestamp       |updated_timestamp       |
++------+-----+--------------+---------+------------------+----------+-------------+--------------+----------+------+--------------+-------------------+--------+--------------------------+--------------------------------------------------------------------------------+--------+------------------------+------------------------+
+|2026  |2    |alpine        |colapinto|Chinese Grand Prix|2026-03-15|16           |19            |43        |0.0   |14            |14                 |Finished|2026-10-22 13:03:09.782663|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |2026-10-22 13:03:40.9651|2026-10-22 13:03:40.9651|
+|2026  |2    |alpine        |gasly    |Chinese Grand Prix|2026-03-15|7            |19            |10        |0.0   |11            |11                 |Finished|2026-10-22 13:03:09.782663|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |2026-10-22 13:03:40.9651|2026-10-22 13:03:40.9651|
+|2026  |2    |aston_martin  |alonso   |Chinese Grand Prix|2026-03-15|18           |19            |14        |0.0   |17            |17                 |Finished|2026-10-22 13:03:09.782663|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |2026-10-22 13:03:40.9651|2026-10-22 13:03:40.9651|
+|2026  |2    |aston_martin  |stroll   |Chinese Grand Prix|2026-03-15|19           |19            |18        |0.0   |18            |18                 |Finished|2026-10-22 13:03:09.782663|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |2026-10-22 13:03:40.9651|2026-10-22 13:03:40.9651|
+|2026  |2    |audi          |bortoleto|Chinese Grand Prix|2026-03-15|14           |19            |5         |0.0   |13            |13                 |Finished|2026-10-22 13:03:09.782663|/Users/manoharazalki/F1-Analytics/data/landing/2026-02/sprints/sprints_2026.json|2026-02 |2026-10-22 13:03:40.9651|2026-10-22 13:03:40.9651|
++------+-----+--------------+---------+------------------+----------+-------------+--------------+----------+------+--------------+-------------------+--------+--------------------------+--------------------------------------------------------------------------------+--------+------------------------+------------------------+
 only showing top 5 rows

@@ -25,7 +25,7 @@
 │   │   ├── circuits
 │   │   │   ├── circuits.parquet
 │   │   │   │   ├── _SUCCESS
-│   │   │   │   └── part-00000-e257af93-4a61-49fa-bb6f-d2ad6be95b27-c000.snappy.parquet
+│   │   │   │   └── part-00000-9cbc4baf-f2e0-4296-860e-d32622796bed-c000.snappy.parquet
 │   │   │   └── data.parquet
 │   │   │       ├── _SUCCESS
 │   │   │       └── batch_id=20260610_153002
@@ -33,7 +33,7 @@
 │   │   ├── constructors
 │   │   │   ├── constructors.parquet
 │   │   │   │   ├── _SUCCESS
-│   │   │   │   └── part-00000-8f826d00-f6b2-41ee-a740-2385730f606c-c000.snappy.parquet
+│   │   │   │   └── part-00000-dba6c57e-ce9e-4b04-9fe8-20fcb4d875a5-c000.snappy.parquet
 │   │   │   └── data.parquet
 │   │   │       ├── _SUCCESS
 │   │   │       └── batch_id=20260610_153023
@@ -45,7 +45,7 @@
 │   │   │   │       └── part-00000-5178d9b3-2a4c-4cee-afd6-0d1ce74d895c.c000.snappy.parquet
 │   │   │   └── drivers.parquet
 │   │   │       ├── _SUCCESS
-│   │   │       └── part-00000-fdb6c678-1cf5-4aee-ba08-16308d1adf53-c000.snappy.parquet
+│   │   │       └── part-00000-ad4c42b8-67ec-4ce7-8528-5771c6ebc91e-c000.snappy.parquet
 │   │   ├── landing
 │   │   │   ├── circuits.csv
 │   │   │   ├── constructors.json
@@ -149,7 +149,7 @@
 │   │   │   │       └── part-00000-028e9a60-335d-4e2f-8f47-9a76301f50ba.c000.snappy.parquet
 │   │   │   └── races.parquet
 │   │   │       ├── _SUCCESS
-│   │   │       └── part-00000-12689608-e1ad-4ad6-86a7-c768bc36d7ae-c000.snappy.parquet
+│   │   │       └── part-00000-db589e57-61c6-4f7d-8011-0ef9a597350c-c000.snappy.parquet
 │   │   ├── results
 │   │   │   ├── data.parquet
 │   │   │   │   ├── _SUCCESS
@@ -166,7 +166,7 @@
 │   │   │   │       └── part-00009-41e63cb9-79af-4ddc-9b52-a13992ae8b31.c000.snappy.parquet
 │   │   │   └── results.parquet
 │   │   │       ├── _SUCCESS
-│   │   │       └── part-00000-8bcf12a6-3b59-434d-b0f8-5e00256ce7b6-c000.snappy.parquet
+│   │   │       └── part-00000-6a1c8de9-d1d6-4ea0-a2a1-5f41e05c5941-c000.snappy.parquet
 │   │   └── sprints
 │   │       ├── data.parquet
 │   │       │   ├── _SUCCESS
@@ -177,7 +177,7 @@
 │   │       │       └── part-00003-62616734-2153-491b-9522-48c02b06cdc7.c000.snappy.parquet
 │   │       └── sprints.parquet
 │   │           ├── _SUCCESS
-│   │           └── part-00000-d91ee163-de49-4896-8191-d8d7475a2ec4-c000.snappy.parquet
+│   │           └── part-00000-27fdcb26-747d-45cf-a831-75c0d47b4bff-c000.snappy.parquet
 │   ├── control
 │   │   ├── batch_control
 │   │   │   ├── 2025-01.completed
@@ -712,7 +712,7 @@
 │       │   │   └── part-00000-bd94b0e1-91a3-4578-a741-c00a8db63df6-c000.snappy.parquet
 │       │   ├── circuits.parquet
 │       │   │   ├── _SUCCESS
-│       │   │   └── part-00000-f01ea291-5dc9-45c5-9aff-78e33ed58fee-c000.snappy.parquet
+│       │   │   └── part-00000-ff103fd7-a83b-4b5e-808b-34359896cb01-c000.snappy.parquet
 │       │   └── data.parquet
 │       │       ├── _SUCCESS
 │       │       └── part-00000-3990458b-dec7-430a-861c-e7fb8595314e-c000.snappy.parquet
@@ -722,7 +722,7 @@
 │       │   │   └── part-00000-e4b69b84-0ffe-45ff-89ae-8b3bb63a81b2-c000.snappy.parquet
 │       │   ├── constructors.parquet
 │       │   │   ├── _SUCCESS
-│       │   │   └── part-00000-ec7d29f0-2a65-475e-af34-bb039e6b10fa-c000.snappy.parquet
+│       │   │   └── part-00000-033bda2b-98ab-46e0-9fc2-022f4f535ec7-c000.snappy.parquet
 │       │   └── data.parquet
 │       │       ├── _SUCCESS
 │       │       └── part-00000-1d05b23d-176c-4602-8438-23ef5f739130-c000.snappy.parquet
@@ -735,7 +735,7 @@
 │       │   │   └── part-00000-f9bec31c-ee69-4190-ab84-c9cd04e21b06-c000.snappy.parquet
 │       │   └── drivers.parquet
 │       │       ├── _SUCCESS
-│       │       └── part-00000-185f076b-dc95-4b95-8d37-913219458614-c000.snappy.parquet
+│       │       └── part-00000-742a7754-c974-4a0e-b6df-933cf973ca24-c000.snappy.parquet
 │       ├── races
 │       │   ├── data.parquet
 │       │   │   ├── _SUCCESS
@@ -745,7 +745,7 @@
 │       │   │   └── part-00000-51a6c475-af1b-49fb-a3e0-d3b478efbbc2-c000.snappy.parquet
 │       │   └── races.parquet
 │       │       ├── _SUCCESS
-│       │       └── part-00000-859d934b-a038-4b3e-8275-5fa6a66b34e5-c000.snappy.parquet
+│       │       └── part-00000-7e36cbb7-6efb-47ec-a0b8-4a9c715afdf9-c000.snappy.parquet
 │       ├── results
 │       │   ├── results_silver.parquet
 │       │   │   ├── _SUCCESS
@@ -754,7 +754,7 @@
 │       │   │   └── part-00002-89a090e4-bc45-45e0-9492-27d624dc5102-c000.snappy.parquet
 │       │   └── results.parquet
 │       │       ├── _SUCCESS
-│       │       └── part-00000-34319f08-10fc-457a-8408-251ca25498b8-c000.snappy.parquet
+│       │       └── part-00000-a7988148-93d5-493a-8570-4c5bbf0473a8-c000.snappy.parquet
 │       └── sprints
 │           ├── data.parquet
 │           │   ├── _SUCCESS
@@ -764,7 +764,7 @@
 │           │   └── part-00000-d12c9b95-1d58-4bd1-a881-d8c0bd9d8bf1-c000.snappy.parquet
 │           └── sprints.parquet
 │               ├── _SUCCESS
-│               └── part-00000-cb63278e-3022-4faa-a59c-4eaa33f1b817-c000.snappy.parquet
+│               └── part-00000-67c52feb-4054-4d74-b09d-3b5adabfd006-c000.snappy.parquet
 ├── notebooks
 │   ├── 00-common
 │   │   ├── __pycache__
@@ -809,17 +809,19 @@
 │   │   ├── 03_circuit_competitiveness.ipynb
 │   │   ├── 04_sprint_vs_race.ipynb
 │   │   └── 05_strategy_efficiency.ipynb
-│   └── 06-orchestration
-│       ├── 00_create_control_tables.py
-│       ├── 01_identify_next_batch.py
-│       ├── 02_create_new_batch.py
-│       └── 03_complete_batch.py
+│   ├── 06-orchestration
+│   │   ├── 00_create_control_tables.py
+│   │   ├── 01_identify_next_batch.py
+│   │   ├── 02_create_new_batch.py
+│   │   └── 03_complete_batch.py
+│   └── DataQualityProfile.ipynb
+├── racing_f1_data.zip
 ├── README.md
 ├── scripts
 │   ├── install_workspace.sh
 │   ├── logs
-│   │   ├── dashboard_20261015_161311.log
-│   │   ├── orchestration_20261015_161139.log
+│   │   ├── dashboard_20261016_194435.log
+│   │   ├── orchestration_20261016_194307.log
 │   │   ├── pipeline
 │   │   │   └── 2026-02
 │   │   │       ├── bronze_01.log
@@ -839,11 +841,11 @@
 │   │   │       ├── silver_04.log
 │   │   │       ├── silver_05.log
 │   │   │       └── silver_06.log
-│   │   └── pipeline_2026-02_20261015_161142.log
+│   │   └── pipeline_2026-02_20261016_194311.log
 │   ├── main.sh
 │   ├── run_dashboard.sh
 │   ├── run_orchestration.sh
 │   └── run_pipeline.sh
 └── tree.txt
 
-224 directories, 623 files
+224 directories, 625 files
