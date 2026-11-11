@@ -1,0 +1,56 @@
+gate,result,detail
+columns match schema (names and order),passed,
+no missing values in required column result_id,passed,0 missing
+no missing values in required column race_id,passed,0 missing
+no missing values in required column season,passed,0 missing
+no missing values in required column round,passed,0 missing
+no missing values in required column race_name,passed,0 missing
+no missing values in required column race_date,passed,0 missing
+no missing values in required column circuit_id,passed,0 missing
+no missing values in required column circuit_name,passed,0 missing
+no missing values in required column circuit_locality,passed,0 missing
+no missing values in required column circuit_country,passed,0 missing
+no missing values in required column circuit_country_iso3,passed,0 missing
+no missing values in required column driver_id,passed,0 missing
+no missing values in required column driver_name,passed,0 missing
+no missing values in required column constructor_id,passed,0 missing
+no missing values in required column constructor_name,passed,0 missing
+no missing values in required column constructor_nationality_iso3,passed,0 missing
+no missing values in required column grid_position_missing,passed,0 missing
+no missing values in required column laps_completed,passed,0 missing
+no missing values in required column points,passed,0 missing
+no missing values in required column points_normalised,passed,0 missing
+no missing values in required column position_order,passed,0 missing
+no missing values in required column position_text,passed,0 missing
+no missing values in required column finish_category,passed,0 missing
+finish_category uses controlled vocabulary,passed,[]
+no missing values in required column status_raw,passed,0 missing
+no missing values in required column status_group,passed,0 missing
+status_group uses controlled vocabulary,passed,[]
+no missing values in required column is_shared_drive,passed,0 missing
+no missing values in required column is_indy500,passed,0 missing
+no missing values in required column laps_outlier_iqr,passed,0 missing
+no missing values in required column status_position_conflict,passed,0 missing
+no missing values in required column source_file,passed,0 missing
+no missing values in required column source_line,passed,0 missing
+result_id unique,passed,
+"natural key (season, round, driver_id, car_number) unique",passed,
+no exact duplicate records,passed,
+season within snapshot,passed,
+every race_id exists in races,passed,
+every circuit_id exists in circuits,passed,
+every driver_id exists in drivers,passed,
+every constructor_id exists in constructors,passed,
+identifiers are lowercase,passed,
+grid_position >= 1 when present,passed,
+classified_position missing for every non-classified result,passed,
+"points_normalised within [0, 1]",passed,
+one winner share of 1.0 per race,passed,
+duplicate classified positions only occur in shared drives,passed,152 rows share a position
+race names are not all-lowercase,passed,
+country codes present for every circuit,passed,
+races table: race_id unique,passed,
+circuits table: circuit_id unique and present,passed,
+drivers table: driver_id unique,passed,
+drivers table: no person under two IDs,passed,
+reference URLs use https,passed,

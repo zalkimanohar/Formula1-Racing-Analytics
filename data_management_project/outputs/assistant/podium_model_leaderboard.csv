@@ -1,0 +1,9 @@
+model,split,log_loss,brier,roc_auc,podium_places_called,rows,races,selected
+grid_baseline,validation 2014-2019,0.2396,0.0711,0.9285,0.7135,2470,121,False
+logistic_regression,validation 2014-2019,0.2136,0.0642,0.942,0.6915,2470,121,False
+random_forest,validation 2014-2019,0.2001,0.0614,0.9506,0.719,2470,121,True
+gradient_boosting,validation 2014-2019,0.2005,0.0615,0.9505,0.719,2470,121,False
+grid_baseline,test 2020-2025,0.2541,0.0746,0.9147,0.6845,2601,131,False
+logistic_regression,test 2020-2025,0.2287,0.0693,0.9333,0.6768,2601,131,False
+random_forest,test 2020-2025,0.2187,0.0676,0.9384,0.6794,2601,131,True
+gradient_boosting,test 2020-2025,0.2198,0.0676,0.9378,0.6819,2601,131,False

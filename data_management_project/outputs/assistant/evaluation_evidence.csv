@@ -1,0 +1,26 @@
+question,type,expected,evidence_blocks,evidence_kinds,in_evidence,mode,evidence_seconds,total_seconds
+How many Grands Prix has Lewis Hamilton won?,driver,105,1,fact,True,evidence-only,0.02,0.0
+How many wins does Michael Schumacher have?,driver,91,1,fact,True,evidence-only,0.01,0.0
+Who won the 1988 World Championship?,champion,Senna,1,fact,True,evidence-only,0.02,0.0
+Who won the 1964 World Championship?,champion,Surtees,1,fact,True,evidence-only,0.02,0.0
+Who was World Champion in 2016?,champion,Rosberg,1,fact,True,evidence-only,0.02,0.0
+How many World Championships did Juan Manuel Fangio win?,champion,5,1,fact,True,evidence-only,0.01,0.0
+Who won the 2008 British Grand Prix?,race,Hamilton,1,fact,True,evidence-only,0.02,0.0
+Who won the 2021 Abu Dhabi Grand Prix?,race,Verstappen,1,fact,True,evidence-only,0.01,0.0
+¿Quién ganó el Gran Premio de Mónaco de 2024?,race (Spanish),Leclerc,1,fact,True,evidence-only,0.01,0.0
+How many podiums did Fernando Alonso get with Ferrari?,driver + team,44,1,fact,True,evidence-only,0.01,0.0
+¿Cuántas victorias consiguió Michael Schumacher con Ferrari?,driver + team (Spanish),72,1,fact,True,evidence-only,0.01,0.0
+How many races did Max Verstappen win in 2023?,driver season,19,1,fact,True,evidence-only,0.01,0.0
+How did Red Bull do in 2023?,team season,21,1,fact,True,evidence-only,0.01,0.0
+Which team has won the most Grands Prix?,ranking,Ferrari,1,fact,True,evidence-only,0.01,0.0
+Which driver has the most pole positions?,ranking,Hamilton,1,fact,True,evidence-only,0.01,0.0
+How many Grands Prix has Monza hosted?,circuit,75,1,fact,True,evidence-only,0.01,0.0
+Who has won the most races at Monaco?,circuit ranking,Senna,1,fact,True,evidence-only,0.01,0.0
+Hamilton vs Rosberg: who finished ahead more often?,head to head,Hamilton,1,fact,True,evidence-only,0.04,0.0
+How many team-mate steps separate Fangio and Max Verstappen?,graph,8,2,"fact,graph",True,evidence-only,0.04,0.0
+Which driver had the most different team-mates?,graph,Moss,1,graph,True,evidence-only,0.0,0.0
+What is quality issue B29?,data quality,2023,1,fact,True,evidence-only,0.01,0.0
+How many quality issues were found in the raw data?,data quality,29,5,"fact,fact,document,document,document",True,evidence-only,0.02,0.0
+What licence does the dataset use?,metadata,CC BY-NC-SA,4,"fact,document,document,document",True,evidence-only,0.01,0.0
+What are Max Verstappen's chances of a podium starting from pole?,model,64%,2,"model,fact",True,evidence-only,0.06,0.1
+Who won the 2030 World Championship?,must refuse,(refuse),1,fact,True,evidence-only,0.0,0.0

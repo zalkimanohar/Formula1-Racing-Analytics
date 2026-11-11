@@ -1,0 +1,13 @@
+{
+  "questions": 25,
+  "evidence_contains_expected": 25,
+  "median_evidence_seconds": 0.16,
+  "answers_written_by_model": 25,
+  "answer_contains_expected": 25,
+  "answers_with_all_figures_verified": 25,
+  "figures_total": 49,
+  "figures_verified": 49,
+  "answers_citing_evidence": 25,
+  "median_total_seconds": 25.6,
+  "hardware_note": "measured on a laptop CPU (no GPU); times depend on the machine"
+}

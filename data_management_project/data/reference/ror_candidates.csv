@@ -1,0 +1,46 @@
+query,ror_id,name,aliases_labels,city,country,status,types
+SRH University,https://ror.org/04ys3xe45,SRH University Campus Dresden,"Dresden School of Management; SRH Berlin University of Applied Sciences, Dresden; SRH Campus Dresden; SRH Hochschule Berlin, Campus Dresden; SRH Hochschule Berlin, Dresden; SRH Hochschule Campus Dresden; SRH Hochschule, Dresden; SRH University of Applied Sciences Campus Dresden; SRH University of Applied Sciences, Campus Dresden; SRH University of Applied Sciences, Dresden; SRH University, Campus Dresden; SRH University, Dresden; SRH-Hochschule, Dresden",Dresden,Germany,active,education
+SRH University,https://ror.org/02ejbzv65,St. Raphael's Hospital,SRH,Faisalabad,Pakistan,active,healthcare
+SRH University,https://ror.org/00g07sz63,SRH University of Applied Sciences Heidelberg,SRC University Heidelberg; SRH Berlin University of Applied Sciences; SRH Hochschule Heidelberg; SRH University of Applied Sciences for Health; SRH University of Applied Sciences in North Rhine-Westphalia; SRH Wilhelm Löhe University,Heidelberg,Germany,active,education
+SRH University,https://ror.org/03037cz33,SRH Berlin School of Design and Communication,BSDC; Berlin School of Design and Communication; Design Akademie Berlin; SRH BSDC,Berlin,Germany,active,education
+SRH University,https://ror.org/00yx29a03,SRH Fernhochschule – The Mobile University,Fernhochschule – The Mobile University,Riedlingen,Germany,active,education
+SRH University,https://ror.org/00pz6pe93,SRH Klinikum Karlsbad-Langensteinbach,,Baden-Baden,Germany,active,healthcare
+SRH University,https://ror.org/00q236z92,SRH Wald-Klinikum Gera,,Gera,Germany,active,healthcare
+SRH University,https://ror.org/026kenw55,SRH Hochschule für Gesundheit Gera,,Gera,Germany,active,education
+SRH University,https://ror.org/02kraxp86,SRH Hochschule der Populären Künste,HDPK,Berlin,Germany,active,education
+SRH University,https://ror.org/01k6xby62,SRH Hochschule für Logistik und Wirtschaft,HLW,Hamm,Germany,active,education
+SRH University,https://ror.org/0572yc306,SRH Hochschule für Wirtschaft und Medien Calw,,Calw,Germany,active,education
+SRH University,https://ror.org/04bm3wy68,Hue University of Education,"Hue University; Hue University's College of Education; Trường Đại học Sư phạm Huế; University of Education, Hue University",Huế,Vietnam,active,education
+SRH University,https://ror.org/03zcpvf19,University Hospitals of the Ruhr-University of Bochum,UK RUB; University Hospital Ruhr University Bochum; University Hospital of Ruhr University Bochum; University Hospital of the Ruhr University Bochum; University Hospital of the Ruhr-University Bochum; Universitätsklinikum der Ruhr-Universität Bochum,Bochum,Germany,active,healthcare
+SRH University,https://ror.org/00qpm2f14,"Trường Đại học Khoa học, Đại học Huế","HUSC; University of Sciences, Hue University",Huế,Vietnam,active,education
+SRH University,https://ror.org/03x812s82,"Trường Đại học Kinh tế, Đại học Huế","HUE; University of Economics, Hue University",Huế,Vietnam,active,education
+SRH University,https://ror.org/019787q29,UCSI University,Universiti UCSI; University College Sedaya International; University College Sedaya International University,Kuala Lumpur,Malaysia,active,education; funder
+SRH University,https://ror.org/04th98w08,Kagoshima University Museum,"Kagoshima University Museum, Kagoshima University; The Kagoshima University Museum; 鹿児島大学総合研究博物館; 鹿大博物館",Kagoshima,Japan,active,archive
+SRH University,https://ror.org/00z3sky43,Nihon University University Research Center,"University Research Center, Nihon University; 日本大学総合科学研究所",Tokyo,Japan,active,facility
+SRH University,https://ror.org/024yc3q36,Tottori University,National University Corporation Tottori University; Tottori Daigaku; 鳥取大学,Tottori-shi,Japan,active,education; funder
+SRH University,https://ror.org/01bjw7k75,Gelato University,,Anzola dell'Emilia,Italy,active,education
+SRH Hochschule,https://ror.org/03cmq3458,Pädagogische Hochschule Viktor Frankl Hochschule,UCTE; University College of Teacher Education Carinthia,Klagenfurt,Austria,active,education
+SRH Hochschule,https://ror.org/0378gm372,RheinMain University of Applied Sciences,Hochschule RheinMain,Wiesbaden,Germany,active,education
+SRH Hochschule,https://ror.org/0076zct58,Anhalt University of Applied Sciences,Hochschule Anhalt,Köthen,Germany,active,education
+SRH Hochschule,https://ror.org/05dkqa017,University of Applied Sciences Kaiserslautern,HS Kaiserslautern; Hochschule Kaiserslautern,Kaiserslautern,Germany,active,education
+SRH Hochschule,https://ror.org/0004r6b85,University of Applied Sciences Biberach,Hochschule Biberach,Biberach an der Riss,Germany,active,education
+SRH Hochschule,https://ror.org/048yn7628,Harz University of Applied Sciences,Fachhochschule Harz; Hochschule Harz,Wernigerode,Germany,active,education
+SRH Hochschule,https://ror.org/031ph8d53,University of Applied Sciences Worms,Hochschule Worms,Worms,Germany,active,education
+SRH Hochschule,https://ror.org/01gm0md04,Provadis School of International Management and Technology,Provadis Hochschule,Frankfurt am Main,Germany,active,education
+SRH Hochschule,https://ror.org/051rc7j94,Diploma Hochschule,Diploma Fachhochschule Nordhessen; Diploma University,Bad Sooden-Allendorf,Germany,active,education
+SRH Hochschule,https://ror.org/0367m1n91,Hochschule Weserbergland,HSW,Hamelin,Germany,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/00w7whj55,Berliner Hochschule für Technik,BHT; Berlin University of Applied Sciences; Berlin University of Applied Sciences and Technology; Beuth Hochschule für Technik Berlin; Beuth University of Applied Sciences; Technische Fachhochschule Berlin,Berlin,Germany,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/01xzwj424,HTW Berlin - University of Applied Sciences,HTW Berlin; Hochschule für Technik und Wirtschaft Berlin,Berlin,Germany,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/01vn94n11,Whitecliffe University of Applied Sciences,BAU International Berlin – University of Applied Sciences; Berlin International; Berlin International University of Applied Sciences,Berlin,Germany,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/04b404920,Alice-Salomon-Hochschule Berlin,ASH; ASH Berlin; Alice Salomon Hochschule Berlin; Alice Salomon Hochschule Berlin University of Applied Sciences; Alice Salomon University; Alice Salomon University of Applied Sciences Berlin,Berlin,Germany,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/03sx66s94,Tartu Art College,Kõrgem Kunstikool Pallas; Pallas University of Applied Sciences,Tartu,Estonia,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/000rak666,Humak University of Applied Sciences,Humanistinen ammattikorkeakoulu,Helsinki,Finland,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/00fcxqx79,University of Applied Science Budapest,BKF; BKF University of Applied Sciences; Budapest Metropolitan University; Budapest Metropolitan University of Applied Sciences; Budapesti Metropolitan Egyetem,Budapest,Hungary,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/05tyb9s14,EKA University of Applied Sciences,EKA; Ekonomikas un kultûras augstskola; University College of Economics and Culture,Riga,Latvia,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/00db2vc28,Karelia University of Applied Sciences,Karelia UAS; Karelia-ammattikorkeakoulu,Joensuu,Finland,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/05m0ggf57,Catholic University of Applied Sciences,Katholische Hochschule Mainz,Mainz,Germany,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/049c2kr37,Kalaidos University of Applied Sciences,Kalaidos Fachhochschule; Kalaidos UAS,Zurich,Switzerland,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/00bwtjf83,Tampere University of Applied Sciences,TAMK; Tampereen Ammattikorkeakoulu,Tampere,Finland,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/04q5vv384,Hof University of Applied Sciences,Hochschule für Angewandte Wissenschaften Hof; University of Applied Sciences Hof,Hof,Germany,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/056z5bx32,University of Applied Sciences Landshut,HL; Hochschule für angewandte Wissenschaften Landshut; Landshut University of Applied Sciences,Landshut,Germany,active,education
+SRH Berlin University of Applied Sciences,https://ror.org/04g99jx54,University of Applied Sciences Stralsund,Fachhochschule Stralsund,Stralsund,Germany,active,education

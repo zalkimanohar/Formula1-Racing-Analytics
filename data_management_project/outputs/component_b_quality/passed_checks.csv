@@ -1,0 +1,15 @@
+dimension,rule,violations,result
+Referential integrity,results.driverId exists in drivers,0,passed
+Referential integrity,results.constructorId exists in constructors,0,passed
+Referential integrity,races.circuitId exists in circuits,0,passed
+Consistency,results.date equals races.date for the same race,0,passed
+Consistency,results.raceName equals races.raceName,0,passed
+Consistency,numeric positionText equals position,0,passed
+Consistency,year of date equals season (where season present),0,passed
+Validity,"no negative points, grid or laps",0,passed
+Validity,points > 0 only for rows with a position,0,passed
+Validity,all dates parse as ISO 8601,0,passed
+Accuracy,driver age at race between 16 and 60 years,0,passed
+Accuracy,circuit coordinates within valid lat/long ranges,0,passed
+Uniqueness,driverId unique in drivers,0,passed
+Uniqueness,constructorId unique in constructors,0,passed

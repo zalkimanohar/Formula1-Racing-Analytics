@@ -1,0 +1,4 @@
+# Keep data files byte-identical on every OS so the SHA-256 checksums in the metadata stay valid.
+*.csv -text
+*.gexf -text
+*.sh text eol=lf

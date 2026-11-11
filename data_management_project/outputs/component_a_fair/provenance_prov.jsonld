@@ -1,0 +1,422 @@
+{
+  "@context": {
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "urn:f1-dm:agent/pipeline",
+      "@type": "prov:SoftwareAgent",
+      "rdfs:label": "data_management_project pipeline (Python, pandas)"
+    },
+    {
+      "@id": "https://api.jolpi.ca/ergast/f1/",
+      "@type": "prov:Entity",
+      "rdfs:label": "Jolpica-F1 Ergast-compatible API",
+      "prov:wasDerivedFrom": {
+        "@id": "http://ergast.com/mrd/"
+      }
+    },
+    {
+      "@id": "http://ergast.com/mrd/",
+      "@type": "prov:Entity",
+      "rdfs:label": "Ergast Developer API (discontinued)"
+    },
+    {
+      "@id": "urn:f1-dm:entity/racing_f1_data.zip",
+      "@type": "prov:Entity",
+      "rdfs:label": "racing_f1_data.zip",
+      "schema:identifier": "https://doi.org/10.5281/zenodo.23416916",
+      "prov:atLocation": [
+        "https://doi.org/10.5281/zenodo.23416916",
+        "https://github.com/zalkimanohar/Formula1-Racing-Analytics/blob/main/racing_f1_data.zip"
+      ],
+      "schema:sha256": "81b027c4221901d92d30ad7b76eacf22668d299098e5c16dcb391c91fd39c748",
+      "prov:wasDerivedFrom": {
+        "@id": "https://api.jolpi.ca/ergast/f1/"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/step0_extract",
+      "@type": "prov:Activity",
+      "rdfs:label": "Step 0 - flatten the archive to raw CSV without changing values",
+      "prov:used": {
+        "@id": "urn:f1-dm:entity/racing_f1_data.zip"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:entity/f1_race_results_raw.csv",
+      "@type": "prov:Entity",
+      "rdfs:label": "f1_race_results_raw.csv",
+      "schema:sha256": "2b75bc948a2556dda03174641dfb118fc94ffc5286b6a1b03aba83a0eb7ec051",
+      "prov:wasGeneratedBy": {
+        "@id": "urn:f1-dm:activity/step0_extract"
+      },
+      "prov:wasDerivedFrom": {
+        "@id": "urn:f1-dm:entity/racing_f1_data.zip"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:entity/races_raw.csv",
+      "@type": "prov:Entity",
+      "rdfs:label": "races_raw.csv",
+      "schema:sha256": "35ffc54705d7daf6b6fd4af7af32a5c405c7a81e59dafbe8f413d4030ce9da60",
+      "prov:wasGeneratedBy": {
+        "@id": "urn:f1-dm:activity/step0_extract"
+      },
+      "prov:wasDerivedFrom": {
+        "@id": "urn:f1-dm:entity/racing_f1_data.zip"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:entity/circuits_raw.csv",
+      "@type": "prov:Entity",
+      "rdfs:label": "circuits_raw.csv",
+      "schema:sha256": "d5be8a810c150c5572dfcf2842015b39dc35436735d61e2b49a09687ab0c12c3",
+      "prov:wasGeneratedBy": {
+        "@id": "urn:f1-dm:activity/step0_extract"
+      },
+      "prov:wasDerivedFrom": {
+        "@id": "urn:f1-dm:entity/racing_f1_data.zip"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:entity/drivers_raw.csv",
+      "@type": "prov:Entity",
+      "rdfs:label": "drivers_raw.csv",
+      "schema:sha256": "672ed29fe66b93856fb6b74984651629feb62fc0825eb49340457044453ca93d",
+      "prov:wasGeneratedBy": {
+        "@id": "urn:f1-dm:activity/step0_extract"
+      },
+      "prov:wasDerivedFrom": {
+        "@id": "urn:f1-dm:entity/racing_f1_data.zip"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:entity/constructors_raw.csv",
+      "@type": "prov:Entity",
+      "rdfs:label": "constructors_raw.csv",
+      "schema:sha256": "e585496527e993e8473714ca65a9468a351d3447ef3d79a7266d4b1bebbbff40",
+      "prov:wasGeneratedBy": {
+        "@id": "urn:f1-dm:activity/step0_extract"
+      },
+      "prov:wasDerivedFrom": {
+        "@id": "urn:f1-dm:entity/racing_f1_data.zip"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C01",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C01 - Enforce schema and data types",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/step0_extract"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C02",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C02 - Repair missing keys by deterministic lookup",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C01"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C03",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C03 - Remove exact duplicates (after key repair)",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C02"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C04",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C04 - Standardise identifiers",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C03"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C05",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C05 - Replace grid sentinel 0 with missing + flag",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C04"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C06",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C06 - Separate classification from finishing order",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C05"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C07",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C07 - Standardise status into 8 groups",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C06"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C08",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C08 - Flag statistical outliers (keep valid extremes)",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C07"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C09",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C09 - Normalise points across scoring eras",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C08"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C10a",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C10a - Clean races reference table",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C09"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C10b",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C10b - Clean circuits reference table",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C10a"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C10c",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C10c - Clean drivers reference table",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C10b"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C10d",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C10d - Clean constructors reference table",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C10c"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C11",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C11 - Integrate into analysis-ready table",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C10d"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:activity/cleaning_C12",
+      "@type": "prov:Activity",
+      "rdfs:label": "Cleaning C12 - Validation gates",
+      "prov:wasInformedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C11"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:entity/f1_race_results_clean.csv",
+      "@type": "prov:Entity",
+      "rdfs:label": "f1_race_results_clean.csv",
+      "schema:sha256": "0d468653082d5059f6ab911add127aca35a086c0512a8d1b603175d731be0c01",
+      "prov:wasGeneratedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C12"
+      },
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:f1-dm:entity/f1_race_results_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/races_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/circuits_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/drivers_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/constructors_raw.csv"
+        }
+      ],
+      "prov:wasAttributedTo": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:entity/races_clean.csv",
+      "@type": "prov:Entity",
+      "rdfs:label": "races_clean.csv",
+      "schema:sha256": "2cc92f9ed57f42bcfef134f96887be215602c21316ad53631e839a617b685834",
+      "prov:wasGeneratedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C12"
+      },
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:f1-dm:entity/f1_race_results_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/races_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/circuits_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/drivers_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/constructors_raw.csv"
+        }
+      ],
+      "prov:wasAttributedTo": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:entity/circuits_clean.csv",
+      "@type": "prov:Entity",
+      "rdfs:label": "circuits_clean.csv",
+      "schema:sha256": "661d6b1953c109e94aac42bbb12ae9c851348c960faddea68e8bd1c7659154be",
+      "prov:wasGeneratedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C12"
+      },
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:f1-dm:entity/f1_race_results_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/races_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/circuits_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/drivers_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/constructors_raw.csv"
+        }
+      ],
+      "prov:wasAttributedTo": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:entity/drivers_clean.csv",
+      "@type": "prov:Entity",
+      "rdfs:label": "drivers_clean.csv",
+      "schema:sha256": "4add2b09038350297b0715da016f1b9cae134f9c5ae2619d1554350b417af733",
+      "prov:wasGeneratedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C12"
+      },
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:f1-dm:entity/f1_race_results_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/races_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/circuits_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/drivers_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/constructors_raw.csv"
+        }
+      ],
+      "prov:wasAttributedTo": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    },
+    {
+      "@id": "urn:f1-dm:entity/constructors_clean.csv",
+      "@type": "prov:Entity",
+      "rdfs:label": "constructors_clean.csv",
+      "schema:sha256": "649eb1db014bdc45ec5bab87a06d1c9ff5235ead0b9a70eb68cc47ca20c9922d",
+      "prov:wasGeneratedBy": {
+        "@id": "urn:f1-dm:activity/cleaning_C12"
+      },
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:f1-dm:entity/f1_race_results_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/races_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/circuits_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/drivers_raw.csv"
+        },
+        {
+          "@id": "urn:f1-dm:entity/constructors_raw.csv"
+        }
+      ],
+      "prov:wasAttributedTo": {
+        "@id": "urn:f1-dm:agent/pipeline"
+      }
+    }
+  ]
+}

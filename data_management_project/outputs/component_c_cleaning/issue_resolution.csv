@@ -1,0 +1,30 @@
+issue_id,dimension,title,before,after,resolution,cleaning_step
+B01,Completeness,Season missing,5,0.0,Fixed,C02
+B02,Completeness,Round missing,7,0.0,Fixed,C02
+B03,Completeness,Car number missing,6,6.0,Kept missing (structurally not applicable),C01
+B04,Completeness,Disguised missing value: grid = 0 sentinel,267,0.0,Fixed (sentinel -> missing + flag),C05
+B05,Completeness,"Races with fewer entries than the season norm (2014+): verified, not data loss",7,,Not an error (verified),None (verified as genuine)
+B06,Uniqueness,Exact duplicate records,23,0.0,Fixed,C03
+B07,Uniqueness,Hidden duplicates masked by missing keys,11,0.0,Fixed (keys repaired before de-duplication),C02 + C03
+B08,Uniqueness,Natural-key collisions that are NOT errors (shared drives),172,337.0,Not an error (kept and flagged),C11 (flag is_shared_drive)
+B09,Validity,Identifier violates lowercase convention,2,0.0,Fixed,C04
+B10,Validity,"Incorrect storage types (integers stored as floats, dates stored as text)",25907,0.0,Fixed (schema enforced),C01
+B11,Validity,'position' is filled for drivers who were not classified,9646,0.0,Fixed (classified_position separated from position_order),C06
+B12,Consistency,Non-standard categorical values: free-text status,25907,0.0,Fixed (136 values -> 8 controlled groups; raw kept),C07
+B13,Consistency,Contradiction: retired ('R') but status says lapped finish,26,26.0,Flagged (kept),C06 (flag status_position_conflict)
+B14,Consistency,Inconsistent text formatting (proper names stored in lowercase),25907,0.0,Fixed,"C10, C11"
+B15,Consistency,Points not comparable across eras (scoring rules changed),8425,,Mitigated (points_normalised added),C09
+B16,Accuracy,Statistical outliers that are valid (Indianapolis 500),270,270.0,Not an error (kept and flagged),C08
+B17,Referential integrity,Results that cannot be linked to a race,11,0.0,Fixed,C02
+B18,Uniqueness,Duplicate race records,5,0.0,Fixed,C10
+B19,Uniqueness,Duplicate circuits (exact copies and copies without ID),4,0.0,Fixed,C10
+B20,Uniqueness,Same person under two identifiers,2,0.0,Fixed (1 alias recorded),C10
+B21,Validity,Country names not in a standard vocabulary,19,0.0,Fixed (ISO 3166 codes added),C10
+B22,Completeness,Missing coordinates,1,1.0,Kept missing (documented),Documented (kept missing)
+B23,Completeness,Missing attributes for newest entities,12,11.0,Kept missing (documented),Documented (kept missing)
+B24,Timeliness,Reference calendar ahead of the results snapshot,24,24.0,Flagged (has_results),C10 (flag has_results)
+B25,Consistency,Mixed URL schemes (http vs https),1073,0.0,Fixed,C10
+B26,Consistency,Proper names stored in lowercase,956,0.0,Fixed,C10
+B27,Accuracy,Name differs from the official spelling,2,1.0,Kept (documented alias),"Documented (kept, alias noted)"
+B28,Consistency,Mixed file formats in one package,8,0.0,Handled at extraction (manifest),Step 0 (format detection in manifest)
+B29,Consistency,Retirement causes no longer recorded in recent seasons,129,129.0,Kept and documented (cause unknown in source; cause analyses limited to 1950-2022),C07 (mapped to 'Retired (unspecified)'; cause analyses limited to earlier seasons)

@@ -1,0 +1,8 @@
+dimension,Fixed,Mitigated or flagged (kept),Kept as is (documented),Not an error (verified)
+Referential integrity,1,0,0,0
+Timeliness,0,1,0,0
+Accuracy,0,0,1,1
+Validity,4,0,0,0
+Uniqueness,5,0,0,1
+Completeness,3,0,3,1
+Consistency,5,2,1,0

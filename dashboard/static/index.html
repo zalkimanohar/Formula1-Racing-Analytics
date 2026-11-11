@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formula 1 in Numbers, 1950-2025</title>
+<meta name="description" content="Seventy-six seasons of Formula 1 World Championship results, cleaned, validated and explored: eras, drivers, grid, reliability, circuits and the team-mate network.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Titillium+Web:wght@400;600;700;900&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the charts</a>
+
+<header class="hero" id="top">
+  <div class="gantry" role="img" aria-label="Formula 1 start lights">
+    <div class="pod"><i class="lamp"></i><i class="lamp"></i></div>
+    <div class="pod"><i class="lamp"></i><i class="lamp"></i></div>
+    <div class="pod"><i class="lamp"></i><i class="lamp"></i></div>
+    <div class="pod"><i class="lamp"></i><i class="lamp"></i></div>
+    <div class="pod"><i class="lamp"></i><i class="lamp"></i></div>
+  </div>
+  <div class="hero-copy">
+    <h1><span class="line"><span>Seventy-six seasons</span></span><span class="line"><span>of Formula 1</span></span></h1>
+    <p class="lede">Every World Championship Grand Prix from Silverstone, 13 May 1950, to Abu Dhabi, 7 December 2025.
+      Rebuilt from <span data-k="results">25,873</span> race results that were cleaned, checked and linked before a single chart was drawn.</p>
+    <dl class="timing-strip">
+      <div><dt>Grands Prix</dt><dd data-count="gps">0</dd></div>
+      <div><dt>Drivers</dt><dd data-count="drivers">0</dd></div>
+      <div><dt>Constructors</dt><dd data-count="constructors">0</dd></div>
+      <div><dt>Circuits in <span data-k="countries">34</span> countries</dt><dd data-count="circuits">0</dd></div>
+    </dl>
+    <div class="hero-actions">
+      <a class="btn primary" href="#eras">Start exploring</a>
+      <button class="btn" id="replay" type="button">Replay the start</button>
+      <p class="credits">The final stage of our Data Management project, by <span data-team></span>. <a href="#data">See how the data was prepared</a></p>
+    </div>
+  </div>
+</header>
+
+<div class="pitwall">
+  <div class="pitwall-inner">
+    <a class="brand" href="#top" aria-label="Back to the top">
+      <svg viewBox="0 0 22 22" aria-hidden="true"><defs><pattern id="chk" width="5.5" height="5.5" patternUnits="userSpaceOnUse"><rect width="2.75" height="2.75" fill="#ecebe6"/><rect x="2.75" y="2.75" width="2.75" height="2.75" fill="#ecebe6"/></pattern></defs><rect x="1" y="1" width="20" height="20" rx="4" fill="url(#chk)" stroke="#ecebe6" stroke-width="1"/></svg>
+      <span>F1 in numbers</span>
+    </a>
+    <nav aria-label="Chapters">
+      <a href="#eras">Eras</a><a href="#drivers">Drivers</a><a href="#grid">The grid</a><a href="#reliability">Reliability</a>
+      <a href="#circuits">Circuits</a><a href="#teammates">Team-mates</a><a href="#ask">Ask</a><a href="#data">The data</a>
+    </nav>
+    <div class="range" role="group" aria-label="Seasons shown">
+      <span class="range-label">Seasons</span>
+      <output id="from-out">1950</output>
+      <div class="range-track">
+        <div class="rail"></div><div class="sel" id="range-sel"></div>
+        <input id="from" type="range" aria-label="First season" step="1">
+        <input id="to" type="range" aria-label="Last season" step="1">
+      </div>
+      <output id="to-out">2025</output>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="chapter" id="eras" aria-labelledby="eras-title">
+    <div class="chapter-head">
+      <h2 id="eras-title">Who ruled each era</h2>
+      <div>
+        <p class="lede">Share of Grand Prix wins per season by constructor, smoothed over three seasons. Seven teams account for most of the sport's victories; everything else is grey. Hover a season to see who won what.</p>
+      </div>
+    </div>
+    <div class="chart chart-xl" id="chart-eras" role="img" aria-label="Stacked area chart of the share of race wins by constructor for every season from 1950 to 2025."></div>
+    <p class="finding" id="eras-finding"></p>
+  </section>
+
+  <section class="chapter" id="drivers" aria-labelledby="drivers-title">
+    <div class="chapter-head">
+      <h2 id="drivers-title">The all-time timing tower</h2>
+      <div>
+        <p class="lede">Rank the drivers the way a broadcast ranks a race. Raw points favour the modern era, where a win is worth 25; the era-adjusted score counts every race as a share of the winner's haul, so a win is worth exactly 1 in any decade.</p>
+        <p class="scope">Showing seasons <b data-scope></b></p>
+      </div>
+    </div>
+    <div class="tower-layout">
+      <div>
+        <div class="tower-bar">
+          <div class="segmented" role="group" aria-label="Rank drivers by" id="metric">
+            <button type="button" data-m="wins" aria-pressed="true">Wins</button>
+            <button type="button" data-m="podiums" aria-pressed="false">Podiums</button>
+            <button type="button" data-m="poles" aria-pressed="false">Pole starts</button>
+            <button type="button" data-m="score" aria-pressed="false">Era-adjusted score</button>
+            <button type="button" data-m="points" aria-pressed="false">Points</button>
+          </div>
+          <button class="btn" type="button" id="play" aria-pressed="false">Replay history</button>
+        </div>
+        <div class="panel tower-wrap">
+          <div class="tower-head" aria-hidden="true"><span>Pos</span><span></span><span>Driver</span><span></span><span class="h-track"></span><span style="text-align:right" id="metric-head">Wins</span></div>
+          <ol class="tower" id="tower" aria-live="polite"></ol>
+        </div>
+      </div>
+      <aside class="tower-notes" aria-label="About this ranking">
+        <p class="season-badge" id="season-badge">2025</p>
+        <p class="season-caption" id="season-caption">Totals for 1950-2025</p>
+        <p class="note" id="tower-note"></p>
+        <p class="note">Bars use each driver's most-raced team colour. A purple value marks the leader, as purple marks the fastest time on a timing screen.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="chapter" id="grid" aria-labelledby="grid-title">
+    <div class="chapter-head">
+      <h2 id="grid-title">Where you start is where you finish, mostly</h2>
+      <div>
+        <p class="lede">Each column is a starting slot; each cell shows the share of drivers from that slot who finished in that position. Retirements and non-classified finishes sit in the bottom row, so the grid tells the whole story, not just the survivors.</p>
+        <p class="scope">Showing seasons <b data-scope></b> &nbsp;Indianapolis 500 excluded</p>
+      </div>
+    </div>
+    <div class="grid-layout">
+      <div class="chart heat" id="chart-heat" role="img" aria-label="Heatmap of finishing position by starting grid position."></div>
+      <aside aria-label="Grid statistics">
+        <div class="stat"><div class="num" id="pole-win">0%</div><div class="txt">of pole sitters won the race</div></div>
+        <div class="stat"><div class="num" id="front-row">0%</div><div class="txt">of races were won from the front row</div></div>
+        <div class="stat">
+          <p class="sub">Pole-to-win conversion by decade</p>
+          <div class="chart mini" id="chart-pole" role="img" aria-label="Line chart of the share of pole sitters who won, by decade."></div>
+        </div>
+        <div class="stat">
+          <p class="sub">Furthest back to win</p>
+          <ol class="deep" id="deep"></ol>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="chapter" id="reliability" aria-labelledby="rel-title">
+    <div class="chapter-head">
+      <h2 id="rel-title">Cars stopped breaking</h2>
+      <div>
+        <p class="lede">What happened to every car that started, season by season, smoothed over five seasons. Engines, gearboxes and suspensions once ended more races than anything else; today almost every car sees the flag.</p>
+      </div>
+    </div>
+    <div class="chart chart-xl" id="chart-rel" role="img" aria-label="Stacked area chart of race outcomes per season: finished, mechanical failure, accident, other."></div>
+    <p class="finding" id="rel-finding"></p>
+  </section>
+
+  <section class="chapter" id="circuits" aria-labelledby="circ-title">
+    <div class="chapter-head">
+      <h2 id="circ-title">Seventy-seven circuits on one planet</h2>
+      <div>
+        <p class="lede">Drag the globe to travel. Dot size shows how many Grands Prix a circuit hosted; pick a circuit to see who mastered it.</p>
+        <p class="scope">Showing seasons <b data-scope></b></p>
+      </div>
+    </div>
+    <div class="circuits-layout">
+      <div class="globe" id="globe" role="img" aria-label="Rotating globe with every Formula 1 circuit."></div>
+      <div>
+        <div class="panel circuit-card" id="circuit-card" aria-live="polite"></div>
+        <ol class="circuit-list" id="circuit-list"></ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter" id="teammates" aria-labelledby="tm-title">
+    <div class="chapter-head">
+      <h2 id="tm-title">Everyone is a few team-mates away</h2>
+      <div>
+        <p class="lede">Every dot is a driver; a line joins two drivers who raced for the same team in the same Grand Prix. Nobody told the layout what year it is, yet the generations line up on their own. Find a driver, or follow the shortest chain from Juan Manuel Fangio to Max Verstappen.</p>
+      </div>
+    </div>
+    <div class="net-bar">
+      <div class="search">
+        <input id="driver-search" list="driver-names" placeholder="Find a driver" aria-label="Find a driver">
+        <datalist id="driver-names"></datalist>
+      </div>
+      <button class="btn" type="button" id="path-btn" aria-pressed="false">Fangio to Verstappen</button>
+      <div class="era-legend" aria-hidden="true"><span>Debut 1950</span><i></i><span>2025</span></div>
+    </div>
+    <div class="panel"><div class="chart net" id="chart-net" role="img" aria-label="Network of Formula 1 team-mates."></div></div>
+    <ol class="chain" id="chain" hidden></ol>
+    <p class="finding" id="net-finding"></p>
+  </section>
+
+  <section class="chapter" id="ask" aria-labelledby="ask-title">
+    <div class="chapter-head">
+      <h2 id="ask-title">Ask the data</h2>
+      <div>
+        <p class="lede">Ask about any driver, team, circuit or season, in English or Spanish. Llama 3 writes the answer on this computer, but it may only use the evidence beside it: exact figures computed from the cleaned dataset, the team-mate network and our podium model, each traced to its file and raw line. Every number in the answer is then checked against that evidence.</p>
+        <p class="scope ask-status" id="ask-status" aria-live="polite"><i></i><span>Connecting to the assistant</span></p>
+      </div>
+    </div>
+    <ol class="ask-steps" aria-label="How an answer is built">
+      <li><b>Understand</b><span>Finds drivers, teams, circuits and seasons in the question</span></li>
+      <li><b>Gather evidence</b><span>Exact figures, team-mate chains, model estimates, documents</span></li>
+      <li><b>Write</b><span>Llama 3 answers from the evidence only and cites it</span></li>
+      <li><b>Check</b><span>Every figure in the answer is looked up in the evidence</span></li>
+    </ol>
+    <div class="ask-layout">
+      <div class="panel ask-panel">
+        <form class="ask-form" id="ask-form">
+          <label class="sr-only" for="ask-input">Your question</label>
+          <textarea id="ask-input" rows="2" maxlength="500" placeholder="Who won the 1988 World Championship, and who scored more points?"></textarea>
+          <button class="btn primary" type="submit" id="ask-btn">Ask</button>
+        </form>
+        <div class="ask-examples" id="ask-examples" role="group" aria-label="Example questions"></div>
+        <div class="ask-answer" id="ask-answer" aria-live="polite">
+          <p class="ask-empty">Pick an example or type your own question. The evidence appears first, in under a second; the written answer follows.</p>
+        </div>
+        <div class="ask-check" id="ask-check" hidden></div>
+      </div>
+      <aside class="ask-evidence" aria-label="Evidence used for the answer">
+        <p class="sub">Evidence</p>
+        <ol class="evidence-list" id="ask-evidence"><li class="ev-empty">Nothing yet.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section class="chapter" id="data" aria-labelledby="data-title">
+    <div class="chapter-head">
+      <h2 id="data-title">How the numbers were checked</h2>
+      <div>
+        <p class="lede">This page is the last stage of our Data Management project. The raw files looked complete. They were not. Before a single chart was drawn, the data went through three sectors: a quality profile, an audited cleaning pipeline and a FAIR publication record.</p>
+      </div>
+    </div>
+    <ol class="flow" aria-label="From the raw archive to this page">
+      <li><b>Raw archive</b><span><span data-q="rows_raw"></span> results, 93 files</span></li>
+      <li><b>Profiling</b><span>Component B: <span data-q="issues"></span> issues</span></li>
+      <li><b>Cleaning</b><span>Component C: <span data-q="gates"></span> checks</span></li>
+      <li><b>FAIR record</b><span>Component A: DataCite, PIDs</span></li>
+      <li><b>Graph</b><span>NetworkX analysis</span></li>
+      <li class="here"><b>This page</b><span><span data-q="rows_clean"></span> clean results</span></li>
+    </ol>
+    <div class="sectors">
+      <article class="sector">
+        <h3><b>S1</b>Profiled</h3>
+        <div class="big" data-q="issues"></div>
+        <p>quality issues found across <span data-q="dimensions"></span> dimensions, each traced to a file and line.</p>
+        <div class="big" data-q="disguised"></div>
+        <p>values that only pretended to be data, while just <span data-q="nulls"></span> cells were empty.</p>
+      </article>
+      <article class="sector">
+        <h3><b>S2</b>Cleaned</h3>
+        <div class="big" data-q="duplicates"></div>
+        <p>duplicate results removed, <span data-q="hidden_duplicates"></span> of them hidden behind blanked keys.</p>
+        <div class="big" data-q="shared_drives"></div>
+        <p>results that looked like duplicates but were real 1950s shared drives, kept and flagged.</p>
+      </article>
+      <article class="sector">
+        <h3><b>S3</b>Published</h3>
+        <div class="big"><span data-q="rda_before"></span>% to <span data-q="rda_after"></span>%</div>
+        <p>FAIR maturity before and after curation, on the 41 RDA indicators.</p>
+        <div class="big"><span data-q="qid_drivers"></span>%</div>
+        <p>of drivers linked to a persistent Wikidata identifier.</p>
+      </article>
+    </div>
+    <div class="lap"><b><span data-q="gates_passed"></span> of <span data-q="gates"></span></b><span>validation checks passed. One failure would have stopped the pipeline.</span></div>
+    <p class="finding"><span>Building this page found one more problem. The reliability chart showed mechanical failures vanishing after 2022: in fact the source stopped recording why cars retired. It became issue <span data-q="issues"></span> in our quality register, and the chart now marks the break instead of hiding it.</span></p>
+  </section>
+</main>
+
+<footer>
+  <div class="kerb" aria-hidden="true"></div>
+  <div class="footer-inner">
+    <div>
+      <h2>About this page</h2>
+      <p>Race results from the Ergast Developer API, served by Jolpica-F1 and licensed under CC BY-NC-SA 4.0. Cleaned, validated and documented by <span data-team></span> for Data Management, Winter 2026/27, SRH University.</p>
+      <p>Points are shown as awarded under each season's rules. Era-adjusted scores, outcome groups and team families are our own derivations, documented in the project report.</p>
+    </div>
+    <div>
+      <h2>Rebuild it</h2>
+      <p>Everything here is generated from the cleaned dataset in <code>data_management_project</code>. Run <code>python run_all.py</code>, then <code>python dashboard/build_web_data.py</code>.</p>
+      <p>The assistant runs locally: <code>python -m src.assistant.api</code> inside <code>data_management_project</code>, with Ollama and <code>ollama pull llama3</code>. Its idea and first prototype come from Manohar Zalki's Graphic-LlmRag.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="tip" id="tip" role="tooltip" hidden></div>
+
+<script src="vendor/echarts.min.js"></script>
+<script src="vendor/d3.min.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
+<script src="vendor/world.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script src="assistant.js"></script>
+</body>
+</html>

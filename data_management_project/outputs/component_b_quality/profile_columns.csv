@@ -1,0 +1,42 @@
+table,column,pandas_dtype,semantic_type,rows,non_null,missing,missing_pct,distinct,distinct_pct,is_unique,top_values,min,max,mean,std,zeros
+results,source_file,str,text,25907,25907,0,0.0,76,0.293,False,results_2024.json (479); results_2025.json (479); results_2012.json (478); results_2016.json (462); results_2010.json (456),,,,,
+results,source_line,int64,integer,25907,25907,0,0.0,479,1.849,False,1 (76); 2 (76); 3 (76); 4 (76); 5 (76),1.0,479.0,183.8094,115.8437,0.0
+results,date,str,date (stored as text),25907,25907,0,0.0,1149,4.435,False,1954-05-31 (55); 1953-05-30 (47); 1960-11-20 (46); 1961-09-10 (38); 1953-08-02 (36),1950-05-13,2025-12-07,,,
+results,raceName,str,text,25907,25907,0,0.0,54,0.208,False,british grand prix (1790); italian grand prix (1767); belgian grand prix (1542); german grand prix (1504); monaco grand prix (1486),,,,,
+results,round,float64,integer (stored as float),25907,25900,7,0.027,24,0.093,False,2.0 (1751); 7.0 (1734); 3.0 (1732); 6.0 (1716); 5.0 (1713),1.0,24.0,8.6234,5.1687,0.0
+results,season,float64,integer (stored as float),25907,25902,5,0.019,76,0.293,False,2024.0 (479); 2025.0 (479); 2012.0 (478); 2016.0 (462); 2010.0 (456),1950.0,2025.0,1992.4486,20.5736,0.0
+results,url,str,url,25907,25907,0,0.0,1149,4.435,False,https://en.wikipedia.org/wiki/1954_Indianapolis_500 (55); https://en.wikipedia.org/wiki/1953_Indianapolis_500 (47); https://en.wikipedia.org/wiki/1960_United_States_Grand_Prix (46); https://en.wikipedia.org/wiki/1961_Italian_Grand_Prix (38); https://en.wikipedia.org/wiki/1953_German_Grand_Prix (36),,,,,
+results,constructorId,str,text,25907,25907,0,0.0,203,0.784,False,ferrari (2484); mclaren (1951); williams (1713); sauber (885); tyrrell (850),,,,,
+results,driverId,str,text,25907,25907,0,0.0,817,3.154,False,alonso (428); hamilton (380); raikkonen (352); barrichello (326); button (309),,,,,
+results,grid,int64,integer,25907,25907,0,0.0,35,0.135,False,1 (1162); 7 (1161); 4 (1158); 9 (1157); 5 (1157),0.0,34.0,11.71,6.8796,267.0
+results,laps,int64,integer,25907,25907,0,0.0,172,0.664,False,0 (1186); 70 (1029); 53 (972); 56 (844); 52 (841),0.0,200.0,48.9126,28.0378,1186.0
+results,number,float64,integer (stored as float),25907,25901,6,0.023,128,0.494,False,16.0 (1025); 4.0 (1022); 6.0 (1016); 11.0 (998); 3.0 (987),0.0,136.0,17.9389,15.8969,34.0
+results,points,float64,decimal,25907,25907,0,0.0,40,0.154,False,0.0 (17482); 2.0 (1153); 4.0 (1137); 6.0 (1116); 1.0 (1092),0.0,50.0,2.1484,4.5229,17482.0
+results,position,int64,integer,25907,25907,0,0.0,39,0.151,False,3 (1161); 4 (1161); 2 (1160); 11 (1159); 5 (1158),1.0,39.0,11.9343,6.8784,0.0
+results,positionText,str,text,25907,25907,0,0.0,36,0.139,False,R (9129); 3 (1161); 4 (1161); 2 (1160); 5 (1157),,,,,
+results,status,str,text,25907,25907,0,0.0,136,0.525,False,Finished (8009); +1 Lap (3855); Engine (2013); +2 Laps (1596); Accident (1048),,,,,
+races,season,int64,integer,1178,1178,0,0.0,77,6.537,False,2025 (25); 2024 (24); 2026 (24); 2021 (22); 2022 (22),1950.0,2026.0,1994.0331,21.2189,0.0
+races,round,int64,integer,1178,1178,0,0.0,24,2.037,False,4 (78); 1 (77); 2 (77); 3 (77); 5 (77),1.0,24.0,8.747,5.2964,0.0
+races,url,str,url,1178,1178,0,0.0,1173,99.576,False,https://en.wikipedia.org/wiki/1950_Swiss_Grand_Prix (2); https://en.wikipedia.org/wiki/1982_Dutch_Grand_Prix (2); https://en.wikipedia.org/wiki/1991_Japanese_Grand_Prix (2); https://en.wikipedia.org/wiki/2008_European_Grand_Prix (2); https://en.wikipedia.org/wiki/2025_British_Grand_Prix (2),,,,,
+races,raceName,str,text,1178,1178,0,0.0,55,4.669,False,british grand prix (78); italian grand prix (77); monaco grand prix (72); belgian grand prix (71); german grand prix (64),,,,,
+races,date,str,date (stored as text),1178,1178,0,0.0,1173,99.576,False,1950-06-04 (2); 1982-07-03 (2); 1991-10-20 (2); 2008-08-24 (2); 2025-07-06 (2),1950-05-13,2026-12-06,,,
+races,circuitId,str,text,1178,1178,0,0.0,78,6.621,False,monza (76); monaco (72); silverstone (62); spa (59); villeneuve (45),,,,,
+circuits,circuitId,str,text,82,80,2,2.439,78,97.5,False,dijon (2); indianapolis (2); adelaide (1); ain-diab (1); aintree (1),,,,,
+circuits,url,str,url,82,82,0,0.0,78,95.122,False,https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve (2); https://en.wikipedia.org/wiki/Lusail_International_Circuit (2); https://en.wikipedia.org/wiki/Dijon-Prenois (2); https://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway (2); https://en.wikipedia.org/wiki/Adelaide_Street_Circuit (1),,,,,
+circuits,circuitName,str,text,82,82,0,0.0,78,95.122,False,circuit gilles villeneuve (2); losail international circuit (2); dijon-prenois (2); indianapolis motor speedway (2); adelaide street circuit (1),,,,,
+circuits,lat,float64,decimal,82,81,1,1.22,77,95.062,False,45.5 (2); 25.49 (2); 47.3625 (2); 39.795 (2); -34.9272 (1),-37.8497,57.2653,33.7439,22.3534,0.0
+circuits,long,float64,decimal,82,81,1,1.22,77,95.062,False,-73.5228 (2); 51.4542 (2); 4.89913 (2); -86.2347 (2); 138.617 (1),-118.189,144.968,-0.2531,65.3668,0.0
+circuits,locality,str,text,82,82,0,0.0,74,90.244,False,barcelona (3); montreal (2); lusail (2); dijon (2); indianapolis (2),,,,,
+circuits,country,str,text,82,82,0,0.0,34,41.463,False,USA (13); France (8); Spain (7); Canada (4); UK (4),,,,,
+drivers,source_line,int64,integer,874,874,0,0.0,874,100.0,True,1 (1); 2 (1); 3 (1); 4 (1); 5 (1),1.0,874.0,437.5,252.4464,0.0
+drivers,driverId,str,text,874,874,0,0.0,874,100.0,True,abate (1); abecassis (1); acheson (1); adams (1); ader (1),,,,,
+drivers,dateOfBirth,str,date (stored as text),874,865,9,1.03,847,97.919,False,1937-04-26 (2); 1929-06-13 (2); 1919-09-30 (2); 1935-12-26 (2); 1950-01-18 (2),1896-12-28,2007-08-08,,,
+drivers,nationality,str,text,874,865,9,1.03,40,4.624,False,british (167); american (158); italian (101); french (74); german (50),,,,,
+drivers,url,str,url,874,864,10,1.144,864,100.0,False,http://en.wikipedia.org/wiki/Carlo_Mario_Abate (1); http://en.wikipedia.org/wiki/George_Abecassis (1); http://en.wikipedia.org/wiki/Kenny_Acheson (1); http://en.wikipedia.org/wiki/Philippe_Adams (1); http://en.wikipedia.org/wiki/Walt_Ader (1),,,,,
+drivers,name.givenName,str,text,874,874,0,0.0,488,55.835,False,john (14); mike (14); peter (13); bill (11); tony (11),,,,,
+drivers,name.familyName,str,text,874,874,0,0.0,812,92.906,False,taylor (5); fittipaldi (4); wilson (4); brabham (3); brown (3),,,,,
+constructors,source_line,int64,integer,214,214,0,0.0,214,100.0,True,1 (1); 2 (1); 3 (1); 4 (1); 5 (1),1.0,214.0,107.5,61.9206,0.0
+constructors,constructorId,str,text,214,214,0,0.0,214,100.0,True,adams (1); afm (1); ags (1); alfa (1); alphatauri (1),,,,,
+constructors,name,str,text,214,214,0,0.0,214,100.0,True,Adams (1); AFM (1); AGS (1); Alfa Romeo (1); AlphaTauri (1),,,,,
+constructors,nationality,str,text,214,214,0,0.0,24,11.215,False,british (86); american (40); italian (30); french (13); german (11),,,,,
+constructors,url,str,url,214,212,2,0.935,175,82.547,False,http://en.wikipedia.org/wiki/Cooper_Car_Company (11); http://en.wikipedia.org/wiki/Team_Lotus (7); http://en.wikipedia.org/wiki/Brabham (6); http://en.wikipedia.org/wiki/De_Tomaso (4); http://en.wikipedia.org/wiki/Anglo_American_Racers (3),,,,,

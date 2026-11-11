@@ -1,0 +1,68 @@
+table,column,type,description,unit_or_format,allowed_values,nullable,source_field,non_null,distinct,example
+f1_race_results_clean.csv,result_id,string,Deterministic surrogate key: season_round_driverId_carNumber.,YYYY_RR_<driver_id>_<car_number|NA>,,False,derived,25873,25873,1950_01_farina_2
+f1_race_results_clean.csv,race_id,string,Identifier of the Grand Prix: season and round.,YYYY_RR,,False,derived,25873,1149,1950_01
+f1_race_results_clean.csv,season,Int64,Championship season (year).,year,,False,season,25873,76,1950
+f1_race_results_clean.csv,round,Int64,Round number of the race within the season.,,,False,round,25873,24,1
+f1_race_results_clean.csv,race_name,string,Official Grand Prix name in title case.,,,False,raceName,25873,54,British Grand Prix
+f1_race_results_clean.csv,race_date,date,Race day.,ISO 8601 (YYYY-MM-DD),,False,date,25873,1149,1950-05-13
+f1_race_results_clean.csv,circuit_id,string,Circuit identifier (Ergast convention).,,,False,races.circuitId,25873,77,silverstone
+f1_race_results_clean.csv,circuit_name,string,Circuit name in title case.,,,False,circuits.circuitName,25873,77,Silverstone Circuit
+f1_race_results_clean.csv,circuit_locality,string,City or locality of the circuit.,,,False,circuits.locality,25873,74,Silverstone
+f1_race_results_clean.csv,circuit_country,string,"Country of the circuit; abbreviations expanded (UK, USA, UAE, Korea), other names kept as in source.",,,False,circuits.country,25873,34,United Kingdom
+f1_race_results_clean.csv,circuit_country_iso3,string,Country of the circuit.,ISO 3166-1 alpha-3,,False,circuits.country,25873,34,GBR
+f1_race_results_clean.csv,driver_id,string,"Driver identifier, lowercase snake case.",,,False,driverId,25873,817,farina
+f1_race_results_clean.csv,driver_name,string,Driver full name in title case.,,,False,drivers.name,25873,817,Nino Farina
+f1_race_results_clean.csv,driver_nationality_iso3,string,Driver nationality as a country code (ISO 3166-3 code for former states).,ISO 3166-1 alpha-3 / ISO 3166-3,,True,drivers.nationality,25873,40,ITA
+f1_race_results_clean.csv,constructor_id,string,Constructor (team) identifier.,,,False,constructorId,25873,203,alfa
+f1_race_results_clean.csv,constructor_name,string,Constructor name.,,,False,constructors.name,25873,203,Alfa Romeo
+f1_race_results_clean.csv,constructor_nationality_iso3,string,Constructor nationality as a country code.,ISO 3166-1 alpha-3 / ISO 3166-3,,False,constructors.nationality,25873,23,CHE
+f1_race_results_clean.csv,car_number,Int64,Race number of the car. Missing for some withdrawn entries.,,,True,number,25867,128,2.0
+f1_race_results_clean.csv,grid_position,Int64,Starting grid slot. Missing when the source used the sentinel 0 (pit-lane start or no grid slot).,,,True,grid,25606,34,1.0
+f1_race_results_clean.csv,grid_position_missing,boolean,True when the source grid value was the sentinel 0.,,,False,derived from grid,25873,2,False
+f1_race_results_clean.csv,laps_completed,Int64,Laps completed in the race.,laps,,False,laps,25873,172,70
+f1_race_results_clean.csv,points,float,"Championship points awarded, as published for that season's rules.",points,,False,points,25873,40,9.0
+f1_race_results_clean.csv,points_normalised,float,"Points divided by the highest points total awarded in the same race (0-1), comparable across scoring eras.",ratio 0-1,,False,derived from points,25873,60,1.0
+f1_race_results_clean.csv,position_order,Int64,Finishing order including retirements (source field 'position'). Not a classification.,,,False,position,25873,39,1
+f1_race_results_clean.csv,classified_position,Int64,Official classified finishing position. Missing when the driver was not classified.,,,True,positionText,16235,33,1.0
+f1_race_results_clean.csv,position_text,string,"Source classification code: a number, R, W or D.",,,False,positionText,25873,36,1
+f1_race_results_clean.csv,finish_category,string,Classification outcome derived from position_text.,,Classified; Retired; Withdrawn; Disqualified,False,derived from positionText,25873,4,Classified
+f1_race_results_clean.csv,status_raw,string,Original free-text status (136 values).,,,False,status,25873,136,Finished
+f1_race_results_clean.csv,status_group,string,Standardised status category.,,Finished; Finished (lapped); Accident or collision; Mechanical or technical failure; Driver health or safety; Did not start or withdrew; Disqualified or excluded; Retired (unspecified) or not classified,False,derived from status,25873,8,Finished
+f1_race_results_clean.csv,is_shared_drive,boolean,True when the car or the driver appears more than once in the same race (historic shared drives).,,,False,derived,25873,2,False
+f1_race_results_clean.csv,is_indy500,boolean,"True for Indianapolis 500 rounds (1950-1960), which counted for the title but used different rules.",,,False,derived from raceName,25873,2,False
+f1_race_results_clean.csv,laps_outlier_iqr,boolean,True when laps_completed lies outside the 1.5 x IQR fences.,,,False,derived from laps,25873,2,False
+f1_race_results_clean.csv,status_position_conflict,boolean,True when position_text says retired (R) but the status describes a lapped finish.,,,False,derived,25873,2,False
+f1_race_results_clean.csv,source_file,string,Lineage: source file inside racing_f1_data.zip.,,,False,extraction,25873,76,results_1950.json
+f1_race_results_clean.csv,source_line,Int64,Lineage: line number inside the source file.,,,False,extraction,25873,479,1
+races_clean.csv,race_id,string,Grand Prix identifier: season and two-digit round (YYYY_RR).,,,False,,1173,1173,1950_01
+races_clean.csv,season,integer,Championship season (year).,,,False,,1173,77,1950
+races_clean.csv,round,integer,Round number within the season.,,,False,,1173,24,1
+races_clean.csv,race_name,string,Grand Prix name in title case.,,,False,,1173,55,British Grand Prix
+races_clean.csv,race_date,date,Race day (ISO 8601).,,,False,,1173,1173,1950-05-13
+races_clean.csv,circuit_id,string,Circuit identifier (Ergast convention).,,,False,,1173,78,silverstone
+races_clean.csv,wikipedia_url,string,English Wikipedia page (https).,,,False,,1173,1173,https://en.wikipedia.org/wiki/1950_British_Grand_Prix
+races_clean.csv,has_results,boolean,True when the results table contains this race.,,,False,,1173,2,True
+circuits_clean.csv,circuit_id,string,Circuit identifier (Ergast convention).,,,False,,78,78,adelaide
+circuits_clean.csv,circuit_name,string,Circuit name in title case.,,,False,,78,78,Adelaide Street Circuit
+circuits_clean.csv,locality,string,City or locality.,,,False,,78,74,Adelaide
+circuits_clean.csv,country,string,Country name (abbreviations expanded).,,,False,,78,34,Australia
+circuits_clean.csv,country_iso3,string,ISO 3166-1 alpha-3 country code.,,,False,,78,34,AUS
+circuits_clean.csv,latitude,number,WGS84 latitude (decimal degrees).,,,True,,77,77,-34.9272
+circuits_clean.csv,longitude,number,WGS84 longitude (decimal degrees).,,,True,,77,77,138.617
+circuits_clean.csv,wikipedia_url,string,English Wikipedia page (https).,,,False,,78,78,https://en.wikipedia.org/wiki/Adelaide_Street_Circuit
+circuits_clean.csv,wikidata_qid,string,Wikidata item identifier (persistent identifier of the entity).,,,False,,78,78,Q83234
+drivers_clean.csv,driver_id,string,"Driver identifier, lowercase snake case.",,,False,,873,873,abate
+drivers_clean.csv,given_name,string,Given name in title case.,,,False,,873,488,Carlo
+drivers_clean.csv,family_name,string,Family name in title case.,,,False,,873,812,Abate
+drivers_clean.csv,full_name,string,Given and family name.,,,False,,873,873,Carlo Abate
+drivers_clean.csv,date_of_birth,date,Date of birth (ISO 8601).,,,True,,865,847,1932-07-10
+drivers_clean.csv,nationality,string,"Nationality (demonym, title case).",,,True,,865,40,Italian
+drivers_clean.csv,nationality_iso3,string,Nationality as ISO 3166-1 alpha-3 (ISO 3166-3 for former states).,,,True,,865,40,ITA
+drivers_clean.csv,wikipedia_url,string,English Wikipedia page (https).,,,True,,864,864,https://en.wikipedia.org/wiki/Carlo_Mario_Abate
+drivers_clean.csv,wikidata_qid,string,Wikidata item identifier (persistent identifier of the entity).,,,True,,863,863,Q556690
+constructors_clean.csv,constructor_id,string,Constructor identifier (Ergast convention).,,,False,,214,214,adams
+constructors_clean.csv,constructor_name,string,Constructor name.,,,False,,214,214,Adams
+constructors_clean.csv,nationality,string,"Nationality (demonym, title case).",,,False,,214,24,American
+constructors_clean.csv,nationality_iso3,string,Nationality as ISO 3166-1 alpha-3 (ISO 3166-3 for former states).,,,False,,214,24,USA
+constructors_clean.csv,wikipedia_url,string,English Wikipedia page (https).,,,True,,212,175,https://en.wikipedia.org/wiki/Adams_(constructor)
+constructors_clean.csv,wikidata_qid,string,Wikidata item identifier (persistent identifier of the entity).,,,True,,210,170,Q1645121

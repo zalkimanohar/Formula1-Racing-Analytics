@@ -1,0 +1,6078 @@
+{
+  "SRH University": {
+    "number_of_results": 15548,
+    "time_taken": 21,
+    "items": [
+      {
+        "admin": {
+          "created": {
+            "date": "2026-07-19",
+            "schema_version": "2.1"
+          },
+          "last_modified": {
+            "date": "2026-09-22",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2012,
+        "external_ids": [
+          {
+            "all": [
+              "Q97358532"
+            ],
+            "preferred": "Q97358532",
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/04ys3xe45",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.srh-university.de/en/our-campuses/dresden"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://de.wikipedia.org/wiki/Dresden_School_of_Management"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "SN",
+              "country_subdivision_name": "Saxony",
+              "lat": 51.05089,
+              "lng": 13.73832,
+              "name": "Dresden"
+            },
+            "geonames_id": 2935022
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Dresden School of Management"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Berlin University of Applied Sciences, Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Hochschule Berlin, Campus Dresden"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Hochschule Berlin, Dresden"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "SRH Hochschule Campus Dresden"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Hochschule, Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "SRH University Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences, Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences, Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University, Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University, Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH-Hochschule, Dresden"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "SRH University of Applied Sciences Heidelberg",
+            "type": "parent",
+            "id": "https://ror.org/00g07sz63"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1907,
+        "external_ids": [
+          {
+            "all": [
+              "grid.461015.7"
+            ],
+            "preferred": "grid.461015.7",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "Q7591579"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/02ejbzv65",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.srhpakistan.org/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/St._Raphael%27s_Hospital"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "AS",
+              "continent_name": "Asia",
+              "country_code": "PK",
+              "country_name": "Pakistan",
+              "country_subdivision_code": "PB",
+              "country_subdivision_name": "Punjab",
+              "lat": 31.41554,
+              "lng": 73.08969,
+              "name": "Faisalabad"
+            },
+            "geonames_id": 1179400
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "SRH"
+          },
+          {
+            "lang": null,
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "St. Raphael's Hospital"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "healthcare"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2026-09-22",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [
+          "srh-university.de"
+        ],
+        "established": null,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466188.5"
+            ],
+            "preferred": "grid.466188.5",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0000 9526 4412"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q136490501"
+            ],
+            "preferred": "Q136490501",
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/00g07sz63",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.srh-university.de"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://de.wikipedia.org/wiki/SRH_University_of_Applied_Sciences_Heidelberg"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BW",
+              "country_subdivision_name": "Baden-Wurttemberg",
+              "lat": 49.40768,
+              "lng": 8.69079,
+              "name": "Heidelberg"
+            },
+            "geonames_id": 2907911
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRC University Heidelberg"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Berlin University of Applied Sciences"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Hochschule Heidelberg"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "SRH University of Applied Sciences Heidelberg"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences for Health"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences in North Rhine-Westphalia"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Wilhelm Löhe University"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "SRH University Campus Dresden",
+            "type": "child",
+            "id": "https://ror.org/04ys3xe45"
+          },
+          {
+            "label": "SRH Berlin School of Design and Communication",
+            "type": "child",
+            "id": "https://ror.org/03037cz33"
+          },
+          {
+            "label": "Wilhelm Löhe University for Applied Sciences",
+            "type": "predecessor",
+            "id": "https://ror.org/03bh13774"
+          },
+          {
+            "label": "SRH University Berlin",
+            "type": "predecessor",
+            "id": "https://ror.org/01prjcc04"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2026-09-22",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2007,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466281.f"
+            ],
+            "preferred": "grid.466281.f",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 7470 9012"
+            ],
+            "preferred": "0000 0004 7470 9012",
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q1200666"
+            ],
+            "preferred": "Q1200666",
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/03037cz33",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.srh-berlin.de"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BE",
+              "country_subdivision_name": "State of Berlin",
+              "lat": 52.52437,
+              "lng": 13.41053,
+              "name": "Berlin"
+            },
+            "geonames_id": 2950159
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "BSDC"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Berlin School of Design and Communication"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "Design Akademie Berlin"
+          },
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "SRH BSDC"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Berlin School of Design and Communication"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "SRH University of Applied Sciences Heidelberg",
+            "type": "parent",
+            "id": "https://ror.org/00g07sz63"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2021-09-23",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2025-03-26",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [
+          "mobile-university.de",
+          "srh-distance-learning-university.com"
+        ],
+        "established": null,
+        "external_ids": [
+          {
+            "all": [
+              "grid.512569.c"
+            ],
+            "preferred": "grid.512569.c",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "Q2207700"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/00yx29a03",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.mobile-university.de"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BW",
+              "country_subdivision_name": "Baden-Wurttemberg",
+              "lat": 48.15455,
+              "lng": 9.47558,
+              "name": "Riedlingen"
+            },
+            "geonames_id": 2847080
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Fernhochschule – The Mobile University"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "SRH Fernhochschule – The Mobile University"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "SRH Fernhochschule Riedlingen",
+            "type": "predecessor",
+            "id": "https://ror.org/05ygfpx91"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1970,
+        "external_ids": [
+          {
+            "all": [
+              "grid.490718.3"
+            ],
+            "preferred": "grid.490718.3",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 0636 8535"
+            ],
+            "preferred": null,
+            "type": "isni"
+          }
+        ],
+        "id": "https://ror.org/00pz6pe93",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.klinikum-karlsbad.de/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BW",
+              "country_subdivision_name": "Baden-Wurttemberg",
+              "lat": 48.7606,
+              "lng": 8.23975,
+              "name": "Baden-Baden"
+            },
+            "geonames_id": 2953504
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Klinikum Karlsbad-Langensteinbach"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "healthcare"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1912,
+        "external_ids": [
+          {
+            "all": [
+              "grid.492124.8"
+            ],
+            "preferred": "grid.492124.8",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 0214 7565"
+            ],
+            "preferred": null,
+            "type": "isni"
+          }
+        ],
+        "id": "https://ror.org/00q236z92",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.waldklinikumgera.de/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "TH",
+              "country_subdivision_name": "Thuringia",
+              "lat": 50.88029,
+              "lng": 12.08187,
+              "name": "Gera"
+            },
+            "geonames_id": 2921232
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Wald-Klinikum Gera"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "healthcare"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2006,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466189.4"
+            ],
+            "preferred": "grid.466189.4",
+            "type": "grid"
+          }
+        ],
+        "id": "https://ror.org/026kenw55",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.gesundheitshochschule.de/en/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "TH",
+              "country_subdivision_name": "Thuringia",
+              "lat": 50.88029,
+              "lng": 12.08187,
+              "name": "Gera"
+            },
+            "geonames_id": 2921232
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Hochschule für Gesundheit Gera"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2009,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466459.c"
+            ],
+            "preferred": "grid.466459.c",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 1794 7436"
+            ],
+            "preferred": null,
+            "type": "isni"
+          }
+        ],
+        "id": "https://ror.org/02kraxp86",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.hdpk.de/de/startseite/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BE",
+              "country_subdivision_name": "Berlin",
+              "lat": 52.52437,
+              "lng": 13.41053,
+              "name": "Berlin"
+            },
+            "geonames_id": 2950159
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "HDPK"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Hochschule der Populären Künste"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2005,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466367.6"
+            ],
+            "preferred": "grid.466367.6",
+            "type": "grid"
+          }
+        ],
+        "id": "https://ror.org/01k6xby62",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.fh-hamm.de/de/hochschule/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "NW",
+              "country_subdivision_name": "North Rhine-Westphalia",
+              "lat": 51.68033,
+              "lng": 7.82089,
+              "name": "Hamm"
+            },
+            "geonames_id": 2911240
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "HLW"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Hochschule für Logistik und Wirtschaft"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2001,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466283.d"
+            ],
+            "preferred": "grid.466283.d",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0000 8787 8609"
+            ],
+            "preferred": null,
+            "type": "isni"
+          }
+        ],
+        "id": "https://ror.org/0572yc306",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.hochschule-calw.de/de/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BW",
+              "country_subdivision_name": "Baden-Wurttemberg",
+              "lat": 48.71419,
+              "lng": 8.74031,
+              "name": "Calw"
+            },
+            "geonames_id": 2940383
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Hochschule für Wirtschaft und Medien Calw"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2019-02-17",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1957,
+        "external_ids": [
+          {
+            "all": [
+              "grid.501720.1"
+            ],
+            "preferred": "grid.501720.1",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "Q10829127"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/04bm3wy68",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.dhsphue.edu.vn"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "AS",
+              "continent_name": "Asia",
+              "country_code": "VN",
+              "country_name": "Vietnam",
+              "country_subdivision_code": "26",
+              "country_subdivision_name": "Thừa Thiên Huế Province",
+              "lat": 16.4619,
+              "lng": 107.59546,
+              "name": "Huế"
+            },
+            "geonames_id": 1580240
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Hue University"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "Hue University of Education"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Hue University's College of Education"
+          },
+          {
+            "lang": "vi",
+            "types": [
+              "label"
+            ],
+            "value": "Trường Đại học Sư phạm Huế"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label"
+            ],
+            "value": "University of Education, Hue University"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2026-09-22",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2008,
+        "external_ids": [
+          {
+            "all": [
+              "grid.411091.c"
+            ],
+            "preferred": "grid.411091.c",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 4910 8020"
+            ],
+            "preferred": "0000 0004 4910 8020",
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q49782"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/03zcpvf19",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.uk.rub.de/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "http://en.wikipedia.org/wiki/University_Hospitals_of_the_Ruhr-University_of_Bochum"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "NW",
+              "country_subdivision_name": "North Rhine-Westphalia",
+              "lat": 51.48165,
+              "lng": 7.21648,
+              "name": "Bochum"
+            },
+            "geonames_id": 2947416
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "UK RUB"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "University Hospital Ruhr University Bochum"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "University Hospital of Ruhr University Bochum"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "University Hospital of the Ruhr University Bochum"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "University Hospital of the Ruhr-University Bochum"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "University Hospitals of the Ruhr-University of Bochum"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Universitätsklinikum der Ruhr-Universität Bochum"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "BG University Hospital Bergmannsheil Bochum",
+            "type": "child",
+            "id": "https://ror.org/04j9bvy88"
+          },
+          {
+            "label": "Heart and Diabetes Center North Rhine-Westphalia",
+            "type": "child",
+            "id": "https://ror.org/02wndzd81"
+          },
+          {
+            "label": "Herford Hospital",
+            "type": "child",
+            "id": "https://ror.org/03p371b74"
+          },
+          {
+            "label": "Johannes Wesling Klinikum Minden",
+            "type": "child",
+            "id": "https://ror.org/05d89kr76"
+          },
+          {
+            "label": "LWL-Universitätsklinik Hamm",
+            "type": "child",
+            "id": "https://ror.org/05w1kdn42"
+          },
+          {
+            "label": "LWL-Universitätsklinikum Bochum",
+            "type": "child",
+            "id": "https://ror.org/04nkkrh90"
+          },
+          {
+            "label": "Medizinisches Zentrum für Seelische Gesundheit",
+            "type": "child",
+            "id": "https://ror.org/05vv9dr68"
+          },
+          {
+            "label": "St. Josef-Hospital",
+            "type": "child",
+            "id": "https://ror.org/046vare28"
+          },
+          {
+            "label": "Universitätsklinik Marien Hospital Herne",
+            "type": "child",
+            "id": "https://ror.org/004h6mc53"
+          },
+          {
+            "label": "Universitätsklinikum Knappschaftskrankenhaus Bochum",
+            "type": "child",
+            "id": "https://ror.org/024j3hn90"
+          },
+          {
+            "label": "Ruhr University Bochum",
+            "type": "related",
+            "id": "https://ror.org/04tsk2644"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "healthcare"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2026-08-22",
+            "schema_version": "2.1"
+          },
+          "last_modified": {
+            "date": "2026-08-25",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [
+          "husc.edu.vn"
+        ],
+        "established": 1957,
+        "external_ids": [],
+        "id": "https://ror.org/00qpm2f14",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://husc.edu.vn"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "AS",
+              "continent_name": "Asia",
+              "country_code": "VN",
+              "country_name": "Vietnam",
+              "country_subdivision_code": null,
+              "country_subdivision_name": "Thừa Thiên Huế Province",
+              "lat": 16.4619,
+              "lng": 107.59546,
+              "name": "Huế"
+            },
+            "geonames_id": 1580240
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "acronym"
+            ],
+            "value": "HUSC"
+          },
+          {
+            "lang": "vi",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "Trường Đại học Khoa học, Đại học Huế"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label"
+            ],
+            "value": "University of Sciences, Hue University"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2026-08-22",
+            "schema_version": "2.1"
+          },
+          "last_modified": {
+            "date": "2026-08-25",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [
+          "hce.edu.vn"
+        ],
+        "established": 2002,
+        "external_ids": [],
+        "id": "https://ror.org/03x812s82",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://hce.edu.vn"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "AS",
+              "continent_name": "Asia",
+              "country_code": "VN",
+              "country_name": "Vietnam",
+              "country_subdivision_code": null,
+              "country_subdivision_name": "Thừa Thiên Huế Province",
+              "lat": 16.4619,
+              "lng": 107.59546,
+              "name": "Huế"
+            },
+            "geonames_id": 1580240
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "acronym"
+            ],
+            "value": "HUE"
+          },
+          {
+            "lang": "vi",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "Trường Đại học Kinh tế, Đại học Huế"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label"
+            ],
+            "value": "University of Economics, Hue University"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2026-10-06",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [
+          "ucsiuniversity.edu.my"
+        ],
+        "established": 1986,
+        "external_ids": [
+          {
+            "all": [
+              "100031258"
+            ],
+            "preferred": "100031258",
+            "type": "fundref"
+          },
+          {
+            "all": [
+              "grid.444472.5"
+            ],
+            "preferred": "grid.444472.5",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 1756 3061"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q7864125"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/019787q29",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.ucsiuniversity.edu.my"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/UCSI_University"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "AS",
+              "continent_name": "Asia",
+              "country_code": "MY",
+              "country_name": "Malaysia",
+              "country_subdivision_code": "14",
+              "country_subdivision_name": "Kuala Lumpur",
+              "lat": 3.1412,
+              "lng": 101.68653,
+              "name": "Kuala Lumpur"
+            },
+            "geonames_id": 1735161
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "UCSI University"
+          },
+          {
+            "lang": "ms",
+            "types": [
+              "label"
+            ],
+            "value": "Universiti UCSI"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "University College Sedaya International"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "University College Sedaya International University"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education",
+          "funder"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2026-10-17",
+            "schema_version": "2.1"
+          },
+          "last_modified": {
+            "date": "2026-10-20",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [
+          "museum.kagoshima-u.ac.jp"
+        ],
+        "established": 2001,
+        "external_ids": [
+          {
+            "all": [
+              "0000 0001 2226 6414"
+            ],
+            "preferred": "0000 0001 2226 6414",
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q48746463"
+            ],
+            "preferred": "Q48746463",
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/04th98w08",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.museum.kagoshima-u.ac.jp/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://ja.wikipedia.org/wiki/鹿児島大学総合研究博物館"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "AS",
+              "continent_name": "Asia",
+              "country_code": "JP",
+              "country_name": "Japan",
+              "country_subdivision_code": "46",
+              "country_subdivision_name": "Kagoshima",
+              "lat": 31.56667,
+              "lng": 130.55,
+              "name": "Kagoshima"
+            },
+            "geonames_id": 1860827
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "Kagoshima University Museum"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Kagoshima University Museum, Kagoshima University"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "The Kagoshima University Museum"
+          },
+          {
+            "lang": "ja",
+            "types": [
+              "label"
+            ],
+            "value": "鹿児島大学総合研究博物館"
+          },
+          {
+            "lang": "ja",
+            "types": [
+              "alias"
+            ],
+            "value": "鹿大博物館"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "Kagoshima University",
+            "type": "parent",
+            "id": "https://ror.org/03ss88z23"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "archive"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2026-10-17",
+            "schema_version": "2.1"
+          },
+          "last_modified": {
+            "date": "2026-10-20",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1950,
+        "external_ids": [],
+        "id": "https://ror.org/00z3sky43",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.nihon-u.ac.jp/research/institute/university_research_center/ur-center/index.html"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "AS",
+              "continent_name": "Asia",
+              "country_code": "JP",
+              "country_name": "Japan",
+              "country_subdivision_code": "13",
+              "country_subdivision_name": "Tokyo",
+              "lat": 35.6895,
+              "lng": 139.69171,
+              "name": "Tokyo"
+            },
+            "geonames_id": 1850147
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "Nihon University University Research Center"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label"
+            ],
+            "value": "University Research Center, Nihon University"
+          },
+          {
+            "lang": "ja",
+            "types": [
+              "label"
+            ],
+            "value": "日本大学総合科学研究所"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "Nihon University",
+            "type": "parent",
+            "id": "https://ror.org/05jk51a88"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "facility"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2026-10-20",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1949,
+        "external_ids": [
+          {
+            "all": [
+              "501100005695"
+            ],
+            "preferred": null,
+            "type": "fundref"
+          },
+          {
+            "all": [
+              "grid.265107.7"
+            ],
+            "preferred": "grid.265107.7",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 0663 5064"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q1148210"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/024yc3q36",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.tottori-u.ac.jp/english/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "http://en.wikipedia.org/wiki/Tottori_University"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "AS",
+              "continent_name": "Asia",
+              "country_code": "JP",
+              "country_name": "Japan",
+              "country_subdivision_code": "31",
+              "country_subdivision_name": "Tottori",
+              "lat": 35.5,
+              "lng": 134.23333,
+              "name": "Tottori-shi"
+            },
+            "geonames_id": 1849892
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "National University Corporation Tottori University"
+          },
+          {
+            "lang": null,
+            "types": [
+              "alias"
+            ],
+            "value": "Tottori Daigaku"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Tottori University"
+          },
+          {
+            "lang": "ja",
+            "types": [
+              "label"
+            ],
+            "value": "鳥取大学"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "Chromosome Engineering Research Center",
+            "type": "child",
+            "id": "https://ror.org/04gsg8b22"
+          },
+          {
+            "label": "Center for Research on Green Sustainable Chemistry, Tottori University",
+            "type": "child",
+            "id": "https://ror.org/00ejwh858"
+          },
+          {
+            "label": "International Platform for Dryland Research and Education, Tottori University",
+            "type": "child",
+            "id": "https://ror.org/01eh9dr29"
+          },
+          {
+            "label": "Arid Land Research Center, Tottori University",
+            "type": "child",
+            "id": "https://ror.org/01wtmqz22"
+          },
+          {
+            "label": "Platform for Community-based Research and Education",
+            "type": "child",
+            "id": "https://ror.org/02ecd6055"
+          },
+          {
+            "label": "Avian Infectious Disease and Global Health Research Center",
+            "type": "child",
+            "id": "https://ror.org/00q2ay433"
+          },
+          {
+            "label": "Tottori University Hospital",
+            "type": "related",
+            "id": "https://ror.org/03wa1wy25"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education",
+          "funder"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2003,
+        "external_ids": [
+          {
+            "all": [
+              "grid.448838.b"
+            ],
+            "preferred": "grid.448838.b",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "Q5530381"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/01bjw7k75",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.gelatouniversity.com/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Gelato_University"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "IT",
+              "country_name": "Italy",
+              "country_subdivision_code": "45",
+              "country_subdivision_name": "Emilia-Romagna",
+              "lat": 44.54197,
+              "lng": 11.20548,
+              "name": "Anzola dell'Emilia"
+            },
+            "geonames_id": 3183002
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Gelato University"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      }
+    ],
+    "meta": {
+      "types": [
+        {
+          "id": "education",
+          "title": "education",
+          "count": 12979
+        },
+        {
+          "id": "funder",
+          "title": "funder",
+          "count": 4150
+        },
+        {
+          "id": "healthcare",
+          "title": "healthcare",
+          "count": 1242
+        },
+        {
+          "id": "facility",
+          "title": "facility",
+          "count": 1048
+        },
+        {
+          "id": "nonprofit",
+          "title": "nonprofit",
+          "count": 123
+        },
+        {
+          "id": "other",
+          "title": "other",
+          "count": 76
+        },
+        {
+          "id": "archive",
+          "title": "archive",
+          "count": 50
+        },
+        {
+          "id": "government",
+          "title": "government",
+          "count": 30
+        },
+        {
+          "id": "company",
+          "title": "company",
+          "count": 12
+        }
+      ],
+      "countries": [
+        {
+          "id": "us",
+          "title": "United States",
+          "count": 1983
+        },
+        {
+          "id": "jp",
+          "title": "Japan",
+          "count": 1789
+        },
+        {
+          "id": "cn",
+          "title": "China",
+          "count": 1589
+        },
+        {
+          "id": "in",
+          "title": "India",
+          "count": 840
+        },
+        {
+          "id": "kr",
+          "title": "South Korea",
+          "count": 467
+        },
+        {
+          "id": "id",
+          "title": "Indonesia",
+          "count": 445
+        },
+        {
+          "id": "ru",
+          "title": "Russia",
+          "count": 443
+        },
+        {
+          "id": "de",
+          "title": "Germany",
+          "count": 392
+        },
+        {
+          "id": "ph",
+          "title": "Philippines",
+          "count": 384
+        },
+        {
+          "id": "ir",
+          "title": "Iran",
+          "count": 356
+        }
+      ],
+      "continents": [
+        {
+          "id": "as",
+          "title": "Asia",
+          "count": 8213
+        },
+        {
+          "id": "eu",
+          "title": "Europe",
+          "count": 3028
+        },
+        {
+          "id": "na",
+          "title": "North America",
+          "count": 2517
+        },
+        {
+          "id": "af",
+          "title": "Africa",
+          "count": 1158
+        },
+        {
+          "id": "sa",
+          "title": "South America",
+          "count": 531
+        },
+        {
+          "id": "oc",
+          "title": "Oceania",
+          "count": 101
+        }
+      ],
+      "statuses": [
+        {
+          "id": "active",
+          "title": "active",
+          "count": 15548
+        }
+      ]
+    }
+  },
+  "SRH Hochschule": {
+    "number_of_results": 323,
+    "time_taken": 6,
+    "items": [
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2026-09-22",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [
+          "srh-university.de"
+        ],
+        "established": null,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466188.5"
+            ],
+            "preferred": "grid.466188.5",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0000 9526 4412"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q136490501"
+            ],
+            "preferred": "Q136490501",
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/00g07sz63",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.srh-university.de"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://de.wikipedia.org/wiki/SRH_University_of_Applied_Sciences_Heidelberg"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BW",
+              "country_subdivision_name": "Baden-Wurttemberg",
+              "lat": 49.40768,
+              "lng": 8.69079,
+              "name": "Heidelberg"
+            },
+            "geonames_id": 2907911
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRC University Heidelberg"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Berlin University of Applied Sciences"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Hochschule Heidelberg"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "SRH University of Applied Sciences Heidelberg"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences for Health"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences in North Rhine-Westphalia"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Wilhelm Löhe University"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "SRH University Campus Dresden",
+            "type": "child",
+            "id": "https://ror.org/04ys3xe45"
+          },
+          {
+            "label": "SRH Berlin School of Design and Communication",
+            "type": "child",
+            "id": "https://ror.org/03037cz33"
+          },
+          {
+            "label": "Wilhelm Löhe University for Applied Sciences",
+            "type": "predecessor",
+            "id": "https://ror.org/03bh13774"
+          },
+          {
+            "label": "SRH University Berlin",
+            "type": "predecessor",
+            "id": "https://ror.org/01prjcc04"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2026-07-19",
+            "schema_version": "2.1"
+          },
+          "last_modified": {
+            "date": "2026-09-22",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2012,
+        "external_ids": [
+          {
+            "all": [
+              "Q97358532"
+            ],
+            "preferred": "Q97358532",
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/04ys3xe45",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.srh-university.de/en/our-campuses/dresden"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://de.wikipedia.org/wiki/Dresden_School_of_Management"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "SN",
+              "country_subdivision_name": "Saxony",
+              "lat": 51.05089,
+              "lng": 13.73832,
+              "name": "Dresden"
+            },
+            "geonames_id": 2935022
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Dresden School of Management"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Berlin University of Applied Sciences, Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Hochschule Berlin, Campus Dresden"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Hochschule Berlin, Dresden"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "SRH Hochschule Campus Dresden"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Hochschule, Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "SRH University Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences, Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences, Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University, Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University, Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH-Hochschule, Dresden"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "SRH University of Applied Sciences Heidelberg",
+            "type": "parent",
+            "id": "https://ror.org/00g07sz63"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2006,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466189.4"
+            ],
+            "preferred": "grid.466189.4",
+            "type": "grid"
+          }
+        ],
+        "id": "https://ror.org/026kenw55",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.gesundheitshochschule.de/en/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "TH",
+              "country_subdivision_name": "Thuringia",
+              "lat": 50.88029,
+              "lng": 12.08187,
+              "name": "Gera"
+            },
+            "geonames_id": 2921232
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Hochschule für Gesundheit Gera"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2009,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466459.c"
+            ],
+            "preferred": "grid.466459.c",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 1794 7436"
+            ],
+            "preferred": null,
+            "type": "isni"
+          }
+        ],
+        "id": "https://ror.org/02kraxp86",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.hdpk.de/de/startseite/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BE",
+              "country_subdivision_name": "Berlin",
+              "lat": 52.52437,
+              "lng": 13.41053,
+              "name": "Berlin"
+            },
+            "geonames_id": 2950159
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "HDPK"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Hochschule der Populären Künste"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2005,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466367.6"
+            ],
+            "preferred": "grid.466367.6",
+            "type": "grid"
+          }
+        ],
+        "id": "https://ror.org/01k6xby62",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.fh-hamm.de/de/hochschule/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "NW",
+              "country_subdivision_name": "North Rhine-Westphalia",
+              "lat": 51.68033,
+              "lng": 7.82089,
+              "name": "Hamm"
+            },
+            "geonames_id": 2911240
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "HLW"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Hochschule für Logistik und Wirtschaft"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1907,
+        "external_ids": [
+          {
+            "all": [
+              "grid.461015.7"
+            ],
+            "preferred": "grid.461015.7",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "Q7591579"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/02ejbzv65",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.srhpakistan.org/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/St._Raphael%27s_Hospital"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "AS",
+              "continent_name": "Asia",
+              "country_code": "PK",
+              "country_name": "Pakistan",
+              "country_subdivision_code": "PB",
+              "country_subdivision_name": "Punjab",
+              "lat": 31.41554,
+              "lng": 73.08969,
+              "name": "Faisalabad"
+            },
+            "geonames_id": 1179400
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "SRH"
+          },
+          {
+            "lang": null,
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "St. Raphael's Hospital"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "healthcare"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2001,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466283.d"
+            ],
+            "preferred": "grid.466283.d",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0000 8787 8609"
+            ],
+            "preferred": null,
+            "type": "isni"
+          }
+        ],
+        "id": "https://ror.org/0572yc306",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.hochschule-calw.de/de/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BW",
+              "country_subdivision_name": "Baden-Wurttemberg",
+              "lat": 48.71419,
+              "lng": 8.74031,
+              "name": "Calw"
+            },
+            "geonames_id": 2940383
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Hochschule für Wirtschaft und Medien Calw"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2026-09-22",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2007,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466281.f"
+            ],
+            "preferred": "grid.466281.f",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 7470 9012"
+            ],
+            "preferred": "0000 0004 7470 9012",
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q1200666"
+            ],
+            "preferred": "Q1200666",
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/03037cz33",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.srh-berlin.de"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BE",
+              "country_subdivision_name": "State of Berlin",
+              "lat": 52.52437,
+              "lng": 13.41053,
+              "name": "Berlin"
+            },
+            "geonames_id": 2950159
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "BSDC"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Berlin School of Design and Communication"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "Design Akademie Berlin"
+          },
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "SRH BSDC"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Berlin School of Design and Communication"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "SRH University of Applied Sciences Heidelberg",
+            "type": "parent",
+            "id": "https://ror.org/00g07sz63"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1912,
+        "external_ids": [
+          {
+            "all": [
+              "grid.492124.8"
+            ],
+            "preferred": "grid.492124.8",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 0214 7565"
+            ],
+            "preferred": null,
+            "type": "isni"
+          }
+        ],
+        "id": "https://ror.org/00q236z92",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.waldklinikumgera.de/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "TH",
+              "country_subdivision_name": "Thuringia",
+              "lat": 50.88029,
+              "lng": 12.08187,
+              "name": "Gera"
+            },
+            "geonames_id": 2921232
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Wald-Klinikum Gera"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "healthcare"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1970,
+        "external_ids": [
+          {
+            "all": [
+              "grid.490718.3"
+            ],
+            "preferred": "grid.490718.3",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 0636 8535"
+            ],
+            "preferred": null,
+            "type": "isni"
+          }
+        ],
+        "id": "https://ror.org/00pz6pe93",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.klinikum-karlsbad.de/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BW",
+              "country_subdivision_name": "Baden-Wurttemberg",
+              "lat": 48.7606,
+              "lng": 8.23975,
+              "name": "Baden-Baden"
+            },
+            "geonames_id": 2953504
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Klinikum Karlsbad-Langensteinbach"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "healthcare"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2007,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466200.6"
+            ],
+            "preferred": "grid.466200.6",
+            "type": "grid"
+          }
+        ],
+        "id": "https://ror.org/03cmq3458",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.ph-kaernten.ac.at/en/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "AT",
+              "country_name": "Austria",
+              "country_subdivision_code": "2",
+              "country_subdivision_name": "Carinthia",
+              "lat": 46.62472,
+              "lng": 14.30528,
+              "name": "Klagenfurt"
+            },
+            "geonames_id": 2774326
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Pädagogische Hochschule Viktor Frankl Hochschule"
+          },
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "UCTE"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "University College of Teacher Education Carinthia"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1971,
+        "external_ids": [
+          {
+            "all": [
+              "grid.449475.f"
+            ],
+            "preferred": "grid.449475.f",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 0669 6924"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q542415"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/0378gm372",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.hs-rm.de/de/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/RheinMain_University_of_Applied_Sciences"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "HE",
+              "country_subdivision_name": "Hesse",
+              "lat": 50.08258,
+              "lng": 8.24932,
+              "name": "Wiesbaden"
+            },
+            "geonames_id": 2809346
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Hochschule RheinMain"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "RheinMain University of Applied Sciences"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1991,
+        "external_ids": [
+          {
+            "all": [
+              "grid.427932.9"
+            ],
+            "preferred": "grid.427932.9",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 0692 3664"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q1622074"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/0076zct58",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.hs-anhalt.de/en/start-page.html"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Anhalt_University_of_Applied_Sciences"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "ST",
+              "country_subdivision_name": "Saxony-Anhalt",
+              "lat": 51.75185,
+              "lng": 11.97093,
+              "name": "Köthen"
+            },
+            "geonames_id": 2885237
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Anhalt University of Applied Sciences"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Hochschule Anhalt"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "Professor Hellriegel Institut",
+            "type": "child",
+            "id": "https://ror.org/01mwqr173"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1971,
+        "external_ids": [
+          {
+            "all": [
+              "grid.42283.3f"
+            ],
+            "preferred": "grid.42283.3f",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0000 9661 3581"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q1391198"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/05dkqa017",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.fh-kl.de/fh/intl.html"
+          },
+          {
+            "type": "wikipedia",
+            "value": "http://en.wikipedia.org/wiki/University_of_Applied_Sciences,_Kaiserslautern"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "RP",
+              "country_subdivision_name": "Rheinland-Pfalz",
+              "lat": 49.443,
+              "lng": 7.77161,
+              "name": "Kaiserslautern"
+            },
+            "geonames_id": 2894003
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "HS Kaiserslautern"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Hochschule Kaiserslautern"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "University of Applied Sciences Kaiserslautern"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1971,
+        "external_ids": [
+          {
+            "all": [
+              "grid.440922.9"
+            ],
+            "preferred": "grid.440922.9",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0000 9920 4986"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q1622079"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/0004r6b85",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.hochschule-biberach.de/web/english"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Biberach_University_of_Applied_Sciences"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BW",
+              "country_subdivision_name": "Baden-Wurttemberg",
+              "lat": 48.09345,
+              "lng": 9.79053,
+              "name": "Biberach an der Riss"
+            },
+            "geonames_id": 2949423
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Hochschule Biberach"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "University of Applied Sciences Biberach"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1991,
+        "external_ids": [
+          {
+            "all": [
+              "grid.440939.3"
+            ],
+            "preferred": "grid.440939.3",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 0643 4547"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q1622105"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/048yn7628",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.hs-harz.de/en/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Hochschule_Harz"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "ST",
+              "country_subdivision_name": "Saxony-Anhalt",
+              "lat": 51.83652,
+              "lng": 10.78216,
+              "name": "Wernigerode"
+            },
+            "geonames_id": 2810808
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "Fachhochschule Harz"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Harz University of Applied Sciences"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Hochschule Harz"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1978,
+        "external_ids": [
+          {
+            "all": [
+              "grid.440515.1"
+            ],
+            "preferred": "grid.440515.1",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0000 9661 2810"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q1391239"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/031ph8d53",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.hs-worms.de/en/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/University_of_Applied_Sciences,_Worms"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "RP",
+              "country_subdivision_name": "Rheinland-Pfalz",
+              "lat": 49.63278,
+              "lng": 8.35916,
+              "name": "Worms"
+            },
+            "geonames_id": 2806142
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Hochschule Worms"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "University of Applied Sciences Worms"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2001,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466327.2"
+            ],
+            "preferred": "grid.466327.2",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 0491 1266"
+            ],
+            "preferred": null,
+            "type": "isni"
+          }
+        ],
+        "id": "https://ror.org/01gm0md04",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.provadis-hochschule.de/top-menu/englisch/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "HE",
+              "country_subdivision_name": "Hesse",
+              "lat": 50.11552,
+              "lng": 8.68417,
+              "name": "Frankfurt am Main"
+            },
+            "geonames_id": 2925533
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Provadis Hochschule"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Provadis School of International Management and Technology"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1998,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466330.4"
+            ],
+            "preferred": "grid.466330.4",
+            "type": "grid"
+          }
+        ],
+        "id": "https://ror.org/051rc7j94",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://diploma.de/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "HE",
+              "country_subdivision_name": "Hesse",
+              "lat": 51.27092,
+              "lng": 9.97483,
+              "name": "Bad Sooden-Allendorf"
+            },
+            "geonames_id": 2953336
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "Diploma Fachhochschule Nordhessen"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Diploma Hochschule"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label"
+            ],
+            "value": "Diploma University"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2010,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466364.5"
+            ],
+            "preferred": "grid.466364.5",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 0427 042X"
+            ],
+            "preferred": null,
+            "type": "isni"
+          }
+        ],
+        "id": "https://ror.org/0367m1n91",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.hsw-hameln.de/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "NI",
+              "country_subdivision_name": "Lower Saxony",
+              "lat": 52.10397,
+              "lng": 9.35623,
+              "name": "Hamelin"
+            },
+            "geonames_id": 2911271
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "HSW"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Hochschule Weserbergland"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      }
+    ],
+    "meta": {
+      "types": [
+        {
+          "id": "education",
+          "title": "education",
+          "count": 316
+        },
+        {
+          "id": "funder",
+          "title": "funder",
+          "count": 22
+        },
+        {
+          "id": "healthcare",
+          "title": "healthcare",
+          "count": 4
+        },
+        {
+          "id": "government",
+          "title": "government",
+          "count": 1
+        },
+        {
+          "id": "nonprofit",
+          "title": "nonprofit",
+          "count": 1
+        },
+        {
+          "id": "other",
+          "title": "other",
+          "count": 1
+        }
+      ],
+      "countries": [
+        {
+          "id": "de",
+          "title": "Germany",
+          "count": 270
+        },
+        {
+          "id": "ch",
+          "title": "Switzerland",
+          "count": 33
+        },
+        {
+          "id": "at",
+          "title": "Austria",
+          "count": 18
+        },
+        {
+          "id": "is",
+          "title": "Iceland",
+          "count": 1
+        },
+        {
+          "id": "pk",
+          "title": "Pakistan",
+          "count": 1
+        }
+      ],
+      "continents": [
+        {
+          "id": "eu",
+          "title": "Europe",
+          "count": 322
+        },
+        {
+          "id": "as",
+          "title": "Asia",
+          "count": 1
+        }
+      ],
+      "statuses": [
+        {
+          "id": "active",
+          "title": "active",
+          "count": 323
+        }
+      ]
+    }
+  },
+  "SRH Berlin University of Applied Sciences": {
+    "number_of_results": 37674,
+    "time_taken": 51,
+    "items": [
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2026-09-22",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [
+          "srh-university.de"
+        ],
+        "established": null,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466188.5"
+            ],
+            "preferred": "grid.466188.5",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0000 9526 4412"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q136490501"
+            ],
+            "preferred": "Q136490501",
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/00g07sz63",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.srh-university.de"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://de.wikipedia.org/wiki/SRH_University_of_Applied_Sciences_Heidelberg"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BW",
+              "country_subdivision_name": "Baden-Wurttemberg",
+              "lat": 49.40768,
+              "lng": 8.69079,
+              "name": "Heidelberg"
+            },
+            "geonames_id": 2907911
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRC University Heidelberg"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Berlin University of Applied Sciences"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Hochschule Heidelberg"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "SRH University of Applied Sciences Heidelberg"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences for Health"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences in North Rhine-Westphalia"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Wilhelm Löhe University"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "SRH University Campus Dresden",
+            "type": "child",
+            "id": "https://ror.org/04ys3xe45"
+          },
+          {
+            "label": "SRH Berlin School of Design and Communication",
+            "type": "child",
+            "id": "https://ror.org/03037cz33"
+          },
+          {
+            "label": "Wilhelm Löhe University for Applied Sciences",
+            "type": "predecessor",
+            "id": "https://ror.org/03bh13774"
+          },
+          {
+            "label": "SRH University Berlin",
+            "type": "predecessor",
+            "id": "https://ror.org/01prjcc04"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2026-07-19",
+            "schema_version": "2.1"
+          },
+          "last_modified": {
+            "date": "2026-09-22",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2012,
+        "external_ids": [
+          {
+            "all": [
+              "Q97358532"
+            ],
+            "preferred": "Q97358532",
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/04ys3xe45",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.srh-university.de/en/our-campuses/dresden"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://de.wikipedia.org/wiki/Dresden_School_of_Management"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "SN",
+              "country_subdivision_name": "Saxony",
+              "lat": 51.05089,
+              "lng": 13.73832,
+              "name": "Dresden"
+            },
+            "geonames_id": 2935022
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Dresden School of Management"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Berlin University of Applied Sciences, Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Hochschule Berlin, Campus Dresden"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Hochschule Berlin, Dresden"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "SRH Hochschule Campus Dresden"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH Hochschule, Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "SRH University Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences, Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University of Applied Sciences, Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University, Campus Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH University, Dresden"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "SRH-Hochschule, Dresden"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "SRH University of Applied Sciences Heidelberg",
+            "type": "parent",
+            "id": "https://ror.org/00g07sz63"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2026-09-22",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [
+          "bht-berlin.de"
+        ],
+        "established": 1971,
+        "external_ids": [
+          {
+            "all": [
+              "grid.440921.a"
+            ],
+            "preferred": "grid.440921.a",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0000 9738 8195"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q851413"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/00w7whj55",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.bht-berlin.de"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Berliner_Hochschule_für_Technik"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BE",
+              "country_subdivision_name": "State of Berlin",
+              "lat": 52.52437,
+              "lng": 13.41053,
+              "name": "Berlin"
+            },
+            "geonames_id": 2950159
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "BHT"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Berlin University of Applied Sciences"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Berlin University of Applied Sciences and Technology"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Berliner Hochschule für Technik"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "Beuth Hochschule für Technik Berlin"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Beuth University of Applied Sciences"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "Technische Fachhochschule Berlin"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2026-09-22",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [
+          "htw-berlin.de"
+        ],
+        "established": 1994,
+        "external_ids": [
+          {
+            "all": [
+              "grid.410722.2"
+            ],
+            "preferred": "grid.410722.2",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 0198 6180"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q875138"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/01xzwj424",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.htw-berlin.de/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "http://en.wikipedia.org/wiki/Hochschule_f%C3%BCr_Technik_und_Wirtschaft_Berlin"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BE",
+              "country_subdivision_name": "State of Berlin",
+              "lat": 52.52437,
+              "lng": 13.41053,
+              "name": "Berlin"
+            },
+            "geonames_id": 2950159
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "HTW Berlin"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "HTW Berlin - University of Applied Sciences"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Hochschule für Technik und Wirtschaft Berlin"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2025-06-24",
+            "schema_version": "2.1"
+          },
+          "last_modified": {
+            "date": "2026-07-20",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [
+          "berlin-international.de",
+          "whitecliffe.de"
+        ],
+        "established": 2014,
+        "external_ids": [
+          {
+            "all": [
+              "0000 0004 5345 5981"
+            ],
+            "preferred": "0000 0004 5345 5981",
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q21040611"
+            ],
+            "preferred": "Q21040611",
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/01vn94n11",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://whitecliffe.de"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Berlin_International_University_of_Applied_Sciences"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BE",
+              "country_subdivision_name": "State of Berlin",
+              "lat": 52.52437,
+              "lng": 13.41053,
+              "name": "Berlin"
+            },
+            "geonames_id": 2950159
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "BAU International Berlin – University of Applied Sciences"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Berlin International"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Berlin International University of Applied Sciences"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "label",
+              "ror_display"
+            ],
+            "value": "Whitecliffe University of Applied Sciences"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1899,
+        "external_ids": [
+          {
+            "all": [
+              "grid.448744.f"
+            ],
+            "preferred": "grid.448744.f",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 0144 8833"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q2646956"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/04b404920",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.ash-berlin.eu"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Alice_Salomon_University_of_Applied_Sciences_Berlin"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BE",
+              "country_subdivision_name": "Berlin",
+              "lat": 52.52437,
+              "lng": 13.41053,
+              "name": "Berlin"
+            },
+            "geonames_id": 2950159
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "ASH"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "ASH Berlin"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Alice Salomon Hochschule Berlin"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Alice Salomon Hochschule Berlin University of Applied Sciences"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Alice Salomon University"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Alice Salomon University of Applied Sciences Berlin"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Alice-Salomon-Hochschule Berlin"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "Institute for Productive Learning in Europe",
+            "type": "child",
+            "id": "https://ror.org/042jh8155"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2026-09-22",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2007,
+        "external_ids": [
+          {
+            "all": [
+              "grid.466281.f"
+            ],
+            "preferred": "grid.466281.f",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 7470 9012"
+            ],
+            "preferred": "0000 0004 7470 9012",
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q1200666"
+            ],
+            "preferred": "Q1200666",
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/03037cz33",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.srh-berlin.de"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BE",
+              "country_subdivision_name": "State of Berlin",
+              "lat": 52.52437,
+              "lng": 13.41053,
+              "name": "Berlin"
+            },
+            "geonames_id": 2950159
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "BSDC"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Berlin School of Design and Communication"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "alias"
+            ],
+            "value": "Design Akademie Berlin"
+          },
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "SRH BSDC"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "SRH Berlin School of Design and Communication"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "SRH University of Applied Sciences Heidelberg",
+            "type": "parent",
+            "id": "https://ror.org/00g07sz63"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2000,
+        "external_ids": [
+          {
+            "all": [
+              "grid.445593.a"
+            ],
+            "preferred": "grid.445593.a",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 0394 3768"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q7686865"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/03sx66s94",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.artcol.ee/et/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Tartu_Art_College"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "EE",
+              "country_name": "Estonia",
+              "country_subdivision_code": "79",
+              "country_subdivision_name": "Tartu",
+              "lat": 58.38062,
+              "lng": 26.72509,
+              "name": "Tartu"
+            },
+            "geonames_id": 588335
+          }
+        ],
+        "names": [
+          {
+            "lang": "et",
+            "types": [
+              "label"
+            ],
+            "value": "Kõrgem Kunstikool Pallas"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Pallas University of Applied Sciences"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Tartu Art College"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1998,
+        "external_ids": [
+          {
+            "all": [
+              "grid.445606.5"
+            ],
+            "preferred": "grid.445606.5",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 0624 783X"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q5636183"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/000rak666",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.humak.fi/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/HUMAK_University_of_Applied_Sciences"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "FI",
+              "country_name": "Finland",
+              "country_subdivision_code": "18",
+              "country_subdivision_name": "Uusimaa",
+              "lat": 60.16952,
+              "lng": 24.93545,
+              "name": "Helsinki"
+            },
+            "geonames_id": 658225
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Humak University of Applied Sciences"
+          },
+          {
+            "lang": "fi",
+            "types": [
+              "label"
+            ],
+            "value": "Humanistinen ammattikorkeakoulu"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 2000,
+        "external_ids": [
+          {
+            "all": [
+              "grid.445656.0"
+            ],
+            "preferred": "grid.445656.0",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 0838 3841"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q16969646"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/00fcxqx79",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://metubudapest.hu/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Budapest_Metropolitan_University"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "HU",
+              "country_name": "Hungary",
+              "country_subdivision_code": "BU",
+              "country_subdivision_name": "Budapest",
+              "lat": 47.49835,
+              "lng": 19.04045,
+              "name": "Budapest"
+            },
+            "geonames_id": 3054643
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "BKF"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "BKF University of Applied Sciences"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Budapest Metropolitan University"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Budapest Metropolitan University of Applied Sciences"
+          },
+          {
+            "lang": "hu",
+            "types": [
+              "label"
+            ],
+            "value": "Budapesti Metropolitan Egyetem"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "University of Applied Science Budapest"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1998,
+        "external_ids": [
+          {
+            "all": [
+              "grid.445842.b"
+            ],
+            "preferred": "grid.445842.b",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 0433 3929"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q16355880"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/05tyb9s14",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.augstskola.lv/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "LV",
+              "country_name": "Latvia",
+              "country_subdivision_code": "RIX",
+              "country_subdivision_name": "Riga",
+              "lat": 56.946,
+              "lng": 24.10589,
+              "name": "Riga"
+            },
+            "geonames_id": 456172
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "EKA"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "EKA University of Applied Sciences"
+          },
+          {
+            "lang": "lv",
+            "types": [
+              "label"
+            ],
+            "value": "Ekonomikas un kultûras augstskola"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "University College of Economics and Culture"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1992,
+        "external_ids": [
+          {
+            "all": [
+              "grid.448677.e"
+            ],
+            "preferred": "grid.448677.e",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 0647 6472"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q2253321"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/00db2vc28",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.karelia.fi"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Karelia_University_of_Applied_Sciences"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "FI",
+              "country_name": "Finland",
+              "country_subdivision_code": "13",
+              "country_subdivision_name": "North Karelia",
+              "lat": 62.60118,
+              "lng": 29.76316,
+              "name": "Joensuu"
+            },
+            "geonames_id": 655808
+          }
+        ],
+        "names": [
+          {
+            "lang": "fi",
+            "types": [
+              "alias"
+            ],
+            "value": "Karelia UAS"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Karelia University of Applied Sciences"
+          },
+          {
+            "lang": "fi",
+            "types": [
+              "label"
+            ],
+            "value": "Karelia-ammattikorkeakoulu"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1972,
+        "external_ids": [
+          {
+            "all": [
+              "grid.448681.7"
+            ],
+            "preferred": "grid.448681.7",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0000 9856 607X"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q872180"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/05m0ggf57",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.kh-mz.de/en/home/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Catholic_University_of_Applied_Sciences,_Mainz"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "RP",
+              "country_subdivision_name": "Rheinland-Pfalz",
+              "lat": 49.98419,
+              "lng": 8.2791,
+              "name": "Mainz"
+            },
+            "geonames_id": 2874225
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Catholic University of Applied Sciences"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Katholische Hochschule Mainz"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1971,
+        "external_ids": [
+          {
+            "all": [
+              "grid.449475.f"
+            ],
+            "preferred": "grid.449475.f",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 0669 6924"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q542415"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/0378gm372",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.hs-rm.de/de/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/RheinMain_University_of_Applied_Sciences"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "HE",
+              "country_subdivision_name": "Hesse",
+              "lat": 50.08258,
+              "lng": 8.24932,
+              "name": "Wiesbaden"
+            },
+            "geonames_id": 2809346
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Hochschule RheinMain"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "RheinMain University of Applied Sciences"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1995,
+        "external_ids": [
+          {
+            "all": [
+              "grid.449532.d"
+            ],
+            "preferred": "grid.449532.d",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 0453 9054"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q681372"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/049c2kr37",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.kalaidos-fh.ch/de-CH"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Kalaidos_University_of_Applied_Sciences"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "CH",
+              "country_name": "Switzerland",
+              "country_subdivision_code": "ZH",
+              "country_subdivision_name": "Zurich",
+              "lat": 47.36667,
+              "lng": 8.55,
+              "name": "Zurich"
+            },
+            "geonames_id": 2657896
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Kalaidos Fachhochschule"
+          },
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "Kalaidos UAS"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Kalaidos University of Applied Sciences"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1996,
+        "external_ids": [
+          {
+            "all": [
+              "grid.449673.b"
+            ],
+            "preferred": "grid.449673.b",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 0346 8395"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q7681771"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/00bwtjf83",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.tamk.fi/web/tamk/etusivu"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Tampere_University_of_Applied_Sciences"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "FI",
+              "country_name": "Finland",
+              "country_subdivision_code": "11",
+              "country_subdivision_name": "Pirkanmaa",
+              "lat": 61.49911,
+              "lng": 23.78712,
+              "name": "Tampere"
+            },
+            "geonames_id": 634963
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "TAMK"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Tampere University of Applied Sciences"
+          },
+          {
+            "lang": "fi",
+            "types": [
+              "label"
+            ],
+            "value": "Tampereen Ammattikorkeakoulu"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1994,
+        "external_ids": [
+          {
+            "all": [
+              "grid.449753.8"
+            ],
+            "preferred": "grid.449753.8",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0004 0566 2839"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q1622109"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/04q5vv384",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.hof-university.de/"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Hof_University_of_Applied_Sciences"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BY",
+              "country_subdivision_name": "Bavaria",
+              "lat": 50.31297,
+              "lng": 11.91261,
+              "name": "Hof"
+            },
+            "geonames_id": 2902768
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Hochschule für Angewandte Wissenschaften Hof"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Hof University of Applied Sciences"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "University of Applied Sciences Hof"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1978,
+        "external_ids": [
+          {
+            "all": [
+              "grid.449759.2"
+            ],
+            "preferred": "grid.449759.2",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 1093 3742"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q1622121"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/056z5bx32",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.haw-landshut.de/en"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/University_of_Applied_Sciences_Landshut"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "BY",
+              "country_subdivision_name": "Bavaria",
+              "lat": 48.52961,
+              "lng": 12.16179,
+              "name": "Landshut"
+            },
+            "geonames_id": 2881485
+          }
+        ],
+        "names": [
+          {
+            "lang": null,
+            "types": [
+              "acronym"
+            ],
+            "value": "HL"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Hochschule für angewandte Wissenschaften Landshut"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "alias"
+            ],
+            "value": "Landshut University of Applied Sciences"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "University of Applied Sciences Landshut"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1991,
+        "external_ids": [
+          {
+            "all": [
+              "grid.454249.a"
+            ],
+            "preferred": "grid.454249.a",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 0739 2463"
+            ],
+            "preferred": null,
+            "type": "isni"
+          }
+        ],
+        "id": "https://ror.org/04g99jx54",
+        "links": [
+          {
+            "type": "website",
+            "value": "http://www.fh-stralsund.de/"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "MV",
+              "country_subdivision_name": "Mecklenburg-Vorpommern",
+              "lat": 54.30911,
+              "lng": 13.0818,
+              "name": "Stralsund"
+            },
+            "geonames_id": 2826287
+          }
+        ],
+        "names": [
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Fachhochschule Stralsund"
+          },
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "University of Applied Sciences Stralsund"
+          }
+        ],
+        "relationships": [],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      },
+      {
+        "admin": {
+          "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+          },
+          "last_modified": {
+            "date": "2024-12-11",
+            "schema_version": "2.1"
+          }
+        },
+        "domains": [],
+        "established": 1991,
+        "external_ids": [
+          {
+            "all": [
+              "grid.427932.9"
+            ],
+            "preferred": "grid.427932.9",
+            "type": "grid"
+          },
+          {
+            "all": [
+              "0000 0001 0692 3664"
+            ],
+            "preferred": null,
+            "type": "isni"
+          },
+          {
+            "all": [
+              "Q1622074"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+          }
+        ],
+        "id": "https://ror.org/0076zct58",
+        "links": [
+          {
+            "type": "website",
+            "value": "https://www.hs-anhalt.de/en/start-page.html"
+          },
+          {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/Anhalt_University_of_Applied_Sciences"
+          }
+        ],
+        "locations": [
+          {
+            "geonames_details": {
+              "continent_code": "EU",
+              "continent_name": "Europe",
+              "country_code": "DE",
+              "country_name": "Germany",
+              "country_subdivision_code": "ST",
+              "country_subdivision_name": "Saxony-Anhalt",
+              "lat": 51.75185,
+              "lng": 11.97093,
+              "name": "Köthen"
+            },
+            "geonames_id": 2885237
+          }
+        ],
+        "names": [
+          {
+            "lang": "en",
+            "types": [
+              "ror_display",
+              "label"
+            ],
+            "value": "Anhalt University of Applied Sciences"
+          },
+          {
+            "lang": "de",
+            "types": [
+              "label"
+            ],
+            "value": "Hochschule Anhalt"
+          }
+        ],
+        "relationships": [
+          {
+            "label": "Professor Hellriegel Institut",
+            "type": "child",
+            "id": "https://ror.org/01mwqr173"
+          }
+        ],
+        "status": "active",
+        "types": [
+          "education"
+        ]
+      }
+    ],
+    "meta": {
+      "types": [
+        {
+          "id": "education",
+          "title": "education",
+          "count": 18044
+        },
+        {
+          "id": "funder",
+          "title": "funder",
+          "count": 9225
+        },
+        {
+          "id": "facility",
+          "title": "facility",
+          "count": 5937
+        },
+        {
+          "id": "government",
+          "title": "government",
+          "count": 4053
+        },
+        {
+          "id": "nonprofit",
+          "title": "nonprofit",
+          "count": 3736
+        },
+        {
+          "id": "healthcare",
+          "title": "healthcare",
+          "count": 2312
+        },
+        {
+          "id": "other",
+          "title": "other",
+          "count": 2108
+        },
+        {
+          "id": "archive",
+          "title": "archive",
+          "count": 808
+        },
+        {
+          "id": "company",
+          "title": "company",
+          "count": 716
+        }
+      ],
+      "countries": [
+        {
+          "id": "us",
+          "title": "United States",
+          "count": 6342
+        },
+        {
+          "id": "cn",
+          "title": "China",
+          "count": 4095
+        },
+        {
+          "id": "jp",
+          "title": "Japan",
+          "count": 3277
+        },
+        {
+          "id": "in",
+          "title": "India",
+          "count": 2105
+        },
+        {
+          "id": "ru",
+          "title": "Russia",
+          "count": 1580
+        },
+        {
+          "id": "fr",
+          "title": "France",
+          "count": 1031
+        },
+        {
+          "id": "gb",
+          "title": "United Kingdom",
+          "count": 999
+        },
+        {
+          "id": "de",
+          "title": "Germany",
+          "count": 898
+        },
+        {
+          "id": "kr",
+          "title": "South Korea",
+          "count": 868
+        },
+        {
+          "id": "ca",
+          "title": "Canada",
+          "count": 862
+        }
+      ],
+      "continents": [
+        {
+          "id": "as",
+          "title": "Asia",
+          "count": 16108
+        },
+        {
+          "id": "eu",
+          "title": "Europe",
+          "count": 10176
+        },
+        {
+          "id": "na",
+          "title": "North America",
+          "count": 7747
+        },
+        {
+          "id": "af",
+          "title": "Africa",
+          "count": 2063
+        },
+        {
+          "id": "sa",
+          "title": "South America",
+          "count": 966
+        },
+        {
+          "id": "oc",
+          "title": "Oceania",
+          "count": 615
+        }
+      ],
+      "statuses": [
+        {
+          "id": "active",
+          "title": "active",
+          "count": 37674
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+area,indicators,as_obtained_progress_percent,as_obtained_fully_implemented,as_obtained_essential_passed,as_obtained_rda_level,curated_progress_percent,curated_fully_implemented,curated_essential_passed,curated_rda_level
+Findable,7,50.0,1,1/7,0,82.1,2,2/7,0
+Accessible,12,83.3,8,5/8,0,93.8,9,5/8,0
+Interoperable,12,37.5,0,0/0,1,93.8,9,0/0,2
+Reusable,10,40.0,0,0/5,0,100.0,10,5/5,5
+Overall,41,53.7,9,6/20,,93.3,30,12/20,

@@ -1,0 +1,34 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 09 Nov 2026 20:03:34 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Location: https://api.jolpi.ca/ergast/f1/2024/results.json?limit=1
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ZKPDE%2BChQE5atD%2FvsoJTBFK%2FB%2BSU3g6W0tuMQFqmcOWPcfEhqzOPJLEGXrN487OgWFHFEWmE1eEd2gFCHC0E78FtBSPS6CdAZl%2F3occTN8BHT1uZzYOH6y%2B5DalML9k%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a57f6beb4f5ae0d3-MUC
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Mon, 09 Nov 2026 20:03:34 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+allow: GET, HEAD, OPTIONS
+Cache-Control: max-age=600
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=NEFoO%2F3%2FzOGYj%2B3H5PdG%2B4V3wMjxA4VLwrFHZvVNNOJJVLGh%2BKkuZoRPUWj%2FfcmNNoZktK1mEnfBIpejNTmsxi1vMP0lVMmqmedNALJCxoLGzUcD3xGvvqu3XYPf2A8%3D"}]}
+cross-origin-opener-policy: same-origin
+expires: Mon, 09 Nov 2026 20:13:34 GMT
+referrer-policy: same-origin
+Server: cloudflare
+vary: Accept, origin
+vary: accept-encoding
+x-content-type-options: nosniff
+x-frame-options: DENY
+last-modified: Mon, 09 Nov 2026 20:03:34 GMT
+cf-cache-status: MISS
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+CF-RAY: a57f6bec3c08e0d9-MUC
+alt-svc: h3=":443"; ma=86400
+

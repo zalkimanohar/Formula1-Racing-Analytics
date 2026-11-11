@@ -1,0 +1,1403 @@
+{
+  "test_id": "67c44a235c0cd5bf4cb0e140d009549b3ac63816",
+  "request": {
+    "object_identifier": "https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+    "test_debug": true,
+    "use_datacite": true,
+    "use_github": false,
+    "metric_version": "metrics_v0.5"
+  },
+  "resolved_url": "https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+  "start_timestamp": "2026-11-09T21:00:06Z",
+  "end_timestamp": "2026-11-09T21:00:13Z",
+  "metric_specification": "https://doi.org/10.5281/zenodo.6461229",
+  "metric_version": "0.5",
+  "software_version": "4.0.1",
+  "total_metrics": 16,
+  "summary": {
+    "score_earned": {
+      "A": 1.0,
+      "F": 2.5,
+      "I": 1.0,
+      "R": 3.0,
+      "A1": 1.0,
+      "F1": 1.0,
+      "F2": 0.5,
+      "F3": 0.0,
+      "F4": 1.0,
+      "I1": 1.0,
+      "I2": 0.0,
+      "I3": 0.0,
+      "R1": 1.0,
+      "R1.1": 0.0,
+      "R1.2": 1.0,
+      "R1.3": 1.0,
+      "FAIR": 7.5
+    },
+    "score_total": {
+      "A": 3,
+      "F": 7,
+      "I": 4,
+      "R": 10,
+      "A1": 3,
+      "F1": 2,
+      "F2": 2,
+      "F3": 1,
+      "F4": 2,
+      "I1": 2,
+      "I2": 1,
+      "I3": 1,
+      "R1": 4,
+      "R1.1": 2,
+      "R1.2": 2,
+      "R1.3": 2,
+      "FAIR": 24.0
+    },
+    "score_percent": {
+      "A": 33.33,
+      "F": 35.71,
+      "I": 25.0,
+      "R": 30.0,
+      "A1": 33.33,
+      "F1": 50.0,
+      "F2": 25.0,
+      "F3": 0.0,
+      "F4": 50.0,
+      "I1": 50.0,
+      "I2": 0.0,
+      "I3": 0.0,
+      "R1": 25.0,
+      "R1.1": 0.0,
+      "R1.2": 50.0,
+      "R1.3": 50.0,
+      "FAIR": 31.25
+    },
+    "status_total": {
+      "A1": 3,
+      "F1": 2,
+      "F2": 1,
+      "F3": 1,
+      "F4": 1,
+      "I1": 1,
+      "I2": 1,
+      "I3": 1,
+      "R1": 1,
+      "R1.1": 1,
+      "R1.2": 1,
+      "R1.3": 2,
+      "A": 3,
+      "F": 5,
+      "I": 3,
+      "R": 5,
+      "FAIR": 16
+    },
+    "status_passed": {
+      "A1": 1,
+      "F1": 1,
+      "F2": 1,
+      "F3": 0,
+      "F4": 1,
+      "I1": 0,
+      "I2": 0,
+      "I3": 0,
+      "R1": 1,
+      "R1.1": 0,
+      "R1.2": 1,
+      "R1.3": 1,
+      "A": 1,
+      "F": 3,
+      "I": 0,
+      "R": 3,
+      "FAIR": 7
+    },
+    "maturity": {
+      "A": 1,
+      "F": 1,
+      "I": 1,
+      "R": 1,
+      "A1": 1,
+      "F1": 2,
+      "F2": 1,
+      "F3": 0,
+      "F4": 3,
+      "I1": 2,
+      "I2": 0,
+      "I3": 0,
+      "R1": 1,
+      "R1.1": 0,
+      "R1.2": 2,
+      "R1.3": 1,
+      "FAIR": 1.0
+    }
+  },
+  "results": [
+    {
+      "output": {
+        "unique_identifiers": [
+          {
+            "guid": "https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+            "guid_scheme": "url",
+            "target": "metadata"
+          }
+        ],
+        "guid": "https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "guid_scheme": null
+      },
+      "test_debug": [
+        "INFO: Using idutils schemes to identify unique or persistent identifiers for metadata",
+        "INFO: Starting assessment on identifier: https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "SUCCESS: Unique identifier schemes found ['url']",
+        "INFO: Finalized unique identifier scheme - url"
+      ],
+      "id": 1,
+      "metric_identifier": "FsF-F1-01D",
+      "metric_name": "Data is assigned a globally unique identifier.",
+      "metric_tests": {
+        "FsF-F1-01D-1": {
+          "metric_test_name": "Identifier is resolvable and follows a defined unique identifier syntax (IRI, URL)",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": null,
+              "tested_on": "https://f-uji.net/vocab/metadata/property/object_identifier",
+              "comment": "identifier can be given as user input",
+              "target": "https://f-uji.net/vocab/identifier"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 1,
+            "total": 1
+          },
+          "metric_test_maturity": 3,
+          "metric_test_status": "pass"
+        },
+        "FsF-F1-01D-2": {
+          "metric_test_name": "Identifier is not resolvable but follows an UUID or HASH type syntax",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": {
+                "name": [
+                  "uuid",
+                  "hash"
+                ]
+              },
+              "tested_on": "https://f-uji.net/vocab/metadata/property/object_identifier",
+              "comment": "identifier can be given as user input",
+              "target": "https://f-uji.net/vocab/identifier/unique"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0.5
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "pass",
+      "score": {
+        "earned": 1,
+        "total": 1
+      },
+      "maturity": 3
+    },
+    {
+      "id": 2,
+      "metric_identifier": "FsF-F1-02D",
+      "metric_name": "Data is assigned a persistent identifier.",
+      "metric_tests": {
+        "FsF-F1-02D-1": {
+          "metric_test_name": "Identifier follows a defined persistent identifier syntax",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": null,
+              "tested_on": "https://f-uji.net/vocab/metadata/property/object_identifier",
+              "comment": "identifier can be given as user input",
+              "target": "https://f-uji.net/vocab/identifier/persistent"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0.5
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-F1-02D-2": {
+          "metric_test_name": "Persistent identifier is resolvable",
+          "metric_test_requirements": [
+            {
+              "modality": null,
+              "required": null,
+              "tested_on": "https://f-uji.net/vocab/metadata/property/object_identifier",
+              "comment": "identifier has to resolve to a valid URI",
+              "target": "https://f-uji.net/vocab/identifier/persistent"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0.5
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "fail",
+      "score": {
+        "earned": 0,
+        "total": 1
+      },
+      "maturity": 0,
+      "output": {
+        "persistent_identifiers": []
+      },
+      "test_debug": [
+        "INFO: Retrieving page -: https://github.com/zalkimanohar/Formula1-Racing-Analytics as text/html, */*",
+        "INFO: PID schemes-based assessment supported by the assessment service - dict_keys(['ark', 'arxiv', 'bioproject', 'biosample', 'doi', 'ensembl', 'genome', 'gnd', 'handle', 'lsid', 'pmid', 'pmcid', 'purl', 'refseq', 'sra', 'uniprot', 'urn', 'identifiers.org', 'w3id'])",
+        "INFO: Could not find any persistent identifier for metadata which complies with a known PID syntax",
+        "WARNING: Could not find any persistent identifier for metadata which is registered"
+      ]
+    },
+    {
+      "id": 3,
+      "metric_identifier": "FsF-F2-01M",
+      "metric_name": "Metadata includes descriptive core elements (creator, title, data identifier, publisher, publication date, summary and keywords) to support data findability.",
+      "metric_tests": {
+        "FsF-F2-01M-1": {
+          "metric_test_name": "Metadata has been made available via common web methods",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": null,
+              "tested_on": null,
+              "comment": null,
+              "target": "https://f-uji.net/vocab/metadata/offering_method"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0.5,
+            "total": 0.5
+          },
+          "metric_test_maturity": 1,
+          "metric_test_status": "pass"
+        },
+        "FsF-F2-01M-2": {
+          "metric_test_name": "Core data citation metadata is available",
+          "metric_test_requirements": [
+            {
+              "modality": "all",
+              "required": {
+                "name": [
+                  "creator",
+                  "title",
+                  "object_identifier",
+                  "publication_date",
+                  "publisher",
+                  "object_type"
+                ]
+              },
+              "tested_on": "https://f-uji.net/vocab/metadata/property",
+              "comment": null,
+              "target": "https://f-uji.net/vocab/metadata/property"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0.5
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-F2-01M-3": {
+          "metric_test_name": "Core descriptive metadata is available",
+          "metric_test_requirements": [
+            {
+              "modality": "all",
+              "required": {
+                "name": [
+                  "creator",
+                  "title",
+                  "object_identifier",
+                  "publication_date",
+                  "publisher",
+                  "object_type",
+                  "summary",
+                  "keywords"
+                ]
+              },
+              "tested_on": "https://f-uji.net/vocab/metadata/property",
+              "comment": null,
+              "target": "https://f-uji.net/vocab/metadata/property"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "pass",
+      "score": {
+        "earned": 0.5,
+        "total": 2
+      },
+      "maturity": 1,
+      "output": {
+        "core_metadata_status": "some metadata",
+        "core_metadata_found": {
+          "summary": "Contribute to zalkimanohar/Formula1-Racing-Analytics development by creating an account on GitHub.",
+          "object_type": [
+            "http://schema.org/SoftwareSourceCode",
+            "object"
+          ],
+          "title": "Formula1-Racing-Analytics",
+          "object_identifier": "https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+          "publisher": [
+            {
+              "name": "GitHub"
+            }
+          ]
+        },
+        "core_metadata_source": [
+          [
+            "DUBLINCORE_EMBEDDED",
+            "meta_tag"
+          ],
+          [
+            "MICRODATA_EMBEDDED",
+            "microdata"
+          ],
+          [
+            "OPENGRAPH_EMBEDDED",
+            "rdfa"
+          ]
+        ]
+      },
+      "test_debug": [
+        "INFO: Trying to resolve input URL -: https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "INFO: Starting to analyse EMBEDDED metadata at -: https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "INFO: Trying to identify EMBEDDED  Microdata, OpenGraph or Schema.org -: https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "INFO: Trying to retrieve schema.org JSON-LD metadata from html page",
+        "INFO: Try to parse RDF (JSON-LD) from -: https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "INFO: schema.org JSON-LD metadata in html page UNAVAILABLE",
+        "INFO: Trying to retrieve Dublin Core metadata from html page",
+        "SUCCESS: Found DublinCore metadata -: dict_keys(['summary'])",
+        "INFO: Trying to retrieve RDFa metadata from html page",
+        "INFO: Found RDF Graph which was sucessfully parsed",
+        "INFO: Trying to identify namespaces in RDF Graph",
+        "INFO: Could not find DCAT, schema.org or SKOS/OWL metadata, continuing with generic SPARQL",
+        "INFO: Trying to query generic SPARQL on RDF, found triples: -:34",
+        "INFO: Found RDFa like triples but at least some of them seem to be XHTML or OpenGraph properties which are excluded",
+        "INFO: Trying to retrieve Microdata metadata from html page",
+        "INFO: Trying to extract Microdata metadata from -: MetadataSources.MICRODATA_EMBEDDED",
+        "SUCCESS: Found microdata metadata -: dict_keys(['object_type', 'title', 'description'])",
+        "INFO: Trying to retrieve Highwire and eprints metadata from html page",
+        "INFO: Highwire or eprints metadata UNAVAILABLE",
+        "INFO: Trying to retrieve OpenGraph metadata from html page",
+        "INFO: Found OpenGraph metadata-: dict_keys(['title', 'object_identifier', 'summary', 'object_type', 'publisher'])",
+        "SUCCESS: Found OpenGraph metadata -: dict_keys(['title', 'object_identifier', 'summary', 'object_type', 'publisher'])",
+        "INFO: Trying to identify Typed Links to data items in html page",
+        "INFO: Starting to identify EXTERNAL metadata through content negotiation or typed (signposting) links",
+        "INFO: Trying to retrieve XML metadata through content negotiation from URL -: https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "INFO: Retrieving page -: https://github.com/zalkimanohar/Formula1-Racing-Analytics as application/xml, text/xml;q=0.5",
+        "INFO: Using Cached response content text/html - https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "INFO: Trying to extract/parse XML metadata from URL -: https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "INFO: Expected XML but content negotiation responded -: MetadataFormats.HTML",
+        "INFO: Could not identify metadata properties in XML",
+        "INFO: Trying to retrieve schema.org JSON-LD metadata through content negotiation from URL -: https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "INFO: Retrieving page -: https://github.com/zalkimanohar/Formula1-Racing-Analytics as application/ld+json",
+        "INFO: Using Cached response content text/html - https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "INFO: Try to parse RDF from -: https://github.com/zalkimanohar/Formula1-Racing-Analytics as turtle",
+        "WARNING: Failed to parse RDF, trying to fix RDF string and retry parsing everything before line -: 14",
+        "WARNING: Failed to parse RDF, trying to fix RDF string and retry parsing everything before line -: 8",
+        "WARNING: Failed to parse RDF -: https://github.com/zalkimanohar/Formula1-Racing-Analytics string index out of range",
+        "INFO: Schema.org metadata through content negotiation UNAVAILABLE",
+        "INFO: Trying to retrieve RDF metadata through content negotiation from URL -: https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "INFO: Retrieving page -: https://github.com/zalkimanohar/Formula1-Racing-Analytics as text/turtle, application/turtle, application/x-turtle;q=0.8, application/rdf+xml, text/n3;q=0.9, text/rdf+n3;q=0.9,application/ld+json",
+        "INFO: Using Cached response content text/html - https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "INFO: Try to parse RDF from -: https://github.com/zalkimanohar/Formula1-Racing-Analytics as turtle",
+        "WARNING: Failed to parse RDF, trying to fix RDF string and retry parsing everything before line -: 14",
+        "WARNING: Failed to parse RDF, trying to fix RDF string and retry parsing everything before line -: 8",
+        "WARNING: Failed to parse RDF -: https://github.com/zalkimanohar/Formula1-Racing-Analytics string index out of range",
+        "INFO: Linked Data metadata UNAVAILABLE",
+        "INFO: Trying to retrieve datacite metadata",
+        "INFO: Retrieving page -: https://github.com/zalkimanohar/Formula1-Racing-Analytics as application/vnd.datacite.datacite+json",
+        "INFO: Using Cached response content text/html - https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+        "WARNING: Failed to extract Datacite JSON -: 'bytes' object has no attribute 'get'",
+        "INFO: Datacite metadata UNAVAILABLE",
+        "INFO: Type of object described by the metadata -: None",
+        "INFO: Testing if any metadata has been made available via common web standards",
+        "INFO: Found some descriptive metadata elements -: dict_keys(['summary', 'object_type', 'title', 'object_identifier', 'publisher'])",
+        "WARNING: Not all required citation metadata elements exist, missing -: ['publication_date', 'creator']",
+        "INFO: Will exclusively consider community specific metadata properties which are specified in metrics -: {'name': ['creator', 'title', 'object_identifier', 'publication_date', 'publisher', 'object_type', 'summary', 'keywords']}",
+        "WARNING: Not all required core descriptive metadata elements exist, missing -: ['publication_date', 'creator', 'keywords']"
+      ]
+    },
+    {
+      "id": 4,
+      "metric_identifier": "FsF-F3-01M",
+      "metric_name": "Metadata includes the identifier of the data it describes.",
+      "metric_tests": {
+        "FsF-F3-01M-1": {
+          "metric_test_name": "Metadata contains data content related information (file name, size, type)",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": [
+                "type",
+                "size",
+                "name"
+              ],
+              "tested_on": "https://f-uji.net/vocab/metadata/property/object_content_identifier",
+              "comment": null,
+              "target": "https://f-uji.net/vocab/data/property"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0.5
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-F3-01M-2": {
+          "metric_test_name": "Metadata contains a PID or URL which indicates the location of the downloadable data content",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": null,
+              "tested_on": "https://f-uji.net/vocab/metadata/property/object_content_identifier",
+              "comment": null,
+              "target": "https://f-uji.net/vocab/data/property/url"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0.5
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "fail",
+      "score": {
+        "earned": 0,
+        "total": 1
+      },
+      "maturity": 0,
+      "output": {
+        "object_identifier_included": null,
+        "object_content_identifier_included": []
+      },
+      "test_debug": [
+        "WARNING: Valid data (content) identifier missing."
+      ]
+    },
+    {
+      "id": 5,
+      "metric_identifier": "FsF-F4-01M",
+      "metric_name": "Metadata is offered in such a way that it can be retrieved programmatically.",
+      "metric_tests": {
+        "FsF-F4-01M-1": {
+          "metric_test_name": "Metadata is given in a way major search engines can ingest it for their catalogues (embedded JSON-LD, Dublin Core or RDFa)",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": {
+                "name": [
+                  "dublin-core",
+                  "schemaorg",
+                  "dcat-data-catalog-vocabulary"
+                ]
+              },
+              "tested_on": null,
+              "comment": null,
+              "target": "http://f-uji.net/vocab/metadata/standard"
+            },
+            {
+              "modality": "any",
+              "required": {
+                "name": [
+                  "rdfa",
+                  "microdata",
+                  "meta_tag",
+                  "json_in_html"
+                ]
+              },
+              "tested_on": null,
+              "comment": null,
+              "target": "http://f-uji.net/vocab/metadata/offering_method"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 1,
+            "total": 1
+          },
+          "metric_test_maturity": 3,
+          "metric_test_status": "pass"
+        },
+        "FsF-F4-01M-2": {
+          "metric_test_name": "Metadata is registered in major research data registries (DataCite)",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "pass",
+      "score": {
+        "earned": 1,
+        "total": 2
+      },
+      "maturity": 3,
+      "output": {
+        "search_mechanisms": [
+          {
+            "mechanism": "structured data",
+            "mechanism_info": [
+              "schemaorg via: microdata",
+              "dublin-core via: meta_tag"
+            ]
+          }
+        ]
+      },
+      "test_debug": [
+        "INFO: Will exclusively consider community specific metadata standards for FsF-F4-01M-1 which are specified in metrics -: ['dublin-core', 'schemaorg', 'dcat-data-catalog-vocabulary']",
+        "INFO: Will exclusively consider community specific metadata offering methods for FsF-F4-01M-1 which are specified in metrics -: ['rdfa', 'microdata', 'meta_tag', 'json_in_html']",
+        "SUCCESS: Metadata is offered in a way major search engines can ingest it -: ['schemaorg via: microdata', 'dublin-core via: meta_tag']",
+        "WARNING: Google Search Cache DB does not exist, see F-UJI installation instructions",
+        "INFO: Identifier not listed in Google Dataset Search cache -:['https://github.com/zalkimanohar/Formula1-Racing-Analytics']",
+        "ERROR: Mendeley Data API not available or returns errors: E:HTTPSConnectionPool(host='api.datasearch.elsevier.com', port=443): Max retries exceeded with url: /api/v2/search?query=/https%3A//github.com/zalkimanohar/Formula1-Racing-Analytics (Caused by NameResolutionError(\"HTTPSConnection(host='api.datasearch.elsevier.com', port=443): Failed to resolve 'api.datasearch.elsevier.com' ([Errno 11002] getaddrinfo failed)\"))",
+        "WARNING: Metadata is NOT found through registries considered by the assessment service  -: ['DATACITE', 'MENDELEY_DATA', 'GOOGLE_DATASET']"
+      ]
+    },
+    {
+      "id": 6,
+      "metric_identifier": "FsF-A1-01M",
+      "metric_name": "Metadata contains access level and access conditions of the data.",
+      "metric_tests": {
+        "FsF-A1-01M-1": {
+          "metric_test_name": "Information about access restrictions or rights can be identified in metadata",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": null,
+              "tested_on": null,
+              "comment": null,
+              "target": "http://f-uji.net/vocab/metadata/property/access_level"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0.5
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-A1-01M-3": {
+          "metric_test_name": "Data access information is indicated by (not machine readable) standard terms",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": null,
+              "tested_on": "http://f-uji.net/vocab/metadata/property/access_level",
+              "comment": "label and id",
+              "target": "http://f-uji.net/vocab/access_condition"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-A1-01M-2": {
+          "metric_test_name": "Data access information is machine readable",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": null,
+              "tested_on": "http://f-uji.net/vocab/metadata/property/access_level",
+              "comment": "identifier (namespace)",
+              "target": "http://f-uji.net/vocab/access_condition"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "fail",
+      "score": {
+        "earned": 0,
+        "total": 1
+      },
+      "maturity": 0,
+      "output": {
+        "access_level": null,
+        "access_details": {}
+      },
+      "test_debug": [
+        "WARNING: NO access information is available in metadata",
+        "INFO: Skipping standard terms test since NO access information is available in metadata",
+        "INFO: Skipping machine readablility test since NO access information is available in metadata",
+        "WARNING: Unable to determine the access level"
+      ]
+    },
+    {
+      "output": {
+        "standard_protocol": [
+          {
+            "protocol_type": "https",
+            "auth_method": null,
+            "found_in": "https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+            "target": "metadata"
+          }
+        ]
+      },
+      "test_debug": [
+        "SUCCESS: Standard protocol for access to metadata which is assumed to be present found in link -: https://github.com/zalkimanohar/Formula1-Racing-Analyticshttps"
+      ],
+      "id": 7,
+      "metric_identifier": "FsF-A1-02M",
+      "metric_name": "Metadata is accessible through a standardized communication protocol.",
+      "metric_tests": {
+        "FsF-A1-02M-1": {
+          "metric_test_name": "Landing page link is based on standardized web communication protocols.",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 1,
+            "total": 1
+          },
+          "metric_test_maturity": 3,
+          "metric_test_status": "pass"
+        }
+      },
+      "test_status": "pass",
+      "score": {
+        "earned": 1,
+        "total": 1
+      },
+      "maturity": 3
+    },
+    {
+      "output": {
+        "standard_protocol": []
+      },
+      "test_debug": [
+        "WARNING: Skipping protocol test for data since NO content (data) identifier is given in metadata"
+      ],
+      "id": 8,
+      "metric_identifier": "FsF-A1-03D",
+      "metric_name": "Data is accessible through a standardized communication protocol.",
+      "metric_tests": {
+        "FsF-A1-03D-1": {
+          "metric_test_name": "Metadata includes a resolvable link to data based on standardized web communication protocols.",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "fail",
+      "score": {
+        "earned": 0,
+        "total": 1
+      },
+      "maturity": 0
+    },
+    {
+      "id": 10,
+      "metric_identifier": "FsF-I1-01M",
+      "metric_name": "Metadata is represented using a formal knowledge representation language.",
+      "metric_tests": {
+        "FsF-I1-01M-1": {
+          "metric_test_name": "Parsable, structured metadata (JSON-LD, RDFa) is embedded in the landing page XHTML/HTML code",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": {
+                "name": [
+                  "RDF",
+                  "JSON-LD",
+                  "RDFa"
+                ]
+              },
+              "tested_on": null,
+              "comment": null,
+              "target": "http://f-uji.net/vocab/metadata/format"
+            },
+            {
+              "modality": "any",
+              "required": {
+                "name": [
+                  "meta_tag",
+                  "microdata",
+                  "rdfa",
+                  "json_in_html"
+                ]
+              },
+              "tested_on": null,
+              "comment": null,
+              "target": "http://f-uji.net/vocab/metadata/offering_method"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 1,
+            "total": 1
+          },
+          "metric_test_maturity": 2,
+          "metric_test_status": "pass"
+        },
+        "FsF-I1-01M-2": {
+          "metric_test_name": "Parsable, graph data (RDF, JSON-LD) is accessible through content negotiation, typed links or sparql endpoint",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": {
+                "name": [
+                  "RDF",
+                  "JSON-LD",
+                  "RDFa"
+                ]
+              },
+              "tested_on": null,
+              "comment": null,
+              "target": "http://f-uji.net/vocab/metadata/format"
+            },
+            {
+              "modality": "any",
+              "required": {
+                "name": [
+                  "content_negotiation"
+                ]
+              },
+              "tested_on": null,
+              "comment": null,
+              "target": "http://f-uji.net/vocab/metadata/offering_method"
+            },
+            {
+              "modality": "any",
+              "required": {
+                "name": [
+                  "sparql"
+                ]
+              },
+              "tested_on": null,
+              "comment": null,
+              "target": "http://f-uji.net/vocab/metadata/exchange_service"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "fail",
+      "score": {
+        "earned": 1,
+        "total": 2
+      },
+      "maturity": 2,
+      "output": [
+        {
+          "serialization_format": "RDFa",
+          "source": "structured_data",
+          "is_metadata_found": true
+        }
+      ],
+      "test_debug": [
+        "INFO: Check of structured data (RDF serialization) embedded in the data page",
+        "INFO: RDFa like (OpenGraph) serialization found in the data page - RDFa",
+        "SUCCESS: Found structured data (RDF serialization) in the data page",
+        "INFO: Check if RDF-based typed link included",
+        "INFO: NO RDF-based typed link found",
+        "INFO: Check if RDF metadata available through content negotiation",
+        "INFO: NO RDF metadata available through content negotiation",
+        "INFO: NO SPARQL endpoint found through re3data based on the object URI provided"
+      ]
+    },
+    {
+      "id": 11,
+      "metric_identifier": "FsF-I2-01M",
+      "metric_name": "Metadata uses semantic resources",
+      "metric_tests": {
+        "FsF-I2-01M-1": {
+          "metric_test_name": "Vocabulary namespace URIs can be identified in metadata",
+          "metric_test_requirements": [
+            {
+              "modality": null,
+              "required": null,
+              "tested_on": null,
+              "comment": "The sheer existence of namespaces declared in XML or RDF files is checked here. This test is not scored",
+              "target": null
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-I2-01M-2": {
+          "metric_test_name": "Namespaces of known semantic resources can be identified in metadata",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": null,
+              "tested_on": null,
+              "comment": null,
+              "target": "http://f-uji.net/vocab/semantic_resource"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "fail",
+      "score": {
+        "earned": 0,
+        "total": 1
+      },
+      "maturity": 0,
+      "output": [],
+      "test_debug": [
+        "INFO: Removing default namespaces from 3 vocabulary namespaces found in structured metadata",
+        "INFO: Default vocabulary namespace(s) excluded -: ['http://schema.org', 'http://ogp.me/ns', 'http://purl.org/dc/elements/1.1']",
+        "WARNING: NO namespaces of semantic vocabularies found in the metadata",
+        "INFO: Skipping namespace lookup in LOD registry list since no namespaces available",
+        "WARNING: NO known vocabulary namespace URI is found which is listed in  the LOD registry"
+      ]
+    },
+    {
+      "id": 12,
+      "metric_identifier": "FsF-I3-01M",
+      "metric_name": "Metadata includes links between the data and its related entities.",
+      "metric_tests": {
+        "FsF-I3-01M-1": {
+          "metric_test_name": "Related resources are explicitly mentioned in metadata",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": null,
+              "tested_on": "http://f-uji.net/vocab/metadata/property/related_resources",
+              "comment": "The presence of a (typed, default = related) related resource is checked, can be a string or URI",
+              "target": "http://f-uji.net/vocab/relation_type"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-I3-01M-2": {
+          "metric_test_name": "Related resources are indicated by machine readable links or identifiers",
+          "metric_test_requirements": [
+            {
+              "modality": null,
+              "required": null,
+              "tested_on": null,
+              "comment": "same as above but relations have to be machine readable/actionable",
+              "target": null
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "fail",
+      "score": {
+        "earned": 0,
+        "total": 1
+      },
+      "maturity": 0,
+      "output": {},
+      "test_debug": [
+        "INFO: No related resource(s) found in Dublin Core metadata",
+        "WARNING: Could not identify qualified related resources in metadata"
+      ]
+    },
+    {
+      "id": 13,
+      "metric_identifier": "FsF-R1-01MD",
+      "metric_name": "Metadata specifies the content of the data.",
+      "metric_tests": {
+        "FsF-R1-01MD-1": {
+          "metric_test_name": "Minimal information about available data content is given in metadata",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 1,
+            "total": 1
+          },
+          "metric_test_maturity": 1,
+          "metric_test_status": "pass"
+        },
+        "FsF-R1-01MD-1a": {
+          "metric_test_name": "Resource type (valid DC, schema.org (Creative Work) or DataCite type e.g. dataset) is given in metadata",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0
+          },
+          "metric_test_maturity": null,
+          "metric_test_status": "pass"
+        },
+        "FsF-R1-01MD-1b": {
+          "metric_test_name": "Information about data content (e.g. links) is given in metadata",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-R1-01MD-2": {
+          "metric_test_name": "Verifiable data descriptors (file info, measured variables or observation types) are specified in metadata",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-R1-01MD-2a": {
+          "metric_test_name": "File size and type information are specified in metadata",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-R1-01MD-2b": {
+          "metric_test_name": "Measured variables or observation types are specified in metadata",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-R1-01MD-2c": {
+          "metric_test_name": "Data service endpoint and protocol information are specified in metadata",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-R1-01MD-3": {
+          "metric_test_name": "Data content matches file type and size or protocol specified in metadata",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-R1-01MD-4": {
+          "metric_test_name": "Data content matches measured variables or observation types specified in metadata",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "pass",
+      "score": {
+        "earned": 1,
+        "total": 4
+      },
+      "maturity": 1,
+      "output": {
+        "object_type": "['softwaresourcecode']",
+        "data_content_descriptor": []
+      },
+      "test_debug": [
+        "SUCCESS: Valid resource type (e.g. subtype of schema.org/CreativeWork, DCMI Type  or DataCite resourceType) specified -: ['softwaresourcecode']",
+        "ERROR: The evaluated resource does not identify itself as a \u201cdataset\u201d but as ['softwaresourcecode', 'object'], so F-UJI may not be the right tool for this type of resource",
+        "WARNING: NO data object content available/accessible to perform file descriptors (type and size) tests"
+      ]
+    },
+    {
+      "id": 14,
+      "metric_identifier": "FsF-R1.1-01M",
+      "metric_name": "Metadata includes license information under which data can be reused.",
+      "metric_tests": {
+        "FsF-R1.1-01M-1": {
+          "metric_test_name": "Licence information is given in an appropriate metadata element",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-R1.1-01M-2": {
+          "metric_test_name": "Recognized licence is valid (community specific or registered at SPDX)",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "fail",
+      "score": {
+        "earned": 0,
+        "total": 2
+      },
+      "maturity": 0,
+      "output": [],
+      "test_debug": [
+        "WARNING: License information unavailable in metadata",
+        "INFO: Will consider all SPDX licenses as community specific licenses for FsF-R1.1-01M",
+        "WARNING: Skipping SPDX and community license verification since license information unavailable in metadata"
+      ]
+    },
+    {
+      "id": 15,
+      "metric_identifier": "FsF-R1.2-01M",
+      "metric_name": "Metadata includes provenance information about data creation or generation.",
+      "metric_tests": {
+        "FsF-R1.2-01M-1": {
+          "metric_test_name": "Metadata contains elements which hold provenance information and can be mapped to PROV",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 1,
+            "total": 1
+          },
+          "metric_test_maturity": 2,
+          "metric_test_status": "pass"
+        },
+        "FsF-R1.2-01M-2": {
+          "metric_test_name": "Metadata contains provenance information using formal provenance ontologies (PROV-O)",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "pass",
+      "score": {
+        "earned": 1,
+        "total": 2
+      },
+      "maturity": 2,
+      "output": {
+        "provenance_metadata_included": {
+          "is_available": true,
+          "provenance_metadata": [
+            {
+              "prov_o_mapping": "prov:wasAttributedTo",
+              "metadata_element": "publisher",
+              "metadata_value": [
+                {
+                  "name": "GitHub"
+                }
+              ]
+            }
+          ]
+        },
+        "structured_provenance_available": {
+          "is_available": false,
+          "provenance_metadata": []
+        }
+      },
+      "test_debug": [
+        "INFO: Check if provenance information is available in descriptive metadata",
+        "INFO: Check if provenance information is available in metadata about related resources",
+        "WARNING: No provenance information found in metadata about related resources",
+        "SUCCESS: Found data creation-related provenance information",
+        "INFO: Check if provenance specific namespaces are listed in metadata",
+        "WARNING: Formal provenance metadata is unavailable"
+      ]
+    },
+    {
+      "id": 16,
+      "metric_identifier": "FsF-R1.3-01M",
+      "metric_name": "Metadata follows a standard recommended by the target research community of the data.",
+      "metric_tests": {
+        "FsF-R1.3-01M-1": {
+          "metric_test_name": "Community specific metadata standard is detected using namespaces or schemas found in provided metadata or metadata services outputs",
+          "metric_test_requirements": [
+            {
+              "modality": "any except",
+              "required": {
+                "field_of_science": [
+                  "science",
+                  "generic"
+                ]
+              },
+              "tested_on": null,
+              "comment": "test performed on namespaces or schemas found in exposed metadata",
+              "target": "https://f-uji.net/vocab/metadata/standards"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-R1.3-01M-2": {
+          "metric_test_name": "Community specific metadata standard is listed in the re3data record of the responsible repository",
+          "metric_test_requirements": [
+            {
+              "modality": "any except",
+              "required": {
+                "field_of_science": [
+                  "science",
+                  "generic"
+                ]
+              },
+              "tested_on": null,
+              "comment": "test is performed using information collected from re3data",
+              "target": "https://f-uji.net/vocab/metadata/standards"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-R1.3-01M-3": {
+          "metric_test_name": "Multidisciplinary but community endorsed metadata (RDA Metadata Standards Catalog, fairsharing) standard is listed in the re3data record or detected by namespace",
+          "metric_test_requirements": [
+            {
+              "modality": "any",
+              "required": {
+                "field_of_science": [
+                  "science",
+                  "generic"
+                ],
+                "source": [
+                  "rd-alliance.org",
+                  "fairsharing.org"
+                ]
+              },
+              "tested_on": null,
+              "comment": null,
+              "target": "https://f-uji.net/vocab/metadata/standards"
+            }
+          ],
+          "metric_test_score": {
+            "earned": 1,
+            "total": 1
+          },
+          "metric_test_maturity": 1,
+          "metric_test_status": "pass"
+        }
+      },
+      "test_status": "pass",
+      "score": {
+        "earned": 1,
+        "total": 1
+      },
+      "maturity": 1,
+      "output": [
+        {
+          "metadata_standard": "Schema.org",
+          "url": "http://schema.org/",
+          "subject_areas": [
+            "sciences"
+          ],
+          "type": "generic",
+          "source": [
+            "https://rdamsc.bath.ac.uk/msc/m101"
+          ]
+        },
+        {
+          "metadata_standard": "Dublin Core",
+          "url": "http://purl.org/dc/elements/1.1/",
+          "subject_areas": [
+            "sciences"
+          ],
+          "type": "generic",
+          "source": [
+            "https://rdamsc.bath.ac.uk/msc/m15",
+            "http://www.dcc.ac.uk/resources/metadata-standards/dublin-core"
+          ]
+        }
+      ],
+      "test_debug": [
+        "INFO: re3data/datacite client id -: None",
+        "INFO: Namespaces included in the metadata -: ['http://schema.org/', 'http://ogp.me/ns#', 'http://purl.org/dc/elements/1.1/']",
+        "INFO: Found non-disciplinary standard (but RDA listed) -: via ns:  Schema.org - http://schema.org/",
+        "INFO: Found disciplinary standard -: via ns : The Open Graph protocol metadata format - http://ogp.me/ns#",
+        "INFO: Found non-disciplinary standard (but RDA listed) -: via ns:  Dublin Core - http://purl.org/dc/elements/1.1/",
+        "INFO: Retrieving API and Standards",
+        "INFO: No Datacite client id found, therefore skipping re3data metadata retrieval",
+        "SUCCESS: Found non-disciplinary standards (but RDA listed) using namespaces or schemas found in re3data record or via provided metadata or metadata services outputs"
+      ]
+    },
+    {
+      "id": 17,
+      "metric_identifier": "FsF-R1.3-02D",
+      "metric_name": "Data is available in a file format recommended by the target research community.",
+      "metric_tests": {
+        "FsF-R1.3-02D-1": {
+          "metric_test_name": "The format of a data file given in the metadata is listed in the long term file formats, open file formats or scientific file formats controlled list",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 1
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-R1.3-02D-1a": {
+          "metric_test_name": "The format of the data file is an open format",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-R1.3-02D-1b": {
+          "metric_test_name": "The format of the data file is a long term format",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        },
+        "FsF-R1.3-02D-1c": {
+          "metric_test_name": "The format of the data file is a scientific format",
+          "metric_test_requirements": [],
+          "metric_test_score": {
+            "earned": 0,
+            "total": 0
+          },
+          "metric_test_maturity": 0,
+          "metric_test_status": "fail"
+        }
+      },
+      "test_status": "fail",
+      "score": {
+        "earned": 0,
+        "total": 1
+      },
+      "maturity": 0,
+      "output": [],
+      "test_debug": [
+        "WARNING: Could not perform file format checks as data content identifier(s) unavailable/inaccesible"
+      ]
+    }
+  ],
+  "harvested_metadata": [
+    {
+      "method": "meta_tag",
+      "url": "https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+      "format": "xhtml",
+      "schema": "http://purl.org/dc/elements/1.1/",
+      "namespaces": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "metadata": {
+        "summary": "Contribute to zalkimanohar/Formula1-Racing-Analytics development by creating an account on GitHub."
+      }
+    },
+    {
+      "method": "microdata",
+      "url": "https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+      "format": "microdata",
+      "schema": "http://www.w3.org/TR/microdata",
+      "namespaces": [
+        "http://www.w3.org/TR/microdata",
+        "http://schema.org/"
+      ],
+      "metadata": {
+        "object_type": [
+          "http://schema.org/SoftwareSourceCode"
+        ],
+        "title": "Formula1-Racing-Analytics",
+        "description": "%md\n\n\ud83c\udfce\ufe0f F1 Race Analytics \u2014 Version 2.0\n\nEnd\u2011to\u2011End Incremental Data Engineering Pipeline (Local Workspace Edition)\n\nF1\u2011Race\u20112.0 is a complete end\u2011to\u2011end data engineering and analytics system built using PySpark, Parquet, notebook\u2011driven transformations, and shell\u2011script orchestration.\nIt mirrors a Databricks\u2011style Medallion Architecture but runs entirely on a local laptop workspace.\n\n\ud83e\uddf1 Architecture Overview\n\nMedallion Layers\n\nBronze \u2192 Raw ingestion\nSilver \u2192 Cleaned, standardized, conformed\nGold \u2192 Dimensional models + Fact tables\n\nOrchestration\n\nBatch detection\nBatch creation\nPipeline execution\nBatch completion\nDashboard refresh\n\nDashboard\n\nStreamlit analytics dashboard\nDriver, constructor, and race insights\n\n\ud83d\udcc1 Project Structure\n\n\ud83d\udd04 Incremental Batch Processing\n\nEach batch is a folder inside:\n\ndata/landing/<batch_id>/\n\nExample:\n\ndata/landing/20250101_090000/\n\nThe system automatically:\n\nDetects the latest batch folder\nCreates a new batch entry\nRuns Bronze \u2192 Silver \u2192 Gold\nMarks the batch as completed\nRefreshes the dashboard\n\n\ud83e\udde0 Orchestration Scripts\n\nmain.sh\n\nRuns the entire system:\n\nCleans old logs\nDetects latest batch\nRuns orchestration\nRuns pipeline\nStarts dashboard\nSaves logs\n\nRun:\n\nbash scripts/main.sh\n\nrun_orchestration.sh\n\nHandles:\n\nIdentify Next Batch\nCreate New Batch\n\nrun_pipeline.sh\n\nExecutes:\n\nBronze ingestion\nSilver transformation\nGold modeling\nBatch completion\n\nManual run:\n\nbash scripts/run_pipeline.sh <batch_id>\n\nrun_dashboard.sh\n\nStarts the Streamlit dashboard.\n\n\ud83e\uddea Pipeline Execution Flow\n\nBronze Layer\n\nReads raw CSV/JSON files\nAdds batch metadata\nWrites raw Parquet\n\nSilver Layer\n\nCleans data\nStandardizes schema\nFixes types\nWrites conformed Parquet\n\nGold Layer\n\nBuilds:\n\ndim_races\ndim_constructors\ndim_drivers\nfact_session_results\n\n\ud83d\udcca Dashboard\n\nA Streamlit dashboard visualizes:\n\nRace results\nConstructor performance\nDriver statistics\nSeason trends\n\nRun manually:\n\nbash scripts/run_dashboard.sh\n\n\ud83d\udee0\ufe0f Environment Setup\n\nInstall dependencies\n\npip install pyspark papermill streamlit pandas\n\nConfigure environment paths\n\nInside:\n\nnotebooks/00-common/01_environment_config.ipynb\n\n\ud83d\ude80 Running the Entire System\n\nRecommended (fully automated)\n\nbash main.sh --workspace \"/Users/manoharazalki\"\n\nManual batch run\n\nexport WORKSPACE=\"/Users/manoharazalki/F1-Analytics\" export BATCH_ID=\"2025-02\"\n\nbash scripts/run_orchestration.sh bash scripts/run_pipeline.sh bash scripts/run_dashboard.sh\n\n\ud83c\udff7\ufe0f Versioning\n\nThis release is tagged:\n\nv2.0 \u2014 F1-Race-2.0\n\nIncludes:\n\nFull local orchestration\nAuto\u2011detect batch\nAuto\u2011clean logs\nUpdated Gold notebooks\nUpdated environment config\nProduction\u2011grade shell scripts\n\n\ud83e\udded Roadmap\n\nAdd Airflow/Dagster orchestration\nAdd unit tests (pytest)\nAdd CI/CD (GitHub Actions)\nAdd data quality checks (Great Expectations)\nAdd historical dashboards\nAdd metadata lineage\n\n\ud83d\udc68\u200d\ud83d\udcbb Author\n\nManohar Anand Zalki\nMunich, Germany\nMSc Applied Data Science & AI\n\n\ud83c\udfc1 License\n\nMIT License\nFree to use, modify, and distribute."
+      }
+    },
+    {
+      "method": "rdfa",
+      "url": "https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+      "format": "rdfa",
+      "schema": "https://ogp.me/",
+      "namespaces": [
+        "https://ogp.me/",
+        "http://ogp.me/ns#"
+      ],
+      "metadata": {
+        "title": "GitHub - zalkimanohar/Formula1-Racing-Analytics",
+        "object_identifier": [
+          "https://github.com/zalkimanohar/Formula1-Racing-Analytics"
+        ],
+        "summary": "Contribute to zalkimanohar/Formula1-Racing-Analytics development by creating an account on GitHub.",
+        "object_type": [
+          "object"
+        ],
+        "publisher": [
+          {
+            "name": "GitHub"
+          }
+        ]
+      }
+    }
+  ],
+  "_assessment_context": {
+    "label": "github_repository",
+    "role": "Where the group's raw archive racing_f1_data.zip is published",
+    "evaluated_url": "https://github.com/zalkimanohar/Formula1-Racing-Analytics",
+    "requested_at_utc": "2026-11-09T20:00:13+00:00",
+    "metric_version": "metrics_v0.5"
+  }
+}

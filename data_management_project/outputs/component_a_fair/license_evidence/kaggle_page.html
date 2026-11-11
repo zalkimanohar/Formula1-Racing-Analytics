@@ -1,0 +1,185 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Formula 1 World Championship (1950 - 2024) | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="F1 race data from 1950 to 2024" />
+    <meta name="keywords" content="tabular,sports,auto racing" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="ju3&#x2B;O5U3a4q88hsQchQmNA==" type="text/javascript">
+    window["pageRequestStartTime"] = 1794254363845;
+    window["pageRequestEndTime"] = 1794254363858;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <script nonce="ju3&#x2B;O5U3a4q88hsQchQmNA==" id="gsi-client" src="https://accounts.google.com/gsi/client" async defer></script>
+  <script nonce="ju3&#x2B;O5U3a4q88hsQchQmNA==">window.KAGGLE_JUPYTERLAB_PATH = "/static/assets/jupyterlab-v4/jupyterlab-index-9dcff3a776a0d1b3.html";</script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon-new.ico" rel="shortcut icon" type="image/x-icon" id="dynamic-favicon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL,wght@0..1,200..700&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL,wght@0..1,200..700&display=block"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="ju3&#x2B;O5U3a4q88hsQchQmNA==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <script nonce="ju3&#x2B;O5U3a4q88hsQchQmNA==" id="site-wide-recaptcha"
+      src="https://www.google.com/recaptcha/enterprise.js?render=6LcVUOAUAAAAAP8nMSGuW46uJC5Zf6-PCYKN5xxv" async defer></script>
+    <style>.grecaptcha-badge { visibility: hidden; }</style>
+
+    <link rel="canonical" href="https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=e31a0a53cbc22063" />
+
+  
+    
+ 
+      <script nonce="ju3&#x2B;O5U3a4q88hsQchQmNA==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="ju3&#x2B;O5U3a4q88hsQchQmNA==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets',
+            'user_properties': {
+                'logged_in': false,
+            }
+        });
+    </script>
+    <script nonce="ju3&#x2B;O5U3a4q88hsQchQmNA==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+
+  
+    
+    <meta property="og:url" content="https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020" />
+    <meta property="og:title" content="Formula 1 World Championship (1950 - 2024)" />
+    <meta property="og:description" content="F1 race data from 1950 to 2024" />
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+        <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/468218/878459/e2b865299a720df627331f8d213eb8f9/dataset-card.jpg?t=2020-01-07-17-56-51" />
+        <meta property="twitter:image" content="https://storage.googleapis.com/kaggle-datasets-images/468218/878459/e2b865299a720df627331f8d213eb8f9/dataset-card.jpg?t=2020-01-07-17-56-51" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+        <meta name="twitter:creator" content="@vopani" />
+
+
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="ju3+O5U3a4q88hsQchQmNA==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Formula 1 World Championship (1950 - 2024)","description":"### Context\nFormula 1 (a.k.a. F1 or Formula One) is the highest class of single-seater auto racing sanctioned by the Fédération Internationale de l'Automobile (FIA) and owned by the Formula One Group. The FIA Formula One World Championship has been one of the premier forms of racing around the world since its inaugural season in 1950. The word \"formula\" in the name refers to the set of rules to which all participants' cars must conform. A Formula One season consists of a series of races, known as Grands Prix, which take place worldwide on purpose-built circuits and on public roads.\n\n### Content\nThe dataset consists of all information on the Formula 1 races, drivers, constructors, qualifying, circuits, lap times, pit stops, championships from 1950 till the latest 2024 season.\n\n### Acknowledgements\nThe data is compiled from http://ergast.com/mrd/\n\n### Inspiration\n\"Races are won at the track. Championships are won at the factory.\" - Mercedes (2019)\n\nWith the amount of data being captured, analyzed and used to design, build and drive the Formula 1 cars is astounding. It is a global sport being followed by millions of people worldwide and it is very fascinating to see drivers pushing their limit in these vehicles to become the fastest racers in the world!","url":"https://www.kaggle.com/rohanrao/formula-1-world-championship-1950-2020","version":24,"keywords":["data type, tabular","subject, health and fitness, exercise, sports","subject, health and fitness, exercise, sports, auto racing"],"license":{"@type":"CreativeWork","name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"identifier":["468218"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Vopani","url":"https://www.kaggle.com/rohanrao","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/113389-kg.png"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020/download?datasetVersionNumber=24","contentSize":"6585538 bytes"}],"commentCount":49,"dateModified":"2025-01-29T04:43:07.267Z","discussionUrl":"https://www.kaggle.com/rohanrao/formula-1-world-championship-1950-2020/discussion","alternateName":"F1 race data from 1950 to 2024","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/468218/878459/e2b865299a720df627331f8d213eb8f9/dataset-card.jpg?t=2020-01-07-17-56-51","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":49},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":172894},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":791131},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":2336}]}</script>
+
+
+  
+    
+
+  
+    
+
+
+
+    <script nonce="ju3&#x2B;O5U3a4q88hsQchQmNA==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="ju3&#x2B;O5U3a4q88hsQchQmNA==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="ju3+O5U3a4q88hsQchQmNA==" src="/static/assets/runtime.js?v=eb31e6db968829f6"></script>
+  <script nonce="ju3+O5U3a4q88hsQchQmNA==" src="/static/assets/vendor.js?v=d65bb8768740f992"></script>
+  <script nonce="ju3+O5U3a4q88hsQchQmNA==" src="/static/assets/app.js?v=ad5226d65f5328d3"></script>
+</head>
+<body>
+  <div id="root">
+    
+
+
+
+
+
+
+
+
+<script nonce="ju3&#x2B;O5U3a4q88hsQchQmNA==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    jax: ['input/TeX', 'output/SVG'],
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="ju3&#x2B;O5U3a4q88hsQchQmNA==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    // Always use the production asset in local dev, which is served from GCS. We tried to proxy and / or serve this
+    // in a better way in localhost, but it didn't work out. See b/328073416#comment8 for details.
+    const forceProdHost = window.location.hostname === "localhost";
+    lib.src = `${forceProdHost ? "https://www.kaggle.com" : ""}/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS_SVG`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+
+
+  </div>
+</body>
+</html>

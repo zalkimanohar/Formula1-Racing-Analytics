@@ -1,0 +1,627 @@
+{
+  "profile": "tabular-data-package",
+  "name": "f1-race-results-curated",
+  "id": "10.5281/zenodo.TO-BE-MINTED",
+  "title": "Formula 1 World Championship Race Results 1950-2025: Curated and Quality-Assessed Dataset",
+  "version": "1.0.0",
+  "created": "2026-11-11",
+  "licenses": [
+    {
+      "name": "CC-BY-NC-SA-4.0",
+      "path": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "title": "Creative Commons Attribution Non Commercial Share Alike 4.0 International"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Jolpica-F1 Ergast-compatible API",
+      "path": "https://api.jolpi.ca/ergast/f1/"
+    },
+    {
+      "title": "Ergast Developer API (discontinued)",
+      "path": "http://ergast.com/mrd/"
+    },
+    {
+      "title": "racing_f1_data.zip (raw archive on Zenodo, DOI 10.5281/zenodo.23416916)",
+      "path": "https://doi.org/10.5281/zenodo.23416916"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Chirag Adhikari",
+      "role": "author"
+    },
+    {
+      "title": "Manohar Zalki",
+      "role": "author"
+    },
+    {
+      "title": "Nicolas Bonilla",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "Formula One",
+    "motorsport",
+    "race results",
+    "sports analytics",
+    "data quality",
+    "data cleaning",
+    "FAIR data",
+    "Ergast"
+  ],
+  "resources": [
+    {
+      "name": "f1_race_results_clean",
+      "path": "data/cleaned/f1_race_results_clean.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 7278022,
+      "hash": "sha256:0d468653082d5059f6ab911add127aca35a086c0512a8d1b603175d731be0c01",
+      "description": "One row per driver entry per World Championship Grand Prix (fact table).",
+      "schema": {
+        "fields": [
+          {
+            "name": "result_id",
+            "type": "string",
+            "description": "Deterministic surrogate key: season_round_driverId_carNumber.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "race_id",
+            "type": "string",
+            "description": "Identifier of the Grand Prix: season and round.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "season",
+            "type": "integer",
+            "description": "Championship season (year).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "round",
+            "type": "integer",
+            "description": "Round number of the race within the season.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "race_name",
+            "type": "string",
+            "description": "Official Grand Prix name in title case.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "race_date",
+            "type": "date",
+            "description": "Race day.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "circuit_id",
+            "type": "string",
+            "description": "Circuit identifier (Ergast convention).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "circuit_name",
+            "type": "string",
+            "description": "Circuit name in title case.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "circuit_locality",
+            "type": "string",
+            "description": "City or locality of the circuit.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "circuit_country",
+            "type": "string",
+            "description": "Country of the circuit; abbreviations expanded (UK, USA, UAE, Korea), other names kept as in source.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "circuit_country_iso3",
+            "type": "string",
+            "description": "Country of the circuit.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "driver_id",
+            "type": "string",
+            "description": "Driver identifier, lowercase snake case.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "driver_name",
+            "type": "string",
+            "description": "Driver full name in title case.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "driver_nationality_iso3",
+            "type": "string",
+            "description": "Driver nationality as a country code (ISO 3166-3 code for former states)."
+          },
+          {
+            "name": "constructor_id",
+            "type": "string",
+            "description": "Constructor (team) identifier.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "constructor_name",
+            "type": "string",
+            "description": "Constructor name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "constructor_nationality_iso3",
+            "type": "string",
+            "description": "Constructor nationality as a country code.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "car_number",
+            "type": "integer",
+            "description": "Race number of the car. Missing for some withdrawn entries."
+          },
+          {
+            "name": "grid_position",
+            "type": "integer",
+            "description": "Starting grid slot. Missing when the source used the sentinel 0 (pit-lane start or no grid slot)."
+          },
+          {
+            "name": "grid_position_missing",
+            "type": "boolean",
+            "description": "True when the source grid value was the sentinel 0.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "laps_completed",
+            "type": "integer",
+            "description": "Laps completed in the race.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "points",
+            "type": "number",
+            "description": "Championship points awarded, as published for that season's rules.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "points_normalised",
+            "type": "number",
+            "description": "Points divided by the highest points total awarded in the same race (0-1), comparable across scoring eras.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "position_order",
+            "type": "integer",
+            "description": "Finishing order including retirements (source field 'position'). Not a classification.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "classified_position",
+            "type": "integer",
+            "description": "Official classified finishing position. Missing when the driver was not classified."
+          },
+          {
+            "name": "position_text",
+            "type": "string",
+            "description": "Source classification code: a number, R, W or D.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "finish_category",
+            "type": "string",
+            "description": "Classification outcome derived from position_text.",
+            "constraints": {
+              "enum": [
+                "Classified",
+                "Retired",
+                "Withdrawn",
+                "Disqualified"
+              ]
+            }
+          },
+          {
+            "name": "status_raw",
+            "type": "string",
+            "description": "Original free-text status (136 values).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "status_group",
+            "type": "string",
+            "description": "Standardised status category.",
+            "constraints": {
+              "enum": [
+                "Finished",
+                "Finished (lapped)",
+                "Accident or collision",
+                "Mechanical or technical failure",
+                "Driver health or safety",
+                "Did not start or withdrew",
+                "Disqualified or excluded",
+                "Retired (unspecified) or not classified"
+              ]
+            }
+          },
+          {
+            "name": "is_shared_drive",
+            "type": "boolean",
+            "description": "True when the car or the driver appears more than once in the same race (historic shared drives).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "is_indy500",
+            "type": "boolean",
+            "description": "True for Indianapolis 500 rounds (1950-1960), which counted for the title but used different rules.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "laps_outlier_iqr",
+            "type": "boolean",
+            "description": "True when laps_completed lies outside the 1.5 x IQR fences.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "status_position_conflict",
+            "type": "boolean",
+            "description": "True when position_text says retired (R) but the status describes a lapped finish.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "source_file",
+            "type": "string",
+            "description": "Lineage: source file inside racing_f1_data.zip.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "source_line",
+            "type": "integer",
+            "description": "Lineage: line number inside the source file.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "result_id"
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "race_id",
+            "reference": {
+              "resource": "races_clean",
+              "fields": "race_id"
+            }
+          },
+          {
+            "fields": "driver_id",
+            "reference": {
+              "resource": "drivers_clean",
+              "fields": "driver_id"
+            }
+          },
+          {
+            "fields": "constructor_id",
+            "reference": {
+              "resource": "constructors_clean",
+              "fields": "constructor_id"
+            }
+          },
+          {
+            "fields": "circuit_id",
+            "reference": {
+              "resource": "circuits_clean",
+              "fields": "circuit_id"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "races_clean",
+      "path": "data/cleaned/races_clean.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 135632,
+      "hash": "sha256:2cc92f9ed57f42bcfef134f96887be215602c21316ad53631e839a617b685834",
+      "description": "One row per Grand Prix, including the scheduled 2026 rounds without results.",
+      "schema": {
+        "fields": [
+          {
+            "name": "race_id",
+            "type": "string",
+            "description": "Grand Prix identifier: season and two-digit round (YYYY_RR)."
+          },
+          {
+            "name": "season",
+            "type": "integer",
+            "description": "Championship season (year)."
+          },
+          {
+            "name": "round",
+            "type": "integer",
+            "description": "Round number within the season."
+          },
+          {
+            "name": "race_name",
+            "type": "string",
+            "description": "Grand Prix name in title case."
+          },
+          {
+            "name": "race_date",
+            "type": "date",
+            "description": "Race day (ISO 8601)."
+          },
+          {
+            "name": "circuit_id",
+            "type": "string",
+            "description": "Circuit identifier (Ergast convention)."
+          },
+          {
+            "name": "wikipedia_url",
+            "type": "string",
+            "description": "English Wikipedia page (https)."
+          },
+          {
+            "name": "has_results",
+            "type": "boolean",
+            "description": "True when the results table contains this race."
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": [
+          "race_id"
+        ]
+      }
+    },
+    {
+      "name": "circuits_clean",
+      "path": "data/cleaned/circuits_clean.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10155,
+      "hash": "sha256:661d6b1953c109e94aac42bbb12ae9c851348c960faddea68e8bd1c7659154be",
+      "description": "One row per circuit with ISO country code, coordinates and Wikidata QID.",
+      "schema": {
+        "fields": [
+          {
+            "name": "circuit_id",
+            "type": "string",
+            "description": "Circuit identifier (Ergast convention)."
+          },
+          {
+            "name": "circuit_name",
+            "type": "string",
+            "description": "Circuit name in title case."
+          },
+          {
+            "name": "locality",
+            "type": "string",
+            "description": "City or locality."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country name (abbreviations expanded)."
+          },
+          {
+            "name": "country_iso3",
+            "type": "string",
+            "description": "ISO 3166-1 alpha-3 country code."
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "WGS84 latitude (decimal degrees)."
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "WGS84 longitude (decimal degrees)."
+          },
+          {
+            "name": "wikipedia_url",
+            "type": "string",
+            "description": "English Wikipedia page (https)."
+          },
+          {
+            "name": "wikidata_qid",
+            "type": "string",
+            "description": "Wikidata item identifier (persistent identifier of the entity)."
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": [
+          "circuit_id"
+        ]
+      }
+    },
+    {
+      "name": "drivers_clean",
+      "path": "data/cleaned/drivers_clean.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 99662,
+      "hash": "sha256:4add2b09038350297b0715da016f1b9cae134f9c5ae2619d1554350b417af733",
+      "description": "One row per driver with ISO nationality code and Wikidata QID.",
+      "schema": {
+        "fields": [
+          {
+            "name": "driver_id",
+            "type": "string",
+            "description": "Driver identifier, lowercase snake case."
+          },
+          {
+            "name": "given_name",
+            "type": "string",
+            "description": "Given name in title case."
+          },
+          {
+            "name": "family_name",
+            "type": "string",
+            "description": "Family name in title case."
+          },
+          {
+            "name": "full_name",
+            "type": "string",
+            "description": "Given and family name."
+          },
+          {
+            "name": "date_of_birth",
+            "type": "date",
+            "description": "Date of birth (ISO 8601)."
+          },
+          {
+            "name": "nationality",
+            "type": "string",
+            "description": "Nationality (demonym, title case)."
+          },
+          {
+            "name": "nationality_iso3",
+            "type": "string",
+            "description": "Nationality as ISO 3166-1 alpha-3 (ISO 3166-3 for former states)."
+          },
+          {
+            "name": "wikipedia_url",
+            "type": "string",
+            "description": "English Wikipedia page (https)."
+          },
+          {
+            "name": "wikidata_qid",
+            "type": "string",
+            "description": "Wikidata item identifier (persistent identifier of the entity)."
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": [
+          "driver_id"
+        ]
+      }
+    },
+    {
+      "name": "constructors_clean",
+      "path": "data/cleaned/constructors_clean.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 17970,
+      "hash": "sha256:649eb1db014bdc45ec5bab87a06d1c9ff5235ead0b9a70eb68cc47ca20c9922d",
+      "description": "One row per constructor entry (chassis-engine combination) with Wikidata QID.",
+      "schema": {
+        "fields": [
+          {
+            "name": "constructor_id",
+            "type": "string",
+            "description": "Constructor identifier (Ergast convention)."
+          },
+          {
+            "name": "constructor_name",
+            "type": "string",
+            "description": "Constructor name."
+          },
+          {
+            "name": "nationality",
+            "type": "string",
+            "description": "Nationality (demonym, title case)."
+          },
+          {
+            "name": "nationality_iso3",
+            "type": "string",
+            "description": "Nationality as ISO 3166-1 alpha-3 (ISO 3166-3 for former states)."
+          },
+          {
+            "name": "wikipedia_url",
+            "type": "string",
+            "description": "English Wikipedia page (https)."
+          },
+          {
+            "name": "wikidata_qid",
+            "type": "string",
+            "description": "Wikidata item identifier (persistent identifier of the entity)."
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": [
+          "constructor_id"
+        ]
+      }
+    }
+  ]
+}

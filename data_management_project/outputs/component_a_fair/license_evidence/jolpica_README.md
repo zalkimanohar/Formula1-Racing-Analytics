@@ -1,0 +1,57 @@
+# jolpica-f1
+Jolpica F1 is an open source API for querying Formula 1 data, with backwards compatible endpoints for the soon to be deprecated Ergast API.
+
+Jolpica F1 is maintained by a small group of volunteers. Our hosting costs are around $45 USD per month. If you want to support the project's ongoing development and improvements, please consider [donating to our Kofi](https://ko-fi.com/jolpicaf1). Our fundraising goal is to break-even during the 2026 season.
+
+The Ergast compatible API can be found here: http://api.jolpi.ca/ergast/f1/
+
+By using the jolpica-f1 API, you agree to our [Terms of Use](TERMS.md).
+
+# Documentation
+Our documentation can be [found here](/docs/README.md).
+
+### Ergast Differences
+If you are migrating from the Ergast API, please check the known differences [here](/docs/ergast_differences.md).
+
+# Database Scheme
+Our database model is not yet finalised and is different to the one used by ergast, this scheme will allow better adaption to changing rulesets, reduce duplication of information, and allow storage of more F1 related data.
+
+Check out our database docs [here](https://dbdocs.io/jolpica/jolpica-f1?view=relationships). 
+
+[![Database Scheme for jolpica-f1](docs/database.svg)](https://dbdocs.io/jolpica/jolpica-f1?view=relationships)
+Many Enumerations are used in the database, the mappings of these values are defined in their respective model files. For example you can find the enumerations for the PointSystem table [here](jolpica/formula_one/models/point_scheme.py)
+
+Database dumps can be dowloaded via the API. This is documented [here](/docs/database_dumps.md)
+
+## Reporting Bugs / Contributing
+
+For information on contributing to this project please read the [contributing guidelines](CONTRIBUTING.md).
+You can also find instructions to run the project locally in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+# Community Projects
+
+Below is a list of some open source community projects that use the jolpica-f1 API. If you've created something you'd like to share feel free to open a pull request to add it to the list.
+
+### SDKs
+- [FastF1](https://github.com/theOehrly/Fast-F1) - Python package for accessing and analyzing Formula 1 results, schedules, timing data and telemetry.
+- [f1dataR](https://github.com/SCasanova/f1dataR)-  R package to access Formula 1 Data from the jolpica-f1 API.
+- [JolpicaKit](https://github.com/fantasia-y/JolpicaKit) - Swift wrapper for the jolpica-f1 API.
+- [jolpica-go](https://github.com/kostplu/jolpica-go) - Go wrapper for the jolpica-f1 API.
+- [LiveF1](https://github.com/GoktugOcal/LiveF1) - Python package for accessing, processing, and analyzing live and historical Formula 1 data.
+- [BaseF1](https://github.com/GoktugOcal/BaseF1) - Python client for the jolpica-f1 API with chainable queries, typed models, caching, and pagination helpers.
+
+### Applications and Integrations
+- [FormulaOne Card](https://github.com/marcokreeft87/formulaone-card) - Home Assistant Card showing Formula One Data.
+- [tap-f1](https://github.com/ReubenFrankel/tap-f1)-  A Singer tap for F1.
+- [Next F1 Race scriptable widget](https://github.com/timespacedecay/scriptable) - Widget for scriptable to display the next F1 Race.
+- [FormulaVision](https://github.com/skat9234/formula-vision) - A Mobile F1 Dashboard built with Flutter.
+- [RaceTimeApp](https://www.github.com/MayckGomes/RaceTimeApp) - An Android App showing latest F1 data, Built with Jetpack Compose.
+- [OversteerFormula1App](https://github.com/HugoLe-SS/OversteerFormula1App) - OversteerFormula1App is an Android project built with Kotlin and Jetpack Compose, designed to provide race schedules, standings, race results, news, and live updates.
+- [F1 Points Calculator](https://github.com/yuyangchee98/F1-Points-Calculator) - An interactive championship points calculator and race simulator for predicting F1 standings. Results update every week using jolpica-f1 data. 
+- [GridTip](https://github.com/selfire1/gridtip) - Website for social F1 tipping with your friends. Data is powered by the jolpica-f1 API.
+- [InkyCloud-F1](https://github.com/Rhiz3K/InkyCloud-F1) - E-Ink/ePaper F1 screen generator (1-bit BMP) showing next race info, full session times, and circuit details.
+- [F1_CYD_Notifications](https://github.com/anthonyjclarke/F1_CYD_Notifications) - ESP32 Cheap Yellow Display (CYD) showing Formula 1 race information on TFT Display and WebUI.
+- [F1 Predictions Game](https://github.com/amiablealex/f1-predictions) - A social predictions game with leagues and leaderboards.
+- [Race Rewind](https://github.com/PhilippKuhnhardt/race-rewind) - A spoiler-free companion website for rewatching past F1 seasons, providing stats, news and historical context
+- [F1 Stats & Reminders](https://github.com/DaniilPavlov/f1_pet_project) - A cross-platform Flutter app (Android/iOS/Web) for Formula 1. It features driver/constructor standings, a full season calendar with session reminders (push-notifications), race results with sprint and pit stop data, a hall of fame and a map with circuits.
+- [Tangent](https://github.com/AhmedRaza02912/Tangent) - An SPA created using React and .NET WEB API. Features include previous race results, Head to Head driver comparisons and an Add to calendar feature that let's users save race weekends directly to their local calendar.

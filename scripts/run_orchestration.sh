@@ -17,6 +17,9 @@ fi
 WORKSPACE="${WORKSPACE%/}"
 BASE="$WORKSPACE"
 
+# Use python3 where it works (macOS/Linux), otherwise python (Windows).
+if python3 -c "import sys" >/dev/null 2>&1; then PY=python3; else PY=python; fi
+
 # ------------------------------------------------------------
 # 1. Setup logs folder + log file
 # ------------------------------------------------------------
@@ -51,14 +54,14 @@ COMPLETE="$ORCH/03_complete_batch.py"
 # 3. Ensure control table exists
 # ------------------------------------------------------------
 echo "🔍 Step 1 — Checking control table..."
-python3 "$CREATE_TABLES" --workspace "$WORKSPACE"
+"$PY" "$CREATE_TABLES" --workspace "$WORKSPACE"
 echo ""
 
 # ------------------------------------------------------------
 # 4. Identify next batch
 # ------------------------------------------------------------
 echo "🔍 Step 2 — Identifying next batch..."
-IDENTIFY_OUTPUT=$(python3 "$IDENTIFY" --workspace "$WORKSPACE")
+IDENTIFY_OUTPUT=$("$PY" "$IDENTIFY" --workspace "$WORKSPACE")
 echo "$IDENTIFY_OUTPUT"
 echo ""
 
@@ -78,7 +81,7 @@ echo ""
 # 5. Create new batch entry
 # ------------------------------------------------------------
 echo "📝 Step 3 — Creating new batch entry..."
-python3 "$CREATE" --workspace "$WORKSPACE" --batch_id "$BATCH_ID"
+"$PY" "$CREATE" --workspace "$WORKSPACE" --batch_id "$BATCH_ID"
 echo ""
 
 # ------------------------------------------------------------
@@ -92,7 +95,7 @@ echo ""
 # 7. Mark batch as complete
 # ------------------------------------------------------------
 echo "🏁 Step 5 — Completing batch..."
-python3 "$COMPLETE" --workspace "$WORKSPACE" --batch_id "$BATCH_ID"
+"$PY" "$COMPLETE" --workspace "$WORKSPACE" --batch_id "$BATCH_ID"
 echo ""
 
 echo "===================================="

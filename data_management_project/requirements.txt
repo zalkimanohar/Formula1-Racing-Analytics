@@ -1,0 +1,18 @@
+# Tested with Python 3.11.4 on Windows 11 (versions in the comments are the ones used for the submitted outputs).
+pandas>=3.0,<3.1        # 3.0.5
+numpy>=2.2              # 2.2.6
+matplotlib>=3.9         # 3.9.0
+networkx==3.2.1         # pinned: Louvain communities and PageRank feed the report tables
+scipy>=1.13             # 1.13.1, needed by networkx.pagerank
+scikit-learn>=1.5       # 1.7.2, podium-probability model of the assistant
+lxml>=5.0               # 6.1.0, DataCite XSD validation
+openpyxl>=3.1           # 3.1.5, reads the RDA indicator workbook
+python-docx>=1.1        # 1.2.0
+python-pptx>=1.0        # 1.0.2
+pillow>=10.0            # 10.4.0
+streamlit>=1.40         # 1.67.0, dashboard
+fastapi>=0.110          # 0.135.3, assistant service
+uvicorn>=0.29           # 0.35.0, assistant service
+pytest>=8.0             # 8.4.2
+# Optional, outside pip: Ollama (https://ollama.com) with `ollama pull llama3` and `ollama pull nomic-embed-text`
+# for written answers and semantic search. Without it the assistant still answers with the evidence.

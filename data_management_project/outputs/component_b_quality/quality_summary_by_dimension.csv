@@ -1,0 +1,8 @@
+dimension,issues,errors,not_errors,high_severity,affected_records
+Consistency,8,8,0,0,62431
+Completeness,7,5,2,2,305
+Uniqueness,6,5,1,2,217
+Validity,4,4,0,1,35574
+Accuracy,2,1,1,0,272
+Timeliness,1,0,1,0,24
+Referential integrity,1,1,0,1,11

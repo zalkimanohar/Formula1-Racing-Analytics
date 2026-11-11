@@ -1,0 +1,28 @@
+{
+  "doi": "10.5281/zenodo.23416916",
+  "doi_url": "https://doi.org/10.5281/zenodo.23416916",
+  "record_url": "https://zenodo.org/records/23416916",
+  "title": "Study of ML models for Racing LLM Appliances",
+  "creators": [
+    "Zalki, Manohar"
+  ],
+  "publication_date": "2026-10-16",
+  "resource_type": "dataset",
+  "declared_license": "cc-by-4.0",
+  "keywords": [],
+  "files": [
+    {
+      "key": "racing_f1_data.zip",
+      "size": 520240,
+      "checksum": "md5:b56e823340c6b99f2494def16261b349"
+    }
+  ],
+  "local_archive": "racing_f1_data.zip",
+  "local_size": 520240,
+  "local_md5": "b56e823340c6b99f2494def16261b349",
+  "local_sha256": "81b027c4221901d92d30ad7b76eacf22668d299098e5c16dcb391c91fd39c748",
+  "byte_identical": true,
+  "source_license_required": "CC-BY-NC-SA-4.0",
+  "license_conflict": true,
+  "retrieved_at_utc": "2026-11-11T20:12:30Z"
+}

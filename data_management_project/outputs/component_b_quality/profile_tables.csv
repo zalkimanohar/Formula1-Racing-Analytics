@@ -1,0 +1,6 @@
+table,rows,columns,exact_duplicate_rows,rows_with_any_missing,complete_rows_pct,unique_columns
+results,25907,14,23,17,99.934,
+races,1178,6,5,0,100.0,
+circuits,82,7,2,3,96.341,
+drivers,874,6,0,10,98.856,driverId
+constructors,214,4,0,2,99.065,"constructorId, name"

@@ -1,0 +1,1171 @@
+entity_type,entity_id,source_url,wikipedia_url,wikidata_qid,lookup_status,resolved_title
+driver,abate,http://en.wikipedia.org/wiki/Carlo_Mario_Abate,https://en.wikipedia.org/wiki/Carlo_Mario_Abate,Q556690,resolved_via_redirect,Carlo Maria Abate
+driver,abecassis,http://en.wikipedia.org/wiki/George_Abecassis,https://en.wikipedia.org/wiki/George_Abecassis,Q173276,resolved,George Abecassis
+driver,acheson,http://en.wikipedia.org/wiki/Kenny_Acheson,https://en.wikipedia.org/wiki/Kenny_Acheson,Q173261,resolved,Kenny Acheson
+driver,adams,http://en.wikipedia.org/wiki/Philippe_Adams,https://en.wikipedia.org/wiki/Philippe_Adams,Q171444,resolved,Philippe Adams
+driver,ader,http://en.wikipedia.org/wiki/Walt_Ader,https://en.wikipedia.org/wiki/Walt_Ader,Q165393,resolved,Walt Ader
+driver,adolff,http://en.wikipedia.org/wiki/Kurt_Adolff,https://en.wikipedia.org/wiki/Kurt_Adolff,Q61033,resolved,Kurt Adolff
+driver,agabashian,http://en.wikipedia.org/wiki/Fred_Agabashian,https://en.wikipedia.org/wiki/Fred_Agabashian,Q171959,resolved,Fred Agabashian
+driver,ahrens,"http://en.wikipedia.org/wiki/Kurt_Ahrens,_Jr.","https://en.wikipedia.org/wiki/Kurt_Ahrens,_Jr.",Q60395,resolved_via_redirect,Kurt Ahrens Jr.
+driver,aitken,http://en.wikipedia.org/wiki/Jack_Aitken,https://en.wikipedia.org/wiki/Jack_Aitken,Q15292751,resolved,Jack Aitken
+driver,albers,http://en.wikipedia.org/wiki/Christijan_Albers,https://en.wikipedia.org/wiki/Christijan_Albers,Q171414,resolved,Christijan Albers
+driver,albon,http://en.wikipedia.org/wiki/Alexander_Albon,https://en.wikipedia.org/wiki/Alexander_Albon,Q16149172,resolved_via_redirect,Alex Albon
+driver,alboreto,http://en.wikipedia.org/wiki/Michele_Alboreto,https://en.wikipedia.org/wiki/Michele_Alboreto,Q172983,resolved,Michele Alboreto
+driver,alesi,http://en.wikipedia.org/wiki/Jean_Alesi,https://en.wikipedia.org/wiki/Jean_Alesi,Q172777,resolved,Jean Alesi
+driver,alguersuari,http://en.wikipedia.org/wiki/Jaime_Alguersuari,https://en.wikipedia.org/wiki/Jaime_Alguersuari,Q171355,resolved,Jaime Alguersuari
+driver,alliot,http://en.wikipedia.org/wiki/Philippe_Alliot,https://en.wikipedia.org/wiki/Philippe_Alliot,Q173305,resolved,Philippe Alliot
+driver,allison,http://en.wikipedia.org/wiki/Cliff_Allison,https://en.wikipedia.org/wiki/Cliff_Allison,Q171723,resolved,Cliff Allison
+driver,alonso,http://en.wikipedia.org/wiki/Fernando_Alonso,https://en.wikipedia.org/wiki/Fernando_Alonso,Q10514,resolved,Fernando Alonso
+driver,amati,http://en.wikipedia.org/wiki/Giovanna_Amati,https://en.wikipedia.org/wiki/Giovanna_Amati,Q233303,resolved,Giovanna Amati
+driver,george_amick,http://en.wikipedia.org/wiki/George_Amick,https://en.wikipedia.org/wiki/George_Amick,Q173434,resolved,George Amick
+driver,amick,http://en.wikipedia.org/wiki/Red_Amick,https://en.wikipedia.org/wiki/Red_Amick,Q173439,resolved,Red Amick
+driver,amon,http://en.wikipedia.org/wiki/Chris_Amon,https://en.wikipedia.org/wiki/Chris_Amon,Q171469,resolved,Chris Amon
+driver,anderson,http://en.wikipedia.org/wiki/Bob_Anderson_(racing_driver),https://en.wikipedia.org/wiki/Bob_Anderson_(racing_driver),Q173430,resolved,Bob Anderson (racing driver)
+driver,andersson,http://en.wikipedia.org/wiki/Conny_Andersson_(racing_driver),https://en.wikipedia.org/wiki/Conny_Andersson_(racing_driver),Q172242,resolved,Conny Andersson (racing driver)
+driver,mario_andretti,http://en.wikipedia.org/wiki/Mario_Andretti,https://en.wikipedia.org/wiki/Mario_Andretti,Q171312,resolved,Mario Andretti
+driver,andretti,http://en.wikipedia.org/wiki/Michael_Andretti,https://en.wikipedia.org/wiki/Michael_Andretti,Q171519,resolved,Michael Andretti
+driver,andrews,http://en.wikipedia.org/wiki/Keith_Andrews_(driver),https://en.wikipedia.org/wiki/Keith_Andrews_(driver),Q173433,resolved_via_redirect,Keith Andrews (racing driver)
+driver,antonelli,https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli,https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli,Q112073790,resolved_via_redirect,Kimi Antonelli
+driver,apicella,http://en.wikipedia.org/wiki/Marco_Apicella,https://en.wikipedia.org/wiki/Marco_Apicella,Q172245,resolved,Marco Apicella
+driver,armi,http://en.wikipedia.org/wiki/Frank_Armi,https://en.wikipedia.org/wiki/Frank_Armi,Q173463,resolved,Frank Armi
+driver,arnold,http://en.wikipedia.org/wiki/Chuck_Arnold,https://en.wikipedia.org/wiki/Chuck_Arnold,Q110833073,resolved_via_redirect,Charles Arnold
+driver,arnoux,http://en.wikipedia.org/wiki/Ren%C3%A9_Arnoux,https://en.wikipedia.org/wiki/Ren%C3%A9_Arnoux,Q173279,resolved,René Arnoux
+driver,paul_aron,,,,no_url,
+driver,arundell,http://en.wikipedia.org/wiki/Peter_Arundell,https://en.wikipedia.org/wiki/Peter_Arundell,Q173456,resolved,Peter Arundell
+driver,ascari,http://en.wikipedia.org/wiki/Alberto_Ascari,https://en.wikipedia.org/wiki/Alberto_Ascari,Q2086,resolved,Alberto Ascari
+driver,ashdown,http://en.wikipedia.org/wiki/Peter_Ashdown,https://en.wikipedia.org/wiki/Peter_Ashdown,Q173410,resolved,Peter Ashdown
+driver,ashley,http://en.wikipedia.org/wiki/Ian_Ashley,https://en.wikipedia.org/wiki/Ian_Ashley,Q173469,resolved,Ian Ashley
+driver,ashmore,http://en.wikipedia.org/wiki/Gerry_Ashmore,https://en.wikipedia.org/wiki/Gerry_Ashmore,Q172826,resolved,Gerry Ashmore
+driver,aston,http://en.wikipedia.org/wiki/Bill_Aston,https://en.wikipedia.org/wiki/Bill_Aston,Q172641,resolved,Bill Aston
+driver,attwood,http://en.wikipedia.org/wiki/Richard_Attwood,https://en.wikipedia.org/wiki/Richard_Attwood,Q172194,resolved,Richard Attwood
+driver,ayulo,http://en.wikipedia.org/wiki/Manny_Ayulo,https://en.wikipedia.org/wiki/Manny_Ayulo,Q173076,resolved,Manny Ayulo
+driver,badoer,http://en.wikipedia.org/wiki/Luca_Badoer,https://en.wikipedia.org/wiki/Luca_Badoer,Q172749,resolved,Luca Badoer
+driver,baghetti,http://en.wikipedia.org/wiki/Giancarlo_Baghetti,https://en.wikipedia.org/wiki/Giancarlo_Baghetti,Q171478,resolved,Giancarlo Baghetti
+driver,bailey,http://en.wikipedia.org/wiki/Julian_Bailey,https://en.wikipedia.org/wiki/Julian_Bailey,Q62123453,resolved,Julian Bailey
+driver,baldi,http://en.wikipedia.org/wiki/Mauro_Baldi,https://en.wikipedia.org/wiki/Mauro_Baldi,Q171521,resolved,Mauro Baldi
+driver,ball,http://en.wikipedia.org/wiki/Bobby_Ball_(auto_racer),https://en.wikipedia.org/wiki/Bobby_Ball_(auto_racer),Q172121,resolved_via_redirect,Bobby Ball (racing driver)
+driver,balsa,http://en.wikipedia.org/wiki/Marcel_Balsa,https://en.wikipedia.org/wiki/Marcel_Balsa,Q172381,resolved,Marcel Balsa
+driver,bandini,http://en.wikipedia.org/wiki/Lorenzo_Bandini,https://en.wikipedia.org/wiki/Lorenzo_Bandini,Q173006,resolved,Lorenzo Bandini
+driver,banks,http://en.wikipedia.org/wiki/Henry_Banks,https://en.wikipedia.org/wiki/Henry_Banks,Q172431,resolved,Henry Banks
+driver,barbazza,http://en.wikipedia.org/wiki/Fabrizio_Barbazza,https://en.wikipedia.org/wiki/Fabrizio_Barbazza,Q172968,resolved,Fabrizio Barbazza
+driver,john_barber,http://en.wikipedia.org/wiki/John_Barber_(racing_driver),https://en.wikipedia.org/wiki/John_Barber_(racing_driver),Q173968,resolved,John Barber (racing driver)
+driver,barber,http://en.wikipedia.org/wiki/Skip_Barber,https://en.wikipedia.org/wiki/Skip_Barber,Q172094,resolved,Skip Barber
+driver,barilla,http://en.wikipedia.org/wiki/Paolo_Barilla,https://en.wikipedia.org/wiki/Paolo_Barilla,Q171613,resolved,Paolo Barilla
+driver,barrichello,http://en.wikipedia.org/wiki/Rubens_Barrichello,https://en.wikipedia.org/wiki/Rubens_Barrichello,Q169846,resolved,Rubens Barrichello
+driver,bartels,http://en.wikipedia.org/wiki/Michael_Bartels,https://en.wikipedia.org/wiki/Michael_Bartels,Q60897,resolved,Michael Bartels
+driver,barth,http://en.wikipedia.org/wiki/Edgar_Barth,https://en.wikipedia.org/wiki/Edgar_Barth,Q61286,resolved,Edgar Barth
+driver,bassi,http://en.wikipedia.org/wiki/Giorgio_Bassi,https://en.wikipedia.org/wiki/Giorgio_Bassi,Q172332,resolved,Giorgio Bassi
+driver,bauer,http://en.wikipedia.org/wiki/Erwin_Bauer,https://en.wikipedia.org/wiki/Erwin_Bauer,Q63840,resolved,Erwin Bauer
+driver,baumgartner,http://en.wikipedia.org/wiki/Zsolt_Baumgartner,https://en.wikipedia.org/wiki/Zsolt_Baumgartner,Q172002,resolved,Zsolt Baumgartner
+driver,bayol,http://en.wikipedia.org/wiki/%C3%89lie_Bayol,https://en.wikipedia.org/wiki/%C3%89lie_Bayol,Q172036,resolved,Élie Bayol
+driver,bearman,http://en.wikipedia.org/wiki/Oliver_Bearman,https://en.wikipedia.org/wiki/Oliver_Bearman,Q107023292,resolved,Oliver Bearman
+driver,beauman,http://en.wikipedia.org/wiki/Don_Beauman,https://en.wikipedia.org/wiki/Don_Beauman,Q172830,resolved,Don Beauman
+driver,bechem,http://en.wikipedia.org/wiki/G%C3%BCnther_Bechem,https://en.wikipedia.org/wiki/G%C3%BCnther_Bechem,Q61488,resolved,Günther Bechem
+driver,behra,http://en.wikipedia.org/wiki/Jean_Behra,https://en.wikipedia.org/wiki/Jean_Behra,Q172250,resolved,Jean Behra
+driver,bell,http://en.wikipedia.org/wiki/Derek_Bell_(auto_racer),https://en.wikipedia.org/wiki/Derek_Bell_(auto_racer),Q165814,resolved_via_redirect,Derek Bell (racing driver)
+driver,bellof,http://en.wikipedia.org/wiki/Stefan_Bellof,https://en.wikipedia.org/wiki/Stefan_Bellof,Q57435,resolved,Stefan Bellof
+driver,belmondo,http://en.wikipedia.org/wiki/Paul_Belmondo,https://en.wikipedia.org/wiki/Paul_Belmondo,Q141492303,resolved,Paul Belmondo
+driver,belso,http://en.wikipedia.org/wiki/Tom_Bels%C3%B8,https://en.wikipedia.org/wiki/Tom_Bels%C3%B8,Q173098,resolved,Tom Belsø
+driver,beltoise,http://en.wikipedia.org/wiki/Jean-Pierre_Beltoise,https://en.wikipedia.org/wiki/Jean-Pierre_Beltoise,Q171526,resolved,Jean-Pierre Beltoise
+driver,beretta,http://en.wikipedia.org/wiki/Olivier_Beretta,https://en.wikipedia.org/wiki/Olivier_Beretta,Q163175,resolved,Olivier Beretta
+driver,berg,http://en.wikipedia.org/wiki/Allen_Berg,https://en.wikipedia.org/wiki/Allen_Berg,Q173452,resolved,Allen Berg
+driver,georges_berger,http://en.wikipedia.org/wiki/Georges_Berger,https://en.wikipedia.org/wiki/Georges_Berger,Q3102274,resolved,Georges Berger
+driver,berger,http://en.wikipedia.org/wiki/Gerhard_Berger,https://en.wikipedia.org/wiki/Gerhard_Berger,Q78502,resolved,Gerhard Berger
+driver,bernard,http://en.wikipedia.org/wiki/%C3%89ric_Bernard,https://en.wikipedia.org/wiki/%C3%89ric_Bernard,Q171546,resolved,Éric Bernard
+driver,bernoldi,http://en.wikipedia.org/wiki/Enrique_Bernoldi,https://en.wikipedia.org/wiki/Enrique_Bernoldi,Q172961,resolved,Enrique Bernoldi
+driver,bertaggia,http://en.wikipedia.org/wiki/Enrico_Bertaggia,https://en.wikipedia.org/wiki/Enrico_Bertaggia,Q435698,resolved,Enrico Bertaggia
+driver,bettenhausen,http://en.wikipedia.org/wiki/Tony_Bettenhausen,https://en.wikipedia.org/wiki/Tony_Bettenhausen,Q172098,resolved,Tony Bettenhausen
+driver,beuttler,http://en.wikipedia.org/wiki/Mike_Beuttler,https://en.wikipedia.org/wiki/Mike_Beuttler,Q171734,resolved,Mike Beuttler
+driver,bianchi,http://en.wikipedia.org/wiki/Lucien_Bianchi,https://en.wikipedia.org/wiki/Lucien_Bianchi,Q171893,resolved,Lucien Bianchi
+driver,jules_bianchi,http://en.wikipedia.org/wiki/Jules_Bianchi,https://en.wikipedia.org/wiki/Jules_Bianchi,Q281294,resolved,Jules Bianchi
+driver,bianco,http://en.wikipedia.org/wiki/Gino_Bianco,https://en.wikipedia.org/wiki/Gino_Bianco,Q172337,resolved,Gino Bianco
+driver,binder,http://en.wikipedia.org/wiki/Hans_Binder,https://en.wikipedia.org/wiki/Hans_Binder,Q78593,resolved,Hans Binder
+driver,biondetti,http://en.wikipedia.org/wiki/Clemente_Biondetti,https://en.wikipedia.org/wiki/Clemente_Biondetti,Q172489,resolved,Clemente Biondetti
+driver,bira,http://en.wikipedia.org/wiki/Prince_Bira,https://en.wikipedia.org/wiki/Prince_Bira,Q173204,resolved_via_redirect,Birabongse Bhanudej
+driver,birger,http://en.wikipedia.org/wiki/Pablo_Birger,https://en.wikipedia.org/wiki/Pablo_Birger,Q172418,resolved,Pablo Birger
+driver,bisch,http://en.wikipedia.org/wiki/Art_Bisch,https://en.wikipedia.org/wiki/Art_Bisch,Q173590,resolved,Art Bisch
+driver,blanchard,http://en.wikipedia.org/wiki/Harry_Blanchard,https://en.wikipedia.org/wiki/Harry_Blanchard,Q172384,resolved,Harry Blanchard
+driver,bleekemolen,http://en.wikipedia.org/wiki/Michael_Bleekemolen,https://en.wikipedia.org/wiki/Michael_Bleekemolen,Q172024,resolved,Michael Bleekemolen
+driver,blignaut,http://en.wikipedia.org/wiki/Alex_Blignaut,https://en.wikipedia.org/wiki/Alex_Blignaut,Q173706,resolved,Alex Blignaut
+driver,blokdyk,http://en.wikipedia.org/wiki/Trevor_Blokdyk,https://en.wikipedia.org/wiki/Trevor_Blokdyk,Q172515,resolved,Trevor Blokdyk
+driver,blundell,http://en.wikipedia.org/wiki/Mark_Blundell,https://en.wikipedia.org/wiki/Mark_Blundell,Q171553,resolved,Mark Blundell
+driver,boesel,http://en.wikipedia.org/wiki/Raul_Boesel,https://en.wikipedia.org/wiki/Raul_Boesel,Q171727,resolved,Raul Boesel
+driver,boffa,http://en.wikipedia.org/wiki/Menato_Boffa,https://en.wikipedia.org/wiki/Menato_Boffa,Q2538827,resolved,Menato Boffa
+driver,bondurant,http://en.wikipedia.org/wiki/Bob_Bondurant,https://en.wikipedia.org/wiki/Bob_Bondurant,Q172496,resolved,Bob Bondurant
+driver,bonetto,http://en.wikipedia.org/wiki/Felice_Bonetto,https://en.wikipedia.org/wiki/Felice_Bonetto,Q171897,resolved,Felice Bonetto
+driver,bonnier,http://en.wikipedia.org/wiki/Joakim_Bonnier,https://en.wikipedia.org/wiki/Joakim_Bonnier,Q172239,resolved_via_redirect,Jo Bonnier
+driver,bonomi,http://en.wikipedia.org/wiki/Roberto_Bonomi,https://en.wikipedia.org/wiki/Roberto_Bonomi,Q172206,resolved,Roberto Bonomi
+driver,bordeu,http://en.wikipedia.org/wiki/Juan_Manuel_Bordeu,https://en.wikipedia.org/wiki/Juan_Manuel_Bordeu,Q636886,resolved,Juan Manuel Bordeu
+driver,borgudd,http://en.wikipedia.org/wiki/Slim_Borgudd,https://en.wikipedia.org/wiki/Slim_Borgudd,Q172264,resolved,Slim Borgudd
+driver,bortoleto,https://en.wikipedia.org/wiki/Gabriel_Bortoleto,https://en.wikipedia.org/wiki/Gabriel_Bortoleto,Q106641273,resolved,Gabriel Bortoleto
+driver,botha,http://en.wikipedia.org/wiki/Luki_Botha,https://en.wikipedia.org/wiki/Luki_Botha,Q172646,resolved,Luki Botha
+driver,bottas,http://en.wikipedia.org/wiki/Valtteri_Bottas,https://en.wikipedia.org/wiki/Valtteri_Bottas,Q138745,resolved,Valtteri Bottas
+driver,boullion,http://en.wikipedia.org/wiki/Jean-Christophe_Boullion,https://en.wikipedia.org/wiki/Jean-Christophe_Boullion,Q173315,resolved,Jean-Christophe Boullion
+driver,bourdais,http://en.wikipedia.org/wiki/S%C3%A9bastien_Bourdais,https://en.wikipedia.org/wiki/S%C3%A9bastien_Bourdais,Q171307,resolved,Sébastien Bourdais
+driver,boutsen,http://en.wikipedia.org/wiki/Thierry_Boutsen,https://en.wikipedia.org/wiki/Thierry_Boutsen,Q172761,resolved,Thierry Boutsen
+driver,boyd,http://en.wikipedia.org/wiki/Johnny_Boyd,https://en.wikipedia.org/wiki/Johnny_Boyd,Q172481,resolved,Johnny Boyd
+driver,jack_brabham,http://en.wikipedia.org/wiki/Jack_Brabham,https://en.wikipedia.org/wiki/Jack_Brabham,Q2125,resolved,Jack Brabham
+driver,gary_brabham,http://en.wikipedia.org/wiki/Gary_Brabham,https://en.wikipedia.org/wiki/Gary_Brabham,Q439288,resolved,Gary Brabham
+driver,brabham,http://en.wikipedia.org/wiki/David_Brabham,https://en.wikipedia.org/wiki/David_Brabham,Q173001,resolved,David Brabham
+driver,brack,http://en.wikipedia.org/wiki/Bill_Brack,https://en.wikipedia.org/wiki/Bill_Brack,Q172649,resolved,Bill Brack
+driver,ernesto_brambilla,http://en.wikipedia.org/wiki/Ernesto_Brambilla,https://en.wikipedia.org/wiki/Ernesto_Brambilla,Q706616,resolved,Ernesto Brambilla
+driver,brambilla,http://en.wikipedia.org/wiki/Vittorio_Brambilla,https://en.wikipedia.org/wiki/Vittorio_Brambilla,Q171533,resolved,Vittorio Brambilla
+driver,branca,http://en.wikipedia.org/wiki/Toni_Branca,https://en.wikipedia.org/wiki/Toni_Branca,Q172214,resolved,Toni Branca
+driver,brancatelli,http://en.wikipedia.org/wiki/Gianfranco_Brancatelli,https://en.wikipedia.org/wiki/Gianfranco_Brancatelli,Q515974,resolved,Gianfranco Brancatelli
+driver,brandon,http://en.wikipedia.org/wiki/Eric_Brandon,https://en.wikipedia.org/wiki/Eric_Brandon,Q172414,resolved,Eric Brandon
+driver,branson,http://en.wikipedia.org/wiki/Don_Branson,https://en.wikipedia.org/wiki/Don_Branson,Q172420,resolved,Don Branson
+driver,bridger,http://en.wikipedia.org/wiki/Tom_Bridger,https://en.wikipedia.org/wiki/Tom_Bridger,Q172793,resolved,Tom Bridger
+driver,brise,http://en.wikipedia.org/wiki/Tony_Brise,https://en.wikipedia.org/wiki/Tony_Brise,Q171490,resolved,Tony Brise
+driver,bristow,http://en.wikipedia.org/wiki/Chris_Bristow,https://en.wikipedia.org/wiki/Chris_Bristow,Q172103,resolved,Chris Bristow
+driver,broeker,http://en.wikipedia.org/wiki/Peter_Broeker,https://en.wikipedia.org/wiki/Peter_Broeker,Q172828,resolved,Peter Broeker
+driver,brooks,http://en.wikipedia.org/wiki/Tony_Brooks,https://en.wikipedia.org/wiki/Tony_Brooks,Q1845218,resolved,Tony Brooks
+driver,walt_brown,http://en.wikipedia.org/wiki/Walt_Brown_(auto_racer),https://en.wikipedia.org/wiki/Walt_Brown_(auto_racer),Q172561,resolved_via_redirect,Walt Brown (racing driver)
+driver,alan_brown,http://en.wikipedia.org/wiki/Alan_Brown_(racing_driver),https://en.wikipedia.org/wiki/Alan_Brown_(racing_driver),Q172236,resolved,Alan Brown (racing driver)
+driver,brown,http://en.wikipedia.org/wiki/Warwick_Brown,https://en.wikipedia.org/wiki/Warwick_Brown,Q172543,resolved,Warwick Brown
+driver,luke_browning,,,,no_url,
+driver,brudes,http://en.wikipedia.org/wiki/Adolf_Brudes,https://en.wikipedia.org/wiki/Adolf_Brudes,Q61910,resolved,Adolf Brudes
+driver,brundle,http://en.wikipedia.org/wiki/Martin_Brundle,https://en.wikipedia.org/wiki/Martin_Brundle,Q172854,resolved,Martin Brundle
+driver,bruni,http://en.wikipedia.org/wiki/Gianmaria_Bruni,https://en.wikipedia.org/wiki/Gianmaria_Bruni,Q173190,resolved,Gianmaria Bruni
+driver,bryan,http://en.wikipedia.org/wiki/Jimmy_Bryan,https://en.wikipedia.org/wiki/Jimmy_Bryan,Q172278,resolved,Jimmy Bryan
+driver,bucci,http://en.wikipedia.org/wiki/Clemar_Bucci,https://en.wikipedia.org/wiki/Clemar_Bucci,Q173281,resolved,Clemar Bucci
+driver,bucknum,http://en.wikipedia.org/wiki/Ronnie_Bucknum,https://en.wikipedia.org/wiki/Ronnie_Bucknum,Q172034,resolved,Ronnie Bucknum
+driver,bueb,http://en.wikipedia.org/wiki/Ivor_Bueb,https://en.wikipedia.org/wiki/Ivor_Bueb,Q172127,resolved,Ivor Bueb
+driver,buemi,http://en.wikipedia.org/wiki/S%C3%A9bastien_Buemi,https://en.wikipedia.org/wiki/S%C3%A9bastien_Buemi,Q171310,resolved,Sébastien Buemi
+driver,bueno,http://en.wikipedia.org/wiki/Luiz_Bueno,https://en.wikipedia.org/wiki/Luiz_Bueno,Q172053,resolved,Luiz Bueno
+driver,burgess,http://en.wikipedia.org/wiki/Ian_Burgess,https://en.wikipedia.org/wiki/Ian_Burgess,Q172043,resolved,Ian Burgess
+driver,burti,http://en.wikipedia.org/wiki/Luciano_Burti,https://en.wikipedia.org/wiki/Luciano_Burti,Q171429,resolved,Luciano Burti
+driver,bussinello,http://en.wikipedia.org/wiki/Roberto_Bussinello,https://en.wikipedia.org/wiki/Roberto_Bussinello,Q172499,resolved,Roberto Bussinello
+driver,button,http://en.wikipedia.org/wiki/Jenson_Button,https://en.wikipedia.org/wiki/Jenson_Button,Q10510,resolved,Jenson Button
+driver,byrne,http://en.wikipedia.org/wiki/Tommy_Byrne_%28racing_driver%29,https://en.wikipedia.org/wiki/Tommy_Byrne_%28racing_driver%29,Q172167,resolved,Tommy Byrne (racing driver)
+driver,cabantous,http://en.wikipedia.org/wiki/Yves_Giraud_Cabantous,https://en.wikipedia.org/wiki/Yves_Giraud_Cabantous,Q171565,resolved_via_redirect,Yves Giraud-Cabantous
+driver,cabianca,http://en.wikipedia.org/wiki/Giulio_Cabianca,https://en.wikipedia.org/wiki/Giulio_Cabianca,Q711156,resolved,Giulio Cabianca
+driver,cabral,http://en.wikipedia.org/wiki/Mario_de_Araujo_Cabral,https://en.wikipedia.org/wiki/Mario_de_Araujo_Cabral,Q173420,resolved_via_redirect,Mário de Araújo Cabral
+driver,cade,http://en.wikipedia.org/wiki/Phil_Cade,https://en.wikipedia.org/wiki/Phil_Cade,Q1807265,resolved,Phil Cade
+driver,caffi,http://en.wikipedia.org/wiki/Alex_Caffi,https://en.wikipedia.org/wiki/Alex_Caffi,Q172972,resolved,Alex Caffi
+driver,campbell-jones,http://en.wikipedia.org/wiki/John_Campbell-Jones,https://en.wikipedia.org/wiki/John_Campbell-Jones,Q173644,resolved,John Campbell-Jones
+driver,campos,http://en.wikipedia.org/wiki/Adri%C3%A1n_Campos,https://en.wikipedia.org/wiki/Adri%C3%A1n_Campos,Q171456,resolved,Adrián Campos
+driver,Cannoc,http://en.wikipedia.org/wiki/John_Cannon_(auto_racer),https://en.wikipedia.org/wiki/John_Cannon_(auto_racer),Q172525,resolved_via_redirect,John Cannon (racing driver)
+driver,cantoni,http://en.wikipedia.org/wiki/Eitel_Cantoni,https://en.wikipedia.org/wiki/Eitel_Cantoni,Q172210,resolved,Eitel Cantoni
+driver,cantrell,http://en.wikipedia.org/wiki/William_Cantrell,https://en.wikipedia.org/wiki/William_Cantrell,Q172546,resolved,William Cantrell
+driver,capelli,http://en.wikipedia.org/wiki/Ivan_Capelli,https://en.wikipedia.org/wiki/Ivan_Capelli,Q171455,resolved,Ivan Capelli
+driver,carini,http://en.wikipedia.org/wiki/Piero_Carini,https://en.wikipedia.org/wiki/Piero_Carini,Q119004,resolved,Piero Carini
+driver,darter,http://en.wikipedia.org/wiki/Duane_Carter,https://en.wikipedia.org/wiki/Duane_Carter,Q172312,resolved,Duane Carter
+driver,castellotti,http://en.wikipedia.org/wiki/Eugenio_Castellotti,https://en.wikipedia.org/wiki/Eugenio_Castellotti,Q171933,resolved,Eugenio Castellotti
+driver,cecotto,http://en.wikipedia.org/wiki/Johnny_Cecotto,https://en.wikipedia.org/wiki/Johnny_Cecotto,Q173107,resolved,Johnny Cecotto
+driver,cevert,http://en.wikipedia.org/wiki/Fran%C3%A7ois_Cevert,https://en.wikipedia.org/wiki/Fran%C3%A7ois_Cevert,Q172773,resolved,François Cevert
+driver,chaboud,http://en.wikipedia.org/wiki/Eug%C3%A8ne_Chaboud,https://en.wikipedia.org/wiki/Eug%C3%A8ne_Chaboud,Q171970,resolved,Eugène Chaboud
+driver,chamberlain,http://en.wikipedia.org/wiki/Jay_Chamberlain,https://en.wikipedia.org/wiki/Jay_Chamberlain,Q172813,resolved,Jay Chamberlain
+driver,chandhok,http://en.wikipedia.org/wiki/Karun_Chandhok,https://en.wikipedia.org/wiki/Karun_Chandhok,Q172905,resolved,Karun Chandhok
+driver,chapman,http://en.wikipedia.org/wiki/Colin_Chapman,https://en.wikipedia.org/wiki/Colin_Chapman,Q173007,resolved,Colin Chapman
+driver,charlton,http://en.wikipedia.org/wiki/Dave_Charlton,https://en.wikipedia.org/wiki/Dave_Charlton,Q460768,resolved,Dave Charlton
+driver,chaves,http://en.wikipedia.org/wiki/Pedro_Chaves,https://en.wikipedia.org/wiki/Pedro_Chaves,Q456593,resolved,Pedro Chaves
+driver,cheesbourg,http://en.wikipedia.org/wiki/Bill_Cheesbourg,https://en.wikipedia.org/wiki/Bill_Cheesbourg,Q172554,resolved,Bill Cheesbourg
+driver,cheever,http://en.wikipedia.org/wiki/Eddie_Cheever,https://en.wikipedia.org/wiki/Eddie_Cheever,Q173205,resolved,Eddie Cheever
+driver,chiesa,http://en.wikipedia.org/wiki/Andrea_Chiesa,https://en.wikipedia.org/wiki/Andrea_Chiesa,Q122373,resolved,Andrea Chiesa
+driver,chilton,http://en.wikipedia.org/wiki/Max_Chilton,https://en.wikipedia.org/wiki/Max_Chilton,Q613590,resolved,Max Chilton
+driver,chimeri,http://en.wikipedia.org/wiki/Ettore_Chimeri,https://en.wikipedia.org/wiki/Ettore_Chimeri,Q172609,resolved,Ettore Chimeri
+driver,chiron,http://en.wikipedia.org/wiki/Louis_Chiron,https://en.wikipedia.org/wiki/Louis_Chiron,Q173226,resolved,Louis Chiron
+driver,chitwood,http://en.wikipedia.org/wiki/Joie_Chitwood,https://en.wikipedia.org/wiki/Joie_Chitwood,Q172340,resolved,Joie Chitwood
+driver,christie,http://en.wikipedia.org/wiki/Bob_Christie_(racing_driver),https://en.wikipedia.org/wiki/Bob_Christie_(racing_driver),Q172611,resolved,Bob Christie (racing driver)
+driver,claes,http://en.wikipedia.org/wiki/Johnny_Claes,https://en.wikipedia.org/wiki/Johnny_Claes,Q171889,resolved,Johnny Claes
+driver,clapham,http://en.wikipedia.org/wiki/David_Clapham,https://en.wikipedia.org/wiki/David_Clapham,Q2189587,resolved,David Clapham
+driver,clark,http://en.wikipedia.org/wiki/Jim_Clark,https://en.wikipedia.org/wiki/Jim_Clark,Q3137,resolved,Jim Clark
+driver,cogan,http://en.wikipedia.org/wiki/Kevin_Cogan,https://en.wikipedia.org/wiki/Kevin_Cogan,Q552613,resolved,Kevin Cogan
+driver,colapinto,http://en.wikipedia.org/wiki/Franco_Colapinto,https://en.wikipedia.org/wiki/Franco_Colapinto,Q88463514,resolved,Franco Colapinto
+driver,collins,http://en.wikipedia.org/wiki/Peter_Collins_(racing_driver),https://en.wikipedia.org/wiki/Peter_Collins_(racing_driver),Q171483,resolved,Peter Collins (racing driver)
+driver,collomb,http://en.wikipedia.org/wiki/Bernard_Collomb,https://en.wikipedia.org/wiki/Bernard_Collomb,Q172805,resolved,Bernard Collomb
+driver,colombo,http://en.wikipedia.org/wiki/Alberto_Colombo,https://en.wikipedia.org/wiki/Alberto_Colombo,Q1613353,resolved,Alberto Colombo
+driver,comas,http://en.wikipedia.org/wiki/%C3%89rik_Comas,https://en.wikipedia.org/wiki/%C3%89rik_Comas,Q172966,resolved,Érik Comas
+driver,comotti,http://en.wikipedia.org/wiki/Franco_Comotti,https://en.wikipedia.org/wiki/Franco_Comotti,Q173528,resolved,Franco Comotti
+driver,george_connor,http://en.wikipedia.org/wiki/George_Connor_(driver),https://en.wikipedia.org/wiki/George_Connor_(driver),Q172571,resolved_via_redirect,George Connor (racing driver)
+driver,constantine,http://en.wikipedia.org/wiki/George_Constantine,https://en.wikipedia.org/wiki/George_Constantine,Q54371669,resolved,George Constantine
+driver,cordts,http://en.wikipedia.org/wiki/John_Cordts,https://en.wikipedia.org/wiki/John_Cordts,Q172514,resolved,John Cordts
+driver,coulthard,http://en.wikipedia.org/wiki/David_Coulthard,https://en.wikipedia.org/wiki/David_Coulthard,Q172832,resolved,David Coulthard
+driver,courage,http://en.wikipedia.org/wiki/Piers_Courage,https://en.wikipedia.org/wiki/Piers_Courage,Q171621,resolved,Piers Courage
+driver,craft,http://en.wikipedia.org/wiki/Chris_Craft_(racing_driver),https://en.wikipedia.org/wiki/Chris_Craft_(racing_driver),Q172309,resolved,Chris Craft (racing driver)
+driver,ray_crawford,http://en.wikipedia.org/wiki/Ray_Crawford,https://en.wikipedia.org/wiki/Ray_Crawford,Q15841828,resolved,Ray Crawford
+driver,crawford,http://en.wikipedia.org/wiki/Jim_Crawford_(driver),https://en.wikipedia.org/wiki/Jim_Crawford_(driver),Q172348,resolved_via_redirect,Jim Crawford (racing driver)
+driver,jak_crawford,,,,no_url,
+driver,crespo,http://en.wikipedia.org/wiki/Alberto_Crespo,https://en.wikipedia.org/wiki/Alberto_Crespo,Q794544,resolved,Alberto Crespo
+driver,creus,http://en.wikipedia.org/wiki/Antonio_Creus,https://en.wikipedia.org/wiki/Antonio_Creus,Q172220,resolved,Antonio Creus
+driver,crockett,http://en.wikipedia.org/wiki/Larry_Crockett,https://en.wikipedia.org/wiki/Larry_Crockett,Q172578,resolved,Larry Crockett
+driver,crook,http://en.wikipedia.org/wiki/Tony_Crook,https://en.wikipedia.org/wiki/Tony_Crook,Q30708623,resolved,Tony Crook
+driver,cross,http://en.wikipedia.org/wiki/Art_Cross,https://en.wikipedia.org/wiki/Art_Cross,Q172437,resolved,Art Cross
+driver,crossley,http://en.wikipedia.org/wiki/Geoff_Crossley,https://en.wikipedia.org/wiki/Geoff_Crossley,Q172225,resolved_via_redirect,Geoffrey Crossley
+driver,cruz,http://en.wikipedia.org/wiki/Adolfo_Schewelm_Cruz,https://en.wikipedia.org/wiki/Adolfo_Schewelm_Cruz,Q144508,resolved_via_redirect,Adolfo Schwelm Cruz
+driver,daigh,http://en.wikipedia.org/wiki/Chuck_Daigh,https://en.wikipedia.org/wiki/Chuck_Daigh,Q172276,resolved,Chuck Daigh
+driver,dalmas,http://en.wikipedia.org/wiki/Yannick_Dalmas,https://en.wikipedia.org/wiki/Yannick_Dalmas,Q173291,resolved,Yannick Dalmas
+driver,daly,http://en.wikipedia.org/wiki/Derek_Daly,https://en.wikipedia.org/wiki/Derek_Daly,Q171635,resolved,Derek Daly
+driver,danner,http://en.wikipedia.org/wiki/Christian_Danner,https://en.wikipedia.org/wiki/Christian_Danner,Q57551,resolved,Christian Danner
+driver,daponte,http://en.wikipedia.org/wiki/Jorge_Daponte,https://en.wikipedia.org/wiki/Jorge_Daponte,Q173593,resolved,Jorge Daponte
+driver,davidson,http://en.wikipedia.org/wiki/Anthony_Davidson,https://en.wikipedia.org/wiki/Anthony_Davidson,Q171319,resolved,Anthony Davidson
+driver,davies,http://en.wikipedia.org/wiki/Jimmy_Davies,https://en.wikipedia.org/wiki/Jimmy_Davies,Q16168010,resolved,Jimmy Davies
+driver,davis,http://en.wikipedia.org/wiki/Colin_Davis_(driver),https://en.wikipedia.org/wiki/Colin_Davis_(driver),Q172819,resolved_via_redirect,Colin Davis (racing driver)
+driver,daywalt,http://en.wikipedia.org/wiki/Jimmy_Daywalt,https://en.wikipedia.org/wiki/Jimmy_Daywalt,Q172651,resolved,Jimmy Daywalt
+driver,depailler,http://en.wikipedia.org/wiki/Patrick_Depailler,https://en.wikipedia.org/wiki/Patrick_Depailler,Q171611,resolved,Patrick Depailler
+driver,diniz,http://en.wikipedia.org/wiki/Pedro_Diniz,https://en.wikipedia.org/wiki/Pedro_Diniz,Q172999,resolved,Pedro Diniz
+driver,dinsmore,http://en.wikipedia.org/wiki/Duke_Dinsmore,https://en.wikipedia.org/wiki/Duke_Dinsmore,Q172602,resolved,Duke Dinsmore
+driver,dochnal,http://en.wikipedia.org/wiki/Frank_Dochnal,https://en.wikipedia.org/wiki/Frank_Dochnal,Q2455901,resolved,Frank Dochnal
+driver,dolhem,http://en.wikipedia.org/wiki/Jos%C3%A9_Dolhem,https://en.wikipedia.org/wiki/Jos%C3%A9_Dolhem,Q172050,resolved,José Dolhem
+driver,donnelly,http://en.wikipedia.org/wiki/Martin_Donnelly_(racing_driver),https://en.wikipedia.org/wiki/Martin_Donnelly_(racing_driver),Q171528,resolved,Martin Donnelly (racing driver)
+driver,donohue,http://en.wikipedia.org/wiki/Mark_Donohue,https://en.wikipedia.org/wiki/Mark_Donohue,Q171732,resolved,Mark Donohue
+driver,doohan,http://en.wikipedia.org/wiki/Jack_Doohan,https://en.wikipedia.org/wiki/Jack_Doohan,Q81453998,resolved,Jack Doohan
+driver,doornbos,http://en.wikipedia.org/wiki/Robert_Doornbos,https://en.wikipedia.org/wiki/Robert_Doornbos,Q173102,resolved,Robert Doornbos
+driver,downing,http://en.wikipedia.org/wiki/Ken_Downing,https://en.wikipedia.org/wiki/Ken_Downing,Q172344,resolved,Ken Downing
+driver,drake,http://en.wikipedia.org/wiki/Bob_Drake_(Formula_One),https://en.wikipedia.org/wiki/Bob_Drake_(Formula_One),Q172612,resolved_via_redirect,Bob Drake (racing driver)
+driver,driver,http://en.wikipedia.org/wiki/Paddy_Driver,https://en.wikipedia.org/wiki/Paddy_Driver,Q172501,resolved,Paddy Driver
+driver,drogo,http://en.wikipedia.org/wiki/Piero_Drogo,https://en.wikipedia.org/wiki/Piero_Drogo,Q172823,resolved,Piero Drogo
+driver,duke,http://en.wikipedia.org/wiki/Geoff_Duke,https://en.wikipedia.org/wiki/Geoff_Duke,Q339600,resolved,Geoff Duke
+driver,dumfries,http://en.wikipedia.org/wiki/Johnny_Dumfries,https://en.wikipedia.org/wiki/Johnny_Dumfries,Q171722,resolved_via_redirect,"John Crichton-Stuart, 7th Marquess of Bute"
+driver,duncan,http://en.wikipedia.org/wiki/Len_Duncan,https://en.wikipedia.org/wiki/Len_Duncan,Q172576,resolved,Len Duncan
+driver,dusio,http://en.wikipedia.org/wiki/Piero_Dusio,https://en.wikipedia.org/wiki/Piero_Dusio,Q714594,resolved,Piero Dusio
+driver,deletraz,http://en.wikipedia.org/wiki/Jean-Denis_Deletraz,https://en.wikipedia.org/wiki/Jean-Denis_Deletraz,Q123904,resolved_via_redirect,Jean-Denis Delétraz
+driver,eaton,http://en.wikipedia.org/wiki/George_Eaton,https://en.wikipedia.org/wiki/George_Eaton,Q28151129,resolved,George Eaton
+driver,ecclestone,http://en.wikipedia.org/wiki/Bernie_Ecclestone,https://en.wikipedia.org/wiki/Bernie_Ecclestone,Q172724,resolved,Bernie Ecclestone
+driver,edmunds,http://en.wikipedia.org/wiki/Don_Edmunds,https://en.wikipedia.org/wiki/Don_Edmunds,Q173588,resolved,Don Edmunds
+driver,edwards,http://en.wikipedia.org/wiki/Guy_Edwards,https://en.wikipedia.org/wiki/Guy_Edwards,Q171975,resolved,Guy Edwards
+driver,elford,http://en.wikipedia.org/wiki/Vic_Elford,https://en.wikipedia.org/wiki/Vic_Elford,Q173244,resolved,Vic Elford
+driver,elisian,http://en.wikipedia.org/wiki/Ed_Elisian,https://en.wikipedia.org/wiki/Ed_Elisian,Q172598,resolved,Ed Elisian
+driver,emery,http://en.wikipedia.org/wiki/Paul_Emery,https://en.wikipedia.org/wiki/Paul_Emery,Q172551,resolved,Paul Emery
+driver,enge,http://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Enge,https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Enge,Q173319,resolved,Tomáš Enge
+driver,england,http://en.wikipedia.org/wiki/Paul_England,https://en.wikipedia.org/wiki/Paul_England,Q133496596,resolved,Paul England
+driver,ericsson,http://en.wikipedia.org/wiki/Marcus_Ericsson,https://en.wikipedia.org/wiki/Marcus_Ericsson,Q975207,resolved,Marcus Ericsson
+driver,ertl,http://en.wikipedia.org/wiki/Harald_Ertl,https://en.wikipedia.org/wiki/Harald_Ertl,Q78548,resolved,Harald Ertl
+driver,estefano,http://en.wikipedia.org/wiki/Nasif_Est%C3%A9fano,https://en.wikipedia.org/wiki/Nasif_Est%C3%A9fano,Q172090,resolved,Nasif Estéfano
+driver,evans,http://en.wikipedia.org/wiki/Bob_Evans_(race_driver),https://en.wikipedia.org/wiki/Bob_Evans_(race_driver),Q171886,resolved_via_redirect,Bob Evans (racing driver)
+driver,fabi,http://en.wikipedia.org/wiki/Teo_Fabi,https://en.wikipedia.org/wiki/Teo_Fabi,Q171610,resolved,Teo Fabi
+driver,corrado_fabi,http://en.wikipedia.org/wiki/Corrado_Fabi,https://en.wikipedia.org/wiki/Corrado_Fabi,Q171616,resolved,Corrado Fabi
+driver,fabre,http://en.wikipedia.org/wiki/Pascal_Fabre,https://en.wikipedia.org/wiki/Pascal_Fabre,Q171884,resolved,Pascal Fabre
+driver,facetti,http://en.wikipedia.org/wiki/Carlo_Facetti,https://en.wikipedia.org/wiki/Carlo_Facetti,Q552143,resolved,Carlo Facetti
+driver,fagioli,http://en.wikipedia.org/wiki/Luigi_Fagioli,https://en.wikipedia.org/wiki/Luigi_Fagioli,Q173038,resolved,Luigi Fagioli
+driver,fairman,http://en.wikipedia.org/wiki/Jack_Fairman,https://en.wikipedia.org/wiki/Jack_Fairman,Q172644,resolved,Jack Fairman
+driver,fangio,http://en.wikipedia.org/wiki/Juan_Manuel_Fangio,https://en.wikipedia.org/wiki/Juan_Manuel_Fangio,Q2069,resolved,Juan Manuel Fangio
+driver,farina,http://en.wikipedia.org/wiki/Nino_Farina,https://en.wikipedia.org/wiki/Nino_Farina,Q2040,resolved_via_redirect,Giuseppe Farina
+driver,faulkner,http://en.wikipedia.org/wiki/Walt_Faulkner,https://en.wikipedia.org/wiki/Walt_Faulkner,Q173418,resolved,Walt Faulkner
+driver,firman,http://en.wikipedia.org/wiki/Ralph_Firman,https://en.wikipedia.org/wiki/Ralph_Firman,Q171581,resolved,Ralph Firman
+driver,fischer,http://en.wikipedia.org/wiki/Rudi_Fischer,https://en.wikipedia.org/wiki/Rudi_Fischer,Q171968,resolved,Rudi Fischer
+driver,fisher,http://en.wikipedia.org/wiki/Mike_Fisher_(driver),https://en.wikipedia.org/wiki/Mike_Fisher_(driver),Q172357,resolved_via_redirect,Mike Fisher (racing driver)
+driver,fisichella,http://en.wikipedia.org/wiki/Giancarlo_Fisichella,https://en.wikipedia.org/wiki/Giancarlo_Fisichella,Q172712,resolved,Giancarlo Fisichella
+driver,fitch,http://en.wikipedia.org/wiki/John_Fitch_(driver),https://en.wikipedia.org/wiki/John_Fitch_(driver),Q172492,resolved_via_redirect,John Fitch (racing driver)
+driver,emerson_fittipaldi,http://en.wikipedia.org/wiki/Emerson_Fittipaldi,https://en.wikipedia.org/wiki/Emerson_Fittipaldi,Q172849,resolved,Emerson Fittipaldi
+driver,wilson_fittipaldi,http://en.wikipedia.org/wiki/Wilson_Fittipaldi,https://en.wikipedia.org/wiki/Wilson_Fittipaldi,Q173296,resolved_via_redirect,Wilson Fittipaldi Júnior
+driver,fittipaldi,http://en.wikipedia.org/wiki/Christian_Fittipaldi,https://en.wikipedia.org/wiki/Christian_Fittipaldi,Q172954,resolved,Christian Fittipaldi
+driver,pietro_fittipaldi,http://en.wikipedia.org/wiki/Pietro_Fittipaldi,https://en.wikipedia.org/wiki/Pietro_Fittipaldi,Q10349696,resolved,Pietro Fittipaldi
+driver,fitzau,http://en.wikipedia.org/wiki/Theo_Fitzau,https://en.wikipedia.org/wiki/Theo_Fitzau,Q61918,resolved,Theo Fitzau
+driver,flaherty,http://en.wikipedia.org/wiki/Pat_Flaherty_(racing_driver),https://en.wikipedia.org/wiki/Pat_Flaherty_(racing_driver),Q172630,resolved,Pat Flaherty (racing driver)
+driver,flinterman,http://en.wikipedia.org/wiki/Jan_Flinterman,https://en.wikipedia.org/wiki/Jan_Flinterman,Q172796,resolved,Jan Flinterman
+driver,flockhart,http://en.wikipedia.org/wiki/Ron_Flockhart_(auto_racing),https://en.wikipedia.org/wiki/Ron_Flockhart_(auto_racing),Q172479,resolved_via_redirect,Ron Flockhart (racing driver)
+driver,fohr,http://en.wikipedia.org/wiki/Myron_Fohr,https://en.wikipedia.org/wiki/Myron_Fohr,Q172588,resolved,Myron Fohr
+driver,foitek,http://en.wikipedia.org/wiki/Gregor_Foitek,https://en.wikipedia.org/wiki/Gregor_Foitek,Q171725,resolved,Gregor Foitek
+driver,follmer,http://en.wikipedia.org/wiki/George_Follmer,https://en.wikipedia.org/wiki/George_Follmer,Q172096,resolved,George Follmer
+driver,fonder,http://en.wikipedia.org/wiki/George_Fonder,https://en.wikipedia.org/wiki/George_Fonder,Q173635,resolved,George Fonder
+driver,fontana,http://en.wikipedia.org/wiki/Norberto_Fontana,https://en.wikipedia.org/wiki/Norberto_Fontana,Q173311,resolved,Norberto Fontana
+driver,fontes,http://en.wikipedia.org/wiki/Azdrubal_Fontes,https://en.wikipedia.org/wiki/Azdrubal_Fontes,Q2453991,resolved_via_redirect,Asdrúbal Fontes Bayardo
+driver,forberg,http://en.wikipedia.org/wiki/Carl_Forberg,https://en.wikipedia.org/wiki/Carl_Forberg,Q173717,resolved,Carl Forberg
+driver,force,http://en.wikipedia.org/wiki/Gene_Force,https://en.wikipedia.org/wiki/Gene_Force,Q173666,resolved,Gene Force
+driver,forini,http://en.wikipedia.org/wiki/Franco_Forini,https://en.wikipedia.org/wiki/Franco_Forini,Q172073,resolved,Franco Forini
+driver,parker,http://en.wikipedia.org/wiki/Philip_Fotheringham-Parker,https://en.wikipedia.org/wiki/Philip_Fotheringham-Parker,Q172449,resolved,Philip Fotheringham-Parker
+driver,foyt,http://en.wikipedia.org/wiki/A.J._Foyt,https://en.wikipedia.org/wiki/A.J._Foyt,Q173228,resolved_via_redirect,A. J. Foyt
+driver,gimax,http://en.wikipedia.org/wiki/Gimax,https://en.wikipedia.org/wiki/Gimax,Q867073,resolved,Gimax
+driver,francia,http://en.wikipedia.org/wiki/Giorgio_Francia,https://en.wikipedia.org/wiki/Giorgio_Francia,Q126229,resolved,Giorgio Francia
+driver,freeland,http://en.wikipedia.org/wiki/Don_Freeland,https://en.wikipedia.org/wiki/Don_Freeland,Q172547,resolved,Don Freeland
+driver,frentzen,http://en.wikipedia.org/wiki/Heinz-Harald_Frentzen,https://en.wikipedia.org/wiki/Heinz-Harald_Frentzen,Q76720,resolved,Heinz-Harald Frentzen
+driver,friesacher,http://en.wikipedia.org/wiki/Patrick_Friesacher,https://en.wikipedia.org/wiki/Patrick_Friesacher,Q84167,resolved,Patrick Friesacher
+driver,fry,http://en.wikipedia.org/wiki/Joe_Fry,https://en.wikipedia.org/wiki/Joe_Fry,Q172329,resolved,Joe Fry
+driver,frere,http://en.wikipedia.org/wiki/Paul_Fr%C3%A8re,https://en.wikipedia.org/wiki/Paul_Fr%C3%A8re,Q173328,resolved,Paul Frère
+driver,fushida,http://en.wikipedia.org/wiki/Hiroshi_Fushida,https://en.wikipedia.org/wiki/Hiroshi_Fushida,Q455855,resolved,Hiroshi Fushida
+driver,gabbiani,http://en.wikipedia.org/wiki/Beppe_Gabbiani,https://en.wikipedia.org/wiki/Beppe_Gabbiani,Q171988,resolved,Beppe Gabbiani
+driver,gachot,http://en.wikipedia.org/wiki/Bertrand_Gachot,https://en.wikipedia.org/wiki/Bertrand_Gachot,Q172989,resolved,Bertrand Gachot
+driver,gaillard,http://en.wikipedia.org/wiki/Patrick_Gaillard,https://en.wikipedia.org/wiki/Patrick_Gaillard,Q172204,resolved,Patrick Gaillard
+driver,galica,http://en.wikipedia.org/wiki/Divina_Galica,https://en.wikipedia.org/wiki/Divina_Galica,Q233449,resolved,Divina Galica
+driver,galli,http://en.wikipedia.org/wiki/Nanni_Galli,https://en.wikipedia.org/wiki/Nanni_Galli,Q173349,resolved,Nanni Galli
+driver,gamble,http://en.wikipedia.org/wiki/Fred_Gamble_(racing_driver),https://en.wikipedia.org/wiki/Fred_Gamble_(racing_driver),Q172799,resolved,Fred Gamble (racing driver)
+driver,ganley,http://en.wikipedia.org/wiki/Howden_Ganley,https://en.wikipedia.org/wiki/Howden_Ganley,Q171733,resolved,Howden Ganley
+driver,gardner,http://en.wikipedia.org/wiki/Frank_Gardner_(driver),https://en.wikipedia.org/wiki/Frank_Gardner_(driver),Q172539,resolved_via_redirect,Frank Gardner (racing driver)
+driver,garrett,http://en.wikipedia.org/wiki/Billy_Garrett,https://en.wikipedia.org/wiki/Billy_Garrett,Q172594,resolved,Billy Garrett
+driver,gartner,http://en.wikipedia.org/wiki/Jo_Gartner,https://en.wikipedia.org/wiki/Jo_Gartner,Q78581,resolved,Jo Gartner
+driver,gasly,http://en.wikipedia.org/wiki/Pierre_Gasly,https://en.wikipedia.org/wiki/Pierre_Gasly,Q11816647,resolved,Pierre Gasly
+driver,gaze,http://en.wikipedia.org/wiki/Tony_Gaze,https://en.wikipedia.org/wiki/Tony_Gaze,Q172607,resolved,Tony Gaze
+driver,gendebien,http://en.wikipedia.org/wiki/Olivier_Gendebien,https://en.wikipedia.org/wiki/Olivier_Gendebien,Q172142,resolved,Olivier Gendebien
+driver,gene,http://en.wikipedia.org/wiki/Marc_Gen%C3%A9,https://en.wikipedia.org/wiki/Marc_Gen%C3%A9,Q172780,resolved,Marc Gené
+driver,george,http://en.wikipedia.org/wiki/Elmer_George,https://en.wikipedia.org/wiki/Elmer_George,Q172552,resolved,Elmer George
+driver,gerard,http://en.wikipedia.org/wiki/Bob_Gerard,https://en.wikipedia.org/wiki/Bob_Gerard,Q172325,resolved,Bob Gerard
+driver,gerini,http://en.wikipedia.org/wiki/Gerino_Gerini_(racing_driver),https://en.wikipedia.org/wiki/Gerino_Gerini_(racing_driver),Q139349,resolved_via_redirect,Gerino Gerini
+driver,gethin,http://en.wikipedia.org/wiki/Peter_Gethin,https://en.wikipedia.org/wiki/Peter_Gethin,Q171511,resolved,Peter Gethin
+driver,ghinzani,http://en.wikipedia.org/wiki/Piercarlo_Ghinzani,https://en.wikipedia.org/wiki/Piercarlo_Ghinzani,Q172994,resolved,Piercarlo Ghinzani
+driver,giacomelli,http://en.wikipedia.org/wiki/Bruno_Giacomelli,https://en.wikipedia.org/wiki/Bruno_Giacomelli,Q173112,resolved,Bruno Giacomelli
+driver,gibson,http://en.wikipedia.org/wiki/Dick_Gibson,https://en.wikipedia.org/wiki/Dick_Gibson,Q2650277,resolved_via_redirect,Richard Gibson (disambiguation)
+driver,ginther,http://en.wikipedia.org/wiki/Richie_Ginther,https://en.wikipedia.org/wiki/Richie_Ginther,Q171460,resolved,Richie Ginther
+driver,giovinazzi,http://en.wikipedia.org/wiki/Antonio_Giovinazzi,https://en.wikipedia.org/wiki/Antonio_Giovinazzi,Q7084843,resolved,Antonio Giovinazzi
+driver,giunti,http://en.wikipedia.org/wiki/Ignazio_Giunti,https://en.wikipedia.org/wiki/Ignazio_Giunti,Q172027,resolved,Ignazio Giunti
+driver,glock,http://en.wikipedia.org/wiki/Timo_Glock,https://en.wikipedia.org/wiki/Timo_Glock,Q76719,resolved,Timo Glock
+driver,godia,http://en.wikipedia.org/wiki/Paco_Godia,https://en.wikipedia.org/wiki/Paco_Godia,Q171922,resolved,Paco Godia
+driver,goethals,http://en.wikipedia.org/wiki/Christian_Goethals,https://en.wikipedia.org/wiki/Christian_Goethals,Q172790,resolved,Christian Goethals
+driver,goldsmith,http://en.wikipedia.org/wiki/Paul_Goldsmith,https://en.wikipedia.org/wiki/Paul_Goldsmith,Q131192921,resolved,Paul Goldsmith
+driver,gonzalez,http://en.wikipedia.org/wiki/Jos%C3%A9_Froil%C3%A1n_Gonz%C3%A1lez,https://en.wikipedia.org/wiki/Jos%C3%A9_Froil%C3%A1n_Gonz%C3%A1lez,Q171447,resolved,José Froilán González
+driver,oscar_gonzalez,http://en.wikipedia.org/wiki/%C3%93scar_Gonz%C3%A1lez_(racing_driver),https://en.wikipedia.org/wiki/%C3%93scar_Gonz%C3%A1lez_(racing_driver),Q173597,resolved,Óscar González (racing driver)
+driver,gordini,http://en.wikipedia.org/wiki/Aldo_Gordini,https://en.wikipedia.org/wiki/Aldo_Gordini,Q172467,resolved,Aldo Gordini
+driver,gould,http://en.wikipedia.org/wiki/Horace_Gould,https://en.wikipedia.org/wiki/Horace_Gould,Q172504,resolved,Horace Gould
+driver,gounon,http://en.wikipedia.org/wiki/Jean-Marc_Gounon,https://en.wikipedia.org/wiki/Jean-Marc_Gounon,Q173308,resolved,Jean-Marc Gounon
+driver,green,http://en.wikipedia.org/wiki/Cecil_Green,https://en.wikipedia.org/wiki/Cecil_Green,Q141966202,resolved,Cecil Green
+driver,greene,http://en.wikipedia.org/wiki/Keith_Greene,https://en.wikipedia.org/wiki/Keith_Greene,Q172815,resolved,Keith Greene
+driver,gregory,http://en.wikipedia.org/wiki/Masten_Gregory,https://en.wikipedia.org/wiki/Masten_Gregory,Q173421,resolved,Masten Gregory
+driver,griffith,http://en.wikipedia.org/wiki/Cliff_Griffith,https://en.wikipedia.org/wiki/Cliff_Griffith,Q173694,resolved,Cliff Griffith
+driver,grignard,http://en.wikipedia.org/wiki/Georges_Grignard,https://en.wikipedia.org/wiki/Georges_Grignard,Q172359,resolved,Georges Grignard
+driver,grim,http://en.wikipedia.org/wiki/Bobby_Grim,https://en.wikipedia.org/wiki/Bobby_Grim,Q173654,resolved,Bobby Grim
+driver,grosjean,http://en.wikipedia.org/wiki/Romain_Grosjean,https://en.wikipedia.org/wiki/Romain_Grosjean,Q82742,resolved,Romain Grosjean
+driver,grouillard,http://en.wikipedia.org/wiki/Olivier_Grouillard,https://en.wikipedia.org/wiki/Olivier_Grouillard,Q173307,resolved,Olivier Grouillard
+driver,gubby,http://en.wikipedia.org/wiki/Brian_Gubby,https://en.wikipedia.org/wiki/Brian_Gubby,Q2456454,resolved,Brian Gubby
+driver,guelfi,http://en.wikipedia.org/wiki/Andr%C3%A9_Guelfi,https://en.wikipedia.org/wiki/Andr%C3%A9_Guelfi,Q172450,resolved,André Guelfi
+driver,guerra,http://en.wikipedia.org/wiki/Miguel_Angel_Guerra,https://en.wikipedia.org/wiki/Miguel_Angel_Guerra,Q172131,resolved_via_redirect,Miguel Ángel Guerra
+driver,guerrero,http://en.wikipedia.org/wiki/Roberto_Guerrero,https://en.wikipedia.org/wiki/Roberto_Guerrero,Q126940,resolved,Roberto Guerrero
+driver,gugelmin,http://en.wikipedia.org/wiki/Maur%C3%ADcio_Gugelmin,https://en.wikipedia.org/wiki/Maur%C3%ADcio_Gugelmin,Q171471,resolved,Maurício Gugelmin
+driver,gurney,http://en.wikipedia.org/wiki/Dan_Gurney,https://en.wikipedia.org/wiki/Dan_Gurney,Q171466,resolved,Dan Gurney
+driver,gutierrez,http://en.wikipedia.org/wiki/Esteban_Guti%C3%A9rrez,https://en.wikipedia.org/wiki/Esteban_Guti%C3%A9rrez,Q18915,resolved,Esteban Gutiérrez
+driver,galvez,http://en.wikipedia.org/wiki/%C3%93scar_Alfredo_G%C3%A1lvez,https://en.wikipedia.org/wiki/%C3%93scar_Alfredo_G%C3%A1lvez,Q172084,resolved_via_redirect,Oscar Alfredo Gálvez
+driver,hadjar,https://en.wikipedia.org/wiki/Isack_Hadjar,https://en.wikipedia.org/wiki/Isack_Hadjar,Q105071364,resolved,Isack Hadjar
+driver,hahne,http://en.wikipedia.org/wiki/Hubert_Hahne,https://en.wikipedia.org/wiki/Hubert_Hahne,Q61858,resolved,Hubert Hahne
+driver,hailwood,http://en.wikipedia.org/wiki/Mike_Hailwood,https://en.wikipedia.org/wiki/Mike_Hailwood,Q173147,resolved,Mike Hailwood
+driver,halford,http://en.wikipedia.org/wiki/Bruce_Halford,https://en.wikipedia.org/wiki/Bruce_Halford,Q172443,resolved,Bruce Halford
+driver,hall,http://en.wikipedia.org/wiki/Jim_Hall_(race_car_driver),https://en.wikipedia.org/wiki/Jim_Hall_(race_car_driver),Q172282,resolved_via_redirect,Jim Hall (racing driver)
+driver,duncan_hamilton,http://en.wikipedia.org/wiki/Duncan_Hamilton_(racing_driver),https://en.wikipedia.org/wiki/Duncan_Hamilton_(racing_driver),Q171991,resolved,Duncan Hamilton (racing driver)
+driver,hamilton,http://en.wikipedia.org/wiki/Lewis_Hamilton,https://en.wikipedia.org/wiki/Lewis_Hamilton,Q9673,resolved,Lewis Hamilton
+driver,hampshire,http://en.wikipedia.org/wiki/David_Hampshire,https://en.wikipedia.org/wiki/David_Hampshire,Q172063,resolved,David Hampshire
+driver,hanks,http://en.wikipedia.org/wiki/Sam_Hanks,https://en.wikipedia.org/wiki/Sam_Hanks,Q172291,resolved,Sam Hanks
+driver,hansgen,http://en.wikipedia.org/wiki/Walt_Hansgen,https://en.wikipedia.org/wiki/Walt_Hansgen,Q172412,resolved,Walt Hansgen
+driver,harris,http://en.wikipedia.org/wiki/Mike_Harris_(race_car_driver),https://en.wikipedia.org/wiki/Mike_Harris_(race_car_driver),Q172606,resolved_via_redirect,Mike Harris (racing driver)
+driver,harrison,http://en.wikipedia.org/wiki/Cuth_Harrison,https://en.wikipedia.org/wiki/Cuth_Harrison,Q172023,resolved,Cuth Harrison
+driver,hart,http://en.wikipedia.org/wiki/Brian_Hart,https://en.wikipedia.org/wiki/Brian_Hart,Q173455,resolved,Brian Hart
+driver,hartley,http://en.wikipedia.org/wiki/Gene_Hartley,https://en.wikipedia.org/wiki/Gene_Hartley,Q173697,resolved,Gene Hartley
+driver,brendon_hartley,http://en.wikipedia.org/wiki/Brendon_Hartley,https://en.wikipedia.org/wiki/Brendon_Hartley,Q361113,resolved,Brendon Hartley
+driver,haryanto,http://en.wikipedia.org/wiki/Rio_Haryanto,https://en.wikipedia.org/wiki/Rio_Haryanto,Q981543,resolved,Rio Haryanto
+driver,hasemi,http://en.wikipedia.org/wiki/Masahiro_Hasemi,https://en.wikipedia.org/wiki/Masahiro_Hasemi,Q172106,resolved,Masahiro Hasemi
+driver,hattori,http://en.wikipedia.org/wiki/Naoki_Hattori,https://en.wikipedia.org/wiki/Naoki_Hattori,Q516012,resolved,Naoki Hattori
+driver,hawkins,http://en.wikipedia.org/wiki/Paul_Hawkins_(racing_driver),https://en.wikipedia.org/wiki/Paul_Hawkins_(racing_driver),Q172342,resolved,Paul Hawkins (racing driver)
+driver,hawthorn,http://en.wikipedia.org/wiki/Mike_Hawthorn,https://en.wikipedia.org/wiki/Mike_Hawthorn,Q2104,resolved,Mike Hawthorn
+driver,heeks,http://en.wikipedia.org/wiki/Willi_Heeks,https://en.wikipedia.org/wiki/Willi_Heeks,Q61486,resolved,Willi Heeks
+driver,heidfeld,http://en.wikipedia.org/wiki/Nick_Heidfeld,https://en.wikipedia.org/wiki/Nick_Heidfeld,Q75810,resolved,Nick Heidfeld
+driver,helfrich,http://en.wikipedia.org/wiki/Theo_Helfrich,https://en.wikipedia.org/wiki/Theo_Helfrich,Q61295,resolved,Theo Helfrich
+driver,hellings,http://en.wikipedia.org/wiki/Mack_Hellings,https://en.wikipedia.org/wiki/Mack_Hellings,Q173584,resolved,Mack Hellings
+driver,henton,http://en.wikipedia.org/wiki/Brian_Henton,https://en.wikipedia.org/wiki/Brian_Henton,Q171757,resolved,Brian Henton
+driver,herbert,http://en.wikipedia.org/wiki/Johnny_Herbert,https://en.wikipedia.org/wiki/Johnny_Herbert,Q172751,resolved,Johnny Herbert
+driver,herman,http://en.wikipedia.org/wiki/Al_Herman,https://en.wikipedia.org/wiki/Al_Herman,Q173719,resolved,Al Herman
+driver,herrmann,http://en.wikipedia.org/wiki/Hans_Herrmann,https://en.wikipedia.org/wiki/Hans_Herrmann,Q65915,resolved,Hans Herrmann
+driver,hesnault,http://en.wikipedia.org/wiki/Fran%C3%A7ois_Hesnault,https://en.wikipedia.org/wiki/Fran%C3%A7ois_Hesnault,Q172232,resolved,François Hesnault
+driver,heyer,http://en.wikipedia.org/wiki/Hans_Heyer,https://en.wikipedia.org/wiki/Hans_Heyer,Q61284,resolved,Hans Heyer
+driver,hill,http://en.wikipedia.org/wiki/Graham_Hill,https://en.wikipedia.org/wiki/Graham_Hill,Q3128,resolved,Graham Hill
+driver,phil_hill,http://en.wikipedia.org/wiki/Phil_Hill,https://en.wikipedia.org/wiki/Phil_Hill,Q3112,resolved,Phil Hill
+driver,damon_hill,http://en.wikipedia.org/wiki/Damon_Hill,https://en.wikipedia.org/wiki/Damon_Hill,Q10505,resolved,Damon Hill
+driver,ryo_hirakawa,,,,no_url,
+driver,hirt,http://en.wikipedia.org/wiki/Peter_Hirt,https://en.wikipedia.org/wiki/Peter_Hirt,Q172120,resolved,Peter Hirt
+driver,hobbs,http://en.wikipedia.org/wiki/David_Hobbs_(racing_driver),https://en.wikipedia.org/wiki/David_Hobbs_(racing_driver),Q173466,resolved,David Hobbs (racing driver)
+driver,hocking,http://en.wikipedia.org/wiki/Gary_Hocking,https://en.wikipedia.org/wiki/Gary_Hocking,Q614845,resolved,Gary Hocking
+driver,hoffmann,http://en.wikipedia.org/wiki/Ingo_Hoffmann,https://en.wikipedia.org/wiki/Ingo_Hoffmann,Q171754,resolved,Ingo Hoffmann
+driver,holland,http://en.wikipedia.org/wiki/Bill_Holland,https://en.wikipedia.org/wiki/Bill_Holland,Q173073,resolved,Bill Holland
+driver,holmes,http://en.wikipedia.org/wiki/Jackie_Holmes,https://en.wikipedia.org/wiki/Jackie_Holmes,Q173652,resolved,Jackie Holmes
+driver,homeier,http://en.wikipedia.org/wiki/Bill_Homeier,https://en.wikipedia.org/wiki/Bill_Homeier,Q173687,resolved,Bill Homeier
+driver,hoshino,http://en.wikipedia.org/wiki/Kazuyoshi_Hoshino,https://en.wikipedia.org/wiki/Kazuyoshi_Hoshino,Q171739,resolved,Kazuyoshi Hoshino
+driver,hoyt,http://en.wikipedia.org/wiki/Jerry_Hoyt,https://en.wikipedia.org/wiki/Jerry_Hoyt,Q172519,resolved,Jerry Hoyt
+driver,hulme,http://en.wikipedia.org/wiki/Denny_Hulme,https://en.wikipedia.org/wiki/Denny_Hulme,Q3166,resolved,Denny Hulme
+driver,hunt,http://en.wikipedia.org/wiki/James_Hunt,https://en.wikipedia.org/wiki/James_Hunt,Q140393,resolved,James Hunt
+driver,hurtubise,http://en.wikipedia.org/wiki/Jim_Hurtubise,https://en.wikipedia.org/wiki/Jim_Hurtubise,Q172585,resolved,Jim Hurtubise
+driver,hutchison,http://en.wikipedia.org/wiki/Gus_Hutchison,https://en.wikipedia.org/wiki/Gus_Hutchison,Q172318,resolved,Gus Hutchison
+driver,hakkinen,http://en.wikipedia.org/wiki/Mika_H%C3%A4kkinen,https://en.wikipedia.org/wiki/Mika_H%C3%A4kkinen,Q172842,resolved,Mika Häkkinen
+driver,hulkenberg,http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg,https://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg,Q76547,resolved,Nico Hülkenberg
+driver,ickx,http://en.wikipedia.org/wiki/Jacky_Ickx,https://en.wikipedia.org/wiki/Jacky_Ickx,Q173123,resolved,Jacky Ickx
+driver,ide,http://en.wikipedia.org/wiki/Yuji_Ide,https://en.wikipedia.org/wiki/Yuji_Ide,Q173199,resolved,Yuji Ide
+driver,iglesias,http://en.wikipedia.org/wiki/Jes%C3%BAs_Iglesias,https://en.wikipedia.org/wiki/Jes%C3%BAs_Iglesias,Q140430133,resolved,Jesús Iglesias
+driver,inoue,http://en.wikipedia.org/wiki/Taki_Inoue,https://en.wikipedia.org/wiki/Taki_Inoue,Q172985,resolved,Taki Inoue
+driver,ireland,http://en.wikipedia.org/wiki/Innes_Ireland,https://en.wikipedia.org/wiki/Innes_Ireland,Q173336,resolved,Innes Ireland
+driver,irvine,http://en.wikipedia.org/wiki/Eddie_Irvine,https://en.wikipedia.org/wiki/Eddie_Irvine,Q171397,resolved,Eddie Irvine
+driver,irwin,http://en.wikipedia.org/wiki/Chris_Irwin,https://en.wikipedia.org/wiki/Chris_Irwin,Q515506,resolved,Chris Irwin
+driver,ayumu_iwasa,,,,no_url,
+driver,jabouille,http://en.wikipedia.org/wiki/Jean-Pierre_Jabouille,https://en.wikipedia.org/wiki/Jean-Pierre_Jabouille,Q171462,resolved,Jean-Pierre Jabouille
+driver,jackson,http://en.wikipedia.org/wiki/Jimmy_Jackson_(driver),https://en.wikipedia.org/wiki/Jimmy_Jackson_(driver),Q173640,resolved_via_redirect,Jimmy Jackson (racing driver)
+driver,james,http://en.wikipedia.org/wiki/Joe_James_(racing_driver),https://en.wikipedia.org/wiki/Joe_James_(racing_driver),Q173716,resolved,Joe James (racing driver)
+driver,john_james,http://en.wikipedia.org/wiki/John_James_(auto_racer),https://en.wikipedia.org/wiki/John_James_(auto_racer),Q172821,resolved_via_redirect,John James (racing driver)
+driver,jarier,http://en.wikipedia.org/wiki/Jean-Pierre_Jarier,https://en.wikipedia.org/wiki/Jean-Pierre_Jarier,Q171683,resolved,Jean-Pierre Jarier
+driver,jean,http://en.wikipedia.org/wiki/Max_Jean,https://en.wikipedia.org/wiki/Max_Jean,Q172074,resolved,Max Jean
+driver,johansson,http://en.wikipedia.org/wiki/Stefan_Johansson,https://en.wikipedia.org/wiki/Stefan_Johansson,Q171474,resolved,Stefan Johansson
+driver,leslie_johnson,http://en.wikipedia.org/wiki/Leslie_Johnson_(racing_driver),https://en.wikipedia.org/wiki/Leslie_Johnson_(racing_driver),Q172208,resolved,Leslie Johnson (racing driver)
+driver,johnson,http://en.wikipedia.org/wiki/Eddie_Johnson_(auto_racer),https://en.wikipedia.org/wiki/Eddie_Johnson_(auto_racer),Q173677,resolved_via_redirect,Eddie Johnson (racing driver)
+driver,johnstone,http://en.wikipedia.org/wiki/Bruce_Johnstone_(racing_driver),https://en.wikipedia.org/wiki/Bruce_Johnstone_(racing_driver),Q173693,resolved,Bruce Johnstone (racing driver)
+driver,tom_jones,http://en.wikipedia.org/wiki/Tom_Jones_(auto_racer),https://en.wikipedia.org/wiki/Tom_Jones_(auto_racer),Q927200,resolved_via_redirect,Tom Jones (racing driver)
+driver,jones,http://en.wikipedia.org/wiki/Alan_Jones_(Formula_1),https://en.wikipedia.org/wiki/Alan_Jones_(Formula_1),Q172753,resolved_via_redirect,Alan Jones (racing driver)
+driver,jover,http://en.wikipedia.org/wiki/Juan_Jover,https://en.wikipedia.org/wiki/Juan_Jover,Q290404,resolved,Juan Jover
+driver,lehto,http://en.wikipedia.org/wiki/Jyrki_J%C3%A4rvilehto,https://en.wikipedia.org/wiki/Jyrki_J%C3%A4rvilehto,Q172979,resolved_via_redirect,JJ Lehto
+driver,karch,http://en.wikipedia.org/wiki/Oswald_Karch,https://en.wikipedia.org/wiki/Oswald_Karch,Q62697,resolved,Oswald Karch
+driver,karthikeyan,http://en.wikipedia.org/wiki/Narain_Karthikeyan,https://en.wikipedia.org/wiki/Narain_Karthikeyan,Q82936,resolved,Narain Karthikeyan
+driver,katayama,http://en.wikipedia.org/wiki/Ukyo_Katayama,https://en.wikipedia.org/wiki/Ukyo_Katayama,Q171543,resolved,Ukyo Katayama
+driver,kavanagh,http://en.wikipedia.org/wiki/Ken_Kavanagh,https://en.wikipedia.org/wiki/Ken_Kavanagh,Q773871,resolved,Ken Kavanagh
+driver,keegan,http://en.wikipedia.org/wiki/Rupert_Keegan,https://en.wikipedia.org/wiki/Rupert_Keegan,Q171783,resolved,Rupert Keegan
+driver,keizan,http://en.wikipedia.org/wiki/Eddie_Keizan,https://en.wikipedia.org/wiki/Eddie_Keizan,Q172327,resolved,Eddie Keizan
+driver,keller,http://en.wikipedia.org/wiki/Al_Keller,https://en.wikipedia.org/wiki/Al_Keller,Q670418,resolved,Al Keller
+driver,kelly,http://en.wikipedia.org/wiki/Joe_Kelly_(Formula_One),https://en.wikipedia.org/wiki/Joe_Kelly_(Formula_One),Q172217,resolved_via_redirect,Joe Kelly (racing driver)
+driver,kennedy,http://en.wikipedia.org/wiki/David_Kennedy_(racing_driver),https://en.wikipedia.org/wiki/David_Kennedy_(racing_driver),Q714376,resolved,David Kennedy (racing driver)
+driver,kessel,http://en.wikipedia.org/wiki/Loris_Kessel,https://en.wikipedia.org/wiki/Loris_Kessel,Q173286,resolved,Loris Kessel
+driver,kessler,http://en.wikipedia.org/wiki/Bruce_Kessler,https://en.wikipedia.org/wiki/Bruce_Kessler,Q2276422,resolved,Bruce Kessler
+driver,kiesa,http://en.wikipedia.org/wiki/Nicolas_Kiesa,https://en.wikipedia.org/wiki/Nicolas_Kiesa,Q173097,resolved,Nicolas Kiesa
+driver,kinnunen,http://en.wikipedia.org/wiki/Leo_Kinnunen,https://en.wikipedia.org/wiki/Leo_Kinnunen,Q173325,resolved,Leo Kinnunen
+driver,kladis,http://en.wikipedia.org/wiki/Danny_Kladis,https://en.wikipedia.org/wiki/Danny_Kladis,Q172566,resolved,Danny Kladis
+driver,klenk,http://en.wikipedia.org/wiki/Hans_Klenk,https://en.wikipedia.org/wiki/Hans_Klenk,Q62235,resolved,Hans Klenk
+driver,klien,http://en.wikipedia.org/wiki/Christian_Klien,https://en.wikipedia.org/wiki/Christian_Klien,Q84178,resolved,Christian Klien
+driver,kling,http://en.wikipedia.org/wiki/Karl_Kling,https://en.wikipedia.org/wiki/Karl_Kling,Q63713,resolved,Karl Kling
+driver,klodwig,http://en.wikipedia.org/wiki/Ernst_Klodwig,https://en.wikipedia.org/wiki/Ernst_Klodwig,Q61459,resolved,Ernst Klodwig
+driver,kobayashi,http://en.wikipedia.org/wiki/Kamui_Kobayashi,https://en.wikipedia.org/wiki/Kamui_Kobayashi,Q82798,resolved,Kamui Kobayashi
+driver,koinigg,http://en.wikipedia.org/wiki/Helmuth_Koinigg,https://en.wikipedia.org/wiki/Helmuth_Koinigg,Q78543,resolved_via_redirect,Helmut Koinigg
+driver,kovalainen,http://en.wikipedia.org/wiki/Heikki_Kovalainen,https://en.wikipedia.org/wiki/Heikki_Kovalainen,Q82891,resolved,Heikki Kovalainen
+driver,kozarowitzky,http://en.wikipedia.org/wiki/Mikko_Kozarowitzky,https://en.wikipedia.org/wiki/Mikko_Kozarowitzky,Q518344,resolved,Mikko Kozarowitzky
+driver,krause,http://en.wikipedia.org/wiki/Rudolf_Krause,https://en.wikipedia.org/wiki/Rudolf_Krause,Q61842,resolved,Rudolf Krause
+driver,kubica,http://en.wikipedia.org/wiki/Robert_Kubica,https://en.wikipedia.org/wiki/Robert_Kubica,Q160359,resolved,Robert Kubica
+driver,kuhnke,http://en.wikipedia.org/wiki/Kurt_Kuhnke,https://en.wikipedia.org/wiki/Kurt_Kuhnke,Q687734,resolved,Kurt Kuhnke
+driver,kvyat,http://en.wikipedia.org/wiki/Daniil_Kvyat,https://en.wikipedia.org/wiki/Daniil_Kvyat,Q979668,resolved,Daniil Kvyat
+driver,la_caze,http://en.wikipedia.org/wiki/Robert_La_Caze,https://en.wikipedia.org/wiki/Robert_La_Caze,Q172447,resolved,Robert La Caze
+driver,laffite,http://en.wikipedia.org/wiki/Jacques_Laffite,https://en.wikipedia.org/wiki/Jacques_Laffite,Q171434,resolved,Jacques Laffite
+driver,lagorce,http://en.wikipedia.org/wiki/Franck_Lagorce,https://en.wikipedia.org/wiki/Franck_Lagorce,Q173288,resolved,Franck Lagorce
+driver,lammers,http://en.wikipedia.org/wiki/Jan_Lammers,https://en.wikipedia.org/wiki/Jan_Lammers,Q171457,resolved,Jan Lammers
+driver,lamy,http://en.wikipedia.org/wiki/Pedro_Lamy,https://en.wikipedia.org/wiki/Pedro_Lamy,Q171555,resolved,Pedro Lamy
+driver,landi,http://en.wikipedia.org/wiki/Chico_Landi,https://en.wikipedia.org/wiki/Chico_Landi,Q172078,resolved,Chico Landi
+driver,lang,http://en.wikipedia.org/wiki/Hermann_Lang,https://en.wikipedia.org/wiki/Hermann_Lang,Q60409,resolved,Hermann Lang
+driver,langes,http://en.wikipedia.org/wiki/Claudio_Langes,https://en.wikipedia.org/wiki/Claudio_Langes,Q370533,resolved,Claudio Langes
+driver,larini,http://en.wikipedia.org/wiki/Nicola_Larini,https://en.wikipedia.org/wiki/Nicola_Larini,Q172970,resolved,Nicola Larini
+driver,larrauri,http://en.wikipedia.org/wiki/Oscar_Larrauri,https://en.wikipedia.org/wiki/Oscar_Larrauri,Q171620,resolved,Oscar Larrauri
+driver,larreta,http://en.wikipedia.org/wiki/Alberto_Rodriguez_Larreta,https://en.wikipedia.org/wiki/Alberto_Rodriguez_Larreta,Q172789,resolved_via_redirect,Alberto Rodríguez Larreta
+driver,larrousse,http://en.wikipedia.org/wiki/G%C3%A9rard_Larrousse,https://en.wikipedia.org/wiki/G%C3%A9rard_Larrousse,Q171768,resolved,Gérard Larrousse
+driver,larson,http://en.wikipedia.org/wiki/Jud_Larson,https://en.wikipedia.org/wiki/Jud_Larson,Q172643,resolved,Jud Larson
+driver,latifi,http://en.wikipedia.org/wiki/Nicholas_Latifi,https://en.wikipedia.org/wiki/Nicholas_Latifi,Q8898994,resolved,Nicholas Latifi
+driver,lauda,http://en.wikipedia.org/wiki/Niki_Lauda,https://en.wikipedia.org/wiki/Niki_Lauda,Q78489,resolved,Niki Lauda
+driver,laurent,http://en.wikipedia.org/wiki/Roger_Laurent,https://en.wikipedia.org/wiki/Roger_Laurent,Q146857,resolved,Roger Laurent
+driver,lavaggi,http://en.wikipedia.org/wiki/Giovanni_Lavaggi,https://en.wikipedia.org/wiki/Giovanni_Lavaggi,Q171467,resolved,Giovanni Lavaggi
+driver,lawrence,http://en.wikipedia.org/wiki/Chris_Lawrence_(racing_driver),https://en.wikipedia.org/wiki/Chris_Lawrence_(racing_driver),Q172364,resolved,Chris Lawrence (racing driver)
+driver,lawson,http://en.wikipedia.org/wiki/Liam_Lawson,https://en.wikipedia.org/wiki/Liam_Lawson,Q59180330,resolved,Liam Lawson
+driver,leclerc,http://en.wikipedia.org/wiki/Charles_Leclerc,https://en.wikipedia.org/wiki/Charles_Leclerc,Q17541912,resolved,Charles Leclerc
+driver,arthur_leclerc,,,,no_url,
+driver,leclere,http://en.wikipedia.org/wiki/Michel_Lecl%C3%A8re,https://en.wikipedia.org/wiki/Michel_Lecl%C3%A8re,Q171971,resolved,Michel Leclère
+driver,lederle,http://en.wikipedia.org/wiki/Neville_Lederle,https://en.wikipedia.org/wiki/Neville_Lederle,Q172279,resolved,Neville Lederle
+driver,lees,http://en.wikipedia.org/wiki/Geoff_Lees,https://en.wikipedia.org/wiki/Geoff_Lees,Q30708908,resolved_via_redirect,Geoffrey Lees
+driver,legat,http://en.wikipedia.org/wiki/Arthur_Legat,https://en.wikipedia.org/wiki/Arthur_Legat,Q172281,resolved,Arthur Legat
+driver,leoni,http://en.wikipedia.org/wiki/Lamberto_Leoni,https://en.wikipedia.org/wiki/Lamberto_Leoni,Q171967,resolved,Lamberto Leoni
+driver,leston,http://en.wikipedia.org/wiki/Les_Leston,https://en.wikipedia.org/wiki/Les_Leston,Q172795,resolved,Les Leston
+driver,levegh,http://en.wikipedia.org/wiki/Pierre_Levegh,https://en.wikipedia.org/wiki/Pierre_Levegh,Q171742,resolved,Pierre Levegh
+driver,levrett,http://en.wikipedia.org/wiki/Bayliss_Levrett,https://en.wikipedia.org/wiki/Bayliss_Levrett,Q173675,resolved,Bayliss Levrett
+driver,lewis,http://en.wikipedia.org/wiki/Jackie_Lewis,https://en.wikipedia.org/wiki/Jackie_Lewis,Q172433,resolved,Jackie Lewis
+driver,lewis-evans,http://en.wikipedia.org/wiki/Stuart_Lewis-Evans,https://en.wikipedia.org/wiki/Stuart_Lewis-Evans,Q171961,resolved,Stuart Lewis-Evans
+driver,ligier,http://en.wikipedia.org/wiki/Guy_Ligier,https://en.wikipedia.org/wiki/Guy_Ligier,Q172174,resolved,Guy Ligier
+driver,arvid_lindblad,,,,no_url,
+driver,lindblad,,,,no_url,
+driver,linden,http://en.wikipedia.org/wiki/Andy_Linden_(racing_driver),https://en.wikipedia.org/wiki/Andy_Linden_(racing_driver),Q172574,resolved,Andy Linden (racing driver)
+driver,lippi,http://en.wikipedia.org/wiki/Roberto_Lippi,https://en.wikipedia.org/wiki/Roberto_Lippi,Q45223,resolved,Roberto Lippi
+driver,liuzzi,http://en.wikipedia.org/wiki/Vitantonio_Liuzzi,https://en.wikipedia.org/wiki/Vitantonio_Liuzzi,Q171294,resolved,Vitantonio Liuzzi
+driver,lombardi,http://en.wikipedia.org/wiki/Lella_Lombardi,https://en.wikipedia.org/wiki/Lella_Lombardi,Q171569,resolved,Lella Lombardi
+driver,londono,http://en.wikipedia.org/wiki/Ricardo_Londo%C3%B1o,https://en.wikipedia.org/wiki/Ricardo_Londo%C3%B1o,Q172474,resolved,Ricardo Londoño
+driver,loof,http://en.wikipedia.org/wiki/Ernst_Loof,https://en.wikipedia.org/wiki/Ernst_Loof,Q62700,resolved,Ernst Loof
+driver,lotterer,http://en.wikipedia.org/wiki/Andr%C3%A9_Lotterer,https://en.wikipedia.org/wiki/Andr%C3%A9_Lotterer,Q61395,resolved,André Lotterer
+driver,louveau,http://en.wikipedia.org/wiki/Henri_Louveau,https://en.wikipedia.org/wiki/Henri_Louveau,Q172123,resolved,Henri Louveau
+driver,love,http://en.wikipedia.org/wiki/John_Love_(racing_driver),https://en.wikipedia.org/wiki/John_Love_(racing_driver),Q172192,resolved,John Love (racing driver)
+driver,lovely,http://en.wikipedia.org/wiki/Pete_Lovely,https://en.wikipedia.org/wiki/Pete_Lovely,Q172196,resolved,Pete Lovely
+driver,loyer,http://en.wikipedia.org/wiki/Roger_Loyer,https://en.wikipedia.org/wiki/Roger_Loyer,Q172829,resolved,Roger Loyer
+driver,lucas,http://en.wikipedia.org/wiki/Jean_Lucas,https://en.wikipedia.org/wiki/Jean_Lucas,Q2376242,resolved,Jean Lucas
+driver,lucienbonnet,http://en.wikipedia.org/wiki/Jean_Lucienbonnet,https://en.wikipedia.org/wiki/Jean_Lucienbonnet,Q595137,resolved,Jean Lucienbonnet
+driver,lunger,http://en.wikipedia.org/wiki/Brett_Lunger,https://en.wikipedia.org/wiki/Brett_Lunger,Q171738,resolved,Brett Lunger
+driver,hayje,http://en.wikipedia.org/wiki/Boy_Hayje,https://en.wikipedia.org/wiki/Boy_Hayje,Q172051,resolved,Boy Hayje
+driver,macdowel,http://en.wikipedia.org/wiki/Mike_MacDowel,https://en.wikipedia.org/wiki/Mike_MacDowel,Q173599,resolved,Mike MacDowel
+driver,mackay-fraser,http://en.wikipedia.org/wiki/Herbert_MacKay-Fraser,https://en.wikipedia.org/wiki/Herbert_MacKay-Fraser,Q172434,resolved,Herbert MacKay-Fraser
+driver,mackey,http://en.wikipedia.org/wiki/Bill_Mackey,https://en.wikipedia.org/wiki/Bill_Mackey,Q173668,resolved,Bill Mackey
+driver,macklin,http://en.wikipedia.org/wiki/Lance_Macklin,https://en.wikipedia.org/wiki/Lance_Macklin,Q172199,resolved,Lance Macklin
+driver,magee,http://en.wikipedia.org/wiki/Damien_Magee,https://en.wikipedia.org/wiki/Damien_Magee,Q172315,resolved,Damien Magee
+driver,maggs,http://en.wikipedia.org/wiki/Tony_Maggs,https://en.wikipedia.org/wiki/Tony_Maggs,Q171830,resolved,Tony Maggs
+driver,magill,http://en.wikipedia.org/wiki/Mike_Magill,https://en.wikipedia.org/wiki/Mike_Magill,Q173657,resolved,Mike Magill
+driver,maglioli,http://en.wikipedia.org/wiki/Umberto_Maglioli,https://en.wikipedia.org/wiki/Umberto_Maglioli,Q113327,resolved,Umberto Maglioli
+driver,magnussen,http://en.wikipedia.org/wiki/Jan_Magnussen,https://en.wikipedia.org/wiki/Jan_Magnussen,Q173092,resolved,Jan Magnussen
+driver,kevin_magnussen,http://en.wikipedia.org/wiki/Kevin_Magnussen,https://en.wikipedia.org/wiki/Kevin_Magnussen,Q1740212,resolved,Kevin Magnussen
+driver,guy_mairesse,http://en.wikipedia.org/wiki/Guy_Mairesse,https://en.wikipedia.org/wiki/Guy_Mairesse,Q171964,resolved,Guy Mairesse
+driver,mairesse,http://en.wikipedia.org/wiki/Willy_Mairesse,https://en.wikipedia.org/wiki/Willy_Mairesse,Q171881,resolved,Willy Mairesse
+driver,maldonado,http://en.wikipedia.org/wiki/Pastor_Maldonado,https://en.wikipedia.org/wiki/Pastor_Maldonado,Q82845,resolved,Pastor Maldonado
+driver,mansell,http://en.wikipedia.org/wiki/Nigel_Mansell,https://en.wikipedia.org/wiki/Nigel_Mansell,Q10501,resolved,Nigel Mansell
+driver,mantovani,http://en.wikipedia.org/wiki/Sergio_Mantovani,https://en.wikipedia.org/wiki/Sergio_Mantovani,Q172124,resolved,Sergio Mantovani
+driver,mantz,http://en.wikipedia.org/wiki/Johnny_Mantz,https://en.wikipedia.org/wiki/Johnny_Mantz,Q173664,resolved,Johnny Mantz
+driver,manzon,http://en.wikipedia.org/wiki/Robert_Manzon,https://en.wikipedia.org/wiki/Robert_Manzon,Q171512,resolved,Robert Manzon
+driver,marimon,http://en.wikipedia.org/wiki/Onofre_Marim%C3%B3n,https://en.wikipedia.org/wiki/Onofre_Marim%C3%B3n,Q171624,resolved,Onofre Marimón
+driver,marko,http://en.wikipedia.org/wiki/Helmut_Marko,https://en.wikipedia.org/wiki/Helmut_Marko,Q78545,resolved,Helmut Marko
+driver,marques,http://en.wikipedia.org/wiki/Tarso_Marques,https://en.wikipedia.org/wiki/Tarso_Marques,Q171439,resolved,Tarso Marques
+driver,marr,http://en.wikipedia.org/wiki/Leslie_Marr,https://en.wikipedia.org/wiki/Leslie_Marr,Q172117,resolved,Leslie Marr
+driver,marsh,http://en.wikipedia.org/wiki/Tony_Marsh_(racing_driver),https://en.wikipedia.org/wiki/Tony_Marsh_(racing_driver),Q172660,resolved,Tony Marsh (racing driver)
+driver,martin,http://en.wikipedia.org/wiki/Eug%C3%A8ne_Martin,https://en.wikipedia.org/wiki/Eug%C3%A8ne_Martin,Q171890,resolved,Eugène Martin
+driver,martini,http://en.wikipedia.org/wiki/Pierluigi_Martini,https://en.wikipedia.org/wiki/Pierluigi_Martini,Q171541,resolved,Pierluigi Martini
+driver,mass,http://en.wikipedia.org/wiki/Jochen_Mass,https://en.wikipedia.org/wiki/Jochen_Mass,Q57459,resolved,Jochen Mass
+driver,massa,http://en.wikipedia.org/wiki/Felipe_Massa,https://en.wikipedia.org/wiki/Felipe_Massa,Q82652,resolved,Felipe Massa
+driver,may,http://en.wikipedia.org/wiki/Michael_May_(racing_driver),https://en.wikipedia.org/wiki/Michael_May_(racing_driver),Q173561,resolved,Michael May (racing driver)
+driver,mayer,http://en.wikipedia.org/wiki/Timmy_Mayer,https://en.wikipedia.org/wiki/Timmy_Mayer,Q172268,resolved,Timmy Mayer
+driver,mazepin,http://en.wikipedia.org/wiki/Nikita_Mazepin,https://en.wikipedia.org/wiki/Nikita_Mazepin,Q22008968,resolved,Nikita Mazepin
+driver,mazet,http://en.wikipedia.org/wiki/Fran%C3%A7ois_Mazet,https://en.wikipedia.org/wiki/Fran%C3%A7ois_Mazet,Q172257,resolved,François Mazet
+driver,mazzacane,http://en.wikipedia.org/wiki/Gast%C3%B3n_Mazzacane,https://en.wikipedia.org/wiki/Gast%C3%B3n_Mazzacane,Q172017,resolved,Gastón Mazzacane
+driver,mcalpine,http://en.wikipedia.org/wiki/Kenneth_McAlpine,https://en.wikipedia.org/wiki/Kenneth_McAlpine,Q172259,resolved,Kenneth McAlpine
+driver,mccarthy,http://en.wikipedia.org/wiki/Perry_McCarthy,https://en.wikipedia.org/wiki/Perry_McCarthy,Q369348,resolved,Perry McCarthy
+driver,mccoy,http://en.wikipedia.org/wiki/Ernie_McCoy,https://en.wikipedia.org/wiki/Ernie_McCoy,Q107026846,resolved,Ernie McCoy
+driver,mcdowell,http://en.wikipedia.org/wiki/Johnny_McDowell,https://en.wikipedia.org/wiki/Johnny_McDowell,Q173647,resolved,Johnny McDowell
+driver,mcgrath,http://en.wikipedia.org/wiki/Jack_McGrath_(racing_driver),https://en.wikipedia.org/wiki/Jack_McGrath_(racing_driver),Q172215,resolved,Jack McGrath (racing driver)
+driver,mcguire,http://en.wikipedia.org/wiki/Brian_McGuire,https://en.wikipedia.org/wiki/Brian_McGuire,Q95679566,resolved,Brian McGuire
+driver,mclaren,http://en.wikipedia.org/wiki/Bruce_McLaren,https://en.wikipedia.org/wiki/Bruce_McLaren,Q173081,resolved,Bruce McLaren
+driver,mcnish,http://en.wikipedia.org/wiki/Allan_McNish,https://en.wikipedia.org/wiki/Allan_McNish,Q173002,resolved,Allan McNish
+driver,mcrae,http://en.wikipedia.org/wiki/Graham_McRae,https://en.wikipedia.org/wiki/Graham_McRae,Q172535,resolved,Graham McRae
+driver,mcwithey,http://en.wikipedia.org/wiki/Jim_McWithey,https://en.wikipedia.org/wiki/Jim_McWithey,Q173649,resolved,Jim McWithey
+driver,menditeguy,http://en.wikipedia.org/wiki/Carlos_Menditeguy,https://en.wikipedia.org/wiki/Carlos_Menditeguy,Q172111,resolved,Carlos Menditeguy
+driver,merhi,http://en.wikipedia.org/wiki/Roberto_Merhi,https://en.wikipedia.org/wiki/Roberto_Merhi,Q977386,resolved,Roberto Merhi
+driver,merzario,http://en.wikipedia.org/wiki/Arturo_Merzario,https://en.wikipedia.org/wiki/Arturo_Merzario,Q171518,resolved,Arturo Merzario
+driver,mieres,http://en.wikipedia.org/wiki/Roberto_Mieres,https://en.wikipedia.org/wiki/Roberto_Mieres,Q171777,resolved,Roberto Mieres
+driver,migault,http://en.wikipedia.org/wiki/Fran%C3%A7ois_Migault,https://en.wikipedia.org/wiki/Fran%C3%A7ois_Migault,Q172235,resolved,François Migault
+driver,ken_miles,http://en.wikipedia.org/wiki/Ken_Miles,https://en.wikipedia.org/wiki/Ken_Miles,Q949196,resolved,Ken Miles
+driver,miles,http://en.wikipedia.org/wiki/John_Miles_(auto_racer),https://en.wikipedia.org/wiki/John_Miles_(auto_racer),Q172189,resolved_via_redirect,John Miles (racing driver)
+driver,milhoux,http://en.wikipedia.org/wiki/Andr%C3%A9_Milhoux,https://en.wikipedia.org/wiki/Andr%C3%A9_Milhoux,Q172814,resolved,André Milhoux
+driver,miller,http://en.wikipedia.org/wiki/Chet_Miller,https://en.wikipedia.org/wiki/Chet_Miller,Q173645,resolved,Chet Miller
+driver,mitter,http://en.wikipedia.org/wiki/Gerhard_Mitter,https://en.wikipedia.org/wiki/Gerhard_Mitter,Q60883,resolved,Gerhard Mitter
+driver,modena,http://en.wikipedia.org/wiki/Stefano_Modena,https://en.wikipedia.org/wiki/Stefano_Modena,Q171459,resolved,Stefano Modena
+driver,monarch,http://en.wikipedia.org/wiki/Talk:1963_Mexican_Grand_Prix#Who_was_Thomas_Monarch.3F,https://en.wikipedia.org/wiki/Talk:1963_Mexican_Grand_Prix#Who_was_Thomas_Monarch.3F,,no_wikidata_item,Talk:1963 Mexican Grand Prix
+driver,montagny,http://en.wikipedia.org/wiki/Franck_Montagny,https://en.wikipedia.org/wiki/Franck_Montagny,Q173162,resolved,Franck Montagny
+driver,monteiro,http://en.wikipedia.org/wiki/Tiago_Monteiro,https://en.wikipedia.org/wiki/Tiago_Monteiro,Q172001,resolved,Tiago Monteiro
+driver,montermini,http://en.wikipedia.org/wiki/Andrea_Montermini,https://en.wikipedia.org/wiki/Andrea_Montermini,Q172973,resolved,Andrea Montermini
+driver,monteverdi,http://en.wikipedia.org/wiki/Peter_Monteverdi,https://en.wikipedia.org/wiki/Peter_Monteverdi,Q117190,resolved,Peter Monteverdi
+driver,charrington,http://en.wikipedia.org/wiki/Robin_Montgomerie-Charrington,https://en.wikipedia.org/wiki/Robin_Montgomerie-Charrington,Q172369,resolved,Robin Montgomerie-Charrington
+driver,morbidelli,http://en.wikipedia.org/wiki/Gianni_Morbidelli,https://en.wikipedia.org/wiki/Gianni_Morbidelli,Q171559,resolved,Gianni Morbidelli
+driver,moreno,http://en.wikipedia.org/wiki/Roberto_Moreno,https://en.wikipedia.org/wiki/Roberto_Moreno,Q171427,resolved,Roberto Moreno
+driver,morgan,http://en.wikipedia.org/wiki/Dave_Morgan_(racing_driver),https://en.wikipedia.org/wiki/Dave_Morgan_(racing_driver),Q172338,resolved,Dave Morgan (racing driver)
+driver,moser,http://en.wikipedia.org/wiki/Silvio_Moser,https://en.wikipedia.org/wiki/Silvio_Moser,Q173283,resolved,Silvio Moser
+driver,moss,http://en.wikipedia.org/wiki/Stirling_Moss,https://en.wikipedia.org/wiki/Stirling_Moss,Q172728,resolved,Stirling Moss
+driver,bill_moss,http://en.wikipedia.org/wiki/Bill_Moss_(racing_driver),https://en.wikipedia.org/wiki/Bill_Moss_(racing_driver),Q2726763,resolved,Bill Moss (racing driver)
+driver,munaron,http://en.wikipedia.org/wiki/Gino_Munaron,https://en.wikipedia.org/wiki/Gino_Munaron,Q172785,resolved,Gino Munaron
+driver,murray,http://en.wikipedia.org/wiki/David_Murray_(driver),https://en.wikipedia.org/wiki/David_Murray_(driver),Q171879,resolved_via_redirect,David Murray (racing driver)
+driver,musso,http://en.wikipedia.org/wiki/Luigi_Musso,https://en.wikipedia.org/wiki/Luigi_Musso,Q171484,resolved,Luigi Musso
+driver,satoru_nakajima,http://en.wikipedia.org/wiki/Satoru_Nakajima,https://en.wikipedia.org/wiki/Satoru_Nakajima,Q173221,resolved,Satoru Nakajima
+driver,nakajima,http://en.wikipedia.org/wiki/Kazuki_Nakajima,https://en.wikipedia.org/wiki/Kazuki_Nakajima,Q171302,resolved,Kazuki Nakajima
+driver,nakano,http://en.wikipedia.org/wiki/Shinji_Nakano,https://en.wikipedia.org/wiki/Shinji_Nakano,Q171430,resolved,Shinji Nakano
+driver,nalon,http://en.wikipedia.org/wiki/Duke_Nalon,https://en.wikipedia.org/wiki/Duke_Nalon,Q113496,resolved,Duke Nalon
+driver,nannini,http://en.wikipedia.org/wiki/Alessandro_Nannini,https://en.wikipedia.org/wiki/Alessandro_Nannini,Q173087,resolved,Alessandro Nannini
+driver,naspetti,http://en.wikipedia.org/wiki/Emanuele_Naspetti,https://en.wikipedia.org/wiki/Emanuele_Naspetti,Q171508,resolved,Emanuele Naspetti
+driver,nasr,http://en.wikipedia.org/wiki/Felipe_Nasr,https://en.wikipedia.org/wiki/Felipe_Nasr,Q777319,resolved,Felipe Nasr
+driver,natili,http://en.wikipedia.org/wiki/Massimo_Natili,https://en.wikipedia.org/wiki/Massimo_Natili,Q172624,resolved,Massimo Natili
+driver,naylor,http://en.wikipedia.org/wiki/Brian_Naylor,https://en.wikipedia.org/wiki/Brian_Naylor,Q11962262,resolved,Brian Naylor
+driver,nazaruk,http://en.wikipedia.org/wiki/Mike_Nazaruk,https://en.wikipedia.org/wiki/Mike_Nazaruk,Q172300,resolved,Mike Nazaruk
+driver,needell,http://en.wikipedia.org/wiki/Tiff_Needell,https://en.wikipedia.org/wiki/Tiff_Needell,Q172265,resolved,Tiff Needell
+driver,nelleman,http://en.wikipedia.org/wiki/Jac_Nelleman,https://en.wikipedia.org/wiki/Jac_Nelleman,Q516000,resolved_via_redirect,Jac Nellemann
+driver,nicholson,http://en.wikipedia.org/wiki/John_Nicholson_(racing_driver),https://en.wikipedia.org/wiki/John_Nicholson_(racing_driver),Q171986,resolved,John Nicholson (racing driver)
+driver,niday,http://en.wikipedia.org/wiki/Cal_Niday,https://en.wikipedia.org/wiki/Cal_Niday,Q172583,resolved,Cal Niday
+driver,niedermayr,http://en.wikipedia.org/wiki/Helmut_Niedermayr,https://en.wikipedia.org/wiki/Helmut_Niedermayr,Q61287,resolved,Helmut Niedermayr
+driver,niemann,http://en.wikipedia.org/wiki/Brausch_Niemann,https://en.wikipedia.org/wiki/Brausch_Niemann,Q172518,resolved,Brausch Niemann
+driver,nilsson,http://en.wikipedia.org/wiki/Gunnar_Nilsson,https://en.wikipedia.org/wiki/Gunnar_Nilsson,Q171445,resolved,Gunnar Nilsson
+driver,noda,http://en.wikipedia.org/wiki/Hideki_Noda,https://en.wikipedia.org/wiki/Hideki_Noda,Q172967,resolved,Hideki Noda
+driver,norris,http://en.wikipedia.org/wiki/Lando_Norris,https://en.wikipedia.org/wiki/Lando_Norris,Q22007193,resolved,Lando Norris
+driver,nuckey,http://en.wikipedia.org/wiki/Rodney_Nuckey,https://en.wikipedia.org/wiki/Rodney_Nuckey,Q172810,resolved,Rodney Nuckey
+driver,neve,http://en.wikipedia.org/wiki/Patrick_Neve,https://en.wikipedia.org/wiki/Patrick_Neve,Q172187,resolved_via_redirect,Patrick Nève
+driver,obrien,http://en.wikipedia.org/wiki/Robert_O%27Brien_(auto_racer),https://en.wikipedia.org/wiki/Robert_O%27Brien_(auto_racer),Q172352,resolved_via_redirect,Robert O'Brien (racing driver)
+driver,connor,http://en.wikipedia.org/wiki/Pat_O%27Connor_(auto_racer),https://en.wikipedia.org/wiki/Pat_O%27Connor_(auto_racer),Q961162,resolved_via_redirect,Pat O'Connor (racing driver)
+driver,patricio_o_ward,,,,no_url,
+driver,ocon,http://en.wikipedia.org/wiki/Esteban_Ocon,https://en.wikipedia.org/wiki/Esteban_Ocon,Q15074165,resolved,Esteban Ocon
+driver,oliver,http://en.wikipedia.org/wiki/Jackie_Oliver,https://en.wikipedia.org/wiki/Jackie_Oliver,Q171720,resolved,Jackie Oliver
+driver,ongais,http://en.wikipedia.org/wiki/Danny_Ongais,https://en.wikipedia.org/wiki/Danny_Ongais,Q172322,resolved,Danny Ongais
+driver,owen,http://en.wikipedia.org/wiki/Arthur_Owen,https://en.wikipedia.org/wiki/Arthur_Owen,Q93023360,resolved,Arthur Owen
+driver,montoya,http://en.wikipedia.org/wiki/Juan_Pablo_Montoya,https://en.wikipedia.org/wiki/Juan_Pablo_Montoya,Q172744,resolved,Juan Pablo Montoya
+driver,pace,http://en.wikipedia.org/wiki/Carlos_Pace,https://en.wikipedia.org/wiki/Carlos_Pace,Q171443,resolved,Carlos Pace
+driver,pagani,http://en.wikipedia.org/wiki/Nello_Pagani,https://en.wikipedia.org/wiki/Nello_Pagani,Q172460,resolved,Nello Pagani
+driver,paletti,http://en.wikipedia.org/wiki/Riccardo_Paletti,https://en.wikipedia.org/wiki/Riccardo_Paletti,Q173258,resolved,Riccardo Paletti
+driver,palm,http://en.wikipedia.org/wiki/Torsten_Palm,https://en.wikipedia.org/wiki/Torsten_Palm,Q172386,resolved,Torsten Palm
+driver,palmer,http://en.wikipedia.org/wiki/Jonathan_Palmer,https://en.wikipedia.org/wiki/Jonathan_Palmer,Q171515,resolved,Jonathan Palmer
+driver,jolyon_palmer,http://en.wikipedia.org/wiki/Jolyon_Palmer,https://en.wikipedia.org/wiki/Jolyon_Palmer,Q714365,resolved,Jolyon Palmer
+driver,panis,http://en.wikipedia.org/wiki/Olivier_Panis,https://en.wikipedia.org/wiki/Olivier_Panis,Q172018,resolved,Olivier Panis
+driver,pantano,http://en.wikipedia.org/wiki/Giorgio_Pantano,https://en.wikipedia.org/wiki/Giorgio_Pantano,Q61917,resolved,Giorgio Pantano
+driver,papis,http://en.wikipedia.org/wiki/Massimiliano_Papis,https://en.wikipedia.org/wiki/Massimiliano_Papis,Q173289,resolved_via_redirect,Max Papis
+driver,parkes,http://en.wikipedia.org/wiki/Mike_Parkes,https://en.wikipedia.org/wiki/Mike_Parkes,Q172141,resolved,Mike Parkes
+driver,reg_parnell,http://en.wikipedia.org/wiki/Reg_Parnell,https://en.wikipedia.org/wiki/Reg_Parnell,Q172057,resolved,Reg Parnell
+driver,parnell,http://en.wikipedia.org/wiki/Tim_Parnell,https://en.wikipedia.org/wiki/Tim_Parnell,Q172802,resolved,Tim Parnell
+driver,parsons,http://en.wikipedia.org/wiki/Johnnie_Parsons,https://en.wikipedia.org/wiki/Johnnie_Parsons,Q366770,resolved,Johnnie Parsons
+driver,patrese,http://en.wikipedia.org/wiki/Riccardo_Patrese,https://en.wikipedia.org/wiki/Riccardo_Patrese,Q172759,resolved,Riccardo Patrese
+driver,pease,http://en.wikipedia.org/wiki/Al_Pease,https://en.wikipedia.org/wiki/Al_Pease,Q172469,resolved,Al Pease
+driver,penske,http://en.wikipedia.org/wiki/Roger_Penske,https://en.wikipedia.org/wiki/Roger_Penske,Q172155,resolved,Roger Penske
+driver,perdisa,http://en.wikipedia.org/wiki/Cesare_Perdisa,https://en.wikipedia.org/wiki/Cesare_Perdisa,Q172138,resolved,Cesare Perdisa
+driver,perkins,http://en.wikipedia.org/wiki/Larry_Perkins,https://en.wikipedia.org/wiki/Larry_Perkins,Q172072,resolved,Larry Perkins
+driver,pescarolo,http://en.wikipedia.org/wiki/Henri_Pescarolo,https://en.wikipedia.org/wiki/Henri_Pescarolo,Q171593,resolved,Henri Pescarolo
+driver,pesenti_rossi,http://en.wikipedia.org/wiki/Alessandro_Pesenti-Rossi,https://en.wikipedia.org/wiki/Alessandro_Pesenti-Rossi,Q172545,resolved,Alessandro Pesenti-Rossi
+driver,peters,http://en.wikipedia.org/wiki/Josef_Peters_(driver),https://en.wikipedia.org/wiki/Josef_Peters_(driver),Q61853,resolved_via_redirect,Josef Peters (racing driver)
+driver,peterson,http://en.wikipedia.org/wiki/Ronnie_Peterson,https://en.wikipedia.org/wiki/Ronnie_Peterson,Q173280,resolved,Ronnie Peterson
+driver,petrov,http://en.wikipedia.org/wiki/Vitaly_Petrov,https://en.wikipedia.org/wiki/Vitaly_Petrov,Q82901,resolved,Vitaly Petrov
+driver,piastri,http://en.wikipedia.org/wiki/Oscar_Piastri,https://en.wikipedia.org/wiki/Oscar_Piastri,Q28741262,resolved,Oscar Piastri
+driver,pic,http://en.wikipedia.org/wiki/Charles_Pic,https://en.wikipedia.org/wiki/Charles_Pic,Q82965,resolved,Charles Pic
+driver,picard,http://en.wikipedia.org/wiki/Fran%C3%A7ois_Picard,https://en.wikipedia.org/wiki/Fran%C3%A7ois_Picard,Q3085553,resolved,François Picard
+driver,pieterse,http://en.wikipedia.org/wiki/Ernie_Pieterse,https://en.wikipedia.org/wiki/Ernie_Pieterse,Q172139,resolved,Ernie Pieterse
+driver,pietsch,http://en.wikipedia.org/wiki/Paul_Pietsch,https://en.wikipedia.org/wiki/Paul_Pietsch,Q60886,resolved,Paul Pietsch
+driver,andre_pilette,http://en.wikipedia.org/wiki/Andr%C3%A9_Pilette,https://en.wikipedia.org/wiki/Andr%C3%A9_Pilette,Q172119,resolved,André Pilette
+driver,pilette,http://en.wikipedia.org/wiki/Teddy_Pilette,https://en.wikipedia.org/wiki/Teddy_Pilette,Q172136,resolved,Teddy Pilette
+driver,piotti,http://en.wikipedia.org/wiki/Luigi_Piotti,https://en.wikipedia.org/wiki/Luigi_Piotti,Q172564,resolved,Luigi Piotti
+driver,piper,http://en.wikipedia.org/wiki/David_Piper,https://en.wikipedia.org/wiki/David_Piper,Q92784043,resolved,David Piper
+driver,piquet,http://en.wikipedia.org/wiki/Nelson_Piquet,https://en.wikipedia.org/wiki/Nelson_Piquet,Q171346,resolved,Nelson Piquet
+driver,piquet_jr,"http://en.wikipedia.org/wiki/Nelson_Piquet,_Jr.","https://en.wikipedia.org/wiki/Nelson_Piquet,_Jr.",Q172838,resolved_via_redirect,Nelson Piquet Jr.
+driver,pirocchi,http://en.wikipedia.org/wiki/Renato_Pirocchi,https://en.wikipedia.org/wiki/Renato_Pirocchi,Q172627,resolved,Renato Pirocchi
+driver,pironi,http://en.wikipedia.org/wiki/Didier_Pironi,https://en.wikipedia.org/wiki/Didier_Pironi,Q171432,resolved,Didier Pironi
+driver,pirro,http://en.wikipedia.org/wiki/Emanuele_Pirro,https://en.wikipedia.org/wiki/Emanuele_Pirro,Q171524,resolved,Emanuele Pirro
+driver,pizzonia,http://en.wikipedia.org/wiki/Ant%C3%B4nio_Pizzonia,https://en.wikipedia.org/wiki/Ant%C3%B4nio_Pizzonia,Q172734,resolved,Antônio Pizzonia
+driver,pian,http://en.wikipedia.org/wiki/Alfredo_Pi%C3%A0n,https://en.wikipedia.org/wiki/Alfredo_Pi%C3%A0n,Q555795,resolved_via_redirect,Alfredo Pián
+driver,pollet,http://en.wikipedia.org/wiki/Jacques_Pollet,https://en.wikipedia.org/wiki/Jacques_Pollet,Q172355,resolved,Jacques Pollet
+driver,pon,http://en.wikipedia.org/wiki/Ben_Pon,https://en.wikipedia.org/wiki/Ben_Pon,Q172658,resolved,Ben Pon
+driver,poore,http://en.wikipedia.org/wiki/Dennis_Poore,https://en.wikipedia.org/wiki/Dennis_Poore,Q172297,resolved,Dennis Poore
+driver,posey,http://en.wikipedia.org/wiki/Sam_Posey,https://en.wikipedia.org/wiki/Sam_Posey,Q172311,resolved,Sam Posey
+driver,pozzi,http://en.wikipedia.org/wiki/Charles_Pozzi,https://en.wikipedia.org/wiki/Charles_Pozzi,Q172538,resolved,Charles Pozzi
+driver,pretorius,http://en.wikipedia.org/wiki/Jackie_Pretorius,https://en.wikipedia.org/wiki/Jackie_Pretorius,Q172045,resolved,Jackie Pretorius
+driver,prinoth,http://en.wikipedia.org/wiki/Ernesto_Prinoth,https://en.wikipedia.org/wiki/Ernesto_Prinoth,Q145076,resolved,Ernesto Prinoth
+driver,prophet,http://en.wikipedia.org/wiki/David_Prophet,https://en.wikipedia.org/wiki/David_Prophet,Q172513,resolved,David Prophet
+driver,prost,http://en.wikipedia.org/wiki/Alain_Prost,https://en.wikipedia.org/wiki/Alain_Prost,Q10494,resolved,Alain Prost
+driver,pryce,http://en.wikipedia.org/wiki/Tom_Pryce,https://en.wikipedia.org/wiki/Tom_Pryce,Q172835,resolved,Tom Pryce
+driver,purley,http://en.wikipedia.org/wiki/David_Purley,https://en.wikipedia.org/wiki/David_Purley,Q171743,resolved,David Purley
+driver,puzey,http://en.wikipedia.org/wiki/Clive_Puzey,https://en.wikipedia.org/wiki/Clive_Puzey,Q2297253,resolved,Clive Puzey
+driver,perez,http://en.wikipedia.org/wiki/Sergio_P%C3%A9rez,https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez,Q82805,resolved,Sergio Pérez
+driver,sala,http://en.wikipedia.org/wiki/Luis_Perez-Sala,https://en.wikipedia.org/wiki/Luis_Perez-Sala,Q173379,resolved_via_redirect,Luis Pérez-Sala
+driver,quester,http://en.wikipedia.org/wiki/Dieter_Quester,https://en.wikipedia.org/wiki/Dieter_Quester,Q78551,resolved,Dieter Quester
+driver,raby,http://en.wikipedia.org/wiki/Ian_Raby,https://en.wikipedia.org/wiki/Ian_Raby,Q172274,resolved,Ian Raby
+driver,rahal,http://en.wikipedia.org/wiki/Bobby_Rahal,https://en.wikipedia.org/wiki/Bobby_Rahal,Q172255,resolved,Bobby Rahal
+driver,raphanel,http://en.wikipedia.org/wiki/Pierre-Henri_Raphanel,https://en.wikipedia.org/wiki/Pierre-Henri_Raphanel,Q171761,resolved,Pierre-Henri Raphanel
+driver,rathmann,http://en.wikipedia.org/wiki/Jim_Rathmann,https://en.wikipedia.org/wiki/Jim_Rathmann,Q172510,resolved,Jim Rathmann
+driver,dick_rathmann,http://en.wikipedia.org/wiki/Dick_Rathmann,https://en.wikipedia.org/wiki/Dick_Rathmann,Q172596,resolved,Dick Rathmann
+driver,ratzenberger,http://en.wikipedia.org/wiki/Roland_Ratzenberger,https://en.wikipedia.org/wiki/Roland_Ratzenberger,Q78495,resolved,Roland Ratzenberger
+driver,rebaque,http://en.wikipedia.org/wiki/Hector_Rebaque,https://en.wikipedia.org/wiki/Hector_Rebaque,Q171539,resolved_via_redirect,Héctor Rebaque
+driver,redman,http://en.wikipedia.org/wiki/Brian_Redman,https://en.wikipedia.org/wiki/Brian_Redman,Q171746,resolved,Brian Redman
+driver,reece,http://en.wikipedia.org/wiki/Jimmy_Reece,https://en.wikipedia.org/wiki/Jimmy_Reece,Q173715,resolved,Jimmy Reece
+driver,reed,http://en.wikipedia.org/wiki/Ray_Reed,https://en.wikipedia.org/wiki/Ray_Reed,Q136143357,resolved,Ray Reed
+driver,rees,http://en.wikipedia.org/wiki/Alan_Rees_(racing_driver),https://en.wikipedia.org/wiki/Alan_Rees_(racing_driver),Q172273,resolved,Alan Rees (racing driver)
+driver,regazzoni,http://en.wikipedia.org/wiki/Clay_Regazzoni,https://en.wikipedia.org/wiki/Clay_Regazzoni,Q173284,resolved,Clay Regazzoni
+driver,reutemann,http://en.wikipedia.org/wiki/Carlos_Reutemann,https://en.wikipedia.org/wiki/Carlos_Reutemann,Q173238,resolved,Carlos Reutemann
+driver,reventlow,http://en.wikipedia.org/wiki/Lance_Reventlow,https://en.wikipedia.org/wiki/Lance_Reventlow,Q172592,resolved,Lance Reventlow
+driver,revson,http://en.wikipedia.org/wiki/Peter_Revson,https://en.wikipedia.org/wiki/Peter_Revson,Q171535,resolved,Peter Revson
+driver,rhodes,http://en.wikipedia.org/wiki/John_Rhodes_(driver),https://en.wikipedia.org/wiki/John_Rhodes_(driver),Q173566,resolved_via_redirect,John Rhodes (racing driver)
+driver,ribeiro,http://en.wikipedia.org/wiki/Alex_Ribeiro,https://en.wikipedia.org/wiki/Alex_Ribeiro,Q172893,resolved,Alex Ribeiro
+driver,ricciardo,http://en.wikipedia.org/wiki/Daniel_Ricciardo,https://en.wikipedia.org/wiki/Daniel_Ricciardo,Q82816,resolved,Daniel Ricciardo
+driver,richardson,http://en.wikipedia.org/wiki/Ken_Richardson_(race_car_driver),https://en.wikipedia.org/wiki/Ken_Richardson_(race_car_driver),Q941105,resolved_via_redirect,Ken Richardson (racing driver)
+driver,riess,http://en.wikipedia.org/wiki/Fritz_Riess,https://en.wikipedia.org/wiki/Fritz_Riess,Q60925,resolved,Fritz Riess
+driver,rigsby,http://en.wikipedia.org/wiki/Jim_Rigsby,https://en.wikipedia.org/wiki/Jim_Rigsby,Q173709,resolved,Jim Rigsby
+driver,rindt,http://en.wikipedia.org/wiki/Jochen_Rindt,https://en.wikipedia.org/wiki/Jochen_Rindt,Q3234,resolved,Jochen Rindt
+driver,riseley_prichard,http://en.wikipedia.org/wiki/John_Riseley-Prichard,https://en.wikipedia.org/wiki/John_Riseley-Prichard,Q172801,resolved,John Riseley-Prichard
+driver,robarts,http://en.wikipedia.org/wiki/Richard_Robarts,https://en.wikipedia.org/wiki/Richard_Robarts,Q172182,resolved,Richard Robarts
+driver,ricardo_rodriguez,http://en.wikipedia.org/wiki/Ricardo_Rodr%C3%ADguez_(Formula_One),https://en.wikipedia.org/wiki/Ricardo_Rodr%C3%ADguez_(Formula_One),Q171766,resolved_via_redirect,Ricardo Rodríguez (racing driver)
+driver,rodriguez,http://en.wikipedia.org/wiki/Pedro_Rodr%C3%ADguez_(racing_driver),https://en.wikipedia.org/wiki/Pedro_Rodr%C3%ADguez_(racing_driver),Q171452,resolved,Pedro Rodríguez (racing driver)
+driver,rol,http://en.wikipedia.org/wiki/Franco_Rol,https://en.wikipedia.org/wiki/Franco_Rol,Q172069,resolved,Franco Rol
+driver,rollinson,http://en.wikipedia.org/wiki/Alan_Rollinson,https://en.wikipedia.org/wiki/Alan_Rollinson,Q2324604,resolved,Alan Rollinson
+driver,rolt,http://en.wikipedia.org/wiki/Tony_Rolt,https://en.wikipedia.org/wiki/Tony_Rolt,Q172202,resolved,Tony Rolt
+driver,roos,http://en.wikipedia.org/wiki/Bertil_Roos,https://en.wikipedia.org/wiki/Bertil_Roos,Q172531,resolved,Bertil Roos
+driver,keke_rosberg,http://en.wikipedia.org/wiki/Keke_Rosberg,https://en.wikipedia.org/wiki/Keke_Rosberg,Q171381,resolved,Keke Rosberg
+driver,rosberg,http://en.wikipedia.org/wiki/Nico_Rosberg,https://en.wikipedia.org/wiki/Nico_Rosberg,Q75820,resolved,Nico Rosberg
+driver,rose,http://en.wikipedia.org/wiki/Mauri_Rose,https://en.wikipedia.org/wiki/Mauri_Rose,Q172305,resolved,Mauri Rose
+driver,rosier,http://en.wikipedia.org/wiki/Louis_Rosier,https://en.wikipedia.org/wiki/Louis_Rosier,Q173078,resolved,Louis Rosier
+driver,rosset,http://en.wikipedia.org/wiki/Ricardo_Rosset,https://en.wikipedia.org/wiki/Ricardo_Rosset,Q171431,resolved,Ricardo Rosset
+driver,rossi,http://en.wikipedia.org/wiki/Alexander_Rossi_%28racing_driver%29,https://en.wikipedia.org/wiki/Alexander_Rossi_%28racing_driver%29,Q559962,resolved_via_redirect,Alexander Rossi
+driver,rothengatter,http://en.wikipedia.org/wiki/Huub_Rothengatter,https://en.wikipedia.org/wiki/Huub_Rothengatter,Q171716,resolved,Huub Rothengatter
+driver,ruby,http://en.wikipedia.org/wiki/Lloyd_Ruby,https://en.wikipedia.org/wiki/Lloyd_Ruby,Q172293,resolved,Lloyd Ruby
+driver,russell,http://en.wikipedia.org/wiki/George_Russell_(racing_driver),https://en.wikipedia.org/wiki/George_Russell_(racing_driver),Q17319645,resolved,George Russell (racing driver)
+driver,paul_russo,http://en.wikipedia.org/wiki/Paul_Russo,https://en.wikipedia.org/wiki/Paul_Russo,Q172655,resolved,Paul Russo
+driver,russo,http://en.wikipedia.org/wiki/Eddie_Russo,https://en.wikipedia.org/wiki/Eddie_Russo,Q173682,resolved,Eddie Russo
+driver,geki,http://en.wikipedia.org/wiki/Geki_(driver),https://en.wikipedia.org/wiki/Geki_(driver),Q173342,resolved_via_redirect,Geki (racing driver)
+driver,ruttman,http://en.wikipedia.org/wiki/Troy_Ruttman,https://en.wikipedia.org/wiki/Troy_Ruttman,Q172165,resolved,Troy Ruttman
+driver,ryan,http://en.wikipedia.org/wiki/Peter_Ryan_(driver),https://en.wikipedia.org/wiki/Peter_Ryan_(driver),Q172806,resolved_via_redirect,Peter Ryan (racing driver)
+driver,raikkonen,http://en.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen,https://en.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen,Q11192,resolved,Kimi Räikkönen
+driver,sachs,http://en.wikipedia.org/wiki/Eddie_Sachs,https://en.wikipedia.org/wiki/Eddie_Sachs,Q172472,resolved,Eddie Sachs
+driver,said,http://en.wikipedia.org/wiki/Bob_Said,https://en.wikipedia.org/wiki/Bob_Said,Q172794,resolved,Bob Said
+driver,sainz,http://en.wikipedia.org/wiki/Carlos_Sainz_Jr.,https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.,Q544856,resolved,Carlos Sainz Jr.
+driver,salazar,http://en.wikipedia.org/wiki/Eliseo_Salazar,https://en.wikipedia.org/wiki/Eliseo_Salazar,Q173254,resolved,Eliseo Salazar
+driver,salo,http://en.wikipedia.org/wiki/Mika_Salo,https://en.wikipedia.org/wiki/Mika_Salo,Q173094,resolved,Mika Salo
+driver,salvadori,http://en.wikipedia.org/wiki/Roy_Salvadori,https://en.wikipedia.org/wiki/Roy_Salvadori,Q171717,resolved,Roy Salvadori
+driver,sanesi,http://en.wikipedia.org/wiki/Consalvo_Sanesi,https://en.wikipedia.org/wiki/Consalvo_Sanesi,Q172065,resolved,Consalvo Sanesi
+driver,sargeant,http://en.wikipedia.org/wiki/Logan_Sargeant,https://en.wikipedia.org/wiki/Logan_Sargeant,Q28037494,resolved,Logan Sargeant
+driver,sarrazin,http://en.wikipedia.org/wiki/St%C3%A9phane_Sarrazin,https://en.wikipedia.org/wiki/St%C3%A9phane_Sarrazin,Q173317,resolved,Stéphane Sarrazin
+driver,sato,http://en.wikipedia.org/wiki/Takuma_Sato,https://en.wikipedia.org/wiki/Takuma_Sato,Q171297,resolved,Takuma Sato
+driver,scarborough,http://en.wikipedia.org/wiki/Carl_Scarborough,https://en.wikipedia.org/wiki/Carl_Scarborough,Q172639,resolved,Carl Scarborough
+driver,scarfiotti,http://en.wikipedia.org/wiki/Ludovico_Scarfiotti,https://en.wikipedia.org/wiki/Ludovico_Scarfiotti,Q171568,resolved,Ludovico Scarfiotti
+driver,scarlatti,http://en.wikipedia.org/wiki/Giorgio_Scarlatti,https://en.wikipedia.org/wiki/Giorgio_Scarlatti,Q172029,resolved,Giorgio Scarlatti
+driver,scheckter,http://en.wikipedia.org/wiki/Jody_Scheckter,https://en.wikipedia.org/wiki/Jody_Scheckter,Q172775,resolved,Jody Scheckter
+driver,ian_scheckter,http://en.wikipedia.org/wiki/Ian_Scheckter,https://en.wikipedia.org/wiki/Ian_Scheckter,Q172733,resolved,Ian Scheckter
+driver,schell,http://en.wikipedia.org/wiki/Harry_Schell,https://en.wikipedia.org/wiki/Harry_Schell,Q171561,resolved,Harry Schell
+driver,schenken,http://en.wikipedia.org/wiki/Tim_Schenken,https://en.wikipedia.org/wiki/Tim_Schenken,Q171499,resolved,Tim Schenken
+driver,scherrer,http://en.wikipedia.org/wiki/Albert_Scherrer,https://en.wikipedia.org/wiki/Albert_Scherrer,Q116272,resolved,Albert Scherrer
+driver,schiattarella,http://en.wikipedia.org/wiki/Domenico_Schiattarella,https://en.wikipedia.org/wiki/Domenico_Schiattarella,Q172990,resolved,Domenico Schiattarella
+driver,schiller,http://en.wikipedia.org/wiki/Heinz_Schiller,https://en.wikipedia.org/wiki/Heinz_Schiller,Q116638,resolved,Heinz Schiller
+driver,schindler,http://en.wikipedia.org/wiki/Bill_Schindler,https://en.wikipedia.org/wiki/Bill_Schindler,Q173679,resolved,Bill Schindler
+driver,jo_schlesser,http://en.wikipedia.org/wiki/Jo_Schlesser,https://en.wikipedia.org/wiki/Jo_Schlesser,Q171786,resolved,Jo Schlesser
+driver,schlesser,http://en.wikipedia.org/wiki/Jean-Louis_Schlesser,https://en.wikipedia.org/wiki/Jean-Louis_Schlesser,Q171479,resolved,Jean-Louis Schlesser
+driver,schneider,http://en.wikipedia.org/wiki/Bernd_Schneider_(racecar_driver),https://en.wikipedia.org/wiki/Bernd_Schneider_(racecar_driver),Q61866,resolved_via_redirect,Bernd Schneider (racing driver)
+driver,schoeller,http://en.wikipedia.org/wiki/Rudolf_Schoeller,https://en.wikipedia.org/wiki/Rudolf_Schoeller,Q116276,resolved,Rudolf Schoeller
+driver,schroeder,http://en.wikipedia.org/wiki/Rob_Schroeder,https://en.wikipedia.org/wiki/Rob_Schroeder,Q173681,resolved,Rob Schroeder
+driver,michael_schumacher,http://en.wikipedia.org/wiki/Michael_Schumacher,https://en.wikipedia.org/wiki/Michael_Schumacher,Q9671,resolved,Michael Schumacher
+driver,ralf_schumacher,http://en.wikipedia.org/wiki/Ralf_Schumacher,https://en.wikipedia.org/wiki/Ralf_Schumacher,Q75825,resolved,Ralf Schumacher
+driver,mick_schumacher,http://en.wikipedia.org/wiki/Mick_Schumacher,https://en.wikipedia.org/wiki/Mick_Schumacher,Q18119599,resolved,Mick Schumacher
+driver,schuppan,http://en.wikipedia.org/wiki/Vern_Schuppan,https://en.wikipedia.org/wiki/Vern_Schuppan,Q172076,resolved,Vern Schuppan
+driver,bob_scott,http://en.wikipedia.org/wiki/Bob_Scott_(auto_racer),https://en.wikipedia.org/wiki/Bob_Scott_(auto_racer),Q172580,resolved_via_redirect,Bob Scott (racing driver)
+driver,scott_Brown,http://en.wikipedia.org/wiki/Archie_Scott_Brown,https://en.wikipedia.org/wiki/Archie_Scott_Brown,Q555776,resolved,Archie Scott Brown
+driver,scotti,http://en.wikipedia.org/wiki/Piero_Scotti,https://en.wikipedia.org/wiki/Piero_Scotti,Q172603,resolved,Piero Scotti
+driver,seidel,http://en.wikipedia.org/wiki/Wolfgang_Seidel,https://en.wikipedia.org/wiki/Wolfgang_Seidel,Q61495,resolved,Wolfgang Seidel
+driver,seiffert,http://en.wikipedia.org/wiki/G%C3%BCnther_Seiffert,https://en.wikipedia.org/wiki/G%C3%BCnther_Seiffert,Q2888614,resolved,Günther Seiffert
+driver,senna,http://en.wikipedia.org/wiki/Ayrton_Senna,https://en.wikipedia.org/wiki/Ayrton_Senna,Q10490,resolved,Ayrton Senna
+driver,bruno_senna,http://en.wikipedia.org/wiki/Bruno_Senna,https://en.wikipedia.org/wiki/Bruno_Senna,Q82864,resolved,Bruno Senna
+driver,serafini,http://en.wikipedia.org/wiki/Dorino_Serafini,https://en.wikipedia.org/wiki/Dorino_Serafini,Q172185,resolved,Dorino Serafini
+driver,serra,http://en.wikipedia.org/wiki/Chico_Serra,https://en.wikipedia.org/wiki/Chico_Serra,Q171507,resolved,Chico Serra
+driver,serrurier,http://en.wikipedia.org/wiki/Doug_Serrurier,https://en.wikipedia.org/wiki/Doug_Serrurier,Q172212,resolved,Doug Serrurier
+driver,gavin,http://en.wikipedia.org/wiki/Johnny_Servoz-Gavin,https://en.wikipedia.org/wiki/Johnny_Servoz-Gavin,Q171767,resolved,Johnny Servoz-Gavin
+driver,settember,http://en.wikipedia.org/wiki/Tony_Settember,https://en.wikipedia.org/wiki/Tony_Settember,Q172361,resolved,Tony Settember
+driver,sharp,http://en.wikipedia.org/wiki/Hap_Sharp,https://en.wikipedia.org/wiki/Hap_Sharp,Q171960,resolved,Hap Sharp
+driver,shawe_taylor,http://en.wikipedia.org/wiki/Brian_Shawe_Taylor,https://en.wikipedia.org/wiki/Brian_Shawe_Taylor,Q172205,resolved_via_redirect,Brian Shawe-Taylor
+driver,shelby,http://en.wikipedia.org/wiki/Carroll_Shelby,https://en.wikipedia.org/wiki/Carroll_Shelby,Q354043,resolved,Carroll Shelby
+driver,shelly,http://en.wikipedia.org/wiki/Tony_Shelly,https://en.wikipedia.org/wiki/Tony_Shelly,Q173592,resolved,Tony Shelly
+driver,cian_shields,,,,no_url,
+driver,siffert,http://en.wikipedia.org/wiki/Jo_Siffert,https://en.wikipedia.org/wiki/Jo_Siffert,Q171531,resolved,Jo Siffert
+driver,simon,http://en.wikipedia.org/wiki/Andr%C3%A9_Simon_(racing_driver),https://en.wikipedia.org/wiki/Andr%C3%A9_Simon_(racing_driver),Q172463,resolved,André Simon (racing driver)
+driver,sirotkin,http://en.wikipedia.org/wiki/Sergey_Sirotkin_(racing_driver),https://en.wikipedia.org/wiki/Sergey_Sirotkin_(racing_driver),Q544206,resolved_via_redirect,Sergey Sirotkin
+driver,slotemaker,http://en.wikipedia.org/wiki/Rob_Slotemaker,https://en.wikipedia.org/wiki/Rob_Slotemaker,Q1862046,resolved,Rob Slotemaker
+driver,solana,http://en.wikipedia.org/wiki/Mois%C3%A9s_Solana,https://en.wikipedia.org/wiki/Mois%C3%A9s_Solana,Q172143,resolved,Moisés Solana
+driver,roig,http://en.wikipedia.org/wiki/Alex_Soler-Roig,https://en.wikipedia.org/wiki/Alex_Soler-Roig,Q172246,resolved,Alex Soler-Roig
+driver,sommer,http://en.wikipedia.org/wiki/Raymond_Sommer,https://en.wikipedia.org/wiki/Raymond_Sommer,Q171878,resolved,Raymond Sommer
+driver,sospiri,http://en.wikipedia.org/wiki/Vincenzo_Sospiri,https://en.wikipedia.org/wiki/Vincenzo_Sospiri,Q368799,resolved,Vincenzo Sospiri
+driver,south,http://en.wikipedia.org/wiki/Stephen_South,https://en.wikipedia.org/wiki/Stephen_South,Q657158,resolved,Stephen South
+driver,sparken,http://en.wikipedia.org/wiki/Mike_Sparken,https://en.wikipedia.org/wiki/Mike_Sparken,Q172570,resolved,Mike Sparken
+driver,speed,http://en.wikipedia.org/wiki/Scott_Speed,https://en.wikipedia.org/wiki/Scott_Speed,Q171410,resolved,Scott Speed
+driver,spence,http://en.wikipedia.org/wiki/Mike_Spence,https://en.wikipedia.org/wiki/Mike_Spence,Q171729,resolved,Mike Spence
+driver,stacey,http://en.wikipedia.org/wiki/Alan_Stacey,https://en.wikipedia.org/wiki/Alan_Stacey,Q171980,resolved,Alan Stacey
+driver,starrabba,http://en.wikipedia.org/wiki/Gaetano_Starrabba,https://en.wikipedia.org/wiki/Gaetano_Starrabba,Q172818,resolved,Gaetano Starrabba
+driver,stevens,http://en.wikipedia.org/wiki/Will_Stevens,https://en.wikipedia.org/wiki/Will_Stevens,Q538467,resolved,Will Stevens
+driver,stevenson,http://en.wikipedia.org/wiki/Chuck_Stevenson,https://en.wikipedia.org/wiki/Chuck_Stevenson,Q172647,resolved,Chuck Stevenson
+driver,jimmy_stewart,http://en.wikipedia.org/wiki/Jimmy_Stewart_(racing_driver),https://en.wikipedia.org/wiki/Jimmy_Stewart_(racing_driver),Q172249,resolved,Jimmy Stewart (racing driver)
+driver,ian_stewart,http://en.wikipedia.org/wiki/Ian_Stewart_(racing_driver),https://en.wikipedia.org/wiki/Ian_Stewart_(racing_driver),Q172808,resolved,Ian Stewart (racing driver)
+driver,stewart,http://en.wikipedia.org/wiki/Jackie_Stewart,https://en.wikipedia.org/wiki/Jackie_Stewart,Q3188,resolved,Jackie Stewart
+driver,stohr,http://en.wikipedia.org/wiki/Siegfried_Stohr,https://en.wikipedia.org/wiki/Siegfried_Stohr,Q172147,resolved,Siegfried Stohr
+driver,stommelen,http://en.wikipedia.org/wiki/Rolf_Stommelen,https://en.wikipedia.org/wiki/Rolf_Stommelen,Q57925,resolved,Rolf Stommelen
+driver,streiff,http://en.wikipedia.org/wiki/Philippe_Streiff,https://en.wikipedia.org/wiki/Philippe_Streiff,Q173084,resolved,Philippe Streiff
+driver,stroll,http://en.wikipedia.org/wiki/Lance_Stroll,https://en.wikipedia.org/wiki/Lance_Stroll,Q16238921,resolved,Lance Stroll
+driver,stuck,http://en.wikipedia.org/wiki/Hans_Joachim_Stuck,https://en.wikipedia.org/wiki/Hans_Joachim_Stuck,Q58654,resolved_via_redirect,Hans-Joachim Stuck
+driver,stuppacher,http://en.wikipedia.org/wiki/Otto_Stuppacher,https://en.wikipedia.org/wiki/Otto_Stuppacher,Q78582,resolved,Otto Stuppacher
+driver,sullivan,http://en.wikipedia.org/wiki/Danny_Sullivan,https://en.wikipedia.org/wiki/Danny_Sullivan,Q173105,resolved,Danny Sullivan
+driver,surer,http://en.wikipedia.org/wiki/Marc_Surer,https://en.wikipedia.org/wiki/Marc_Surer,Q171505,resolved,Marc Surer
+driver,surtees,http://en.wikipedia.org/wiki/John_Surtees,https://en.wikipedia.org/wiki/John_Surtees,Q3153,resolved,John Surtees
+driver,sutcliffe,http://en.wikipedia.org/wiki/Andy_Sutcliffe,https://en.wikipedia.org/wiki/Andy_Sutcliffe,Q2287026,resolved,Andy Sutcliffe
+driver,sutil,http://en.wikipedia.org/wiki/Adrian_Sutil,https://en.wikipedia.org/wiki/Adrian_Sutil,Q49235,resolved,Adrian Sutil
+driver,sutton,http://en.wikipedia.org/wiki/Len_Sutton,https://en.wikipedia.org/wiki/Len_Sutton,Q173674,resolved,Len Sutton
+driver,suzuki,http://en.wikipedia.org/wiki/Aguri_Suzuki,https://en.wikipedia.org/wiki/Aguri_Suzuki,Q173197,resolved,Aguri Suzuki
+driver,toshio_suzuki,http://en.wikipedia.org/wiki/Toshio_Suzuki_(driver),https://en.wikipedia.org/wiki/Toshio_Suzuki_(driver),Q171744,resolved_via_redirect,Toshio Suzuki (racing driver)
+driver,swaters,http://en.wikipedia.org/wiki/Jacques_Swaters,https://en.wikipedia.org/wiki/Jacques_Swaters,Q172508,resolved,Jacques Swaters
+driver,sweikert,http://en.wikipedia.org/wiki/Bob_Sweikert,https://en.wikipedia.org/wiki/Bob_Sweikert,Q172134,resolved,Bob Sweikert
+driver,takagi,http://en.wikipedia.org/wiki/Toranosuke_Takagi,https://en.wikipedia.org/wiki/Toranosuke_Takagi,Q173160,resolved,Toranosuke Takagi
+driver,takahara,http://en.wikipedia.org/wiki/Noritake_Takahara,https://en.wikipedia.org/wiki/Noritake_Takahara,Q171978,resolved,Noritake Takahara
+driver,takahashi,http://en.wikipedia.org/wiki/Kunimitsu_Takahashi,https://en.wikipedia.org/wiki/Kunimitsu_Takahashi,Q172252,resolved,Kunimitsu Takahashi
+driver,tambay,http://en.wikipedia.org/wiki/Patrick_Tambay,https://en.wikipedia.org/wiki/Patrick_Tambay,Q173020,resolved,Patrick Tambay
+driver,taramazzo,http://en.wikipedia.org/wiki/Luigi_Taramazzo,https://en.wikipedia.org/wiki/Luigi_Taramazzo,Q775245,resolved,Luigi Taramazzo
+driver,tarquini,http://en.wikipedia.org/wiki/Gabriele_Tarquini,https://en.wikipedia.org/wiki/Gabriele_Tarquini,Q173299,resolved,Gabriele Tarquini
+driver,taruffi,http://en.wikipedia.org/wiki/Piero_Taruffi,https://en.wikipedia.org/wiki/Piero_Taruffi,Q171578,resolved,Piero Taruffi
+driver,henry_taylor,http://en.wikipedia.org/wiki/Henry_Taylor_(racing_driver),https://en.wikipedia.org/wiki/Henry_Taylor_(racing_driver),Q172405,resolved,Henry Taylor (racing driver)
+driver,mike_taylor,http://en.wikipedia.org/wiki/Mike_Taylor_(driver),https://en.wikipedia.org/wiki/Mike_Taylor_(driver),Q172604,resolved_via_redirect,Mike Taylor (racing driver)
+driver,dennis_taylor,http://en.wikipedia.org/wiki/Dennis_Taylor_(racing_driver),https://en.wikipedia.org/wiki/Dennis_Taylor_(racing_driver),Q62742384,resolved,Dennis Taylor (racing driver)
+driver,trevor_taylor,http://en.wikipedia.org/wiki/Trevor_Taylor,https://en.wikipedia.org/wiki/Trevor_Taylor,Q47001334,resolved,Trevor Taylor
+driver,taylor,http://en.wikipedia.org/wiki/John_Taylor_(racer),https://en.wikipedia.org/wiki/John_Taylor_(racer),Q171774,resolved_via_redirect,John Taylor (racing driver)
+driver,teague,http://en.wikipedia.org/wiki/Marshall_Teague_(racing_driver),https://en.wikipedia.org/wiki/Marshall_Teague_(racing_driver),Q173569,resolved,Marshall Teague (racing driver)
+driver,templeman,http://en.wikipedia.org/wiki/Shorty_Templeman,https://en.wikipedia.org/wiki/Shorty_Templeman,Q173700,resolved,Shorty Templeman
+driver,testut,http://en.wikipedia.org/wiki/Andr%C3%A9_Testut,https://en.wikipedia.org/wiki/Andr%C3%A9_Testut,Q732138,resolved,André Testut
+driver,thackwell,http://en.wikipedia.org/wiki/Mike_Thackwell,https://en.wikipedia.org/wiki/Mike_Thackwell,Q171752,resolved,Mike Thackwell
+driver,thiele,http://en.wikipedia.org/wiki/Alfonso_Thiele,https://en.wikipedia.org/wiki/Alfonso_Thiele,Q173247,resolved,Alfonso Thiele
+driver,thompson,http://en.wikipedia.org/wiki/Eric_Thompson_(racing_driver),https://en.wikipedia.org/wiki/Eric_Thompson_(racing_driver),Q172439,resolved,Eric Thompson (racing driver)
+driver,thomson,http://en.wikipedia.org/wiki/Johnny_Thomson,https://en.wikipedia.org/wiki/Johnny_Thomson,Q172454,resolved,Johnny Thomson
+driver,thorne,http://en.wikipedia.org/wiki/Leslie_Thorne,https://en.wikipedia.org/wiki/Leslie_Thorne,Q172410,resolved,Leslie Thorne
+driver,tingelstad,http://en.wikipedia.org/wiki/Bud_Tingelstad,https://en.wikipedia.org/wiki/Bud_Tingelstad,Q173642,resolved,Bud Tingelstad
+driver,tingle,http://en.wikipedia.org/wiki/Sam_Tingle,https://en.wikipedia.org/wiki/Sam_Tingle,Q172493,resolved,Sam Tingle
+driver,titterington,http://en.wikipedia.org/wiki/Desmond_Titterington,https://en.wikipedia.org/wiki/Desmond_Titterington,Q172825,resolved,Desmond Titterington
+driver,tolan,http://en.wikipedia.org/wiki/Johnnie_Tolan,https://en.wikipedia.org/wiki/Johnnie_Tolan,Q172591,resolved,Johnnie Tolan
+driver,trimmer,http://en.wikipedia.org/wiki/Tony_Trimmer,https://en.wikipedia.org/wiki/Tony_Trimmer,Q509740,resolved,Tony Trimmer
+driver,trintignant,http://en.wikipedia.org/wiki/Maurice_Trintignant,https://en.wikipedia.org/wiki/Maurice_Trintignant,Q171438,resolved,Maurice Trintignant
+driver,trulli,http://en.wikipedia.org/wiki/Jarno_Trulli,https://en.wikipedia.org/wiki/Jarno_Trulli,Q171350,resolved,Jarno Trulli
+driver,tsunoda,http://en.wikipedia.org/wiki/Yuki_Tsunoda,https://en.wikipedia.org/wiki/Yuki_Tsunoda,Q59209579,resolved,Yuki Tsunoda
+driver,tuero,http://en.wikipedia.org/wiki/Esteban_Tuero,https://en.wikipedia.org/wiki/Esteban_Tuero,Q173298,resolved,Esteban Tuero
+driver,tunmer,http://en.wikipedia.org/wiki/Guy_Tunmer,https://en.wikipedia.org/wiki/Guy_Tunmer,Q172307,resolved,Guy Tunmer
+driver,turner,http://en.wikipedia.org/wiki/Jack_Turner_(driver),https://en.wikipedia.org/wiki/Jack_Turner_(driver),Q173686,resolved_via_redirect,Jack Turner (racing driver)
+driver,ulmen,http://en.wikipedia.org/wiki/Toni_Ulmen,https://en.wikipedia.org/wiki/Toni_Ulmen,Q61832,resolved,Toni Ulmen
+driver,jerry_unser,http://en.wikipedia.org/wiki/Jerry_Unser,https://en.wikipedia.org/wiki/Jerry_Unser,Q172441,resolved_via_redirect,Jerry Unser Jr.
+driver,unser,http://en.wikipedia.org/wiki/Bobby_Unser,https://en.wikipedia.org/wiki/Bobby_Unser,Q172100,resolved,Bobby Unser
+driver,uria,http://en.wikipedia.org/wiki/Alberto_Uria,https://en.wikipedia.org/wiki/Alberto_Uria,Q173195,resolved_via_redirect,Alberto Uría
+driver,vaccarella,http://en.wikipedia.org/wiki/Nino_Vaccarella,https://en.wikipedia.org/wiki/Nino_Vaccarella,Q173443,resolved,Nino Vaccarella
+driver,vandoorne,http://en.wikipedia.org/wiki/Stoffel_Vandoorne,https://en.wikipedia.org/wiki/Stoffel_Vandoorne,Q1344577,resolved,Stoffel Vandoorne
+driver,veith,http://en.wikipedia.org/wiki/Bob_Veith,https://en.wikipedia.org/wiki/Bob_Veith,Q172562,resolved,Bob Veith
+driver,vergne,http://en.wikipedia.org/wiki/Jean-%C3%89ric_Vergne,https://en.wikipedia.org/wiki/Jean-%C3%89ric_Vergne,Q82829,resolved,Jean-Éric Vergne
+driver,verstappen,http://en.wikipedia.org/wiki/Jos_Verstappen,https://en.wikipedia.org/wiki/Jos_Verstappen,Q173145,resolved,Jos Verstappen
+driver,max_verstappen,http://en.wikipedia.org/wiki/Max_Verstappen,https://en.wikipedia.org/wiki/Max_Verstappen,Q2239218,resolved,Max Verstappen
+driver,vettel,http://en.wikipedia.org/wiki/Sebastian_Vettel,https://en.wikipedia.org/wiki/Sebastian_Vettel,Q42311,resolved,Sebastian Vettel
+driver,gilles_villeneuve,http://en.wikipedia.org/wiki/Gilles_Villeneuve,https://en.wikipedia.org/wiki/Gilles_Villeneuve,Q172845,resolved,Gilles Villeneuve
+driver,villeneuve,http://en.wikipedia.org/wiki/Jacques_Villeneuve,https://en.wikipedia.org/wiki/Jacques_Villeneuve,Q172843,resolved,Jacques Villeneuve
+driver,villeneuve_sr,http://en.wikipedia.org/wiki/Jacques_Villeneuve_(elder),https://en.wikipedia.org/wiki/Jacques_Villeneuve_(elder),Q374813,resolved_via_redirect,"Jacques Villeneuve (racing driver, born 1953)"
+driver,villoresi,http://en.wikipedia.org/wiki/Luigi_Villoresi,https://en.wikipedia.org/wiki/Luigi_Villoresi,Q171514,resolved,Luigi Villoresi
+driver,volonterio,http://en.wikipedia.org/wiki/Ottorino_Volonterio,https://en.wikipedia.org/wiki/Ottorino_Volonterio,Q115693,resolved,Ottorino Volonterio
+driver,vonlanthen,http://en.wikipedia.org/wiki/Jo_Vonlanthen,https://en.wikipedia.org/wiki/Jo_Vonlanthen,Q115685,resolved,Jo Vonlanthen
+driver,vukovich,http://en.wikipedia.org/wiki/Bill_Vukovich,https://en.wikipedia.org/wiki/Bill_Vukovich,Q171619,resolved,Bill Vukovich
+driver,wacker,http://en.wikipedia.org/wiki/Fred_Wacker,https://en.wikipedia.org/wiki/Fred_Wacker,Q172374,resolved,Fred Wacker
+driver,peter_walker,http://en.wikipedia.org/wiki/Peter_Walker_(driver),https://en.wikipedia.org/wiki/Peter_Walker_(driver),Q171891,resolved_via_redirect,Peter Walker (racing driver)
+driver,walker,http://en.wikipedia.org/wiki/David_Walker_(racing_driver),https://en.wikipedia.org/wiki/David_Walker_(racing_driver),Q172091,resolved,David Walker (racing driver)
+driver,wallard,http://en.wikipedia.org/wiki/Lee_Wallard,https://en.wikipedia.org/wiki/Lee_Wallard,Q453022,resolved,Lee Wallard
+driver,walter,http://en.wikipedia.org/wiki/Heini_Walter,https://en.wikipedia.org/wiki/Heini_Walter,Q115666,resolved,Heini Walter
+driver,ward,http://en.wikipedia.org/wiki/Rodger_Ward,https://en.wikipedia.org/wiki/Rodger_Ward,Q172475,resolved,Rodger Ward
+driver,warwick,http://en.wikipedia.org/wiki/Derek_Warwick,https://en.wikipedia.org/wiki/Derek_Warwick,Q171442,resolved,Derek Warwick
+driver,watson,http://en.wikipedia.org/wiki/John_Watson_(racing_driver),https://en.wikipedia.org/wiki/John_Watson_(racing_driver),Q171422,resolved,John Watson (racing driver)
+driver,webb,http://en.wikipedia.org/wiki/Travis_Webb,https://en.wikipedia.org/wiki/Travis_Webb,Q172636,resolved,Travis Webb
+driver,webber,http://en.wikipedia.org/wiki/Mark_Webber_(racing_driver),https://en.wikipedia.org/wiki/Mark_Webber_(racing_driver),Q82667,resolved,Mark Webber (racing driver)
+driver,wehrlein,http://en.wikipedia.org/wiki/Pascal_Wehrlein,https://en.wikipedia.org/wiki/Pascal_Wehrlein,Q85762,resolved,Pascal Wehrlein
+driver,weidler,http://en.wikipedia.org/wiki/Volker_Weidler,https://en.wikipedia.org/wiki/Volker_Weidler,Q60462,resolved,Volker Weidler
+driver,weiler,http://en.wikipedia.org/wiki/Wayne_Weiler,https://en.wikipedia.org/wiki/Wayne_Weiler,Q173669,resolved,Wayne Weiler
+driver,wendlinger,http://en.wikipedia.org/wiki/Karl_Wendlinger,https://en.wikipedia.org/wiki/Karl_Wendlinger,Q84161,resolved,Karl Wendlinger
+driver,westbury,http://en.wikipedia.org/wiki/Peter_Westbury,https://en.wikipedia.org/wiki/Peter_Westbury,Q172429,resolved,Peter Westbury
+driver,weyant,http://en.wikipedia.org/wiki/Chuck_Weyant,https://en.wikipedia.org/wiki/Chuck_Weyant,Q172629,resolved,Chuck Weyant
+driver,wharton,http://en.wikipedia.org/wiki/Ken_Wharton,https://en.wikipedia.org/wiki/Ken_Wharton,Q172452,resolved,Ken Wharton
+driver,whiteaway,http://en.wikipedia.org/wiki/Ted_Whiteaway,https://en.wikipedia.org/wiki/Ted_Whiteaway,Q1192944,resolved,Ted Whiteaway
+driver,whitehead,http://en.wikipedia.org/wiki/Peter_Whitehead_(racing_driver),https://en.wikipedia.org/wiki/Peter_Whitehead_(racing_driver),Q173049,resolved,Peter Whitehead (racing driver)
+driver,graham_whitehead,http://en.wikipedia.org/wiki/Graham_Whitehead,https://en.wikipedia.org/wiki/Graham_Whitehead,Q172376,resolved,Graham Whitehead
+driver,whitehouse,http://en.wikipedia.org/wiki/Bill_Whitehouse,https://en.wikipedia.org/wiki/Bill_Whitehouse,Q172559,resolved,Bill Whitehouse
+driver,widdows,http://en.wikipedia.org/wiki/Robin_Widdows,https://en.wikipedia.org/wiki/Robin_Widdows,Q172427,resolved,Robin Widdows
+driver,wietzes,http://en.wikipedia.org/wiki/Eppie_Wietzes,https://en.wikipedia.org/wiki/Eppie_Wietzes,Q172285,resolved,Eppie Wietzes
+driver,wilds,http://en.wikipedia.org/wiki/Mike_Wilds,https://en.wikipedia.org/wiki/Mike_Wilds,Q172049,resolved,Mike Wilds
+driver,williams,http://en.wikipedia.org/wiki/Jonathan_Williams_(racing_driver),https://en.wikipedia.org/wiki/Jonathan_Williams_(racing_driver),Q172506,resolved,Jonathan Williams (racing driver)
+driver,williamson,http://en.wikipedia.org/wiki/Roger_Williamson,https://en.wikipedia.org/wiki/Roger_Williamson,Q171501,resolved,Roger Williamson
+driver,dempsey_wilson,http://en.wikipedia.org/wiki/Dempsey_Wilson,https://en.wikipedia.org/wiki/Dempsey_Wilson,Q173711,resolved,Dempsey Wilson
+driver,vic_wilson,http://en.wikipedia.org/wiki/Vic_Wilson_(motor_racing_driver),https://en.wikipedia.org/wiki/Vic_Wilson_(motor_racing_driver),Q172486,resolved_via_redirect,Vic Wilson (racing driver)
+driver,desire_wilson,http://en.wikipedia.org/wiki/Desir%C3%A9_Wilson,https://en.wikipedia.org/wiki/Desir%C3%A9_Wilson,Q235767,resolved,Desiré Wilson
+driver,wilson,http://en.wikipedia.org/wiki/Justin_Wilson_(racing_driver),https://en.wikipedia.org/wiki/Justin_Wilson_(racing_driver),Q171577,resolved,Justin Wilson (racing driver)
+driver,manfred_winkelhock,http://en.wikipedia.org/wiki/Manfred_Winkelhock,https://en.wikipedia.org/wiki/Manfred_Winkelhock,Q57733,resolved,Manfred Winkelhock
+driver,joachim_winkelhock,http://en.wikipedia.org/wiki/Joachim_Winkelhock,https://en.wikipedia.org/wiki/Joachim_Winkelhock,Q58814,resolved,Joachim Winkelhock
+driver,markus_winkelhock,http://en.wikipedia.org/wiki/Markus_Winkelhock,https://en.wikipedia.org/wiki/Markus_Winkelhock,Q75841,resolved,Markus Winkelhock
+driver,wisell,http://en.wikipedia.org/wiki/Reine_Wisell,https://en.wikipedia.org/wiki/Reine_Wisell,Q172262,resolved,Reine Wisell
+driver,wunderink,http://en.wikipedia.org/wiki/Roelof_Wunderink,https://en.wikipedia.org/wiki/Roelof_Wunderink,Q172224,resolved,Roelof Wunderink
+driver,wurz,http://en.wikipedia.org/wiki/Alexander_Wurz,https://en.wikipedia.org/wiki/Alexander_Wurz,Q78499,resolved,Alexander Wurz
+driver,yamamoto,http://en.wikipedia.org/wiki/Sakon_Yamamoto,https://en.wikipedia.org/wiki/Sakon_Yamamoto,Q171394,resolved,Sakon Yamamoto
+driver,yoong,http://en.wikipedia.org/wiki/Alex_Yoong,https://en.wikipedia.org/wiki/Alex_Yoong,Q172006,resolved,Alex Yoong
+driver,zanardi,http://en.wikipedia.org/wiki/Alex_Zanardi,https://en.wikipedia.org/wiki/Alex_Zanardi,Q173188,resolved,Alex Zanardi
+driver,zapico,http://en.wikipedia.org/wiki/Emilio_Zapico,https://en.wikipedia.org/wiki/Emilio_Zapico,Q461398,resolved,Emilio Zapico
+driver,zhou,http://en.wikipedia.org/wiki/Zhou_Guanyu,https://en.wikipedia.org/wiki/Zhou_Guanyu,Q17327107,resolved,Zhou Guanyu
+driver,zonta,http://en.wikipedia.org/wiki/Ricardo_Zonta,https://en.wikipedia.org/wiki/Ricardo_Zonta,Q172004,resolved,Ricardo Zonta
+driver,zorzi,http://en.wikipedia.org/wiki/Renzo_Zorzi,https://en.wikipedia.org/wiki/Renzo_Zorzi,Q172231,resolved,Renzo Zorzi
+driver,zunino,http://en.wikipedia.org/wiki/Ricardo_Zunino,https://en.wikipedia.org/wiki/Ricardo_Zunino,Q172229,resolved,Ricardo Zunino
+driver,ambrosio,http://en.wikipedia.org/wiki/J%C3%A9r%C3%B4me_d%27Ambrosio,https://en.wikipedia.org/wiki/J%C3%A9r%C3%B4me_d%27Ambrosio,Q171996,resolved,Jérôme d'Ambrosio
+driver,orey,http://en.wikipedia.org/wiki/Fritz_d%27Orey,https://en.wikipedia.org/wiki/Fritz_d%27Orey,Q172335,resolved,Fritz d'Orey
+driver,matta,http://en.wikipedia.org/wiki/Cristiano_da_Matta,https://en.wikipedia.org/wiki/Cristiano_da_Matta,Q172995,resolved,Cristiano da Matta
+driver,ramos,http://en.wikipedia.org/wiki/Hernando_da_Silva_Ramos,https://en.wikipedia.org/wiki/Hernando_da_Silva_Ramos,Q171770,resolved_via_redirect,Hermano da Silva Ramos
+driver,adamich,http://en.wikipedia.org/wiki/Andrea_de_Adamich,https://en.wikipedia.org/wiki/Andrea_de_Adamich,Q173250,resolved,Andrea de Adamich
+driver,angelis,http://en.wikipedia.org/wiki/Elio_de_Angelis,https://en.wikipedia.org/wiki/Elio_de_Angelis,Q173115,resolved,Elio de Angelis
+driver,beaufort,http://en.wikipedia.org/wiki/Carel_Godin_de_Beaufort,https://en.wikipedia.org/wiki/Carel_Godin_de_Beaufort,Q171963,resolved,Carel Godin de Beaufort
+driver,cesaris,http://en.wikipedia.org/wiki/Andrea_de_Cesaris,https://en.wikipedia.org/wiki/Andrea_de_Cesaris,Q173153,resolved,Andrea de Cesaris
+driver,Changy,http://en.wikipedia.org/wiki/Alain_de_Changy,https://en.wikipedia.org/wiki/Alain_de_Changy,Q555844,resolved,Alain de Changy
+driver,dryver,http://en.wikipedia.org/wiki/Bernard_de_Dryver,https://en.wikipedia.org/wiki/Bernard_de_Dryver,Q265439,resolved,Bernard de Dryver
+driver,filippis,http://en.wikipedia.org/wiki/Maria_Teresa_de_Filippis,https://en.wikipedia.org/wiki/Maria_Teresa_de_Filippis,Q171572,resolved,Maria Teresa de Filippis
+driver,graffenried,http://en.wikipedia.org/wiki/Toulo_de_Graffenried,https://en.wikipedia.org/wiki/Toulo_de_Graffenried,Q115778,resolved,Toulo de Graffenried
+driver,klerk,http://en.wikipedia.org/wiki/Peter_de_Klerk,https://en.wikipedia.org/wiki/Peter_de_Klerk,Q172487,resolved,Peter de Klerk
+driver,portago,http://en.wikipedia.org/wiki/Alfonso_de_Portago,https://en.wikipedia.org/wiki/Alfonso_de_Portago,Q172101,resolved,Alfonso de Portago
+driver,riu,http://en.wikipedia.org/wiki/Giovanni_de_Riu,https://en.wikipedia.org/wiki/Giovanni_de_Riu,Q738155,resolved,Giovanni de Riu
+driver,terra,http://en.wikipedia.org/wiki/Max_de_Terra,https://en.wikipedia.org/wiki/Max_de_Terra,Q115677,resolved,Max de Terra
+driver,tomaso,http://en.wikipedia.org/wiki/Alessandro_de_Tomaso,https://en.wikipedia.org/wiki/Alessandro_de_Tomaso,Q172234,resolved_via_redirect,Alejandro de Tomaso
+driver,tornaco,http://en.wikipedia.org/wiki/Charles_de_Tornaco,https://en.wikipedia.org/wiki/Charles_de_Tornaco,Q173382,resolved,Charles de Tornaco
+driver,villota,http://en.wikipedia.org/wiki/Emilio_de_Villota,https://en.wikipedia.org/wiki/Emilio_de_Villota,Q173206,resolved,Emilio de Villota
+driver,vos,http://en.wikipedia.org/wiki/Ernie_de_Vos,https://en.wikipedia.org/wiki/Ernie_de_Vos,Q2745970,resolved,Ernie de Vos
+driver,de_vries,http://en.wikipedia.org/wiki/Nyck_de_Vries,https://en.wikipedia.org/wiki/Nyck_de_Vries,Q771382,resolved,Nyck de Vries
+driver,rosa,http://en.wikipedia.org/wiki/Pedro_de_la_Rosa,https://en.wikipedia.org/wiki/Pedro_de_la_Rosa,Q82924,resolved,Pedro de la Rosa
+driver,grassi,http://en.wikipedia.org/wiki/Lucas_di_Grassi,https://en.wikipedia.org/wiki/Lucas_di_Grassi,Q172783,resolved,Lucas di Grassi
+driver,resta,http://en.wikipedia.org/wiki/Paul_di_Resta,https://en.wikipedia.org/wiki/Paul_di_Resta,Q82768,resolved,Paul di Resta
+driver,lennep,http://en.wikipedia.org/wiki/Gijs_Van_Lennep,https://en.wikipedia.org/wiki/Gijs_Van_Lennep,Q120308,resolved_via_redirect,Gijs van Lennep
+driver,rooyen,http://en.wikipedia.org/wiki/Basil_van_Rooyen,https://en.wikipedia.org/wiki/Basil_van_Rooyen,Q172816,resolved,Basil van Rooyen
+driver,poele,http://en.wikipedia.org/wiki/Eric_van_de_Poele,https://en.wikipedia.org/wiki/Eric_van_de_Poele,Q171737,resolved,Eric van de Poele
+driver,garde,http://en.wikipedia.org/wiki/Giedo_van_der_Garde,https://en.wikipedia.org/wiki/Giedo_van_der_Garde,Q453177,resolved,Giedo van der Garde
+driver,lof,http://en.wikipedia.org/wiki/Dries_van_der_Lof,https://en.wikipedia.org/wiki/Dries_van_der_Lof,Q172371,resolved,Dries van der Lof
+driver,vyver,http://en.wikipedia.org/wiki/Syd_van_der_Vyver,https://en.wikipedia.org/wiki/Syd_van_der_Vyver,Q173720,resolved,Syd van der Vyver
+driver,opel,http://en.wikipedia.org/wiki/Rikky_von_Opel,https://en.wikipedia.org/wiki/Rikky_von_Opel,Q171562,resolved,Rikky von Opel
+driver,hans_stuck,http://en.wikipedia.org/wiki/Hans_Von_Stuck,https://en.wikipedia.org/wiki/Hans_Von_Stuck,Q61541,resolved_via_redirect,Hans Stuck
+driver,trips,http://en.wikipedia.org/wiki/Wolfgang_Graf_Berghe_von_Trips,https://en.wikipedia.org/wiki/Wolfgang_Graf_Berghe_von_Trips,Q57451,resolved_via_redirect,Wolfgang von Trips
+driver,etancelin,http://en.wikipedia.org/wiki/Philippe_%C3%89tancelin,https://en.wikipedia.org/wiki/Philippe_%C3%89tancelin,Q171994,resolved,Philippe Étancelin
+constructor,adams,http://en.wikipedia.org/wiki/Adams_(constructor),https://en.wikipedia.org/wiki/Adams_(constructor),Q1645121,resolved,Adams (constructor)
+constructor,afm,http://en.wikipedia.org/wiki/Alex_von_Falkenhausen_Motorenbau,https://en.wikipedia.org/wiki/Alex_von_Falkenhausen_Motorenbau,Q121665,resolved,Alex von Falkenhausen Motorenbau
+constructor,ags,http://en.wikipedia.org/wiki/Automobiles_Gonfaronnaises_Sportives,https://en.wikipedia.org/wiki/Automobiles_Gonfaronnaises_Sportives,Q171487,resolved,Automobiles Gonfaronnaises Sportives
+constructor,alfa,http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One,https://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One,Q65960697,resolved,Alfa Romeo in Formula One
+constructor,alphatauri,http://en.wikipedia.org/wiki/Scuderia_AlphaTauri,https://en.wikipedia.org/wiki/Scuderia_AlphaTauri,Q71371541,resolved,Scuderia AlphaTauri
+constructor,alpine,http://en.wikipedia.org/wiki/Alpine_F1_Team,https://en.wikipedia.org/wiki/Alpine_F1_Team,Q98930155,resolved,Alpine F1 Team
+constructor,alta,http://en.wikipedia.org/wiki/Alta_auto_racing_team,https://en.wikipedia.org/wiki/Alta_auto_racing_team,Q1825008,resolved_via_redirect,Alta Car and Engineering Company
+constructor,amon,http://en.wikipedia.org/wiki/Amon_(Formula_One_team),https://en.wikipedia.org/wiki/Amon_(Formula_One_team),Q172158,resolved_via_redirect,Chris Amon Racing
+constructor,apollon,http://en.wikipedia.org/wiki/Apollon_(Formula_One),https://en.wikipedia.org/wiki/Apollon_(Formula_One),Q2324666,resolved,Apollon (Formula One)
+constructor,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,https://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Q174176,resolved,Arrows Grand Prix International
+constructor,arzani-volpini,http://en.wikipedia.org/wiki/Arzani-Volpini,https://en.wikipedia.org/wiki/Arzani-Volpini,Q2314711,resolved,Arzani-Volpini
+constructor,aston_martin,http://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One,https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One,Q25412511,resolved,Aston Martin in Formula One
+constructor,ats,http://en.wikipedia.org/wiki/ATS_(wheels),https://en.wikipedia.org/wiki/ATS_(wheels),Q784953,resolved_via_redirect,ATS Wheels
+constructor,audi,,,,no_url,
+constructor,bar,http://en.wikipedia.org/wiki/British_American_Racing,https://en.wikipedia.org/wiki/British_American_Racing,Q171320,resolved,British American Racing
+constructor,behra-porsche,http://en.wikipedia.org/wiki/Behra-Porsche,https://en.wikipedia.org/wiki/Behra-Porsche,Q3499634,resolved,Behra-Porsche
+constructor,bellasi,http://en.wikipedia.org/wiki/Bellasi,https://en.wikipedia.org/wiki/Bellasi,Q2343891,resolved,Bellasi
+constructor,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,https://en.wikipedia.org/wiki/Benetton_Formula,Q171329,resolved,Benetton Formula
+constructor,bmw,http://en.wikipedia.org/wiki/BMW,https://en.wikipedia.org/wiki/BMW,Q26678,resolved,BMW
+constructor,bmw_sauber,http://en.wikipedia.org/wiki/BMW_Sauber,https://en.wikipedia.org/wiki/BMW_Sauber,Q63928692,resolved_via_redirect,BMW in Formula One
+constructor,boro,http://en.wikipedia.org/wiki/Boro_(Formula_One),https://en.wikipedia.org/wiki/Boro_(Formula_One),Q171760,resolved,Boro (Formula One)
+constructor,brabham,http://en.wikipedia.org/wiki/Brabham,https://en.wikipedia.org/wiki/Brabham,Q173103,resolved,Brabham
+constructor,brabham-alfa_romeo,http://en.wikipedia.org/wiki/Brabham,https://en.wikipedia.org/wiki/Brabham,Q173103,resolved,Brabham
+constructor,brabham-brm,http://en.wikipedia.org/wiki/Brabham,https://en.wikipedia.org/wiki/Brabham,Q173103,resolved,Brabham
+constructor,brabham-climax,http://en.wikipedia.org/wiki/Brabham,https://en.wikipedia.org/wiki/Brabham,Q173103,resolved,Brabham
+constructor,brabham-ford,http://en.wikipedia.org/wiki/Brabham,https://en.wikipedia.org/wiki/Brabham,Q173103,resolved,Brabham
+constructor,brabham-repco,http://en.wikipedia.org/wiki/Brabham,https://en.wikipedia.org/wiki/Brabham,Q173103,resolved,Brabham
+constructor,brawn,http://en.wikipedia.org/wiki/Brawn_GP,https://en.wikipedia.org/wiki/Brawn_GP,Q17596,resolved,Brawn GP
+constructor,brm,http://en.wikipedia.org/wiki/BRM,https://en.wikipedia.org/wiki/BRM,Q173012,resolved_via_redirect,British Racing Motors
+constructor,brm-ford,http://en.wikipedia.org/wiki/BRM,https://en.wikipedia.org/wiki/BRM,Q173012,resolved_via_redirect,British Racing Motors
+constructor,bromme,http://en.wikipedia.org/wiki/Bromme,https://en.wikipedia.org/wiki/Bromme,Q926760,resolved,Bromme
+constructor,brp,http://en.wikipedia.org/wiki/British_Racing_Partnership,https://en.wikipedia.org/wiki/British_Racing_Partnership,Q172148,resolved,British Racing Partnership
+constructor,bugatti,http://en.wikipedia.org/wiki/Bugatti,https://en.wikipedia.org/wiki/Bugatti,Q27401,resolved,Bugatti
+constructor,butterworth,http://en.wikipedia.org/wiki/Aston_Butterworth,https://en.wikipedia.org/wiki/Aston_Butterworth,Q173485,resolved,Aston Butterworth
+constructor,cadillac,,,,no_url,
+constructor,caterham,http://en.wikipedia.org/wiki/Caterham_F1,https://en.wikipedia.org/wiki/Caterham_F1,Q174008,resolved,Caterham F1
+constructor,cisitalia,http://en.wikipedia.org/wiki/Cisitalia,https://en.wikipedia.org/wiki/Cisitalia,Q1093218,resolved,Cisitalia
+constructor,coloni,http://en.wikipedia.org/wiki/Enzo_Coloni_Racing_Car_Systems,https://en.wikipedia.org/wiki/Enzo_Coloni_Racing_Car_Systems,Q1631454,resolved_via_redirect,Scuderia Coloni
+constructor,connaught,http://en.wikipedia.org/wiki/Connaught_Engineering,https://en.wikipedia.org/wiki/Connaught_Engineering,Q173536,resolved,Connaught Engineering
+constructor,connew,http://en.wikipedia.org/wiki/Connew,https://en.wikipedia.org/wiki/Connew,Q586041,resolved,Connew
+constructor,cooper,http://en.wikipedia.org/wiki/Cooper_Car_Company,https://en.wikipedia.org/wiki/Cooper_Car_Company,Q173003,resolved,Cooper Car Company
+constructor,cooper-alfa_romeo,http://en.wikipedia.org/wiki/Cooper_Car_Company,https://en.wikipedia.org/wiki/Cooper_Car_Company,Q173003,resolved,Cooper Car Company
+constructor,cooper-ats,http://en.wikipedia.org/wiki/Cooper_Car_Company,https://en.wikipedia.org/wiki/Cooper_Car_Company,Q173003,resolved,Cooper Car Company
+constructor,cooper-borgward,http://en.wikipedia.org/wiki/Cooper_Car_Company,https://en.wikipedia.org/wiki/Cooper_Car_Company,Q173003,resolved,Cooper Car Company
+constructor,cooper-brm,http://en.wikipedia.org/wiki/Cooper_Car_Company,https://en.wikipedia.org/wiki/Cooper_Car_Company,Q173003,resolved,Cooper Car Company
+constructor,cooper-castellotti,http://en.wikipedia.org/wiki/Cooper_Car_Company,https://en.wikipedia.org/wiki/Cooper_Car_Company,Q173003,resolved,Cooper Car Company
+constructor,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,https://en.wikipedia.org/wiki/Cooper_Car_Company,Q173003,resolved,Cooper Car Company
+constructor,cooper-ferrari,http://en.wikipedia.org/wiki/Cooper_Car_Company,https://en.wikipedia.org/wiki/Cooper_Car_Company,Q173003,resolved,Cooper Car Company
+constructor,cooper-ford,http://en.wikipedia.org/wiki/Cooper_Car_Company,https://en.wikipedia.org/wiki/Cooper_Car_Company,Q173003,resolved,Cooper Car Company
+constructor,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,https://en.wikipedia.org/wiki/Cooper_Car_Company,Q173003,resolved,Cooper Car Company
+constructor,cooper-osca,http://en.wikipedia.org/wiki/Cooper_Car_Company,https://en.wikipedia.org/wiki/Cooper_Car_Company,Q173003,resolved,Cooper Car Company
+constructor,dallara,http://en.wikipedia.org/wiki/Dallara,https://en.wikipedia.org/wiki/Dallara,Q1157975,resolved,Dallara
+constructor,de_tomaso-alfa_romeo,http://en.wikipedia.org/wiki/De_Tomaso,https://en.wikipedia.org/wiki/De_Tomaso,Q173085,resolved,De Tomaso
+constructor,de_tomaso-ferrari,http://en.wikipedia.org/wiki/De_Tomaso,https://en.wikipedia.org/wiki/De_Tomaso,Q173085,resolved,De Tomaso
+constructor,de_tomaso-osca,http://en.wikipedia.org/wiki/De_Tomaso,https://en.wikipedia.org/wiki/De_Tomaso,Q173085,resolved,De Tomaso
+constructor,deidt,http://en.wikipedia.org/wiki/Deidt,https://en.wikipedia.org/wiki/Deidt,Q1183193,resolved_via_redirect,Emil Diedt
+constructor,del_roy,http://en.wikipedia.org/wiki/Del_Roy,https://en.wikipedia.org/wiki/Del_Roy,Q1618123,resolved_via_redirect,Frank DelRoy
+constructor,derrington,http://en.wikipedia.org/wiki/Derrington-Francis,https://en.wikipedia.org/wiki/Derrington-Francis,Q14913969,resolved,Derrington-Francis
+constructor,dunn,http://en.wikipedia.org/wiki/Dunn_Engineering,https://en.wikipedia.org/wiki/Dunn_Engineering,Q661544,resolved,Dunn Engineering
+constructor,eagle,http://en.wikipedia.org/wiki/Anglo_American_Racers,https://en.wikipedia.org/wiki/Anglo_American_Racers,Q173450,resolved_via_redirect,All American Racers
+constructor,eagle-climax,http://en.wikipedia.org/wiki/Anglo_American_Racers,https://en.wikipedia.org/wiki/Anglo_American_Racers,Q173450,resolved_via_redirect,All American Racers
+constructor,eagle-weslake,http://en.wikipedia.org/wiki/Anglo_American_Racers,https://en.wikipedia.org/wiki/Anglo_American_Racers,Q173450,resolved_via_redirect,All American Racers
+constructor,elder,http://en.wikipedia.org/wiki/Elder_(constructor),https://en.wikipedia.org/wiki/Elder_(constructor),Q4764516,resolved_via_redirect,Edgar Elder
+constructor,emeryson,http://en.wikipedia.org/wiki/Emeryson,https://en.wikipedia.org/wiki/Emeryson,Q173553,resolved,Emeryson
+constructor,emw,http://en.wikipedia.org/wiki/Eisenacher_Motorenwerk,https://en.wikipedia.org/wiki/Eisenacher_Motorenwerk,Q988514,resolved,Eisenacher Motorenwerk
+constructor,enb,http://en.wikipedia.org/wiki/Ecurie_Nationale_Belge,https://en.wikipedia.org/wiki/Ecurie_Nationale_Belge,Q987562,resolved_via_redirect,Écurie Nationale Belge
+constructor,ensign,http://en.wikipedia.org/wiki/Ensign_%28racing_team%29,https://en.wikipedia.org/wiki/Ensign_%28racing_team%29,Q173415,resolved_via_redirect,Ensign Racing
+constructor,epperly,http://en.wikipedia.org/wiki/Epperly,https://en.wikipedia.org/wiki/Epperly,Q16775591,resolved,Epperly
+constructor,era,http://en.wikipedia.org/wiki/English_Racing_Automobiles,https://en.wikipedia.org/wiki/English_Racing_Automobiles,Q172153,resolved,English Racing Automobiles
+constructor,eurobrun,http://en.wikipedia.org/wiki/Euro_Brun,https://en.wikipedia.org/wiki/Euro_Brun,Q173806,resolved_via_redirect,EuroBrun
+constructor,ewing,http://en.wikipedia.org/wiki/Ewing_(constructor),https://en.wikipedia.org/wiki/Ewing_(constructor),Q1383226,resolved_via_redirect,Wayne Ewing
+constructor,ferguson,http://en.wikipedia.org/wiki/Ferguson_Research_Ltd.,https://en.wikipedia.org/wiki/Ferguson_Research_Ltd.,Q174065,resolved_via_redirect,Ferguson Research
+constructor,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,https://en.wikipedia.org/wiki/Scuderia_Ferrari,Q169898,resolved,Scuderia Ferrari
+constructor,fittipaldi,http://en.wikipedia.org/wiki/Fittipaldi_%28constructor%29,https://en.wikipedia.org/wiki/Fittipaldi_%28constructor%29,Q171665,resolved_via_redirect,Fittipaldi Automotive
+constructor,fondmetal,http://en.wikipedia.org/wiki/Fondmetal,https://en.wikipedia.org/wiki/Fondmetal,Q173473,resolved,Fondmetal
+constructor,footwork,http://en.wikipedia.org/wiki/Footwork_Arrows,https://en.wikipedia.org/wiki/Footwork_Arrows,Q534022,resolved,Footwork Arrows
+constructor,force_india,http://en.wikipedia.org/wiki/Racing_Point_Force_India,https://en.wikipedia.org/wiki/Racing_Point_Force_India,Q61957608,resolved,Racing Point Force India
+constructor,forti,http://en.wikipedia.org/wiki/Forti,https://en.wikipedia.org/wiki/Forti,Q172974,resolved,Forti
+constructor,frazer_nash,http://en.wikipedia.org/wiki/Frazer_Nash,https://en.wikipedia.org/wiki/Frazer_Nash,Q1452093,resolved,Frazer Nash
+constructor,fry,http://en.wikipedia.org/wiki/Fry_(racing_team),https://en.wikipedia.org/wiki/Fry_(racing_team),Q957511,resolved,Fry (racing team)
+constructor,gilby,http://en.wikipedia.org/wiki/Gilby,https://en.wikipedia.org/wiki/Gilby,Q410365,resolved,Gilby
+constructor,gordini,http://en.wikipedia.org/wiki/Gordini,https://en.wikipedia.org/wiki/Gordini,Q173222,resolved,Gordini
+constructor,haas,http://en.wikipedia.org/wiki/Haas_F1_Team,https://en.wikipedia.org/wiki/Haas_F1_Team,Q16300222,resolved,Haas F1 Team
+constructor,hall,http://en.wikipedia.org/wiki/Hall_(constructor),https://en.wikipedia.org/wiki/Hall_(constructor),,page_missing,Hall (constructor)
+constructor,hesketh,http://en.wikipedia.org/wiki/Hesketh_Racing,https://en.wikipedia.org/wiki/Hesketh_Racing,Q171596,resolved,Hesketh Racing
+constructor,hill,http://en.wikipedia.org/wiki/Hill_(constructor),https://en.wikipedia.org/wiki/Hill_(constructor),Q173301,resolved_via_redirect,Embassy Hill
+constructor,honda,http://en.wikipedia.org/wiki/Honda_Racing_F1,https://en.wikipedia.org/wiki/Honda_Racing_F1,Q65961126,resolved_via_redirect,Honda in Formula One
+constructor,hrt,http://en.wikipedia.org/wiki/Hispania_Racing,https://en.wikipedia.org/wiki/Hispania_Racing,Q171420,resolved_via_redirect,HRT Formula 1 Team
+constructor,hwm,http://en.wikipedia.org/wiki/Hersham_and_Walton_Motors,https://en.wikipedia.org/wiki/Hersham_and_Walton_Motors,Q1035731,resolved,Hersham and Walton Motors
+constructor,iso_marlboro,http://en.wikipedia.org/wiki/Iso_Marlboro,https://en.wikipedia.org/wiki/Iso_Marlboro,Q173225,resolved_via_redirect,Frank Williams Racing Cars
+constructor,jaguar,http://en.wikipedia.org/wiki/Jaguar_Racing,https://en.wikipedia.org/wiki/Jaguar_Racing,Q55593194,resolved,Jaguar Racing
+constructor,jbw,http://en.wikipedia.org/wiki/JBW,https://en.wikipedia.org/wiki/JBW,Q3267645,resolved,JBW
+constructor,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,https://en.wikipedia.org/wiki/Jordan_Grand_Prix,Q171367,resolved,Jordan Grand Prix
+constructor,kauhsen,http://en.wikipedia.org/wiki/Kauhsen,https://en.wikipedia.org/wiki/Kauhsen,Q172541,resolved,Kauhsen
+constructor,klenk,http://en.wikipedia.org/wiki/Klenk,https://en.wikipedia.org/wiki/Klenk,Q3500607,resolved,Klenk
+constructor,kojima,http://en.wikipedia.org/wiki/Kojima_Engineering,https://en.wikipedia.org/wiki/Kojima_Engineering,Q172465,resolved,Kojima Engineering
+constructor,kurtis_kraft,http://en.wikipedia.org/wiki/Kurtis_Kraft,https://en.wikipedia.org/wiki/Kurtis_Kraft,Q1502001,resolved,Kurtis Kraft
+constructor,kuzma,http://en.wikipedia.org/wiki/Kuzma_(constructor),https://en.wikipedia.org/wiki/Kuzma_(constructor),Q113022776,resolved_via_redirect,Eddie Kuzma
+constructor,lago,http://en.wikipedia.org/wiki/Talbot-Lago,https://en.wikipedia.org/wiki/Talbot-Lago,Q787757,resolved,Talbot-Lago
+constructor,lambo,http://en.wikipedia.org/wiki/Modena_(racing_team),https://en.wikipedia.org/wiki/Modena_(racing_team),Q173295,resolved,Modena (racing team)
+constructor,lancia,http://en.wikipedia.org/wiki/Lancia_in_Formula_One,https://en.wikipedia.org/wiki/Lancia_in_Formula_One,Q2246685,resolved_via_redirect,Lancia Corse HF
+constructor,langley,http://en.wikipedia.org/wiki/Langley_(constructor),https://en.wikipedia.org/wiki/Langley_(constructor),Q4354542,resolved,Langley (constructor)
+constructor,larrousse,http://en.wikipedia.org/wiki/Larrousse,https://en.wikipedia.org/wiki/Larrousse,Q172958,resolved,Larrousse
+constructor,lds,http://en.wikipedia.org/wiki/LDS_(automobile),https://en.wikipedia.org/wiki/LDS_(automobile),Q172638,resolved,LDS (automobile)
+constructor,lds-alfa_romeo,http://en.wikipedia.org/wiki/LDS_(automobile),https://en.wikipedia.org/wiki/LDS_(automobile),Q172638,resolved,LDS (automobile)
+constructor,lds-climax,http://en.wikipedia.org/wiki/LDS_(automobile),https://en.wikipedia.org/wiki/LDS_(automobile),Q172638,resolved,LDS (automobile)
+constructor,lec,http://en.wikipedia.org/wiki/LEC_(Formula_One),https://en.wikipedia.org/wiki/LEC_(Formula_One),Q2291349,resolved_via_redirect,LEC Refrigeration Racing
+constructor,lesovsky,http://en.wikipedia.org/wiki/Lesovsky,https://en.wikipedia.org/wiki/Lesovsky,Q1820889,resolved,Lesovsky
+constructor,leyton,http://en.wikipedia.org/wiki/Leyton_House,https://en.wikipedia.org/wiki/Leyton_House,Q2089502,resolved_via_redirect,Leyton House Racing
+constructor,life,http://en.wikipedia.org/wiki/Life_(Racing_Team),https://en.wikipedia.org/wiki/Life_(Racing_Team),Q171972,resolved_via_redirect,Life Racing Engines
+constructor,ligier,http://en.wikipedia.org/wiki/Ligier,https://en.wikipedia.org/wiki/Ligier,Q35931,resolved,Ligier
+constructor,lola,http://en.wikipedia.org/wiki/MasterCard_Lola,https://en.wikipedia.org/wiki/MasterCard_Lola,Q1082386,resolved,MasterCard Lola
+constructor,lotus-borgward,http://en.wikipedia.org/wiki/Team_Lotus,https://en.wikipedia.org/wiki/Team_Lotus,Q173996,resolved,Team Lotus
+constructor,lotus-brm,http://en.wikipedia.org/wiki/Team_Lotus,https://en.wikipedia.org/wiki/Team_Lotus,Q173996,resolved,Team Lotus
+constructor,lotus-climax,http://en.wikipedia.org/wiki/Team_Lotus,https://en.wikipedia.org/wiki/Team_Lotus,Q173996,resolved,Team Lotus
+constructor,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,https://en.wikipedia.org/wiki/Team_Lotus,Q173996,resolved,Team Lotus
+constructor,lotus-maserati,http://en.wikipedia.org/wiki/Team_Lotus,https://en.wikipedia.org/wiki/Team_Lotus,Q173996,resolved,Team Lotus
+constructor,lotus-pw,http://en.wikipedia.org/wiki/Team_Lotus,https://en.wikipedia.org/wiki/Team_Lotus,Q173996,resolved,Team Lotus
+constructor,lotus_f1,http://en.wikipedia.org/wiki/Lotus_F1,https://en.wikipedia.org/wiki/Lotus_F1,Q173018,resolved,Lotus F1
+constructor,lotus_racing,http://en.wikipedia.org/wiki/Lotus_Racing,https://en.wikipedia.org/wiki/Lotus_Racing,Q6685196,resolved,Lotus Racing
+constructor,lyncar,http://en.wikipedia.org/wiki/Lyncar,https://en.wikipedia.org/wiki/Lyncar,Q1160036,resolved,Lyncar
+constructor,maki,http://en.wikipedia.org/wiki/Maki_(cars),https://en.wikipedia.org/wiki/Maki_(cars),Q172197,resolved_via_redirect,Maki Engineering
+constructor,manor,http://en.wikipedia.org/wiki/Manor_Motorsport,https://en.wikipedia.org/wiki/Manor_Motorsport,Q2267054,resolved,Manor Motorsport
+constructor,march,http://en.wikipedia.org/wiki/March_Engineering,https://en.wikipedia.org/wiki/March_Engineering,Q173177,resolved,March Engineering
+constructor,march-alfa_romeo,http://en.wikipedia.org/wiki/March_Engineering,https://en.wikipedia.org/wiki/March_Engineering,Q173177,resolved,March Engineering
+constructor,march-ford,http://en.wikipedia.org/wiki/March_Engineering,https://en.wikipedia.org/wiki/March_Engineering,Q173177,resolved,March Engineering
+constructor,marchese,http://en.wikipedia.org/wiki/Marchese_(constructor),https://en.wikipedia.org/wiki/Marchese_(constructor),Q5040520,resolved_via_redirect,Carl Marchese
+constructor,martini,http://en.wikipedia.org/wiki/Martini_(cars),https://en.wikipedia.org/wiki/Martini_(cars),Q173497,resolved_via_redirect,Automobiles Martini
+constructor,marussia,http://en.wikipedia.org/wiki/Marussia_F1,https://en.wikipedia.org/wiki/Marussia_F1,Q173179,resolved,Marussia F1
+constructor,maserati,http://en.wikipedia.org/wiki/Maserati,https://en.wikipedia.org/wiki/Maserati,Q35962,resolved,Maserati
+constructor,matra,http://en.wikipedia.org/wiki/Matra,https://en.wikipedia.org/wiki/Matra,Q35982,resolved,Matra
+constructor,matra-ford,http://en.wikipedia.org/wiki/Matra,https://en.wikipedia.org/wiki/Matra,Q35982,resolved,Matra
+constructor,mbm,http://en.wikipedia.org/wiki/Monteverdi_Basel_Motors,https://en.wikipedia.org/wiki/Monteverdi_Basel_Motors,Q662168,resolved_via_redirect,Monteverdi (automobile)
+constructor,mcguire,http://en.wikipedia.org/wiki/McGuire_(Formula_One),https://en.wikipedia.org/wiki/McGuire_(Formula_One),Q2524270,resolved,McGuire (Formula One)
+constructor,mclaren,http://en.wikipedia.org/wiki/McLaren,https://en.wikipedia.org/wiki/McLaren,Q172030,resolved,McLaren
+constructor,mclaren-alfa_romeo,http://en.wikipedia.org/wiki/McLaren_(racing),https://en.wikipedia.org/wiki/McLaren_(racing),Q172030,resolved_via_redirect,McLaren
+constructor,mclaren-brm,http://en.wikipedia.org/wiki/McLaren_(racing),https://en.wikipedia.org/wiki/McLaren_(racing),Q172030,resolved_via_redirect,McLaren
+constructor,mclaren-ford,http://en.wikipedia.org/wiki/Team_McLaren,https://en.wikipedia.org/wiki/Team_McLaren,Q172030,resolved_via_redirect,McLaren
+constructor,mclaren-seren,http://en.wikipedia.org/wiki/Team_McLaren,https://en.wikipedia.org/wiki/Team_McLaren,Q172030,resolved_via_redirect,McLaren
+constructor,mercedes,http://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One,https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One,Q65954812,resolved,Mercedes-Benz in Formula One
+constructor,merzario,http://en.wikipedia.org/wiki/Merzario,https://en.wikipedia.org/wiki/Merzario,Q172577,resolved,Merzario
+constructor,meskowski,http://en.wikipedia.org/wiki/Meskowski,https://en.wikipedia.org/wiki/Meskowski,Q744581,resolved,Meskowski
+constructor,mf1,http://en.wikipedia.org/wiki/Midland_F1_Racing,https://en.wikipedia.org/wiki/Midland_F1_Racing,Q173054,resolved,Midland F1 Racing
+constructor,milano,http://en.wikipedia.org/wiki/Scuderia_Milano,https://en.wikipedia.org/wiki/Scuderia_Milano,Q172787,resolved,Scuderia Milano
+constructor,minardi,http://en.wikipedia.org/wiki/Minardi,https://en.wikipedia.org/wiki/Minardi,Q142381,resolved,Minardi
+constructor,moda,http://en.wikipedia.org/wiki/Andrea_Moda_Formula,https://en.wikipedia.org/wiki/Andrea_Moda_Formula,Q173293,resolved,Andrea Moda Formula
+constructor,moore,http://en.wikipedia.org/wiki/Moore_(constructor),https://en.wikipedia.org/wiki/Moore_(constructor),Q6685662,resolved_via_redirect,Lou Moore
+constructor,nichels,http://en.wikipedia.org/wiki/Nichels,https://en.wikipedia.org/wiki/Nichels,Q4354639,resolved,Nichels
+constructor,olson,http://en.wikipedia.org/wiki/Olson_(constructor),https://en.wikipedia.org/wiki/Olson_(constructor),Q1145384,resolved,Olson (constructor)
+constructor,onyx,http://en.wikipedia.org/wiki/Onyx_(racing_team),https://en.wikipedia.org/wiki/Onyx_(racing_team),Q172109,resolved_via_redirect,Onyx Grand Prix
+constructor,osca,http://en.wikipedia.org/wiki/Officine_Specializate_Costruzione_Automobili,https://en.wikipedia.org/wiki/Officine_Specializate_Costruzione_Automobili,Q936574,resolved_via_redirect,O.S.C.A.
+constructor,osella,http://en.wikipedia.org/wiki/Osella,https://en.wikipedia.org/wiki/Osella,Q171506,resolved,Osella
+constructor,pacific,http://en.wikipedia.org/wiki/Pacific_Racing,https://en.wikipedia.org/wiki/Pacific_Racing,Q172992,resolved,Pacific Racing
+constructor,pankratz,http://en.wikipedia.org/wiki/Pankratz,https://en.wikipedia.org/wiki/Pankratz,Q548456,resolved,Pankratz
+constructor,parnelli,http://en.wikipedia.org/wiki/Parnelli,https://en.wikipedia.org/wiki/Parnelli,Q172483,resolved_via_redirect,Vel's Parnelli Jones Racing
+constructor,pawl,http://en.wikipedia.org/wiki/Pawl_(constructor),https://en.wikipedia.org/wiki/Pawl_(constructor),Q1548484,resolved,Pawl (constructor)
+constructor,penske,http://en.wikipedia.org/wiki/Penske_Racing,https://en.wikipedia.org/wiki/Penske_Racing,Q174144,resolved_via_redirect,Team Penske
+constructor,phillips,http://en.wikipedia.org/wiki/Phillips_(constructor),https://en.wikipedia.org/wiki/Phillips_(constructor),Q1817628,resolved,Phillips (constructor)
+constructor,politoys,http://en.wikipedia.org/wiki/Frank_Williams_Racing_Cars,https://en.wikipedia.org/wiki/Frank_Williams_Racing_Cars,Q173225,resolved,Frank Williams Racing Cars
+constructor,porsche,http://en.wikipedia.org/wiki/Porsche_in_Formula_One,https://en.wikipedia.org/wiki/Porsche_in_Formula_One,Q63929540,resolved_via_redirect,Porsche in motorsport
+constructor,prost,http://en.wikipedia.org/wiki/Prost_Grand_Prix,https://en.wikipedia.org/wiki/Prost_Grand_Prix,Q173110,resolved,Prost Grand Prix
+constructor,protos,http://en.wikipedia.org/wiki/Protos_(constructor),https://en.wikipedia.org/wiki/Protos_(constructor),Q1701505,resolved,Protos (constructor)
+constructor,racing_point,http://en.wikipedia.org/wiki/Racing_Point_F1_Team,https://en.wikipedia.org/wiki/Racing_Point_F1_Team,Q56245286,resolved,Racing Point F1 Team
+constructor,rae,http://en.wikipedia.org/wiki/Rae_(motorsport),https://en.wikipedia.org/wiki/Rae_(motorsport),Q950092,resolved_via_redirect,Johnny Rae (motorsport)
+constructor,ram,http://en.wikipedia.org/wiki/RAM_Racing,https://en.wikipedia.org/wiki/RAM_Racing,Q173104,resolved,RAM Racing
+constructor,rb,http://en.wikipedia.org/wiki/RB_Formula_One_Team,https://en.wikipedia.org/wiki/RB_Formula_One_Team,Q124350606,resolved_via_redirect,Racing Bulls
+constructor,re,http://en.wikipedia.org/wiki/RE_%28automobile%29,https://en.wikipedia.org/wiki/RE_%28automobile%29,Q1244165,resolved_via_redirect,Realpha
+constructor,rebaque,http://en.wikipedia.org/wiki/Rebaque,https://en.wikipedia.org/wiki/Rebaque,Q172622,resolved,Rebaque
+constructor,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,https://en.wikipedia.org/wiki/Red_Bull_Racing,Q173663,resolved,Red Bull Racing
+constructor,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,https://en.wikipedia.org/wiki/Renault_in_Formula_One,Q65954940,resolved,Renault in Formula One
+constructor,rial,http://en.wikipedia.org/wiki/Rial_%28racing_team%29,https://en.wikipedia.org/wiki/Rial_%28racing_team%29,Q171974,resolved_via_redirect,Rial Racing
+constructor,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,https://en.wikipedia.org/wiki/Sauber_Motorsport,Q171335,resolved,Sauber Motorsport
+constructor,scarab,http://en.wikipedia.org/wiki/Scarab_(constructor),https://en.wikipedia.org/wiki/Scarab_(constructor),Q1783689,resolved,Scarab (constructor)
+constructor,schroeder,http://en.wikipedia.org/wiki/Schroeder_(constructor),https://en.wikipedia.org/wiki/Schroeder_(constructor),Q691125,resolved_via_redirect,Gordon Schroeder
+constructor,scirocco,http://en.wikipedia.org/wiki/Scirocco-Powell,https://en.wikipedia.org/wiki/Scirocco-Powell,Q172490,resolved,Scirocco-Powell
+constructor,shadow,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,https://en.wikipedia.org/wiki/Shadow_Racing_Cars,Q173879,resolved,Shadow Racing Cars
+constructor,shadow-ford,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,https://en.wikipedia.org/wiki/Shadow_Racing_Cars,Q173879,resolved,Shadow Racing Cars
+constructor,shadow-matra,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,https://en.wikipedia.org/wiki/Shadow_Racing_Cars,Q173879,resolved,Shadow Racing Cars
+constructor,shannon,http://en.wikipedia.org/wiki/Shannon_(Formula_One),https://en.wikipedia.org/wiki/Shannon_(Formula_One),Q1077805,resolved_via_redirect,Shannon Racing Cars
+constructor,sherman,http://en.wikipedia.org/wiki/Sherman_(constructor),https://en.wikipedia.org/wiki/Sherman_(constructor),Q2232584,resolved_via_redirect,Roy Sherman
+constructor,simca,http://en.wikipedia.org/wiki/Simca,https://en.wikipedia.org/wiki/Simca,Q173357,resolved,Simca
+constructor,simtek,http://en.wikipedia.org/wiki/Simtek,https://en.wikipedia.org/wiki/Simtek,Q172976,resolved,Simtek
+constructor,snowberger,http://en.wikipedia.org/wiki/Snowberger,https://en.wikipedia.org/wiki/Snowberger,Q7381237,resolved_via_redirect,Russ Snowberger
+constructor,spirit,http://en.wikipedia.org/wiki/Spirit_(racing_team),https://en.wikipedia.org/wiki/Spirit_(racing_team),Q173088,resolved_via_redirect,Spirit Racing
+constructor,spyker,http://en.wikipedia.org/wiki/Spyker_F1,https://en.wikipedia.org/wiki/Spyker_F1,Q172765,resolved,Spyker F1
+constructor,spyker_mf1,http://en.wikipedia.org/wiki/Midland_F1_Racing,https://en.wikipedia.org/wiki/Midland_F1_Racing,Q173054,resolved,Midland F1 Racing
+constructor,stebro,http://en.wikipedia.org/wiki/Stebro,https://en.wikipedia.org/wiki/Stebro,Q590733,resolved,Stebro
+constructor,stevens,http://en.wikipedia.org/wiki/Stevens_(constructor),https://en.wikipedia.org/wiki/Stevens_(constructor),Q16012169,resolved_via_redirect,Myron Stevens
+constructor,stewart,http://en.wikipedia.org/wiki/Stewart_Grand_Prix,https://en.wikipedia.org/wiki/Stewart_Grand_Prix,Q173066,resolved,Stewart Grand Prix
+constructor,super_aguri,http://en.wikipedia.org/wiki/Super_Aguri_F1,https://en.wikipedia.org/wiki/Super_Aguri_F1,Q171326,resolved,Super Aguri F1
+constructor,surtees,http://en.wikipedia.org/wiki/Surtees,https://en.wikipedia.org/wiki/Surtees,Q1418677,resolved,Surtees
+constructor,sutton,http://en.wikipedia.org/wiki/Sutton_(constructor),https://en.wikipedia.org/wiki/Sutton_(constructor),Q1645114,resolved,Sutton (constructor)
+constructor,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,https://en.wikipedia.org/wiki/Team_Lotus,Q173996,resolved,Team Lotus
+constructor,tec-mec,http://en.wikipedia.org/wiki/Tec-Mec,https://en.wikipedia.org/wiki/Tec-Mec,Q284186,resolved,Tec-Mec
+constructor,tecno,http://en.wikipedia.org/wiki/Tecno,https://en.wikipedia.org/wiki/Tecno,Q16283984,resolved,Tecno
+constructor,theodore,http://en.wikipedia.org/wiki/Theodore_Racing,https://en.wikipedia.org/wiki/Theodore_Racing,Q11085064,resolved,Theodore Racing
+constructor,token,http://en.wikipedia.org/wiki/Token_(Racing_team),https://en.wikipedia.org/wiki/Token_(Racing_team),Q172841,resolved_via_redirect,Token Racing
+constructor,toleman,http://en.wikipedia.org/wiki/Toleman,https://en.wikipedia.org/wiki/Toleman,Q172987,resolved,Toleman
+constructor,tomaso,http://en.wikipedia.org/wiki/De_Tomaso,https://en.wikipedia.org/wiki/De_Tomaso,Q173085,resolved,De Tomaso
+constructor,toro_rosso,http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,https://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,Q141818,resolved,Scuderia Toro Rosso
+constructor,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,https://en.wikipedia.org/wiki/Toyota_Racing,Q92773574,resolved,Toyota Racing
+constructor,trevis,http://en.wikipedia.org/wiki/Trevis,https://en.wikipedia.org/wiki/Trevis,Q1788382,resolved,Trevis
+constructor,trojan,http://en.wikipedia.org/wiki/Trojan_(Racing_team),https://en.wikipedia.org/wiki/Trojan_(Racing_team),Q1078831,resolved_via_redirect,Trojan–Tauranac Racing
+constructor,turner,http://en.wikipedia.org/wiki/Turner_(constructor),https://en.wikipedia.org/wiki/Turner_(constructor),,page_missing,Turner (constructor)
+constructor,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,https://en.wikipedia.org/wiki/Tyrrell_Racing,Q171992,resolved,Tyrrell Racing
+constructor,vanwall,http://en.wikipedia.org/wiki/Vanwall,https://en.wikipedia.org/wiki/Vanwall,Q173093,resolved,Vanwall
+constructor,veritas,http://en.wikipedia.org/wiki/Veritas_(constructor),https://en.wikipedia.org/wiki/Veritas_(constructor),Q700373,resolved_via_redirect,Veritas (automobile)
+constructor,vhristensen,http://en.wikipedia.org/wiki/Christensen_(constructor),https://en.wikipedia.org/wiki/Christensen_(constructor),Q1078418,resolved,Christensen (constructor)
+constructor,virgin,http://en.wikipedia.org/wiki/Virgin_Racing,https://en.wikipedia.org/wiki/Virgin_Racing,Q179408,resolved,Virgin Racing
+constructor,watson,http://en.wikipedia.org/wiki/A.J._Watson,https://en.wikipedia.org/wiki/A.J._Watson,Q1526296,resolved_via_redirect,A. J. Watson
+constructor,wetteroth,http://en.wikipedia.org/wiki/Wetteroth,https://en.wikipedia.org/wiki/Wetteroth,Q953949,resolved,Wetteroth
+constructor,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,https://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Q171337,resolved_via_redirect,Williams Racing
+constructor,wolf,http://en.wikipedia.org/wiki/Walter_Wolf_Racing,https://en.wikipedia.org/wiki/Walter_Wolf_Racing,Q172997,resolved,Walter Wolf Racing
+constructor,zakspeed,http://en.wikipedia.org/wiki/Zakspeed,https://en.wikipedia.org/wiki/Zakspeed,Q144823,resolved,Zakspeed
+circuit,,https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve,https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve,Q172860,resolved,Circuit Gilles Villeneuve
+circuit,,https://en.wikipedia.org/wiki/Lusail_International_Circuit,https://en.wikipedia.org/wiki/Lusail_International_Circuit,Q547535,resolved,Lusail International Circuit
+circuit,adelaide,https://en.wikipedia.org/wiki/Adelaide_Street_Circuit,https://en.wikipedia.org/wiki/Adelaide_Street_Circuit,Q83234,resolved,Adelaide Street Circuit
+circuit,ain-diab,https://en.wikipedia.org/wiki/Ain-Diab_Circuit,https://en.wikipedia.org/wiki/Ain-Diab_Circuit,Q173217,resolved,Ain-Diab Circuit
+circuit,aintree,https://en.wikipedia.org/wiki/Aintree_Motor_Racing_Circuit,https://en.wikipedia.org/wiki/Aintree_Motor_Racing_Circuit,Q12221467,resolved,Aintree Motor Racing Circuit
+circuit,albert_park,https://en.wikipedia.org/wiki/Albert_Park_Circuit,https://en.wikipedia.org/wiki/Albert_Park_Circuit,Q171288,resolved,Albert Park Circuit
+circuit,americas,https://en.wikipedia.org/wiki/Circuit_of_the_Americas,https://en.wikipedia.org/wiki/Circuit_of_the_Americas,Q59626,resolved,Circuit of the Americas
+circuit,anderstorp,https://en.wikipedia.org/wiki/Anderstorp_Raceway,https://en.wikipedia.org/wiki/Anderstorp_Raceway,Q172894,resolved,Anderstorp Raceway
+circuit,avus,https://en.wikipedia.org/wiki/AVUS,https://en.wikipedia.org/wiki/AVUS,Q155810,resolved,AVUS
+circuit,bahrain,https://en.wikipedia.org/wiki/Bahrain_International_Circuit,https://en.wikipedia.org/wiki/Bahrain_International_Circuit,Q171332,resolved,Bahrain International Circuit
+circuit,baku,https://en.wikipedia.org/wiki/Baku_City_Circuit,https://en.wikipedia.org/wiki/Baku_City_Circuit,Q17004958,resolved,Baku City Circuit
+circuit,boavista,https://en.wikipedia.org/wiki/Circuito_da_Boavista,https://en.wikipedia.org/wiki/Circuito_da_Boavista,Q172874,resolved,Circuito da Boavista
+circuit,brands_hatch,https://en.wikipedia.org/wiki/Brands_Hatch,https://en.wikipedia.org/wiki/Brands_Hatch,Q172880,resolved,Brands Hatch
+circuit,bremgarten,https://en.wikipedia.org/wiki/Circuit_Bremgarten,https://en.wikipedia.org/wiki/Circuit_Bremgarten,Q172895,resolved,Circuit Bremgarten
+circuit,buddh,https://en.wikipedia.org/wiki/Buddh_International_Circuit,https://en.wikipedia.org/wiki/Buddh_International_Circuit,Q172906,resolved,Buddh International Circuit
+circuit,catalunya,https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya,https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya,Q171404,resolved,Circuit de Barcelona-Catalunya
+circuit,charade,https://en.wikipedia.org/wiki/Circuit_de_Charade,https://en.wikipedia.org/wiki/Circuit_de_Charade,Q172879,resolved,Circuit de Charade
+circuit,dallas,https://en.wikipedia.org/wiki/Fair_Park,https://en.wikipedia.org/wiki/Fair_Park,Q278452,resolved,Fair Park
+circuit,detroit,https://en.wikipedia.org/wiki/Detroit_street_circuit,https://en.wikipedia.org/wiki/Detroit_street_circuit,Q172887,resolved_via_redirect,Detroit Street Circuit
+circuit,dijon,https://en.wikipedia.org/wiki/Dijon-Prenois,https://en.wikipedia.org/wiki/Dijon-Prenois,Q172888,resolved,Dijon-Prenois
+circuit,dijon,https://en.wikipedia.org/wiki/Dijon-Prenois,https://en.wikipedia.org/wiki/Dijon-Prenois,Q172888,resolved,Dijon-Prenois
+circuit,donington,https://en.wikipedia.org/wiki/Donington_Park,https://en.wikipedia.org/wiki/Donington_Park,Q173202,resolved,Donington Park
+circuit,essarts,https://en.wikipedia.org/wiki/Rouen-Les-Essarts,https://en.wikipedia.org/wiki/Rouen-Les-Essarts,Q173138,resolved,Rouen-Les-Essarts
+circuit,estoril,https://en.wikipedia.org/wiki/Circuito_do_Estoril,https://en.wikipedia.org/wiki/Circuito_do_Estoril,Q172890,resolved,Circuito do Estoril
+circuit,fuji,https://en.wikipedia.org/wiki/Fuji_Speedway,https://en.wikipedia.org/wiki/Fuji_Speedway,Q171399,resolved,Fuji Speedway
+circuit,galvez,https://en.wikipedia.org/wiki/Autódromo_Oscar_y_Juan_Gálvez,https://en.wikipedia.org/wiki/Autódromo_Oscar_y_Juan_Gálvez,Q173116,resolved,Autódromo Oscar y Juan Gálvez
+circuit,george,https://en.wikipedia.org/wiki/Prince_George_Circuit,https://en.wikipedia.org/wiki/Prince_George_Circuit,Q172865,resolved,Prince George Circuit
+circuit,hockenheimring,https://en.wikipedia.org/wiki/Hockenheimring,https://en.wikipedia.org/wiki/Hockenheimring,Q152408,resolved,Hockenheimring
+circuit,hungaroring,https://en.wikipedia.org/wiki/Hungaroring,https://en.wikipedia.org/wiki/Hungaroring,Q171356,resolved,Hungaroring
+circuit,imola,https://en.wikipedia.org/wiki/Imola_Circuit,https://en.wikipedia.org/wiki/Imola_Circuit,Q171313,resolved,Imola Circuit
+circuit,indianapolis,https://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway,https://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway,Q172732,resolved,Indianapolis Motor Speedway
+circuit,indianapolis,https://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway,https://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway,Q172732,resolved,Indianapolis Motor Speedway
+circuit,interlagos,https://en.wikipedia.org/wiki/Interlagos_Circuit,https://en.wikipedia.org/wiki/Interlagos_Circuit,Q171387,resolved,Interlagos Circuit
+circuit,istanbul,https://en.wikipedia.org/wiki/Istanbul_Park,https://en.wikipedia.org/wiki/Istanbul_Park,Q172743,resolved,Istanbul Park
+circuit,jacarepagua,https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_Nelson_Piquet,https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_Nelson_Piquet,Q171437,resolved,Autódromo Internacional Nelson Piquet
+circuit,jarama,https://en.wikipedia.org/wiki/Circuito_del_Jarama,https://en.wikipedia.org/wiki/Circuito_del_Jarama,Q172897,resolved,Circuito del Jarama
+circuit,jeddah,https://en.wikipedia.org/wiki/Jeddah_Corniche_Circuit,https://en.wikipedia.org/wiki/Jeddah_Corniche_Circuit,Q102141307,resolved,Jeddah Corniche Circuit
+circuit,jerez,https://en.wikipedia.org/wiki/Circuito_de_Jerez,https://en.wikipedia.org/wiki/Circuito_de_Jerez,Q172884,resolved,Circuito de Jerez
+circuit,kyalami,https://en.wikipedia.org/wiki/Kyalami,https://en.wikipedia.org/wiki/Kyalami,Q171667,resolved,Kyalami
+circuit,las_vegas,https://en.wikipedia.org/wiki/Las_Vegas_Strip_Circuit,https://en.wikipedia.org/wiki/Las_Vegas_Strip_Circuit,Q113112116,resolved,Las Vegas Strip Circuit
+circuit,lemans,https://en.wikipedia.org/wiki/Circuit_de_la_Sarthe#Bugatti_Circuit,https://en.wikipedia.org/wiki/Circuit_de_la_Sarthe#Bugatti_Circuit,Q174090,resolved,Circuit de la Sarthe
+circuit,long_beach,"https://en.wikipedia.org/wiki/Long_Beach,_California","https://en.wikipedia.org/wiki/Long_Beach,_California",Q16739,resolved,"Long Beach, California"
+circuit,losail,https://en.wikipedia.org/wiki/Lusail_International_Circuit,https://en.wikipedia.org/wiki/Lusail_International_Circuit,Q547535,resolved,Lusail International Circuit
+circuit,madring,https://en.wikipedia.org/wiki/Madring,https://en.wikipedia.org/wiki/Madring,Q126193406,resolved,Madring
+circuit,magny_cours,https://en.wikipedia.org/wiki/Circuit_de_Nevers_Magny-Cours,https://en.wikipedia.org/wiki/Circuit_de_Nevers_Magny-Cours,Q172876,resolved,Circuit de Nevers Magny-Cours
+circuit,marina_bay,https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit,https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit,Q171390,resolved,Marina Bay Street Circuit
+circuit,miami,https://en.wikipedia.org/wiki/Miami_International_Autodrome,https://en.wikipedia.org/wiki/Miami_International_Autodrome,Q106544792,resolved,Miami International Autodrome
+circuit,monaco,https://en.wikipedia.org/wiki/Circuit_de_Monaco,https://en.wikipedia.org/wiki/Circuit_de_Monaco,Q171400,resolved,Circuit de Monaco
+circuit,monsanto,https://en.wikipedia.org/wiki/Circuito_de_Monsanto,https://en.wikipedia.org/wiki/Circuito_de_Monsanto,Q174062,resolved,Circuito de Monsanto
+circuit,montjuic,https://en.wikipedia.org/wiki/Montju%C3%AFc_circuit,https://en.wikipedia.org/wiki/Montju%C3%AFc_circuit,Q172892,resolved_via_redirect,Montjuïc Circuit
+circuit,monza,https://en.wikipedia.org/wiki/Monza_Circuit,https://en.wikipedia.org/wiki/Monza_Circuit,Q171417,resolved,Monza Circuit
+circuit,mosport,https://en.wikipedia.org/wiki/Canadian_Tire_Motorsport_Park,https://en.wikipedia.org/wiki/Canadian_Tire_Motorsport_Park,Q171570,resolved,Canadian Tire Motorsport Park
+circuit,mugello,https://en.wikipedia.org/wiki/Mugello_Circuit,https://en.wikipedia.org/wiki/Mugello_Circuit,Q782455,resolved,Mugello Circuit
+circuit,nivelles,https://en.wikipedia.org/wiki/Nivelles-Baulers,https://en.wikipedia.org/wiki/Nivelles-Baulers,Q172878,resolved,Nivelles-Baulers
+circuit,nurburgring,https://en.wikipedia.org/wiki/N%C3%BCrburgring,https://en.wikipedia.org/wiki/N%C3%BCrburgring,Q152207,resolved,Nürburgring
+circuit,okayama,https://en.wikipedia.org/wiki/Okayama_International_Circuit,https://en.wikipedia.org/wiki/Okayama_International_Circuit,Q173185,resolved,Okayama International Circuit
+circuit,pedralbes,https://en.wikipedia.org/wiki/Pedralbes_Circuit,https://en.wikipedia.org/wiki/Pedralbes_Circuit,Q172898,resolved,Pedralbes Circuit
+circuit,pescara,https://en.wikipedia.org/wiki/Pescara_Circuit,https://en.wikipedia.org/wiki/Pescara_Circuit,Q172882,resolved,Pescara Circuit
+circuit,phoenix,https://en.wikipedia.org/wiki/Phoenix_street_circuit,https://en.wikipedia.org/wiki/Phoenix_street_circuit,Q173368,resolved_via_redirect,Phoenix Street Circuit
+circuit,portimao,https://en.wikipedia.org/wiki/Algarve_International_Circuit,https://en.wikipedia.org/wiki/Algarve_International_Circuit,Q789427,resolved,Algarve International Circuit
+circuit,red_bull_ring,https://en.wikipedia.org/wiki/Red_Bull_Ring,https://en.wikipedia.org/wiki/Red_Bull_Ring,Q171566,resolved,Red Bull Ring
+circuit,reims,https://en.wikipedia.org/wiki/Reims-Gueux,https://en.wikipedia.org/wiki/Reims-Gueux,Q171574,resolved,Reims-Gueux
+circuit,ricard,https://en.wikipedia.org/wiki/Circuit_Paul_Ricard,https://en.wikipedia.org/wiki/Circuit_Paul_Ricard,Q171424,resolved,Circuit Paul Ricard
+circuit,riverside,https://en.wikipedia.org/wiki/Riverside_International_Raceway,https://en.wikipedia.org/wiki/Riverside_International_Raceway,Q172871,resolved,Riverside International Raceway
+circuit,rodriguez,https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez,https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez,Q173099,resolved,Autódromo Hermanos Rodríguez
+circuit,sebring,https://en.wikipedia.org/wiki/Sebring_International_Raceway,https://en.wikipedia.org/wiki/Sebring_International_Raceway,Q172883,resolved,Sebring International Raceway
+circuit,sepang,https://en.wikipedia.org/wiki/Sepang_International_Circuit,https://en.wikipedia.org/wiki/Sepang_International_Circuit,Q172738,resolved,Sepang International Circuit
+circuit,shanghai,https://en.wikipedia.org/wiki/Shanghai_International_Circuit,https://en.wikipedia.org/wiki/Shanghai_International_Circuit,Q171358,resolved,Shanghai International Circuit
+circuit,silverstone,https://en.wikipedia.org/wiki/Silverstone_Circuit,https://en.wikipedia.org/wiki/Silverstone_Circuit,Q171402,resolved,Silverstone Circuit
+circuit,sochi,https://en.wikipedia.org/wiki/Sochi_Autodrom,https://en.wikipedia.org/wiki/Sochi_Autodrom,Q174004,resolved_via_redirect,Sirius Autodrom
+circuit,spa,https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps,https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps,Q172851,resolved,Circuit de Spa-Francorchamps
+circuit,suzuka,https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course,https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course,Q174170,resolved_via_redirect,Suzuka Circuit
+circuit,tremblant,https://en.wikipedia.org/wiki/Circuit_Mont-Tremblant,https://en.wikipedia.org/wiki/Circuit_Mont-Tremblant,Q172873,resolved,Circuit Mont-Tremblant
+circuit,valencia,https://en.wikipedia.org/wiki/Valencia_Street_Circuit,https://en.wikipedia.org/wiki/Valencia_Street_Circuit,Q171406,resolved,Valencia Street Circuit
+circuit,vegas,https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix#Circuit,https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix#Circuit,Q111443584,resolved,Las Vegas Grand Prix
+circuit,villeneuve,https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve,https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve,Q172860,resolved,Circuit Gilles Villeneuve
+circuit,watkins_glen,https://en.wikipedia.org/wiki/Watkins_Glen_International,https://en.wikipedia.org/wiki/Watkins_Glen_International,Q171449,resolved,Watkins Glen International
+circuit,yas_marina,https://en.wikipedia.org/wiki/Yas_Marina_Circuit,https://en.wikipedia.org/wiki/Yas_Marina_Circuit,Q172869,resolved,Yas Marina Circuit
+circuit,yeongam,https://en.wikipedia.org/wiki/Korea_International_Circuit,https://en.wikipedia.org/wiki/Korea_International_Circuit,Q171385,resolved,Korea International Circuit
+circuit,zandvoort,https://en.wikipedia.org/wiki/Circuit_Zandvoort,https://en.wikipedia.org/wiki/Circuit_Zandvoort,Q173083,resolved,Circuit Zandvoort
+circuit,zeltweg,https://en.wikipedia.org/wiki/Zeltweg_Air_Base,https://en.wikipedia.org/wiki/Zeltweg_Air_Base,Q172864,resolved,Zeltweg Air Base
+circuit,zolder,https://en.wikipedia.org/wiki/Circuit_Zolder,https://en.wikipedia.org/wiki/Circuit_Zolder,Q172868,resolved,Circuit Zolder

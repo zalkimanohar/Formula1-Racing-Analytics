@@ -1,0 +1,64 @@
+{
+  "task": "Probability that a driver finishes on the podium, estimated before the start",
+  "unit": "one row per driver per Grand Prix start (Indy 500 and non-starters excluded)",
+  "features": {
+    "grid": "starting grid slot (pit-lane starts placed at the back)",
+    "grid_rel": "grid slot divided by field size",
+    "grid_missing": "pit-lane start or grid not recorded",
+    "field_size": "number of cars entered",
+    "driver_starts_before": "driver's previous Grand Prix starts",
+    "driver_podium_rate": "driver's podium rate over his previous 10 starts",
+    "driver_finish_rate": "driver's classified-finish rate over his previous 10 starts",
+    "driver_grid_rel_avg": "driver's average relative grid slot over his previous 10 starts",
+    "team_podiums_per_race": "team's podiums per race over its previous 10 races",
+    "team_points_share_season": "team's share of all points scored so far this season (before this race)",
+    "team_points_share_prev_season": "team's share of all points in the previous season"
+  },
+  "leakage_guard": "every form feature uses earlier races only (shifted rolling windows); points, laps and finishing status of the race itself are never inputs",
+  "split": {
+    "train": "1950-2013",
+    "validation": "2014-2019 (model choice)",
+    "test": "2020-2025 (reported once, refit on 1950-2019)"
+  },
+  "selection_rule": "lowest validation log loss among the learned models",
+  "selected_model": "random_forest",
+  "test_metrics": {
+    "log_loss": 0.2187,
+    "brier": 0.0676,
+    "roc_auc": 0.9384,
+    "podium_places_called": 0.6794,
+    "rows": 2601.0,
+    "races": 131.0
+  },
+  "baseline_test_metrics": {
+    "log_loss": 0.2541,
+    "brier": 0.0746,
+    "roc_auc": 0.9147,
+    "podium_places_called": 0.6845,
+    "rows": 2601.0,
+    "races": 131.0
+  },
+  "rule_front_three_podium_places_called_test": 0.6794,
+  "feature_importance_test": {
+    "grid_rel": 0.048,
+    "grid": 0.0339,
+    "team_points_share_season": 0.0138,
+    "driver_grid_rel_avg": 0.0087,
+    "driver_podium_rate": 0.0086,
+    "team_points_share_prev_season": 0.0033,
+    "team_podiums_per_race": 0.0031,
+    "driver_starts_before": 0.0026,
+    "driver_finish_rate": 0.0004,
+    "field_size": 0.0003,
+    "grid_missing": 0.0
+  },
+  "metrics_explained": {
+    "log_loss": "penalty for confident wrong probabilities (lower is better)",
+    "brier": "mean squared error of the probabilities (lower is better)",
+    "roc_auc": "chance a random podium finisher gets a higher probability than a random non-podium one",
+    "podium_places_called": "share of the three podium places taken by the model's top three picks per race"
+  },
+  "trained_rows": 22509,
+  "test_rows": 2601,
+  "random_seed": 42
+}
