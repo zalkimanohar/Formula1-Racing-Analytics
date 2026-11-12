@@ -199,4 +199,4 @@ MSc Applied Data Science & AI
 ## 🏁 License
 
 * **Code & Pipeline Architecture:** MIT License — Free to use, modify, and distribute.
-* **Underlying Formula 1 Dataset (Jolpica-F1 / Ergast):** Governed by [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) with attribution.
+* **Underlying Formula 1 Datasets (Jolpica-F1 / Ergast & OpenF1):** Governed by [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) with attribution and [OpenF1](https://openf1.org/).
