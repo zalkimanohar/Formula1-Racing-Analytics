@@ -2,40 +2,84 @@ import streamlit as st
 import pandas as pd
 import os
 import requests
+import plotly.graph_objects as go
+from utils import f1_fig
+
+
+def _render_star_schema_network():
+    """Renders an interactive Plotly Knowledge Graph of the F1 Star Schema & GraphRAG topology."""
+    nodes = [
+        ("FactSessionResults", 0.0, 0.0, "#ff1e00", 38),
+        ("DimDrivers", -1.4, 1.0, "#00d2be", 28),
+        ("DimConstructors", 1.4, 1.0, "#0090ff", 28),
+        ("DimRaces", -1.4, -1.0, "#ff8700", 28),
+        ("SilverCircuits", 0.0, -1.5, "#ffd700", 24),
+        ("RefNationalityRegion", -2.5, 1.4, "#a855f7", 22),
+        ("SilverSprints", 1.4, -1.0, "#22c55e", 24),
+    ]
+    edges = [
+        ("DimDrivers", "FactSessionResults"),
+        ("DimConstructors", "FactSessionResults"),
+        ("DimRaces", "FactSessionResults"),
+        ("SilverCircuits", "DimRaces"),
+        ("RefNationalityRegion", "DimDrivers"),
+        ("SilverSprints", "FactSessionResults"),
+    ]
+    pos = {n[0]: (n[1], n[2]) for n in nodes}
+
+    edge_x, edge_y = [], []
+    for u, v in edges:
+        x0, y0 = pos[u]
+        x1, y1 = pos[v]
+        edge_x.extend([x0, x1, None])
+        edge_y.extend([y0, y1, None])
+
+    fig = f1_fig("F1 Star Schema & Neo4j Knowledge Graph Topology", height=420)
+    fig.add_trace(go.Scatter(
+        x=edge_x, y=edge_y,
+        mode="lines",
+        line=dict(width=2, color="#555555"),
+        hoverinfo="none"
+    ))
+    fig.add_trace(go.Scatter(
+        x=[n[1] for n in nodes],
+        y=[n[2] for n in nodes],
+        mode="markers+text",
+        text=[n[0] for n in nodes],
+        textposition="bottom center",
+        marker=dict(size=[n[4] for n in nodes], color=[n[3] for n in nodes], line=dict(width=2, color="#ffffff")),
+        hoverinfo="text"
+    ))
+    fig.update_xaxes(visible=False, range=[-3.2, 2.2])
+    fig.update_yaxes(visible=False, range=[-2.1, 2.0])
+    fig.update_layout(showlegend=False)
+    st.plotly_chart(fig, use_container_width=True)
+
 
 def render():
     st.title("🏁 F1 LLM-RAG + Graph + Multi-Model Engine")
     st.markdown("🚀 *Powered by Local Ollama Llama 3, Hybrid Vector/Graph RAG, and Parallel ML Engines.*")
 
-    # FastAPI Backend Endpoint
     API_URL = "http://127.0.0.1:8000"
 
-    # Optional toggle for training execution matching backend QueryRequest schema
     st.sidebar.markdown("---")
     st.sidebar.subheader("🧠 AI Engine Controls")
     run_training_flag = st.sidebar.checkbox("Trigger Training / Auto-Compute", value=False, key="rq6_run_training")
 
-    # ---------------------------------------------------------
-    # 1. KNOWLEDGE GRAPH ARTIFACT DISPLAY
-    # ---------------------------------------------------------
-    graph_png_path = "f1_knowledge_graph.png"
-    if os.path.exists(graph_png_path):
-        with st.expander("🌐 View Formula 1 Star Schema Knowledge Graph", expanded=False):
-            st.image(graph_png_path, caption="F1 Star Schema Knowledge Mapping", use_container_width=True)
+    with st.expander("🌐 View Formula 1 Star Schema Knowledge Graph", expanded=True):
+        _render_star_schema_network()
+        graph_png_path = "f1_knowledge_graph.png"
+        if os.path.exists(graph_png_path):
+            st.image(graph_png_path, caption="Exported Neo4j Star Schema Mapping", use_container_width=True)
 
     st.markdown("---")
 
-    # ---------------------------------------------------------
-    # 2. HELPER TO RENDER STRUCTURED RESPONSE
-    # ---------------------------------------------------------
     def display_response_data(res_data):
-        """Presents dict response in systematic UI components instead of raw string JSON."""
         if isinstance(res_data, dict):
-            # 1. Display Execution Metrics & Auto-Detected Intent
             intent = res_data.get("detected_intent", {})
             winning_model = str(res_data.get("winning_model", "N/A")).upper()
             model_score = res_data.get("model_score", "N/A")
-            
+
             m_col1, m_col2, m_col3, m_col4 = st.columns(4)
             with m_col1:
                 st.metric("Detected Target", intent.get("target", "N/A"))
@@ -46,15 +90,12 @@ def render():
             with m_col4:
                 st.metric("Model Score", f"{model_score:.4f}" if isinstance(model_score, float) else str(model_score))
 
-            # 2. Display Context Summary in Expander (Fixed key mapping from 'retrieved_context')
             context_summary = res_data.get("retrieved_context", res_data.get("context_summary", ""))
             if context_summary:
                 with st.expander("🔍 View Retrieved Hybrid (Vector + Graph) Context", expanded=False):
                     st.code(context_summary, language="markdown")
 
             st.markdown("---")
-
-            # 3. Display Main LLM Analysis Response
             llm_text = res_data.get("llm_response", res_data.get("response", res_data.get("answer", "")))
             if llm_text:
                 st.markdown(llm_text)
@@ -63,13 +104,9 @@ def render():
         else:
             st.markdown(str(res_data))
 
-    # ---------------------------------------------------------
-    # 3. CHAT & RAG ENGINE INTERFACE
-    # ---------------------------------------------------------
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    # Display past conversation history
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             if isinstance(message["content"], dict):
@@ -77,7 +114,6 @@ def render():
             else:
                 st.markdown(message["content"])
 
-    # User Query Input
     if prompt := st.chat_input("Ask an F1 question (e.g., Show all race results for Max Verstappen in 2024)..."):
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
@@ -85,13 +121,8 @@ def render():
 
         with st.chat_message("assistant"):
             with st.spinner("Querying Graph Engine & Local LLM..."):
-                payload = {
-                    "prompt": str(prompt),
-                    "run_training": bool(run_training_flag)
-                }
-                
+                payload = {"prompt": str(prompt), "run_training": bool(run_training_flag)}
                 try:
-                    # Increased timeout to 180s to prevent request drops during model training
                     response = requests.post(
                         f"{API_URL}/chat",
                         json=payload,

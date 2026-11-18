@@ -1,156 +1,116 @@
 import streamlit as st
-import plotly.express as px
 import pandas as pd
+import plotly.graph_objects as go
+from utils import f1_fig
 
-def render_rq4(df):
+
+def render_rq4(df, full_results=None):
     st.title("⚡ RQ4 — Sprint Race Analysis")
 
-    # ---------------------------------------------------------
-    # VALIDATION & FILTER SPRINT SESSIONS
-    # ---------------------------------------------------------
     if df.empty:
-        st.warning("⚠️ No records match your current filter settings. Please broaden your slider or season selections.")
+        st.warning("⚠️ No sprint records available for the selected seasons (Sprint format introduced in 2021).")
         return
 
-    if "session_type" in df.columns:
-        sprint_df = df[df["session_type"] == "SPRINT"].copy()
-    else:
-        sprint_df = df.copy() # Fallback if session_type is implicit
+    sprint_df = df.copy()
+    if "session_type" in sprint_df.columns:
+        sprint_only = sprint_df[sprint_df["session_type"].str.upper() == "SPRINT"]
+        if not sprint_only.empty:
+            sprint_df = sprint_only.copy()
 
-    if sprint_df.empty:
-        st.warning("⚠️ No sprint data available in this filtered batch.")
-        return
-
-    if "driver_name" not in sprint_df.columns:
-        sprint_df["driver_name"] = "Driver " + sprint_df.get("driver_id", pd.Series([1]*len(sprint_df))).astype(str)
-
-    if "constructor_name" not in sprint_df.columns:
-        sprint_df["constructor_name"] = "Constructor " + sprint_df.get("constructor_id", pd.Series([1]*len(sprint_df))).astype(str)
-
-    # ---------------------------------------------------------
-    # 1) GRID vs FINAL POSITION — Sprint Edition
-    # ---------------------------------------------------------
-    st.subheader("📉 Sprint: Grid Position vs Final Position")
-
+    sprint_df["points"] = pd.to_numeric(sprint_df["points"], errors="coerce").fillna(0.0)
     grid_col = "grid_position" if "grid_position" in sprint_df.columns else "grid"
     final_col = "final_position" if "final_position" in sprint_df.columns else "position"
 
-    fig = px.scatter(
-        sprint_df,
-        x=grid_col,
-        y=final_col,
-        color="points" if "points" in sprint_df.columns else None,
-        hover_name="driver_name",
-        title="Sprint — Grid vs Final Position",
-        color_continuous_scale="Turbo",
-        trendline="ols",
-    )
-    fig.update_yaxes(autorange="reversed")  # P1 at top
-    fig.update_layout(template="plotly_dark")
-    st.plotly_chart(fig, use_container_width=True)
+    # 1. Sprint Grid vs Final Position
+    st.subheader("📉 Sprint: Grid Position vs Final Position")
+    if grid_col in sprint_df.columns and final_col in sprint_df.columns:
+        sprint_df[grid_col] = pd.to_numeric(sprint_df[grid_col], errors="coerce")
+        sprint_df[final_col] = pd.to_numeric(sprint_df[final_col], errors="coerce")
+        valid_s = sprint_df.dropna(subset=[grid_col, final_col])
+        valid_s = valid_s[(valid_s[grid_col] > 0) & (valid_s[final_col] > 0)]
 
-    # ---------------------------------------------------------
-    # 2) SPRINT POINTS DISTRIBUTION
-    # ---------------------------------------------------------
+        if not valid_s.empty:
+            agg_s = valid_s.groupby([grid_col, final_col], as_index=False).agg(cnt=("points", "count"), pts=("points", "mean"))
+            gx = [float(v) for v in agg_s[grid_col].tolist()]
+            fy = [float(v) for v in agg_s[final_col].tolist()]
+            sz = [max(9, int(v) * 4) for v in agg_s["cnt"].tolist()]
+            cl = [round(float(v), 2) for v in agg_s["pts"].tolist()]
+
+            fig1 = f1_fig("Sprint — Starting Grid vs Final Position")
+            fig1.add_trace(go.Scatter(
+                x=gx, y=fy,
+                mode="markers",
+                marker=dict(size=sz, color=cl, colorscale="Turbo", showscale=True, colorbar=dict(title="Avg Sprint Pts"))
+            ))
+            fig1.update_yaxes(autorange="reversed", title="Final Position")
+            fig1.update_xaxes(title="Grid Position")
+            st.plotly_chart(fig1, use_container_width=True)
+
+    # 2. Top Drivers — Sprint Points
     st.subheader("🔥 Sprint Points Distribution")
-
-    sprint_points = (
-        sprint_df.groupby("driver_name", dropna=False)["points"]
+    sprint_pts = (
+        sprint_df.groupby("driver_name", as_index=False)["points"]
         .sum()
-        .reset_index()
         .sort_values("points", ascending=False)
+        .head(15)
     )
+    sx = [str(v) for v in sprint_pts["driver_name"].tolist()]
+    sy = [float(v) for v in sprint_pts["points"].tolist()]
 
-    fig2 = px.bar(
-        sprint_points.head(15),
-        x="driver_name",
-        y="points",
-        title="Top Drivers — Sprint Points",
-        color="points",
-        color_continuous_scale="Reds",
-    )
-    fig2.update_layout(template="plotly_dark", xaxis_tickangle=-45)
+    fig2 = f1_fig("Top 15 Drivers — Sprint Points")
+    fig2.add_trace(go.Bar(
+        x=sx, y=sy,
+        text=[f"{v:,.0f}" for v in sy],
+        textposition="outside",
+        marker=dict(color=sy, colorscale="Reds")
+    ))
+    fig2.update_layout(xaxis_tickangle=-45, yaxis_title="Sprint Points", yaxis=dict(rangemode="tozero"))
     st.plotly_chart(fig2, use_container_width=True)
 
-    # ---------------------------------------------------------
-    # 3) SPRINT vs RACE PERFORMANCE COMPARISON
-    # ---------------------------------------------------------
-    st.subheader("🔗 Sprint vs Race Performance Comparison")
+    # 3. Sprint vs Grand Prix Points Correlation
+    if full_results is not None and not full_results.empty:
+        st.subheader("🔗 Sprint vs Grand Prix Race Points")
+        race_only = full_results[full_results["session_type"].str.upper() == "RACE"] if "session_type" in full_results.columns else full_results
+        race_pts = race_only.groupby("driver_name", as_index=False)["points"].sum().rename(columns={"points": "race_points"})
+        all_sprint_pts = sprint_df.groupby("driver_name", as_index=False)["points"].sum().rename(columns={"points": "sprint_points"})
+        comp = all_sprint_pts.merge(race_pts, on="driver_name", how="inner")
+        comp = comp[(comp["sprint_points"] > 0) | (comp["race_points"] > 0)]
 
-    race_sessions = df[df["session_type"] == "RACE"] if "session_type" in df.columns else df
-    race_df = (
-        race_sessions.groupby("driver_name", dropna=False)["points"]
-        .sum()
-        .reset_index()
-        .rename(columns={"points": "race_points"})
-    )
+        if not comp.empty:
+            cx = [float(v) for v in comp["sprint_points"].tolist()]
+            cy = [float(v) for v in comp["race_points"].tolist()]
+            names = [str(v) for v in comp["driver_name"].tolist()]
 
-    sprint_vs_race = (
-        sprint_points
-        .merge(race_df, on="driver_name", how="left")
-        .fillna(0)
-    )
+            fig3 = f1_fig("Sprint Points vs Grand Prix Points")
+            fig3.add_trace(go.Scatter(
+                x=cx, y=cy,
+                mode="markers+text",
+                text=names,
+                textposition="top center",
+                marker=dict(size=12, color=cy, colorscale="Viridis", showscale=True)
+            ))
+            fig3.update_layout(xaxis_title="Total Sprint Points", yaxis_title="Total Grand Prix Points")
+            st.plotly_chart(fig3, use_container_width=True)
 
-    fig3 = px.scatter(
-        sprint_vs_race,
-        x="points",
-        y="race_points",
-        hover_name="driver_name",
-        title="Sprint Points vs Race Points",
-        color="race_points",
-        color_continuous_scale="Viridis",
-        size="race_points" if "race_points" in sprint_vs_race.columns and sprint_vs_race["race_points"].sum() > 0 else None
-    )
-    fig3.update_layout(template="plotly_dark")
-    st.plotly_chart(fig3, use_container_width=True)
-
-    # ---------------------------------------------------------
-    # 4) CONSTRUCTOR SPRINT PERFORMANCE
-    # ---------------------------------------------------------
+    # 4. Constructor Sprint Performance
     st.subheader("🏆 Constructor Sprint Performance")
-
-    constructor_sprint = (
-        sprint_df.groupby("constructor_name", dropna=False)["points"]
+    c_sprint = (
+        sprint_df.groupby("constructor_name", as_index=False)["points"]
         .sum()
-        .reset_index()
         .sort_values("points", ascending=False)
+        .head(15)
     )
+    csx = [str(v) for v in c_sprint["constructor_name"].tolist()]
+    csy = [float(v) for v in c_sprint["points"].tolist()]
 
-    fig4 = px.bar(
-        constructor_sprint,
-        x="constructor_name",
-        y="points",
-        title="Constructor Sprint Points",
-        color="points",
-        color_continuous_scale="Blues",
-    )
-    fig4.update_layout(template="plotly_dark", xaxis_tickangle=-45)
+    fig4 = f1_fig("Top Constructors — Sprint Points")
+    fig4.add_trace(go.Bar(
+        x=csx, y=csy,
+        text=[f"{v:,.0f}" for v in csy],
+        textposition="outside",
+        marker=dict(color=csy, colorscale="Blues")
+    ))
+    fig4.update_layout(xaxis_tickangle=-45, yaxis_title="Sprint Points", yaxis=dict(rangemode="tozero"))
     st.plotly_chart(fig4, use_container_width=True)
-
-    # ---------------------------------------------------------
-    # 5) SPRINT DNF ANALYSIS
-    # ---------------------------------------------------------
-    st.subheader("💥 Sprint DNF Analysis")
-
-    if "status" in sprint_df.columns:
-        sprint_df["is_dnf"] = sprint_df["status"].str.contains("DNF|Retired|Accident", case=False, na=False)
-
-        sprint_dnf = (
-            sprint_df.groupby("driver_name", dropna=False)["is_dnf"]
-            .sum()
-            .reset_index()
-            .sort_values("is_dnf", ascending=False)
-        )
-
-        fig5 = px.bar(
-            sprint_dnf,
-            x="driver_name",
-            y="is_dnf",
-            title="Sprint DNFs by Driver",
-            color="is_dnf",
-            color_continuous_scale="Inferno",
-        )
-        fig5.update_layout(template="plotly_dark", xaxis_tickangle=-45)
-        st.plotly_chart(fig5, use_container_width=True)
 
     st.success("RQ4 analysis loaded successfully.")

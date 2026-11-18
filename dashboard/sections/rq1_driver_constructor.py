@@ -1,141 +1,110 @@
 import streamlit as st
-import plotly.express as px
 import pandas as pd
+import plotly.graph_objects as go
+from utils import f1_fig
+
 
 def render_rq1(df):
     st.title("🏎️ RQ1 — Driver & Constructor Performance")
 
-    # ---------------------------------------------------------
-    # VALIDATION
-    # ---------------------------------------------------------
     if df.empty:
-        st.warning("⚠️ No records match your current filter settings. Please broaden your slider or season selections.")
+        st.warning("⚠️ No records match your current filter settings.")
         return
 
-    # Ensure driver_name / constructor_name exist
-    if "driver_name" not in df.columns:
-        if "family_name" in df.columns:
-            df["driver_name"] = df.get("given_name", "") + " " + df["family_name"]
-        else:
-            df["driver_name"] = "Driver " + df.get("driver_id", pd.Series([1]*len(df))).astype(str)
+    df = df.copy()
+    df["points"] = pd.to_numeric(df["points"], errors="coerce").fillna(0.0)
 
-    if "constructor_name" not in df.columns:
-        df["constructor_name"] = "Constructor " + df.get("constructor_id", pd.Series([1]*len(df))).astype(str)
-
-    # ---------------------------------------------------------
-    # DRIVER PERFORMANCE — TOTAL POINTS
-    # ---------------------------------------------------------
+    # 1. Top Drivers by Total Points
     st.subheader("🏁 Top Drivers by Total Points")
-
     driver_points = (
-        df.groupby(["driver_id", "driver_name"], dropna=False)["points"]
+        df.groupby(["driver_id", "driver_name"], as_index=False)["points"]
         .sum()
-        .reset_index()
         .sort_values("points", ascending=False)
+        .head(15)
     )
+    x1 = [str(v) for v in driver_points["driver_name"].tolist()]
+    y1 = [float(v) for v in driver_points["points"].tolist()]
 
-    fig = px.bar(
-        driver_points.head(15),
-        x="driver_name",
-        y="points",
-        title="Top 15 Drivers — Total Points",
-        color="points",
-        color_continuous_scale="Reds",
-    )
-    fig.update_layout(template="plotly_dark", xaxis_tickangle=-45)
-    st.plotly_chart(fig, use_container_width=True)
+    fig1 = f1_fig("Top 15 Drivers — Total Points")
+    fig1.add_trace(go.Bar(
+        x=x1, y=y1,
+        text=[f"{v:,.0f}" for v in y1],
+        textposition="outside",
+        marker=dict(color=y1, colorscale="Reds")
+    ))
+    fig1.update_layout(xaxis_tickangle=-45, yaxis_title="Total Points", yaxis=dict(rangemode="tozero"))
+    st.plotly_chart(fig1, use_container_width=True)
 
-    # ---------------------------------------------------------
-    # DRIVER CONSISTENCY — AVERAGE POINTS PER RACE
-    # ---------------------------------------------------------
+    # 2. Driver Consistency — Avg Points per Race
     st.subheader("📊 Driver Consistency — Avg Points per Race")
-
     driver_consistency = (
-        df.groupby(["driver_id", "driver_name"], dropna=False)["points"]
+        df.groupby(["driver_id", "driver_name"], as_index=False)["points"]
         .mean()
-        .reset_index()
         .rename(columns={"points": "avg_points"})
         .sort_values("avg_points", ascending=False)
+        .head(15)
     )
+    x2 = [str(v) for v in driver_consistency["driver_name"].tolist()]
+    y2 = [round(float(v), 2) for v in driver_consistency["avg_points"].tolist()]
 
-    fig2 = px.bar(
-        driver_consistency.head(15),
-        x="driver_name",
-        y="avg_points",
-        title="Top 15 Drivers — Average Points per Race",
-        color="avg_points",
-        color_continuous_scale="Oranges",
-    )
-    fig2.update_layout(template="plotly_dark", xaxis_tickangle=-45)
+    fig2 = f1_fig("Top 15 Drivers — Average Points per Race")
+    fig2.add_trace(go.Bar(
+        x=x2, y=y2,
+        text=[f"{v:.2f}" for v in y2],
+        textposition="outside",
+        marker=dict(color=y2, colorscale="Oranges")
+    ))
+    fig2.update_layout(xaxis_tickangle=-45, yaxis_title="Avg Points / Race", yaxis=dict(rangemode="tozero"))
     st.plotly_chart(fig2, use_container_width=True)
 
-    # ---------------------------------------------------------
-    # CONSTRUCTOR PERFORMANCE — TOTAL POINTS
-    # ---------------------------------------------------------
+    # 3. Top Constructors by Total Points
     st.subheader("🏆 Top Constructors by Total Points")
-
     constructor_points = (
-        df.groupby(["constructor_id", "constructor_name"], dropna=False)["points"]
+        df.groupby(["constructor_id", "constructor_name"], as_index=False)["points"]
         .sum()
-        .reset_index()
         .sort_values("points", ascending=False)
+        .head(15)
     )
+    x3 = [str(v) for v in constructor_points["constructor_name"].tolist()]
+    y3 = [float(v) for v in constructor_points["points"].tolist()]
 
-    fig3 = px.bar(
-        constructor_points.head(15),
-        x="constructor_name",
-        y="points",
-        title="Top 15 Constructors — Total Points",
-        color="points",
-        color_continuous_scale="Blues",
-    )
-    fig3.update_layout(template="plotly_dark", xaxis_tickangle=-45)
+    fig3 = f1_fig("Top 15 Constructors — Total Points")
+    fig3.add_trace(go.Bar(
+        x=x3, y=y3,
+        text=[f"{v:,.0f}" for v in y3],
+        textposition="outside",
+        marker=dict(color=y3, colorscale="Blues")
+    ))
+    fig3.update_layout(xaxis_tickangle=-45, yaxis_title="Total Points", yaxis=dict(rangemode="tozero"))
     st.plotly_chart(fig3, use_container_width=True)
 
-    # ---------------------------------------------------------
-    # DRIVER vs CONSTRUCTOR — PERFORMANCE MATRIX
-    # ---------------------------------------------------------
+    # 4. Driver–Constructor Performance Matrix
     st.subheader("🔗 Driver–Constructor Performance Matrix")
-
+    top_d = set(x1[:12])
+    top_c = set(x3[:10])
     matrix = (
-        df.groupby(["driver_name", "constructor_name"], dropna=False)["points"]
+        df[df["driver_name"].isin(top_d) & df["constructor_name"].isin(top_c)]
+        .groupby(["driver_name", "constructor_name"], as_index=False)["points"]
         .sum()
-        .reset_index()
     )
+    matrix = matrix[matrix["points"] > 0]
 
-    fig4 = px.scatter(
-        matrix,
-        x="constructor_name",
-        y="driver_name",
-        size="points",
-        color="points",
-        title="Driver–Constructor Points Matrix",
-        color_continuous_scale="Viridis",
-    )
-    fig4.update_layout(template="plotly_dark", xaxis_tickangle=-45)
-    st.plotly_chart(fig4, use_container_width=True)
+    if not matrix.empty:
+        mx = [str(v) for v in matrix["constructor_name"].tolist()]
+        my = [str(v) for v in matrix["driver_name"].tolist()]
+        mz = [float(v) for v in matrix["points"].tolist()]
+        max_z = max(mz) if mz else 1.0
+        sizes = [max(10, (v / max_z) * 42) for v in mz]
 
-    # ---------------------------------------------------------
-    # SEASON TREND (IF MULTIPLE SEASONS)
-    # ---------------------------------------------------------
-    if "season" in df.columns and df["season"].nunique() > 1:
-        st.subheader("📈 Driver Points Trend Across Seasons")
-
-        season_trend = (
-            df.groupby(["season", "driver_name"], dropna=False)["points"]
-            .sum()
-            .reset_index()
-        )
-
-        fig5 = px.line(
-            season_trend,
-            x="season",
-            y="points",
-            color="driver_name",
-            title="Driver Points Trend Across Seasons",
-            markers=True,
-        )
-        fig5.update_layout(template="plotly_dark")
-        st.plotly_chart(fig5, use_container_width=True)
+        fig4 = f1_fig("Driver–Constructor Points Matrix", height=520)
+        fig4.add_trace(go.Scatter(
+            x=mx, y=my,
+            mode="markers+text",
+            text=[f"{v:,.0f}" for v in mz],
+            textposition="middle center",
+            marker=dict(size=sizes, color=mz, colorscale="Viridis", showscale=True)
+        ))
+        fig4.update_layout(xaxis_tickangle=-45, xaxis_title="Constructor", yaxis_title="Driver")
+        st.plotly_chart(fig4, use_container_width=True)
 
     st.success("RQ1 analysis loaded successfully.")
